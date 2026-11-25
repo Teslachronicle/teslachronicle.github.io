@@ -1,0 +1,1245 @@
+{
+  "title": "The Elon Times \u2014 ledger story v2, November 25, 2026",
+  "version": 2,
+  "prior_version": "story-v1.md / story-v1.html / front-v1.png / sources-v1.json",
+  "folder": "/workspace/tesla-chronicle/fronts/ledger-story-2026-11-25/",
+  "timezone": "America/Los_Angeles",
+  "headline": "Cybercab opens to the public in Dallas as Tesla turns autonomy into a service",
+  "dek": "In one week Tesla started public two-seat Cybercab rides in a second city, began rolling out FSD v15 toward a December wide release, and attached a required $299 monthly subscription to personal Cybercab orders \u2014 while Italy approved Assisted Driving and the EU committee meeting slipped to December 15.",
+  "date": "2026-11-25",
+  "local_only": true,
+  "published": false,
+  "scope": "Recent news, roughly November 17\u201325, 2026, plus a few immediately adjoining rows used as hooks or context (Mini 2 Nov 10 / invite preorders Nov 23; Robotaxi 24/7 Nov 11; Flight 15 Nov 14; Berlin expansion and Starbase permit Nov 16). Historical backfill from v1 is omitted.",
+  "events_json": "/workspace/tesla-chronicle/events.json",
+  "note": "Facts are taken from ledger rows and their sources. Interpretation is labeled Chronicle\u2019s read. events.json was not modified for this story. No event used here has ledger media; the front is typographic only.",
+  "unverified_or_incomplete_in_ledger_sources": [
+    {
+      "item": "Cybercab Autonomy Subscription bundle details",
+      "detail": "Tesla\u2019s November 13 post established a required $299-a-month Autonomy Subscription. The line that the car \u201cwill not operate without\u201d the subscription, and the bundle of services, is reported from buyer screenshots via Teslarati, not from a public Tesla page."
+    },
+    {
+      "item": "BEAD forgone-subsidy dollar figures",
+      "detail": "About $738 million is attributed to Teslarati and Quartz; about $636 million to Telecompetitor. Teslarati has a URL in the row sources. Quartz and Telecompetitor are named in the status note but have no URLs in the ledger sources. NTIA\u2019s page does not state a figure."
+    },
+    {
+      "item": "Starlink Mini 2 U.S. preorders by invitation, November 23",
+      "detail": "The November 23 invitation is in the row summary and status note. The only source URL on the row is the November 10 introduction post."
+    },
+    {
+      "item": "Cyberbeast price and lease change, TeslaNorth",
+      "detail": "The November 25 status note cites Not a Tesla App and TeslaNorth. Only Not a Tesla App is in the row\u2019s sources list."
+    },
+    {
+      "item": "X UK High Court judgment terms",
+      "detail": "Medium confidence. Award amount and terms are not public. The November 20 order date is TeslaNorth\u2019s reading of the first page Burnham posted."
+    },
+    {
+      "item": "Tesla\u2013SpaceX year-end merger deadline",
+      "detail": "Reported by the Financial Times on November 24, via Electrek; not confirmed by either company. No agreement or filing."
+    },
+    {
+      "item": "Event images",
+      "detail": "All events used in this story have image none or null. The front page is typographic only."
+    }
+  ],
+  "events": [
+    {
+      "id": "cybercab-dallas-public-rides-open-2026-11-19",
+      "date": "2026-11-19",
+      "title": "Tesla opens public Cybercab rides in Dallas",
+      "confidence": "confirmed",
+      "role": "lead event",
+      "sources": [
+        {
+          "url": "https://x.com/robotaxi/status/2123458263522107564",
+          "publisher": "Robotaxi (@robotaxi) on X, November 19, 2026",
+          "accessed": "2026-11-19",
+          "kind": "primary"
+        },
+        {
+          "url": "https://x.com/Tesla/status/2123507319040528546",
+          "publisher": "Tesla (@Tesla) on X, \"Cybercab expands to second city,\" November 19, 2026",
+          "accessed": "2026-11-19",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.teslarati.com/tesla-cybercab-without-steering-wheel-pedals-expands-public-rides-dallas/",
+          "publisher": "Teslarati, Tesla Cybercab without steering wheel and pedals expands public rides to Dallas, November 19, 2026",
+          "accessed": "2026-11-19",
+          "kind": "secondary"
+        },
+        {
+          "url": "https://www.notateslaapp.com/news/5044/tesla-launches-cybercab-rides-in-dallas-with-new-v15-design",
+          "publisher": "Not a Tesla App, Tesla Launches Cybercab Rides in Dallas With New V1.5 Design, November 19, 2026",
+          "accessed": "2026-11-19",
+          "kind": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "tesla-fsd-v15-rollout-begins-2026-11-21",
+      "date": "2026-11-21",
+      "title": "Tesla begins rolling out FSD v15",
+      "confidence": "high",
+      "role": "core recent event",
+      "sources": [
+        {
+          "url": "https://x.com/Tesla/status/2124222447855743019",
+          "publisher": "Tesla (@Tesla) on X, November 21, 2026",
+          "accessed": "2026-11-21",
+          "kind": "primary"
+        },
+        {
+          "url": "https://electrek.co/2026/11/21/tesla-fsd-v15-rollout-25x-safety-reality-view/",
+          "publisher": "Electrek, Tesla launches FSD v15, November 21, 2026",
+          "accessed": "2026-11-21",
+          "kind": "secondary"
+        },
+        {
+          "url": "https://x.com/aelluswamy/status/2124224924512641512",
+          "publisher": "Ashok Elluswamy (@aelluswamy) on X, November 21, 2026",
+          "accessed": "2026-11-22",
+          "kind": "primary"
+        },
+        {
+          "url": "https://x.com/TeslaSI/status/2124229673056113100",
+          "publisher": "Tesla Super Intelligence (@TeslaSI) on X, November 21, 2026",
+          "accessed": "2026-11-22",
+          "kind": "primary"
+        },
+        {
+          "url": "https://x.com/TeslaSI/status/2124229676055040007",
+          "publisher": "Tesla Super Intelligence (@TeslaSI) on X, November 21, 2026",
+          "accessed": "2026-11-22",
+          "kind": "primary"
+        },
+        {
+          "url": "https://x.com/elonmusk/status/2124042864891982292",
+          "publisher": "Elon Musk (@elonmusk) on X, November 20, 2026",
+          "accessed": "2026-11-22",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "tesla-italy-approves-tesla-assisted-driving-2026-11-20",
+      "date": "2026-11-20",
+      "title": "Italy approves Tesla Assisted Driving",
+      "confidence": "confirmed",
+      "role": "core recent event",
+      "sources": [
+        {
+          "url": "https://x.com/teslaeurope/status/2123723334542332026",
+          "publisher": "Tesla Europe, Middle East & Africa (@teslaeurope) on X, November 20, 2026",
+          "kind": "primary",
+          "accessed": "2026-11-20"
+        },
+        {
+          "url": "https://x.com/matteosalvinimi/status/2123739830194512067",
+          "publisher": "Matteo Salvini (@matteosalvinimi), Italian Transport Minister, on X, November 20, 2026",
+          "kind": "primary",
+          "accessed": "2026-11-20"
+        },
+        {
+          "url": "https://electrek.co/2026/11/20/tesla-fsd-italy-approval-assisted-driving/",
+          "publisher": "Electrek, Tesla FSD approved in Italy, the first big EU market to say yes, November 20, 2026",
+          "kind": "secondary",
+          "accessed": "2026-11-20"
+        },
+        {
+          "url": "https://www.notateslaapp.com/news/5047/tesla-assisted-driving-approved-in-italy-12th-eu-country",
+          "publisher": "Not a Tesla App, Tesla Assisted Driving Approved in Italy, 12th EU Country, November 20, 2026",
+          "kind": "secondary",
+          "accessed": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "fsd-eu-wide-approval-hoped-q1-2027-2026-10-21",
+      "date": "2026-10-21",
+      "title": "Musk hopes for EU-wide FSD (Supervised) approval by about Q1 2027",
+      "confidence": "confirmed",
+      "role": "status note (TCMV moved to Dec 15)",
+      "sources": [
+        {
+          "url": "https://x.com/Tesla/status/2113019308356039038",
+          "publisher": "Tesla (@Tesla) on X, Q3 2026 Earnings Call audio-only webcast (broadcast x.com/i/broadcasts/1jxXgBNRDljJZ), October 21, 2026",
+          "accessed": "2026-10-21",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+          "publisher": "SEC, Tesla Form 8-K Exhibit 99.1 (Q3 2026 Update), October 21, 2026",
+          "accessed": "2026-10-21",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/0001628280-26-066738-index.htm",
+          "publisher": "SEC EDGAR index, Tesla Form 8-K (Items 2.02, 9.01), October 21, 2026 (accession 0001628280-26-066738)",
+          "accessed": "2026-10-21",
+          "kind": "primary"
+        },
+        {
+          "url": "https://eletric-vehicles.com/tesla/tesla-fsd-approved-in-latvia-the-10th-eu-country-to-back-dutch-ruling/",
+          "publisher": "EV (eletric-vehicles.com), Tesla FSD Approved in Latvia, the 10th EU Country to Back Dutch Ruling (EU committee status), October 26, 2026",
+          "accessed": "2026-10-26",
+          "kind": "secondary"
+        },
+        {
+          "url": "https://www.mindop.sk/media/tlacove-spravy/detail/slovensko-umoznilo-ciastocne-autonomne-riadenie-aut",
+          "publisher": "Ministry of Transport of the Slovak Republic, Slovensko umo\u017enilo \u010diasto\u010dne auton\u00f3mne riadenie \u00e1ut, October 16, 2026",
+          "accessed": "2026-10-27",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.vegvesen.no/fag/trafikk/its-portalen/its-i-statens-vegvesen/metr/forerstottesystemer/",
+          "publisher": "Statens vegvesen (Norwegian Public Roads Administration), Avanserte f\u00f8rerst\u00f8ttesystemer: P\u00e5g\u00e5ende prosess om Tesla Assistert Kj\u00f8ring, updated October 29, 2026",
+          "accessed": "2026-10-30",
+          "kind": "primary"
+        },
+        {
+          "url": "https://electrek.co/2026/11/25/eu-delays-tesla-fsd-vote-december-15-tcmv/",
+          "publisher": "Electrek (citing Reuters), EU pushes back Tesla 'Full Self-Driving' vote meeting again, now set for December 15, November 25, 2026",
+          "accessed": "2026-11-25",
+          "kind": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "cybercab-majority-texas-robotaxi-fleet-2026-10-27",
+      "date": "2026-10-27",
+      "title": "Cybercabs become the majority of Tesla's authorized Texas robotaxi fleet",
+      "confidence": "confirmed",
+      "role": "status note (Nov 24 Texas DMV count)",
+      "sources": [
+        {
+          "url": "https://txmccs.txdmv.gov/truckstop/companies/81edcff1-8a6e-4ed0-be1f-60668515e223/automated-motor-vehicles",
+          "publisher": "Texas DMV TxMCCS, Tesla Robotaxi, LLC automated motor vehicles registry",
+          "accessed": "2026-10-29",
+          "kind": "primary"
+        },
+        {
+          "url": "https://teslanorth.com/2026/10/27/tesla-cybercab-outnumbers-model-y-texas/",
+          "publisher": "TeslaNorth, Cybercab Surpasses Model Y as Tesla's Texas Robotaxi Fleet Hits 1,051, October 27, 2026",
+          "accessed": "2026-10-29",
+          "kind": "secondary"
+        },
+        {
+          "url": "https://finance.yahoo.com/markets/stocks/articles/tsla-stock-rises-cybercabs-overtake-223957703.html",
+          "publisher": "Yahoo Finance, TSLA Stock Rises As Cybercabs Overtake Model Ys In Authorized Texas Robotaxi Fleet, October 2026",
+          "accessed": "2026-10-29",
+          "kind": "secondary"
+        },
+        {
+          "url": "https://teslanorth.com/2026/11/25/tesla-texas-robotaxi-roster-822-cybercabs/",
+          "publisher": "TeslaNorth, Tesla's Texas Robotaxi Roster Now Has More Than 800 Cybercabs, November 25, 2026",
+          "accessed": "2026-11-25",
+          "kind": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "cybercab-personal-use-orders-invite-only-2026-11-13",
+      "date": "2026-11-13",
+      "title": "Tesla opens invite-only Cybercab orders for personal use at $29,990",
+      "confidence": "confirmed",
+      "role": "core recent event ($299 Autonomy Subscription)",
+      "sources": [
+        {
+          "url": "https://indianexpress.com/article/technology/tech-news-technology/tesla-invites-select-customers-to-buy-cybercab-for-personal-use-10963999/",
+          "publisher": "Reuters (via The Indian Express), Tesla invites select customers to buy Cybercab for personal use, November 15, 2026",
+          "kind": "secondary",
+          "accessed": "2026-11-16"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/14/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions-and-a-299-monthly-fee/",
+          "publisher": "TechCrunch, Tesla opens Cybercab pre-orders 'for personal use,' with geo restrictions and a $299 monthly fee, November 14, 2026",
+          "kind": "secondary",
+          "accessed": "2026-11-16"
+        },
+        {
+          "url": "https://www.businessinsider.com/tesla-cybercab-autonomy-subscription-terms-conditions-remote-bricked-2026-11",
+          "publisher": "Business Insider, Tesla's Cybercab won't work without a $299 'Autonomy Subscription' (order and subscription agreement terms), November 16, 2026",
+          "kind": "secondary",
+          "accessed": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "id": "tesla-supercharger-waitlist-300-us-sites-2026-11-19",
+      "date": "2026-11-19",
+      "title": "Supercharger Waitlist goes live at 300 US sites",
+      "confidence": "confirmed",
+      "role": "core recent event",
+      "sources": [
+        {
+          "url": "https://x.com/TeslaCharging/status/2123544093213274167",
+          "publisher": "Tesla Charging (@TeslaCharging) on X, November 19, 2026",
+          "kind": "primary",
+          "accessed": "2026-11-20"
+        },
+        {
+          "url": "https://teslanorth.com/2026/11/19/tesla-supercharger-waitlist-300-us-sites/",
+          "publisher": "TeslaNorth, Tesla Supercharger Waitlist Goes Live at 300 U.S. Sites, November 19, 2026",
+          "kind": "secondary",
+          "accessed": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "cybertruck-production-wind-down-giga-texas-mid-2027-2026-11-05",
+      "date": "2026-11-05",
+      "title": "Musk: Cybertruck production at Giga Texas winds down mid-2027 for Cybercab",
+      "confidence": "confirmed",
+      "role": "status note (Cyberbeast price and leases)",
+      "sources": [
+        {
+          "url": "https://x.com/elonmusk/status/2118591788701421573",
+          "publisher": "Elon Musk (@elonmusk) on X, November 5, 2026 10:30 PM PT",
+          "kind": "primary",
+          "accessed": "2026-11-06"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/06/tesla-cybertruck-texas-musk.html",
+          "publisher": "CNBC, Tesla to wind down Cybertruck production in Texas next year to ramp Cybercab, Musk says, November 6, 2026",
+          "kind": "secondary",
+          "accessed": "2026-11-06"
+        },
+        {
+          "url": "https://www.businessinsider.com/tesla-wind-down-cybertruck-production-elon-musk-cybercab-texas-2026-11",
+          "publisher": "Business Insider, Elon Musk says Tesla will wind down Cybertruck production, November 6, 2026",
+          "kind": "secondary",
+          "accessed": "2026-11-06"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/06/tesla-will-stop-making-the-cybertruck-in-2027/",
+          "publisher": "TechCrunch, Tesla will stop making the Cybertruck in 2027, November 6, 2026",
+          "kind": "secondary",
+          "accessed": "2026-11-06"
+        },
+        {
+          "url": "https://www.investing.com/news/stock-market-news/tesla-to-expand-cybertruck-production-in-bid-to-fill-orders-before-dismantling-line-next-year-5009996",
+          "publisher": "Reuters (via Investing.com), Tesla to expand Cybertruck production in bid to fill orders before dismantling line next year, November 7, 2026",
+          "kind": "secondary",
+          "accessed": "2026-11-09"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/09/musk-says-tesla-will-refund-some-cybertruck-deposits-defends-decision-to-end-production/",
+          "publisher": "TechCrunch, Musk says Tesla will refund some Cybertruck deposits, defends decision to end production, November 9, 2026",
+          "kind": "secondary",
+          "accessed": "2026-11-10"
+        },
+        {
+          "url": "https://www.cbsnews.com/news/tesla-extend-cybertruck-production-backlog/",
+          "publisher": "CBS News, Tesla extending Cybertruck production through summer 2027 to clear backlog, Elon Musk says, November 11, 2026",
+          "kind": "secondary",
+          "accessed": "2026-11-12"
+        },
+        {
+          "url": "https://www.notateslaapp.com/news/5079/tesla-raises-cyberbeast-price-again-ends-cybertruck-leases",
+          "publisher": "Not a Tesla App, Tesla Raises Cyberbeast Price Again, Ends Cybertruck Leases, November 25, 2026",
+          "accessed": "2026-11-25",
+          "kind": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "spacex-ntia-bead-zero-outlay-agreement-2026-11-23",
+      "date": "2026-11-23",
+      "title": "SpaceX forgoes BEAD subsidies under new NTIA model agreement",
+      "confidence": "high",
+      "role": "core recent event",
+      "sources": [
+        {
+          "url": "https://broadbandusa.ntia.gov/waivers-policies/BEAD_Model_Zero_Outlay_Agreement",
+          "publisher": "NTIA BroadbandUSA, BEAD Model Agreement to Accelerate Broadband Deployment, November 23, 2026",
+          "accessed": "2026-11-25",
+          "kind": "primary"
+        },
+        {
+          "url": "https://broadbandbreakfast.com/spacex-declines-bead-winnings-wants-to-serve-locations-at-no-cost/",
+          "publisher": "Broadband Breakfast, SpaceX Declines BEAD Winnings, Wants to Serve Locations at No Cost, November 2026",
+          "accessed": "2026-11-25",
+          "kind": "secondary"
+        },
+        {
+          "url": "https://www.teslarati.com/spacex-starlink-rejects-fed-subsidy/",
+          "publisher": "Teslarati, SpaceX rejects $738M fed subsidy, betting on Starlink alone, November 25, 2026",
+          "accessed": "2026-11-25",
+          "kind": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "spacex-starlink-mini-2-introduced-2026-11-10",
+      "date": "2026-11-10",
+      "title": "Starlink introduces Mini 2 portable dish",
+      "confidence": "high",
+      "role": "recent hook (Nov 23 invite preorders)",
+      "sources": [
+        {
+          "url": "https://x.com/Starlink/status/2120206875581186293",
+          "publisher": "Starlink (@Starlink) on X, November 10, 2026",
+          "accessed": "2026-11-25",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "x-uk-high-court-judgment-creator-revenue-fraud-2026-11-20",
+      "date": "2026-11-20",
+      "title": "UK High Court enters judgment for X against two Creator Revenue Sharing defendants",
+      "confidence": "medium",
+      "role": "core recent event",
+      "sources": [
+        {
+          "url": "https://x.com/BurnhamDC/status/2125292603331502105",
+          "publisher": "James Burnham (@BurnhamDC), X general counsel, on X, November 24, 2026",
+          "accessed": "2026-11-25",
+          "kind": "primary"
+        },
+        {
+          "url": "https://teslanorth.com/2026/11/24/x-says-uk-court-entered-judgment-in-creator-payout-case/",
+          "publisher": "TeslaNorth, X Says UK Court Entered Judgment in Creator Payout Case, November 24, 2026",
+          "accessed": "2026-11-25",
+          "kind": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "spacex-tesla-merger-special-committees-2026-10-20",
+      "date": "2026-10-20",
+      "title": "Musk confirms Tesla and SpaceX special committees are weighing a merger",
+      "confidence": "confirmed",
+      "role": "status note (FT year-end report; DealBook remarks)",
+      "sources": [
+        {
+          "url": "https://ca.investing.com/news/stock-market-news/spacex-quarterly-revenue-jumps-beats-estimates-as-ai-business-surges-4891702",
+          "publisher": "Reuters via Investing.com, Musk says SpaceX-Tesla merger is 'a good idea' as companies form deal committees, October 20, 2026",
+          "accessed": "2026-10-21",
+          "kind": "secondary"
+        },
+        {
+          "url": "https://apnews.com/article/spacex-musk-turns-profit-losses-67064446bf0afdf529db55bdec82af69",
+          "publisher": "AP News, Elon Musk's SpaceX reports a profit and he hints at a possible merger with Tesla, October 20, 2026",
+          "accessed": "2026-10-21",
+          "kind": "secondary"
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o",
+          "publisher": "BBC News, Elon Musk confirms he is considering merging Tesla and SpaceX, October 20, 2026",
+          "accessed": "2026-10-21",
+          "kind": "secondary"
+        },
+        {
+          "url": "https://www.investing.com/news/stock-market-news/exclusivemusks-public-endorsement-of-spacextesla-deal-may-throw-a-wrench-in-talks-4964606",
+          "publisher": "Reuters (via Investing.com), Exclusive: Musk's public endorsement of SpaceX-Tesla deal may throw a wrench in talks, October 22, 2026",
+          "accessed": "2026-10-22",
+          "kind": "secondary"
+        },
+        {
+          "url": "https://www.investing.com/news/stock-market-news/spacex-says-tesla-merger-would-need-musks-approval-4967546",
+          "publisher": "Reuters (via Investing.com), SpaceX says Tesla merger would need Musk's approval, October 22, 2026",
+          "accessed": "2026-10-23",
+          "kind": "secondary"
+        },
+        {
+          "url": "https://electrek.co/2026/11/24/tesla-spacex-merger-year-end-deadline-new-congress/",
+          "publisher": "Electrek (citing Financial Times), Tesla (TSLA), SpaceX race for year-end merger deal before new Congress, November 24, 2026",
+          "accessed": "2026-11-25",
+          "kind": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "boring-nashville-airport-music-city-loop-40-year-agreement-2026-11-19",
+      "date": "2026-11-19",
+      "title": "Boring Company signs 40-year Nashville airport station deal",
+      "confidence": "confirmed",
+      "role": "core recent event",
+      "sources": [
+        {
+          "url": "https://x.com/boringcompany/status/2123538445918224762",
+          "publisher": "The Boring Company (@boringcompany) on X, November 19, 2026",
+          "kind": "primary",
+          "accessed": "2026-11-20"
+        },
+        {
+          "url": "https://teslanorth.com/2026/11/19/boring-company-nashville-airport-40-year-deal/",
+          "publisher": "TeslaNorth, Boring Company Signs 40-Year Deal for Nashville Airport Tunnel, November 19, 2026",
+          "kind": "secondary",
+          "accessed": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "tesla-energy-powercore-solid-state-transformer-unveiled-2026-11-17",
+      "date": "2026-11-17",
+      "title": "Tesla Energy unveils Powercore, a solid-state medium-voltage transformer",
+      "confidence": "confirmed",
+      "role": "other recent event in window",
+      "sources": [
+        {
+          "url": "https://x.com/Tesla_Megapack/status/2122721563493744771",
+          "publisher": "Tesla Megapack on X, Introducing Powercore, November 17, 2026",
+          "kind": "primary",
+          "accessed": "2026-11-18"
+        },
+        {
+          "url": "https://x.com/Tesla_Megapack/status/2122738271256211706",
+          "publisher": "Tesla Megapack on X, The Future Runs on Powercore (spec article), November 17, 2026",
+          "kind": "primary",
+          "accessed": "2026-11-18"
+        },
+        {
+          "url": "https://electrek.co/2026/11/17/tesla-powercore-solid-state-transformer-heron-link/",
+          "publisher": "Electrek, Tesla unveils 7.4 MW Powercore to take on ex-exec Baglino's Heron Link, November 17, 2026",
+          "kind": "secondary",
+          "accessed": "2026-11-18"
+        },
+        {
+          "url": "https://www.pv-magazine.com/2026/11/18/exclusive-tesla-unveils-powercore-medium-voltage-power-electronics-platform-at-re-2026/",
+          "publisher": "pv magazine, Powercore coverage, November 18, 2026",
+          "kind": "secondary",
+          "accessed": "2026-11-18"
+        },
+        {
+          "url": "https://www.pv-tech.org/tesla-solid-state-transformer-market-powercore-launch-re-plus-2026/",
+          "publisher": "PV Tech, Powercore launch coverage, November 2026",
+          "kind": "secondary",
+          "accessed": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "id": "tesla-semi-first-texas-megacharger-mesquite-2026-11-17",
+      "date": "2026-11-17",
+      "title": "Tesla opens first Semi Megacharger in Texas, at Mesquite",
+      "confidence": "confirmed",
+      "role": "other recent event in window",
+      "sources": [
+        {
+          "url": "https://x.com/TeslaCharging/status/2122858332847534316",
+          "publisher": "Tesla Charging (@TeslaCharging) on X, New Tesla Megacharger: Mesquite, TX (8 stalls), November 17, 2026 5:04 PM PT",
+          "kind": "primary",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://x.com/tesla_semi/status/2122867983819403363",
+          "publisher": "Tesla Semi (@tesla_semi) on X, First Megacharger in Texas, November 17, 2026 5:42 PM PT",
+          "kind": "primary",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://electrek.co/2026/11/18/tesla-semi-megacharger-network-mesquite-texas/",
+          "publisher": "Electrek, Tesla's Semi Megacharger network hits 7 sites, far short of 37 goal, November 18, 2026",
+          "kind": "secondary",
+          "accessed": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "tesla-driverless-model-y-6-7-seat-plan-announced-2026-11-18",
+      "date": "2026-11-18",
+      "title": "Musk says Tesla plans a driverless Model Y with no steering wheel or pedals",
+      "confidence": "confirmed",
+      "role": "DealBook, Nov 18",
+      "sources": [
+        {
+          "url": "https://teslanorth.com/2026/11/19/musk-dealbook-tesla-spacex-model-y-starlink/",
+          "publisher": "TeslaNorth, Elon Musk at DealBook 2026: Tesla, SpaceX Merger Talks and Starlink, November 19, 2026",
+          "kind": "secondary",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://driveteslacanada.ca/news/tesla-model-y-robotaxi-no-steering-wheel/",
+          "publisher": "Drive Tesla Canada, Tesla plans a Model Y without a steering wheel or pedals: Musk, November 19, 2026",
+          "kind": "secondary",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://electrek.co/2026/11/19/musk-tesla-model-y-no-steering-wheel-7-seat/",
+          "publisher": "Electrek, Musk says Tesla plans a Model Y with no steering wheel and no pedals, November 19, 2026",
+          "kind": "secondary",
+          "accessed": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "spacex-starlink-mobile-v2-2027-rooftop-microcells-2026-11-18",
+      "date": "2026-11-18",
+      "title": "Musk says Starlink direct-to-cell V2 launches start in 2027, plus rooftop microcells",
+      "confidence": "confirmed",
+      "role": "DealBook, Nov 18",
+      "sources": [
+        {
+          "url": "https://teslanorth.com/2026/11/19/musk-dealbook-tesla-spacex-model-y-starlink/",
+          "publisher": "TeslaNorth, Elon Musk at DealBook 2026: Tesla, SpaceX Merger Talks and Starlink, November 19, 2026",
+          "kind": "secondary",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://driveteslacanada.ca/news/starlink-direct-to-cell-v2/",
+          "publisher": "Drive Tesla Canada, Elon Musk Reveals Starlink V2 Launch Plans and New Rooftop Cell Tower, November 19, 2026",
+          "kind": "secondary",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://teslanorth.com/2026/11/19/starlink-rooftop-microcells-indoor-phone-coverage/",
+          "publisher": "TeslaNorth, Starlink's Plan to Reach Your Phone Indoors Starts on the Roof, November 19, 2026",
+          "kind": "secondary",
+          "accessed": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "spacex-starship-flight-15-first-ship-catch-booster-lost-2026-11-14",
+      "date": "2026-11-14",
+      "title": "Starship Flight 15: first upper-stage tower catch; booster lost offshore",
+      "confidence": "confirmed",
+      "role": "Starbase, recent",
+      "sources": [
+        {
+          "url": "https://www.spacex.com/launches/starship-flight-15/",
+          "publisher": "SpaceX, Starship Flight 15 mission page (flight recap), November 2026",
+          "kind": "primary",
+          "accessed": "2026-11-16"
+        },
+        {
+          "url": "https://uk.marketscreener.com/news/spacex-starship-returns-to-landing-pad-from-orbit-acing-test-for-reusable-rockets-ce785ededd81f726",
+          "publisher": "Reuters (via MarketScreener), SpaceX Starship returns to landing pad from orbit, acing test for reusable rockets, November 14, 2026",
+          "kind": "secondary",
+          "accessed": "2026-11-16"
+        },
+        {
+          "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-says-starship-flight-15-booster-aborted-chopsticks-landing-catch-after-launch-due-to-guidance-issue-video",
+          "publisher": "Space.com, Why did Starship Flight 15 booster abort 'chopsticks' landing catch? SpaceX still investigating, November 14, 2026",
+          "kind": "secondary",
+          "accessed": "2026-11-16"
+        },
+        {
+          "url": "https://spaceflightnow.com/2026/11/13/live-coverage-starship-flight-15-attempts-to-recover-full-vehicle-in-double-launch-pad-catch/",
+          "publisher": "Spaceflight Now, Starship returns to Starbase and a successful tower catch, November 13-14, 2026",
+          "kind": "secondary",
+          "accessed": "2026-11-16"
+        },
+        {
+          "url": "https://seekingalpha.com/news/4672602-faa-revises-spacex-starship-license-authorizes-single-flight-15-launch",
+          "publisher": "Seeking Alpha, FAA revises SpaceX Starship license, authorizes single Flight 15 launch, November 13, 2026",
+          "kind": "secondary",
+          "accessed": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "id": "spacex-starbase-gas-plant-tceq-air-permit-2026-11-16",
+      "date": "2026-11-16",
+      "title": "Texas issues air permit for SpaceX's Starbase gas plant and supercompute site",
+      "confidence": "confirmed",
+      "role": "Starbase, recent",
+      "sources": [
+        {
+          "url": "https://www.politico.com/news/2026/11/17/texas-issues-air-permit-for-massive-spacex-data-center-01170758",
+          "publisher": "POLITICO, Texas issues air permit for massive SpaceX data center, November 17, 2026",
+          "kind": "secondary",
+          "accessed": "2026-11-18"
+        },
+        {
+          "url": "https://www.datacenterdynamics.com/en/news/texas-environmental-regulator-resumes-data-center-permitting-following-ercot-review/",
+          "publisher": "DatacenterDynamics, Texas environmental regulator resumes data center permitting following ERCOT review, November 2026",
+          "kind": "secondary",
+          "accessed": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "id": "tesla-giga-berlin-cybercab-expansion-3b-euros-2026-11-16",
+      "date": "2026-11-16",
+      "title": "Tesla plans \u20ac3 billion Giga Berlin expansion to build up to 1 million Cybercabs a year",
+      "confidence": "confirmed",
+      "role": "recent context for Cybercab production",
+      "sources": [
+        {
+          "url": "https://www.streetinsider.com/Reuters/Tesla+announces+%243.3+billion+expansion+of+Germany+plant/27350207.html",
+          "publisher": "Reuters (via StreetInsider), Tesla announces $3.3 billion expansion of Germany plant, November 16, 2026 (quotes Tesla statement)",
+          "kind": "secondary",
+          "accessed": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "id": "robotaxi-24-7-all-cities-2026-11-11",
+      "date": "2026-11-11",
+      "title": "Tesla Robotaxi begins running 24/7 in every city it serves",
+      "confidence": "confirmed",
+      "role": "recent context (just before the Nov 17\u201325 window)",
+      "sources": [
+        {
+          "url": "https://www.notateslaapp.com/news/4991/tesla-robotaxi-now-runs-247-in-every-city",
+          "publisher": "Not a Tesla App, Tesla Robotaxi Now Runs 24/7 in Every City, November 12, 2026 (quotes the @robotaxi post)",
+          "kind": "secondary",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://teslanorth.com/2026/11/11/tesla-robotaxi-24-7-every-city/",
+          "publisher": "TeslaNorth, Tesla Robotaxi Goes 24/7 in Every City It Serves, November 11, 2026",
+          "kind": "secondary",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://evxl.co/2026/11/12/tesla-robotaxi-runs-24-7-eight-us-cities/",
+          "publisher": "EVXL, Tesla Robotaxi Now Runs 24/7 in Eight U.S. Cities, November 12, 2026",
+          "kind": "secondary",
+          "accessed": "2026-11-13"
+        },
+        {
+          "url": "https://www.tesla.com/robotaxi",
+          "publisher": "Tesla, Robotaxi page (lists the eight cities)",
+          "kind": "primary",
+          "accessed": "2026-11-13"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://x.com/robotaxi/status/2123458263522107564",
+      "publisher": "Robotaxi (@robotaxi) on X, November 19, 2026",
+      "kind": "primary",
+      "accessed": "2026-11-19",
+      "eventId": "cybercab-dallas-public-rides-open-2026-11-19"
+    },
+    {
+      "url": "https://x.com/Tesla/status/2123507319040528546",
+      "publisher": "Tesla (@Tesla) on X, \"Cybercab expands to second city,\" November 19, 2026",
+      "kind": "primary",
+      "accessed": "2026-11-19",
+      "eventId": "cybercab-dallas-public-rides-open-2026-11-19"
+    },
+    {
+      "url": "https://www.teslarati.com/tesla-cybercab-without-steering-wheel-pedals-expands-public-rides-dallas/",
+      "publisher": "Teslarati, Tesla Cybercab without steering wheel and pedals expands public rides to Dallas, November 19, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-19",
+      "eventId": "cybercab-dallas-public-rides-open-2026-11-19"
+    },
+    {
+      "url": "https://www.notateslaapp.com/news/5044/tesla-launches-cybercab-rides-in-dallas-with-new-v15-design",
+      "publisher": "Not a Tesla App, Tesla Launches Cybercab Rides in Dallas With New V1.5 Design, November 19, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-19",
+      "eventId": "cybercab-dallas-public-rides-open-2026-11-19"
+    },
+    {
+      "url": "https://x.com/Tesla/status/2124222447855743019",
+      "publisher": "Tesla (@Tesla) on X, November 21, 2026",
+      "kind": "primary",
+      "accessed": "2026-11-21",
+      "eventId": "tesla-fsd-v15-rollout-begins-2026-11-21"
+    },
+    {
+      "url": "https://electrek.co/2026/11/21/tesla-fsd-v15-rollout-25x-safety-reality-view/",
+      "publisher": "Electrek, Tesla launches FSD v15, November 21, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-21",
+      "eventId": "tesla-fsd-v15-rollout-begins-2026-11-21"
+    },
+    {
+      "url": "https://x.com/aelluswamy/status/2124224924512641512",
+      "publisher": "Ashok Elluswamy (@aelluswamy) on X, November 21, 2026",
+      "kind": "primary",
+      "accessed": "2026-11-22",
+      "eventId": "tesla-fsd-v15-rollout-begins-2026-11-21"
+    },
+    {
+      "url": "https://x.com/TeslaSI/status/2124229673056113100",
+      "publisher": "Tesla Super Intelligence (@TeslaSI) on X, November 21, 2026",
+      "kind": "primary",
+      "accessed": "2026-11-22",
+      "eventId": "tesla-fsd-v15-rollout-begins-2026-11-21"
+    },
+    {
+      "url": "https://x.com/TeslaSI/status/2124229676055040007",
+      "publisher": "Tesla Super Intelligence (@TeslaSI) on X, November 21, 2026",
+      "kind": "primary",
+      "accessed": "2026-11-22",
+      "eventId": "tesla-fsd-v15-rollout-begins-2026-11-21"
+    },
+    {
+      "url": "https://x.com/elonmusk/status/2124042864891982292",
+      "publisher": "Elon Musk (@elonmusk) on X, November 20, 2026",
+      "kind": "primary",
+      "accessed": "2026-11-22",
+      "eventId": "tesla-fsd-v15-rollout-begins-2026-11-21"
+    },
+    {
+      "url": "https://x.com/teslaeurope/status/2123723334542332026",
+      "publisher": "Tesla Europe, Middle East & Africa (@teslaeurope) on X, November 20, 2026",
+      "kind": "primary",
+      "accessed": "2026-11-20",
+      "eventId": "tesla-italy-approves-tesla-assisted-driving-2026-11-20"
+    },
+    {
+      "url": "https://x.com/matteosalvinimi/status/2123739830194512067",
+      "publisher": "Matteo Salvini (@matteosalvinimi), Italian Transport Minister, on X, November 20, 2026",
+      "kind": "primary",
+      "accessed": "2026-11-20",
+      "eventId": "tesla-italy-approves-tesla-assisted-driving-2026-11-20"
+    },
+    {
+      "url": "https://electrek.co/2026/11/20/tesla-fsd-italy-approval-assisted-driving/",
+      "publisher": "Electrek, Tesla FSD approved in Italy, the first big EU market to say yes, November 20, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-20",
+      "eventId": "tesla-italy-approves-tesla-assisted-driving-2026-11-20"
+    },
+    {
+      "url": "https://www.notateslaapp.com/news/5047/tesla-assisted-driving-approved-in-italy-12th-eu-country",
+      "publisher": "Not a Tesla App, Tesla Assisted Driving Approved in Italy, 12th EU Country, November 20, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-20",
+      "eventId": "tesla-italy-approves-tesla-assisted-driving-2026-11-20"
+    },
+    {
+      "url": "https://x.com/Tesla/status/2113019308356039038",
+      "publisher": "Tesla (@Tesla) on X, Q3 2026 Earnings Call audio-only webcast (broadcast x.com/i/broadcasts/1jxXgBNRDljJZ), October 21, 2026",
+      "kind": "primary",
+      "accessed": "2026-10-21",
+      "eventId": "fsd-eu-wide-approval-hoped-q1-2027-2026-10-21"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+      "publisher": "SEC, Tesla Form 8-K Exhibit 99.1 (Q3 2026 Update), October 21, 2026",
+      "kind": "primary",
+      "accessed": "2026-10-21",
+      "eventId": "fsd-eu-wide-approval-hoped-q1-2027-2026-10-21"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/0001628280-26-066738-index.htm",
+      "publisher": "SEC EDGAR index, Tesla Form 8-K (Items 2.02, 9.01), October 21, 2026 (accession 0001628280-26-066738)",
+      "kind": "primary",
+      "accessed": "2026-10-21",
+      "eventId": "fsd-eu-wide-approval-hoped-q1-2027-2026-10-21"
+    },
+    {
+      "url": "https://eletric-vehicles.com/tesla/tesla-fsd-approved-in-latvia-the-10th-eu-country-to-back-dutch-ruling/",
+      "publisher": "EV (eletric-vehicles.com), Tesla FSD Approved in Latvia, the 10th EU Country to Back Dutch Ruling (EU committee status), October 26, 2026",
+      "kind": "secondary",
+      "accessed": "2026-10-26",
+      "eventId": "fsd-eu-wide-approval-hoped-q1-2027-2026-10-21"
+    },
+    {
+      "url": "https://www.mindop.sk/media/tlacove-spravy/detail/slovensko-umoznilo-ciastocne-autonomne-riadenie-aut",
+      "publisher": "Ministry of Transport of the Slovak Republic, Slovensko umo\u017enilo \u010diasto\u010dne auton\u00f3mne riadenie \u00e1ut, October 16, 2026",
+      "kind": "primary",
+      "accessed": "2026-10-27",
+      "eventId": "fsd-eu-wide-approval-hoped-q1-2027-2026-10-21"
+    },
+    {
+      "url": "https://www.vegvesen.no/fag/trafikk/its-portalen/its-i-statens-vegvesen/metr/forerstottesystemer/",
+      "publisher": "Statens vegvesen (Norwegian Public Roads Administration), Avanserte f\u00f8rerst\u00f8ttesystemer: P\u00e5g\u00e5ende prosess om Tesla Assistert Kj\u00f8ring, updated October 29, 2026",
+      "kind": "primary",
+      "accessed": "2026-10-30",
+      "eventId": "fsd-eu-wide-approval-hoped-q1-2027-2026-10-21"
+    },
+    {
+      "url": "https://electrek.co/2026/11/25/eu-delays-tesla-fsd-vote-december-15-tcmv/",
+      "publisher": "Electrek (citing Reuters), EU pushes back Tesla 'Full Self-Driving' vote meeting again, now set for December 15, November 25, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-25",
+      "eventId": "fsd-eu-wide-approval-hoped-q1-2027-2026-10-21"
+    },
+    {
+      "url": "https://txmccs.txdmv.gov/truckstop/companies/81edcff1-8a6e-4ed0-be1f-60668515e223/automated-motor-vehicles",
+      "publisher": "Texas DMV TxMCCS, Tesla Robotaxi, LLC automated motor vehicles registry",
+      "kind": "primary",
+      "accessed": "2026-10-29",
+      "eventId": "cybercab-majority-texas-robotaxi-fleet-2026-10-27"
+    },
+    {
+      "url": "https://teslanorth.com/2026/10/27/tesla-cybercab-outnumbers-model-y-texas/",
+      "publisher": "TeslaNorth, Cybercab Surpasses Model Y as Tesla's Texas Robotaxi Fleet Hits 1,051, October 27, 2026",
+      "kind": "secondary",
+      "accessed": "2026-10-29",
+      "eventId": "cybercab-majority-texas-robotaxi-fleet-2026-10-27"
+    },
+    {
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tsla-stock-rises-cybercabs-overtake-223957703.html",
+      "publisher": "Yahoo Finance, TSLA Stock Rises As Cybercabs Overtake Model Ys In Authorized Texas Robotaxi Fleet, October 2026",
+      "kind": "secondary",
+      "accessed": "2026-10-29",
+      "eventId": "cybercab-majority-texas-robotaxi-fleet-2026-10-27"
+    },
+    {
+      "url": "https://teslanorth.com/2026/11/25/tesla-texas-robotaxi-roster-822-cybercabs/",
+      "publisher": "TeslaNorth, Tesla's Texas Robotaxi Roster Now Has More Than 800 Cybercabs, November 25, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-25",
+      "eventId": "cybercab-majority-texas-robotaxi-fleet-2026-10-27"
+    },
+    {
+      "url": "https://indianexpress.com/article/technology/tech-news-technology/tesla-invites-select-customers-to-buy-cybercab-for-personal-use-10963999/",
+      "publisher": "Reuters (via The Indian Express), Tesla invites select customers to buy Cybercab for personal use, November 15, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-16",
+      "eventId": "cybercab-personal-use-orders-invite-only-2026-11-13"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/14/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions-and-a-299-monthly-fee/",
+      "publisher": "TechCrunch, Tesla opens Cybercab pre-orders 'for personal use,' with geo restrictions and a $299 monthly fee, November 14, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-16",
+      "eventId": "cybercab-personal-use-orders-invite-only-2026-11-13"
+    },
+    {
+      "url": "https://www.businessinsider.com/tesla-cybercab-autonomy-subscription-terms-conditions-remote-bricked-2026-11",
+      "publisher": "Business Insider, Tesla's Cybercab won't work without a $299 'Autonomy Subscription' (order and subscription agreement terms), November 16, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-16",
+      "eventId": "cybercab-personal-use-orders-invite-only-2026-11-13"
+    },
+    {
+      "url": "https://x.com/TeslaCharging/status/2123544093213274167",
+      "publisher": "Tesla Charging (@TeslaCharging) on X, November 19, 2026",
+      "kind": "primary",
+      "accessed": "2026-11-20",
+      "eventId": "tesla-supercharger-waitlist-300-us-sites-2026-11-19"
+    },
+    {
+      "url": "https://teslanorth.com/2026/11/19/tesla-supercharger-waitlist-300-us-sites/",
+      "publisher": "TeslaNorth, Tesla Supercharger Waitlist Goes Live at 300 U.S. Sites, November 19, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-20",
+      "eventId": "tesla-supercharger-waitlist-300-us-sites-2026-11-19"
+    },
+    {
+      "url": "https://x.com/elonmusk/status/2118591788701421573",
+      "publisher": "Elon Musk (@elonmusk) on X, November 5, 2026 10:30 PM PT",
+      "kind": "primary",
+      "accessed": "2026-11-06",
+      "eventId": "cybertruck-production-wind-down-giga-texas-mid-2027-2026-11-05"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/11/06/tesla-cybertruck-texas-musk.html",
+      "publisher": "CNBC, Tesla to wind down Cybertruck production in Texas next year to ramp Cybercab, Musk says, November 6, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-06",
+      "eventId": "cybertruck-production-wind-down-giga-texas-mid-2027-2026-11-05"
+    },
+    {
+      "url": "https://www.businessinsider.com/tesla-wind-down-cybertruck-production-elon-musk-cybercab-texas-2026-11",
+      "publisher": "Business Insider, Elon Musk says Tesla will wind down Cybertruck production, November 6, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-06",
+      "eventId": "cybertruck-production-wind-down-giga-texas-mid-2027-2026-11-05"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/06/tesla-will-stop-making-the-cybertruck-in-2027/",
+      "publisher": "TechCrunch, Tesla will stop making the Cybertruck in 2027, November 6, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-06",
+      "eventId": "cybertruck-production-wind-down-giga-texas-mid-2027-2026-11-05"
+    },
+    {
+      "url": "https://www.investing.com/news/stock-market-news/tesla-to-expand-cybertruck-production-in-bid-to-fill-orders-before-dismantling-line-next-year-5009996",
+      "publisher": "Reuters (via Investing.com), Tesla to expand Cybertruck production in bid to fill orders before dismantling line next year, November 7, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-09",
+      "eventId": "cybertruck-production-wind-down-giga-texas-mid-2027-2026-11-05"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/09/musk-says-tesla-will-refund-some-cybertruck-deposits-defends-decision-to-end-production/",
+      "publisher": "TechCrunch, Musk says Tesla will refund some Cybertruck deposits, defends decision to end production, November 9, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-10",
+      "eventId": "cybertruck-production-wind-down-giga-texas-mid-2027-2026-11-05"
+    },
+    {
+      "url": "https://www.cbsnews.com/news/tesla-extend-cybertruck-production-backlog/",
+      "publisher": "CBS News, Tesla extending Cybertruck production through summer 2027 to clear backlog, Elon Musk says, November 11, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-12",
+      "eventId": "cybertruck-production-wind-down-giga-texas-mid-2027-2026-11-05"
+    },
+    {
+      "url": "https://www.notateslaapp.com/news/5079/tesla-raises-cyberbeast-price-again-ends-cybertruck-leases",
+      "publisher": "Not a Tesla App, Tesla Raises Cyberbeast Price Again, Ends Cybertruck Leases, November 25, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-25",
+      "eventId": "cybertruck-production-wind-down-giga-texas-mid-2027-2026-11-05"
+    },
+    {
+      "url": "https://broadbandusa.ntia.gov/waivers-policies/BEAD_Model_Zero_Outlay_Agreement",
+      "publisher": "NTIA BroadbandUSA, BEAD Model Agreement to Accelerate Broadband Deployment, November 23, 2026",
+      "kind": "primary",
+      "accessed": "2026-11-25",
+      "eventId": "spacex-ntia-bead-zero-outlay-agreement-2026-11-23"
+    },
+    {
+      "url": "https://broadbandbreakfast.com/spacex-declines-bead-winnings-wants-to-serve-locations-at-no-cost/",
+      "publisher": "Broadband Breakfast, SpaceX Declines BEAD Winnings, Wants to Serve Locations at No Cost, November 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-25",
+      "eventId": "spacex-ntia-bead-zero-outlay-agreement-2026-11-23"
+    },
+    {
+      "url": "https://www.teslarati.com/spacex-starlink-rejects-fed-subsidy/",
+      "publisher": "Teslarati, SpaceX rejects $738M fed subsidy, betting on Starlink alone, November 25, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-25",
+      "eventId": "spacex-ntia-bead-zero-outlay-agreement-2026-11-23"
+    },
+    {
+      "url": "https://x.com/Starlink/status/2120206875581186293",
+      "publisher": "Starlink (@Starlink) on X, November 10, 2026",
+      "kind": "primary",
+      "accessed": "2026-11-25",
+      "eventId": "spacex-starlink-mini-2-introduced-2026-11-10"
+    },
+    {
+      "url": "https://x.com/BurnhamDC/status/2125292603331502105",
+      "publisher": "James Burnham (@BurnhamDC), X general counsel, on X, November 24, 2026",
+      "kind": "primary",
+      "accessed": "2026-11-25",
+      "eventId": "x-uk-high-court-judgment-creator-revenue-fraud-2026-11-20"
+    },
+    {
+      "url": "https://teslanorth.com/2026/11/24/x-says-uk-court-entered-judgment-in-creator-payout-case/",
+      "publisher": "TeslaNorth, X Says UK Court Entered Judgment in Creator Payout Case, November 24, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-25",
+      "eventId": "x-uk-high-court-judgment-creator-revenue-fraud-2026-11-20"
+    },
+    {
+      "url": "https://ca.investing.com/news/stock-market-news/spacex-quarterly-revenue-jumps-beats-estimates-as-ai-business-surges-4891702",
+      "publisher": "Reuters via Investing.com, Musk says SpaceX-Tesla merger is 'a good idea' as companies form deal committees, October 20, 2026",
+      "kind": "secondary",
+      "accessed": "2026-10-21",
+      "eventId": "spacex-tesla-merger-special-committees-2026-10-20"
+    },
+    {
+      "url": "https://apnews.com/article/spacex-musk-turns-profit-losses-67064446bf0afdf529db55bdec82af69",
+      "publisher": "AP News, Elon Musk's SpaceX reports a profit and he hints at a possible merger with Tesla, October 20, 2026",
+      "kind": "secondary",
+      "accessed": "2026-10-21",
+      "eventId": "spacex-tesla-merger-special-committees-2026-10-20"
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o",
+      "publisher": "BBC News, Elon Musk confirms he is considering merging Tesla and SpaceX, October 20, 2026",
+      "kind": "secondary",
+      "accessed": "2026-10-21",
+      "eventId": "spacex-tesla-merger-special-committees-2026-10-20"
+    },
+    {
+      "url": "https://www.investing.com/news/stock-market-news/exclusivemusks-public-endorsement-of-spacextesla-deal-may-throw-a-wrench-in-talks-4964606",
+      "publisher": "Reuters (via Investing.com), Exclusive: Musk's public endorsement of SpaceX-Tesla deal may throw a wrench in talks, October 22, 2026",
+      "kind": "secondary",
+      "accessed": "2026-10-22",
+      "eventId": "spacex-tesla-merger-special-committees-2026-10-20"
+    },
+    {
+      "url": "https://www.investing.com/news/stock-market-news/spacex-says-tesla-merger-would-need-musks-approval-4967546",
+      "publisher": "Reuters (via Investing.com), SpaceX says Tesla merger would need Musk's approval, October 22, 2026",
+      "kind": "secondary",
+      "accessed": "2026-10-23",
+      "eventId": "spacex-tesla-merger-special-committees-2026-10-20"
+    },
+    {
+      "url": "https://electrek.co/2026/11/24/tesla-spacex-merger-year-end-deadline-new-congress/",
+      "publisher": "Electrek (citing Financial Times), Tesla (TSLA), SpaceX race for year-end merger deal before new Congress, November 24, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-25",
+      "eventId": "spacex-tesla-merger-special-committees-2026-10-20"
+    },
+    {
+      "url": "https://x.com/boringcompany/status/2123538445918224762",
+      "publisher": "The Boring Company (@boringcompany) on X, November 19, 2026",
+      "kind": "primary",
+      "accessed": "2026-11-20",
+      "eventId": "boring-nashville-airport-music-city-loop-40-year-agreement-2026-11-19"
+    },
+    {
+      "url": "https://teslanorth.com/2026/11/19/boring-company-nashville-airport-40-year-deal/",
+      "publisher": "TeslaNorth, Boring Company Signs 40-Year Deal for Nashville Airport Tunnel, November 19, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-20",
+      "eventId": "boring-nashville-airport-music-city-loop-40-year-agreement-2026-11-19"
+    },
+    {
+      "url": "https://x.com/Tesla_Megapack/status/2122721563493744771",
+      "publisher": "Tesla Megapack on X, Introducing Powercore, November 17, 2026",
+      "kind": "primary",
+      "accessed": "2026-11-18",
+      "eventId": "tesla-energy-powercore-solid-state-transformer-unveiled-2026-11-17"
+    },
+    {
+      "url": "https://x.com/Tesla_Megapack/status/2122738271256211706",
+      "publisher": "Tesla Megapack on X, The Future Runs on Powercore (spec article), November 17, 2026",
+      "kind": "primary",
+      "accessed": "2026-11-18",
+      "eventId": "tesla-energy-powercore-solid-state-transformer-unveiled-2026-11-17"
+    },
+    {
+      "url": "https://electrek.co/2026/11/17/tesla-powercore-solid-state-transformer-heron-link/",
+      "publisher": "Electrek, Tesla unveils 7.4 MW Powercore to take on ex-exec Baglino's Heron Link, November 17, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-18",
+      "eventId": "tesla-energy-powercore-solid-state-transformer-unveiled-2026-11-17"
+    },
+    {
+      "url": "https://www.pv-magazine.com/2026/11/18/exclusive-tesla-unveils-powercore-medium-voltage-power-electronics-platform-at-re-2026/",
+      "publisher": "pv magazine, Powercore coverage, November 18, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-18",
+      "eventId": "tesla-energy-powercore-solid-state-transformer-unveiled-2026-11-17"
+    },
+    {
+      "url": "https://www.pv-tech.org/tesla-solid-state-transformer-market-powercore-launch-re-plus-2026/",
+      "publisher": "PV Tech, Powercore launch coverage, November 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-18",
+      "eventId": "tesla-energy-powercore-solid-state-transformer-unveiled-2026-11-17"
+    },
+    {
+      "url": "https://x.com/TeslaCharging/status/2122858332847534316",
+      "publisher": "Tesla Charging (@TeslaCharging) on X, New Tesla Megacharger: Mesquite, TX (8 stalls), November 17, 2026 5:04 PM PT",
+      "kind": "primary",
+      "accessed": "2026-11-19",
+      "eventId": "tesla-semi-first-texas-megacharger-mesquite-2026-11-17"
+    },
+    {
+      "url": "https://x.com/tesla_semi/status/2122867983819403363",
+      "publisher": "Tesla Semi (@tesla_semi) on X, First Megacharger in Texas, November 17, 2026 5:42 PM PT",
+      "kind": "primary",
+      "accessed": "2026-11-19",
+      "eventId": "tesla-semi-first-texas-megacharger-mesquite-2026-11-17"
+    },
+    {
+      "url": "https://electrek.co/2026/11/18/tesla-semi-megacharger-network-mesquite-texas/",
+      "publisher": "Electrek, Tesla's Semi Megacharger network hits 7 sites, far short of 37 goal, November 18, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-19",
+      "eventId": "tesla-semi-first-texas-megacharger-mesquite-2026-11-17"
+    },
+    {
+      "url": "https://teslanorth.com/2026/11/19/musk-dealbook-tesla-spacex-model-y-starlink/",
+      "publisher": "TeslaNorth, Elon Musk at DealBook 2026: Tesla, SpaceX Merger Talks and Starlink, November 19, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-19",
+      "eventId": "tesla-driverless-model-y-6-7-seat-plan-announced-2026-11-18"
+    },
+    {
+      "url": "https://driveteslacanada.ca/news/tesla-model-y-robotaxi-no-steering-wheel/",
+      "publisher": "Drive Tesla Canada, Tesla plans a Model Y without a steering wheel or pedals: Musk, November 19, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-19",
+      "eventId": "tesla-driverless-model-y-6-7-seat-plan-announced-2026-11-18"
+    },
+    {
+      "url": "https://electrek.co/2026/11/19/musk-tesla-model-y-no-steering-wheel-7-seat/",
+      "publisher": "Electrek, Musk says Tesla plans a Model Y with no steering wheel and no pedals, November 19, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-19",
+      "eventId": "tesla-driverless-model-y-6-7-seat-plan-announced-2026-11-18"
+    },
+    {
+      "url": "https://driveteslacanada.ca/news/starlink-direct-to-cell-v2/",
+      "publisher": "Drive Tesla Canada, Elon Musk Reveals Starlink V2 Launch Plans and New Rooftop Cell Tower, November 19, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-19",
+      "eventId": "spacex-starlink-mobile-v2-2027-rooftop-microcells-2026-11-18"
+    },
+    {
+      "url": "https://teslanorth.com/2026/11/19/starlink-rooftop-microcells-indoor-phone-coverage/",
+      "publisher": "TeslaNorth, Starlink's Plan to Reach Your Phone Indoors Starts on the Roof, November 19, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-19",
+      "eventId": "spacex-starlink-mobile-v2-2027-rooftop-microcells-2026-11-18"
+    },
+    {
+      "url": "https://www.spacex.com/launches/starship-flight-15/",
+      "publisher": "SpaceX, Starship Flight 15 mission page (flight recap), November 2026",
+      "kind": "primary",
+      "accessed": "2026-11-16",
+      "eventId": "spacex-starship-flight-15-first-ship-catch-booster-lost-2026-11-14"
+    },
+    {
+      "url": "https://uk.marketscreener.com/news/spacex-starship-returns-to-landing-pad-from-orbit-acing-test-for-reusable-rockets-ce785ededd81f726",
+      "publisher": "Reuters (via MarketScreener), SpaceX Starship returns to landing pad from orbit, acing test for reusable rockets, November 14, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-16",
+      "eventId": "spacex-starship-flight-15-first-ship-catch-booster-lost-2026-11-14"
+    },
+    {
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-says-starship-flight-15-booster-aborted-chopsticks-landing-catch-after-launch-due-to-guidance-issue-video",
+      "publisher": "Space.com, Why did Starship Flight 15 booster abort 'chopsticks' landing catch? SpaceX still investigating, November 14, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-16",
+      "eventId": "spacex-starship-flight-15-first-ship-catch-booster-lost-2026-11-14"
+    },
+    {
+      "url": "https://spaceflightnow.com/2026/11/13/live-coverage-starship-flight-15-attempts-to-recover-full-vehicle-in-double-launch-pad-catch/",
+      "publisher": "Spaceflight Now, Starship returns to Starbase and a successful tower catch, November 13-14, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-16",
+      "eventId": "spacex-starship-flight-15-first-ship-catch-booster-lost-2026-11-14"
+    },
+    {
+      "url": "https://seekingalpha.com/news/4672602-faa-revises-spacex-starship-license-authorizes-single-flight-15-launch",
+      "publisher": "Seeking Alpha, FAA revises SpaceX Starship license, authorizes single Flight 15 launch, November 13, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-16",
+      "eventId": "spacex-starship-flight-15-first-ship-catch-booster-lost-2026-11-14"
+    },
+    {
+      "url": "https://www.politico.com/news/2026/11/17/texas-issues-air-permit-for-massive-spacex-data-center-01170758",
+      "publisher": "POLITICO, Texas issues air permit for massive SpaceX data center, November 17, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-18",
+      "eventId": "spacex-starbase-gas-plant-tceq-air-permit-2026-11-16"
+    },
+    {
+      "url": "https://www.datacenterdynamics.com/en/news/texas-environmental-regulator-resumes-data-center-permitting-following-ercot-review/",
+      "publisher": "DatacenterDynamics, Texas environmental regulator resumes data center permitting following ERCOT review, November 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-18",
+      "eventId": "spacex-starbase-gas-plant-tceq-air-permit-2026-11-16"
+    },
+    {
+      "url": "https://www.streetinsider.com/Reuters/Tesla+announces+%243.3+billion+expansion+of+Germany+plant/27350207.html",
+      "publisher": "Reuters (via StreetInsider), Tesla announces $3.3 billion expansion of Germany plant, November 16, 2026 (quotes Tesla statement)",
+      "kind": "secondary",
+      "accessed": "2026-11-16",
+      "eventId": "tesla-giga-berlin-cybercab-expansion-3b-euros-2026-11-16"
+    },
+    {
+      "url": "https://www.notateslaapp.com/news/4991/tesla-robotaxi-now-runs-247-in-every-city",
+      "publisher": "Not a Tesla App, Tesla Robotaxi Now Runs 24/7 in Every City, November 12, 2026 (quotes the @robotaxi post)",
+      "kind": "secondary",
+      "accessed": "2026-11-13",
+      "eventId": "robotaxi-24-7-all-cities-2026-11-11"
+    },
+    {
+      "url": "https://teslanorth.com/2026/11/11/tesla-robotaxi-24-7-every-city/",
+      "publisher": "TeslaNorth, Tesla Robotaxi Goes 24/7 in Every City It Serves, November 11, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-13",
+      "eventId": "robotaxi-24-7-all-cities-2026-11-11"
+    },
+    {
+      "url": "https://evxl.co/2026/11/12/tesla-robotaxi-runs-24-7-eight-us-cities/",
+      "publisher": "EVXL, Tesla Robotaxi Now Runs 24/7 in Eight U.S. Cities, November 12, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-13",
+      "eventId": "robotaxi-24-7-all-cities-2026-11-11"
+    },
+    {
+      "url": "https://www.tesla.com/robotaxi",
+      "publisher": "Tesla, Robotaxi page (lists the eight cities)",
+      "kind": "primary",
+      "accessed": "2026-11-13",
+      "eventId": "robotaxi-24-7-all-cities-2026-11-11"
+    }
+  ]
+}

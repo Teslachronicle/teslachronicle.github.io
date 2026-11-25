@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The Elon Times, Wednesday, November 25, 2026 — Ledger story</title>
+<style>
+@font-face {
+  font-family: "UnifrakturMaguntia";
+  src: url("assets/unifraktur-maguntia.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: "FrauncesV5";
+  src: url("assets/fraunces-v5.woff2") format("woff2");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: "InterV5";
+  src: url("assets/inter-v5.woff2") format("woff2");
+  font-weight: 400 750;
+  font-style: normal;
+  font-display: block;
+}
+:root {
+  --paper: #f2e6cc;
+  --paper-2: #e9d8b0;
+  --ink: #1a140e;
+  --muted: #3c342b;
+  --rule: #1a140e;
+  --accent: #7a1f1f;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 1080px;
+  height: 1350px;
+  background: var(--paper);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+.page {
+  box-sizing: border-box;
+  width: 1080px;
+  height: 1350px;
+  padding: 26px 40px 22px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.page * { box-sizing: border-box; }
+.mast { text-align: center; flex: 0 0 auto; }
+.the {
+  font-family: "FrauncesV5", Georgia, serif;
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: 0.42em;
+  text-transform: uppercase;
+  line-height: 1;
+  margin: 0 0 2px;
+}
+.mast h1 {
+  font-family: "UnifrakturMaguntia", "FrauncesV5", Georgia, serif;
+  font-weight: 400;
+  font-size: 110px;
+  line-height: 0.82;
+  margin: 0;
+  letter-spacing: 0;
+  padding: 0 0 4px;
+}
+.tagline {
+  font-family: "FrauncesV5", Georgia, serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.25;
+  margin: 8px 0 0;
+}
+.rules {
+  border-top: 3px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  margin: 10px 0 0;
+  padding: 7px 0 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  font-family: "InterV5", system-ui, sans-serif;
+  font-weight: 650;
+  font-size: 17px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  line-height: 1.2;
+  flex: 0 0 auto;
+}
+.rules span { white-space: nowrap; }
+.rules .mid { text-align: center; flex: 1 1 auto; white-space: normal; }
+.folio {
+  font-family: "InterV5", system-ui, sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: auto;
+  padding-top: 8px;
+  border-top: 1px solid var(--rule);
+  flex: 0 0 auto;
+}
+.lead { margin: 14px 0 0; flex: 0 0 auto; }
+.lead .hl {
+  font-family: "FrauncesV5", Georgia, serif;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 1.05;
+  margin: 0;
+  letter-spacing: -0.02em;
+}
+.dek {
+  font-family: "FrauncesV5", Georgia, serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.28;
+  margin: 10px 0 0;
+}
+a.teaser, a.teaser:link, a.teaser:visited, a.teaser:hover, a.teaser * {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 0;
+}
+a.teaser:hover { background: #e4d4a8; }
+.teaser {
+  margin: 14px 0 0;
+  padding: 10px 14px 11px;
+  border: 2px solid var(--rule);
+  background: var(--paper-2);
+  flex: 0 0 auto;
+}
+.teaser .label {
+  font-family: "InterV5", system-ui, sans-serif;
+  font-size: 14px;
+  font-weight: 750;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  margin: 0 0 4px;
+}
+.teaser p {
+  font-family: "FrauncesV5", Georgia, serif;
+  font-weight: 650;
+  font-size: 24px;
+  line-height: 1.2;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+.teaser .ptr {
+  font-family: "InterV5", system-ui, sans-serif;
+  font-size: 15px;
+  font-weight: 650;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 4px 0 0;
+}
+.cols {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 0 28px;
+  flex: 1 1 auto;
+  min-height: 0;
+  margin-top: 14px;
+  align-content: start;
+}
+.col-label {
+  font-family: "InterV5", system-ui, sans-serif;
+  font-size: 14px;
+  font-weight: 750;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  margin: 0 0 8px;
+  border-bottom: 1.5px solid var(--rule);
+  padding-bottom: 4px;
+}
+.item {
+  padding: 0 0 9px;
+  margin: 0 0 8px;
+  border-bottom: 1px solid rgba(26,20,14,0.3);
+}
+.item:last-child { border-bottom: 0; margin-bottom: 0; padding-bottom: 0; }
+.item .who {
+  font-family: "InterV5", system-ui, sans-serif;
+  font-size: 14px;
+  font-weight: 650;
+  letter-spacing: 0.04em;
+  margin: 0 0 3px;
+}
+.item p, .next-item {
+  font-family: "FrauncesV5", Georgia, serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.28;
+  margin: 0;
+}
+.next-item { margin: 0 0 10px; }
+.next-item:last-child { margin-bottom: 0; }
+.item a, .next-item a, .folio a, .who a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(26,20,14,0.4);
+}
+.flag {
+  font-family: "InterV5", system-ui, sans-serif;
+  font-size: 12px;
+  font-weight: 750;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+</style>
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Cybercab opens to the public in Dallas as Tesla turns autonomy into a service" />
+<meta property="og:description" content="Public two-seat rides began in a second city. FSD v15 started its first wave, aimed at a December wide release. Personal Cybercab orders carry a required $299 monthly subscription." />
+<meta property="og:url" content="https://samcbjoejoe.github.io/tesla-chronicle/stories/2026-11-25/" />
+<meta property="og:image" content="https://samcbjoejoe.github.io/tesla-chronicle/stories/2026-11-25/front.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Cybercab opens to the public in Dallas as Tesla turns autonomy into a service" />
+<meta name="twitter:description" content="Public two-seat rides began in a second city. FSD v15 started its first wave, aimed at a December wide release. Personal Cybercab orders carry a required $299 monthly subscription." />
+<meta name="twitter:image" content="https://samcbjoejoe.github.io/tesla-chronicle/stories/2026-11-25/front.png" />
+<link rel="canonical" href="https://samcbjoejoe.github.io/tesla-chronicle/stories/2026-11-25/" />
+</head>
+<body>
+<div class="page">
+  <header class="mast">
+    <p class="the">The</p>
+    <h1>Elon Times</h1>
+    <p class="tagline">Unofficial · Every story sourced in the Tesla Chronicle ledger</p>
+  </header>
+  <div class="rules">
+    <span>Ledger story</span>
+    <span class="mid">Wednesday, November 25, 2026</span>
+    <span>Tesla Chronicle</span>
+  </div>
+  <section class="lead">
+    <h2 class="hl">Cybercab opens to the public in Dallas as Tesla turns autonomy into a service</h2>
+    <p class="dek">Public two-seat rides began in a second city. FSD v15 started its first wave, aimed at a December wide release. Personal Cybercab orders carry a required $299 monthly subscription. Italy said yes; the EU meeting slipped to December 15.</p>
+  </section>
+  <a class="teaser" href="story.html">
+    <div class="label">The ledger story</div>
+    <p>From Dallas to Brussels, a week when robotaxis left the demo</p>
+    <div class="ptr">Page 2 · The full story, with Chronicle’s read marked in the text</div>
+  </a>
+  <div class="cols">
+    <section>
+      <h3 class="col-label">In brief</h3>
+      <div class="item">
+        <p class="who"><a href="https://x.com/robotaxi/status/2123458263522107564">@robotaxi</a> · Nov. 19</p>
+        <p>“Howdy Dallas. Cybercab has arrived in your city.” Public rides opened through the Robotaxi app, the second city after Austin.</p>
+      </div>
+      <div class="item">
+        <p class="who"><a href="https://x.com/Tesla/status/2124222447855743019">@Tesla</a> · Nov. 21</p>
+        <p>FSD v15 began rolling out to a first wave. Musk said the wide release is next month. The 25x safety figure is Tesla’s own claim.</p>
+      </div>
+      <div class="item">
+        <p class="who"><a href="https://x.com/teslaeurope/status/2123723334542332026">@teslaeurope</a> · Nov. 20</p>
+        <p>Italy approved Tesla Assisted Driving, the 12th EU country and the first large market. The EU committee meeting moved to December 15, with no vote yet.</p>
+      </div>
+      <div class="item">
+        <p class="who"><a href="https://teslanorth.com/2026/11/25/tesla-texas-robotaxi-roster-822-cybercabs/">TeslaNorth</a>, Texas DMV · Nov. 24</p>
+        <p>The authorized Texas Robotaxi list showed 822 Cybercabs and 734 Model Ys. The registry is not a ridership count.</p>
+      </div>
+    </section>
+    <section>
+      <h3 class="col-label">What’s still open</h3>
+      <p class="next-item"><span class="flag">Not a delivery</span><br>Personal Cybercab orders are invite-only, at $29,990 plus a required $299 monthly Autonomy Subscription. No customer-owned car had been logged as delivered as of November 16.</p>
+      <p class="next-item"><span class="flag">Unconfirmed</span><br>The Financial Times reported a possible year-end merger deadline. Neither Tesla nor SpaceX has agreed terms or filed a deal.</p>
+      <p class="next-item"><span class="flag">Pending</span><br>Starlink Mini 2 is on invitation-only U.S. preorder, with no public price or ship date. SpaceX’s BEAD subsidy figures are reported, not confirmed by NTIA.</p>
+      <p class="next-item"><span class="flag">Terms hidden</span><br>A UK High Court judgment for X was announced from the first page of an order. The terms are not public.</p>
+    </section>
+  </div>
+  <div class="folio">The Elon Times · Wednesday, November 25, 2026</div>
+</div>
+
+<script>
+(function () {
+  function overflowed() {
+    var page = document.querySelector(".page");
+    if (!page) return true;
+    if (document.documentElement.scrollWidth > 1080 + 1) return true;
+    if (document.documentElement.scrollHeight > 1350 + 1) return true;
+    var box = page.getBoundingClientRect();
+    var nodes = page.querySelectorAll("h1, h2, h3, p, li, .hl, .dek, .story-hl, .tick, .chip, .src, .point, .kicker, .tagline, .folio, .fact, .analysis, .markets, .grid, .quote, .teaser, .lead-body, .q-meta, .next-item, .item, .who");
+    for (var i = 0; i < nodes.length; i++) {
+      var r = nodes[i].getBoundingClientRect();
+      if (r.right > box.right + 2 || r.bottom > box.bottom + 2) return true;
+      if (r.left < box.left - 2 || r.top < box.top - 2) return true;
+    }
+    var boxes = page.querySelectorAll(".analysis, .happened, .markets, .grid, .cols");
+    for (var j = 0; j < boxes.length; j++) {
+      var b = boxes[j];
+      if (b.scrollHeight > b.clientHeight + 3) return true;
+      if (b.scrollWidth > b.clientWidth + 3) return true;
+    }
+    return false;
+  }
+  function done() {
+    var fonts = Array.from(document.fonts || []).filter(function (f) {
+      return f.status === "loaded";
+    }).map(function (f) { return f.family; });
+    var over = overflowed();
+    document.body.setAttribute("data-overflow", over ? "1" : "0");
+    document.body.setAttribute("data-fit", over ? "overflow" : "ok");
+    return {
+      overflow: over ? "1" : "0",
+      fit: over ? "overflow" : "ok",
+      fonts: fonts,
+      width: document.documentElement.scrollWidth,
+      height: document.documentElement.scrollHeight
+    };
+  }
+  var ready = document.fonts && document.fonts.ready ? document.fonts.ready : Promise.resolve();
+  window.__cardFit = ready.then(done, done);
+})();
+</script>
+</body>
+</html>
