@@ -2,8 +2,8 @@
 
 This directory (`site-deploy/`) is generated idempotently from `/workspace/tesla-chronicle/` by `../build_deploy.py` and deployed to GitHub Pages via `../deploy.sh`.
 
-- **Target URL:** `https://samcbjoejoe.github.io/tesla-chronicle/`
-- **Weekly share hub:** `https://samcbjoejoe.github.io/tesla-chronicle/weekly/share/`
+- **Target URL:** `https://teslachronicle.github.io/`
+- **Weekly share hub:** `https://teslachronicle.github.io/weekly/share/`
 
 ## Included
 - `index.html` and `timeline-v5.html` (Reader v5 with absolute Open Graph & Twitter card metadata)
@@ -31,5 +31,5 @@ From `/workspace/tesla-chronicle/`:
 Or rebuild the deploy folder only (without pushing):
 
 ```bash
-python3 /workspace/tesla-chronicle/build_deploy.py --base-url https://samcbjoejoe.github.io/tesla-chronicle
+python3 /workspace/tesla-chronicle/build_deploy.py --base-url https://teslachronicle.github.io
 ```
