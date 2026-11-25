@@ -1,0 +1,3527 @@
+{
+  "generatedAt": "2026-10-27T18:13:57Z",
+  "eras": [
+    {
+      "id": "founding-roadster",
+      "title": "Founding and the Roadster",
+      "startDate": "2003-07-01",
+      "endDate": "2011-12-31",
+      "heroEventId": "fremont-factory-purchase-2010",
+      "intro": "Tesla Motors was incorporated in 2003, and Elon Musk led its first funding round in 2004. The first Roadster reached a customer in 2008, followed by a government loan, a 2010 stock market debut and the purchase of the Fremont factory."
+    },
+    {
+      "id": "model-s-x",
+      "title": "Model S, Model X and the first Gigafactory",
+      "startDate": "2012-01-01",
+      "endDate": "2015-12-31",
+      "heroEventId": "model-x-deliveries-begin-2015",
+      "intro": "Model S deliveries began in 2012 and the car collected top awards and safety ratings. Tesla launched its Supercharger network, repaid its government loan early, broke ground on a Nevada battery Gigafactory and switched on Autopilot by software update. Model X deliveries began in 2015."
+    },
+    {
+      "id": "model-3-production-hell",
+      "title": "Model 3 and production hell",
+      "startDate": "2016-01-01",
+      "endDate": "2019-12-31",
+      "heroEventId": "model-3-deliveries-begin-2017",
+      "intro": "The $35,000 Model 3 was unveiled in 2016, and Tesla struggled through 2018 to reach 5,000 a week. The same years brought SolarCity, the \"funding secured\" tweets and SEC settlement, a first profitable quarter, and the Semi, Model Y and Cybertruck unveilings."
+    },
+    {
+      "id": "going-global",
+      "title": "Going global: Shanghai, Berlin and Texas",
+      "startDate": "2020-01-01",
+      "endDate": "2022-12-31",
+      "heroEventId": "gigafactory-berlin-production-2022",
+      "intro": "China-built Model 3s reached buyers in 2020, and new Gigafactories opened in Berlin and Texas in 2022. Tesla posted its first profitable year, joined the S&P 500 and began a limited FSD Beta, while regulators stepped up scrutiny of Autopilot."
+    },
+    {
+      "id": "price-cuts-charging-ai",
+      "title": "Price cuts, a charging standard and the AI turn",
+      "startDate": "2023-01-01",
+      "endDate": "2024-12-31",
+      "heroEventId": "cybertruck-deliveries-begin-2023",
+      "intro": "Tesla cut prices in 2023 as rival automakers adopted its charging plug. Cybertruck deliveries began, FSD moved to end-to-end AI, and Autopilot was recalled on about 2 million cars. Tesla also became a Texas corporation and unveiled Cybercab in 2024."
+    },
+    {
+      "id": "robotaxi-optimus",
+      "title": "Robotaxi, Cybercab and Optimus",
+      "startDate": "2025-01-01",
+      "endDate": "2026-10-23",
+      "heroEventId": "cybercab-commercial-austin-2026-09-03",
+      "intro": "Robotaxi service launched in Austin in 2025 and spread to more cities, and paid Cybercab rides began in Austin in 2026. Model S and X production ended to make room for Optimus, Semi volume production began, and many promises remain open."
+    }
+  ],
+  "threads": [
+    {
+      "id": "cybertruck",
+      "title": "Cybertruck",
+      "blurb": "From the 2019 stainless-steel reveal to deliveries, recalls and new markets.",
+      "eventIds": [
+        "cybertruck-unveil-2019",
+        "cybertruck-first-built-giga-texas-2023",
+        "cybertruck-deliveries-begin-2023",
+        "cybertruck-accelerator-pedal-recall-24v276-2024-04-19",
+        "fsd-supervised-cybertruck-q3-2024",
+        "cybertruck-cant-rail-recall-25v170-2025-03-20",
+        "cybertruck-uae-deliveries-q1-2026"
+      ]
+    },
+    {
+      "id": "robotaxi-cybercab",
+      "title": "Robotaxi and Cybercab",
+      "blurb": "Tesla's driverless ride service and its purpose-built robotaxi, from concept to paid rides and regulator questions.",
+      "eventIds": [
+        "tesla-million-robotaxis-2020-promise-2019-04-22",
+        "we-robot-cybercab-robovan-unveil-2024",
+        "robotaxi-austin-launch-2025",
+        "robotaxi-bay-area-ride-hailing-q3-2025",
+        "robotaxi-austin-unsupervised-monitor-removal-2026-01",
+        "cybercab-production-begins-gftx-q2-2026",
+        "robotaxi-dallas-houston-unsupervised-2026-04",
+        "cybercab-epa-certificate-2026-05-26",
+        "robotaxi-florida-unsupervised-seven-metros-2026-07",
+        "cybercab-public-tests-employee-rides-q2-2026",
+        "cybercab-commercial-austin-2026-09-03",
+        "nhtsa-aq26002-cybercab-fmvss-2026-09-03",
+        "cybercab-austin-open-app-hailing-2026-09-10",
+        "nhtsa-special-order-cybercab-aq26002-2026-09-10",
+        "first-cybercab-in-house-cathode-2026-09-23",
+        "nhtsa-dp26010-robotaxi-school-zone-speeding-2026-10-09",
+        "cybercab-austin-300-fleet-2026-10-10",
+        "cybercab-paris-motor-show-europe-debut-2026-10-12",
+        "cybercab-customer-sales-by-end-2026-target-2026-10-21",
+        "cybercab-dallas-launch-november-2026-announced-2026-10-21",
+        "robotaxi-safety-report-four-coming-soon-cities-2026-10-21",
+        "unsupervised-fsd-customer-cars-robotaxi-fleet-q2-2027-target-2026-10-21"
+      ]
+    },
+    {
+      "id": "fsd-autopilot",
+      "title": "Autopilot and FSD",
+      "blurb": "How driver-assistance software grew from lane-keeping to FSD (Supervised), and the probes and lawsuits along the way.",
+      "eventIds": [
+        "autopilot-hardware-2014",
+        "autopilot-software-2015",
+        "nhtsa-pe16007-autopilot-fatal-crash-2016-06-28",
+        "software-8-radar-autopilot-2016-09-11",
+        "autopilot-hw2-2016",
+        "tesla-coast-to-coast-autonomous-drive-promise-2016-10-19",
+        "navigate-on-autopilot-us-rollout-2018-10-26",
+        "autonomy-day-fsd-computer-2019-04-22",
+        "tesla-million-robotaxis-2020-promise-2019-04-22",
+        "software-version-10-release-2019-09-26",
+        "traffic-light-stop-sign-control-2020-04-24",
+        "munich-court-autopilot-advertising-ruling-2020-07-14",
+        "fsd-beta-limited-release-2020-10-20",
+        "nhtsa-pe21020-autopilot-first-responder-2021-08-13",
+        "fsd-beta-rolling-stop-recall-22v037-2022-02-01",
+        "fsd-beta-canada-2022",
+        "nhtsa-ea22002-autopilot-upgrade-2022-06-08",
+        "ca-dmv-autopilot-fsd-false-advertising-accusation-2022-07-28",
+        "doj-autopilot-criminal-probe-reported-2022-10-26",
+        "fsd-beta-recall-23v085-2023",
+        "hsu-autopilot-trial-verdict-2023-04-21",
+        "lee-fatal-autopilot-trial-verdict-2023-10-31",
+        "autopilot-recall-23v838-2023-12-13",
+        "fsd-v12-beta-customer-rollout-2024",
+        "fsd-v12-3-customer-rollout-2024",
+        "fsd-v12-3-delivery-demo-mandate-free-trial-2024-03-25",
+        "actually-smart-summon-q3-2024",
+        "fsd-supervised-2b-miles-q3-2024",
+        "fsd-supervised-cybertruck-q3-2024",
+        "nhtsa-pe24031-fsd-reduced-visibility-2024-10-17",
+        "fsd-v13-wide-release-hw4-2024-12-17",
+        "fsd-supervised-naming-10k-2024",
+        "samsung-chip-deal-2025",
+        "benavides-autopilot-verdict-243m-2025-08-01",
+        "fsd-australia-new-zealand-q3-2025",
+        "fsd-v14-deployment-october-2025",
+        "fsd-south-korea-launch-q4-2025",
+        "ca-dmv-autopilot-fsd-marketing-decision-2025-12-16",
+        "nhtsa-ea26002-fsd-visibility-upgrade-2026-03-18",
+        "nhtsa-closes-pe24033-actually-smart-summon-2026-04-03",
+        "fsd-netherlands-approval-2026-04",
+        "ai5-tape-out-2026-04-15",
+        "cortex-2-online-q1-2026",
+        "fsd-eu-approvals-baltics-denmark-belgium-q2-2026",
+        "fsd-v14-lite-ai3-us-korea-2026",
+        "active-fsd-subscriptions-1-48m-q2-2026",
+        "cortex-texas-compute-doubled-h1-2026",
+        "ninth-circuit-vacates-fsd-class-certification-2026-10-16",
+        "fsd-eu-wide-approval-hoped-q1-2027-2026-10-21",
+        "unsupervised-fsd-customer-cars-robotaxi-fleet-q2-2027-target-2026-10-21",
+        "fsd-supervised-latvia-approval-2026-10-26"
+      ]
+    },
+    {
+      "id": "optimus",
+      "title": "Optimus",
+      "blurb": "The humanoid robot, from a person in a suit in 2021 to production lines in Fremont.",
+      "eventIds": [
+        "ai-day-optimus-concept-2021-08-19",
+        "ai-day-optimus-prototype-2022-09-30",
+        "optimus-gen-2-unveiled-2023-12-12",
+        "fremont-optimus-lines-after-sx-decommission-q2-2026",
+        "ai5-ai6-memory-cut-for-optimus-volume-2026-10-01",
+        "optimus-fremont-production-customer-deliveries-end-2027-target-2026-10-21"
+      ]
+    },
+    {
+      "id": "semi",
+      "title": "Tesla Semi",
+      "blurb": "The electric big rig: unveiled in 2017, first trucks in 2022, volume production in 2026.",
+      "eventIds": [
+        "tesla-semi-unveil-2017",
+        "semi-early-production-2022",
+        "semi-final-specs-2026-02-09",
+        "megacharger-first-southern-california-q1-2026",
+        "tesla-semi-nevada-factory-production-planned-2026",
+        "semi-first-high-volume-line-2026-04-29",
+        "einride-500-semi-order-2026-08-18",
+        "zet-scale-2500-semi-order-2026-09-22",
+        "semi-nevada-high-volume-production-2026-09-24",
+        "first-east-coast-megacharger-atlanta-savannah-2026-10-07"
+      ]
+    },
+    {
+      "id": "roadster",
+      "title": "Roadster",
+      "blurb": "The first Tesla, and the long wait for its successor.",
+      "eventIds": [
+        "roadster-first-delivery-2008",
+        "roadster-second-gen-reveal-2017-11-16",
+        "next-gen-roadster-design-development-pending",
+        "roadster-demo-rescheduled-2026-10-15",
+        "next-gen-roadster-unveil-2026-10-15"
+      ]
+    },
+    {
+      "id": "energy",
+      "title": "Energy storage and solar",
+      "blurb": "Home batteries, Megapacks and solar products, from the first Powerwall to Megapack 3.",
+      "eventIds": [
+        "residential-energy-storage-sales-2013",
+        "commercial-utility-storage-sales-2014",
+        "energy-powerwall-deliveries-2015",
+        "powerwall2-powerpack2-production-2016",
+        "solar-roof-reveal-2016",
+        "solarcity-acquisition-2016",
+        "panasonic-gf2-pv-agreement-2016",
+        "solar-roof-gf2-initial-production-2017",
+        "south-australia-battery-complete-2017",
+        "solar-roof-gen3-sales-2019",
+        "megapack-deliveries-begin-2019",
+        "solarcity-chancery-ruling-for-musk-2022-04-27",
+        "powerwall-vpp-100k-enrolled-q3-2024",
+        "lathrop-megafactory-200-megapacks-week-q3-2024",
+        "shanghai-megafactory-shipping-target-q1-2025",
+        "megafactory-shanghai-construction-complete-2024-12",
+        "megapack3-megablock-unveil-q3-2025",
+        "powerwall-vpp-1m-installed-fy-2025",
+        "megafactory-texas-nearing-completion-megapack3-sop-2026",
+        "gfn-in-house-solar-panel-deployments-q1-2026",
+        "powerwall-3p-available-germany-q2-2026",
+        "natpower-megapack-25gwh-europe-2026-06-23",
+        "megafactory-shanghai-ramping-q2-2026",
+        "megapack3-brookshire-production-2026-08-06",
+        "solar-roof-discontinued-2026-08-20",
+        "powershare-home-backup-model-3-y-2026-10-06"
+      ]
+    },
+    {
+      "id": "gigafactories",
+      "title": "Gigafactories",
+      "blurb": "Where Tesla builds: Fremont, Nevada, Shanghai, Berlin, Texas and what comes next.",
+      "eventIds": [
+        "fremont-factory-purchase-agreement-2010",
+        "fremont-factory-purchase-2010",
+        "gigafactory-announced-2014",
+        "gigafactory-nevada-groundbreaking-2014",
+        "gigafactory-1-cell-production-2017",
+        "gigafactory-shanghai-announced-2018",
+        "gigafactory-shanghai-construction-2019",
+        "gigafactory-shanghai-model-3-production-2019",
+        "china-model-3-customer-deliveries-2020-01-07",
+        "next-us-gigafactory-site-selected-2020",
+        "battery-day-4680-2020-09-22",
+        "berlin-giga-fest-production-target-2021-10-09",
+        "gigafactory-berlin-production-2022",
+        "gigafactory-texas-model-y-deliveries-2022",
+        "berlin-1000-vehicles-week-q2-2022",
+        "gigafactory-mexico-monterrey-announced-2023",
+        "gruenheide-expansion-referendum-rejected-2024-02-20",
+        "berlin-gigafactory-arson-outage-2024-03-05",
+        "shanghai-10-millionth-drive-unit-2024-08-01",
+        "hundred-millionth-4680-cell-q3-2024",
+        "shanghai-1-millionth-export-2024",
+        "shanghai-3-millionth-vehicle-2024",
+        "seven-millionth-vehicle-2024",
+        "megafactory-shanghai-construction-complete-2024-12",
+        "terafab-austin-announced-2026-03-22",
+        "tesla-semi-nevada-factory-production-planned-2026",
+        "gfn-v4-cabinet-production-q1-2026",
+        "lithium-cathode-lfp-early-ramp-q1-2026",
+        "semi-first-high-volume-line-2026-04-29",
+        "fremont-optimus-lines-after-sx-decommission-q2-2026",
+        "semiconductor-fab-austin-progress-q2-2026",
+        "first-cybercab-in-house-cathode-2026-09-23",
+        "semi-nevada-high-volume-production-2026-09-24",
+        "five-million-vehicles-a-year-by-2030-target-2026-10-21",
+        "giga-berlin-7000-model-y-week-2026-10-23"
+      ]
+    },
+    {
+      "id": "model-3-y",
+      "title": "Model 3 and Model Y",
+      "blurb": "The affordable cars that made Tesla a volume carmaker.",
+      "eventIds": [
+        "model-3-unveil-2016",
+        "model-3-deliveries-begin-2017",
+        "consumer-reports-model-3-not-recommended-2018-05-21",
+        "model-3-braking-ota-cr-recommended-2018-05-30",
+        "model-3-nhtsa-5-star-2018-09-20",
+        "consumer-reports-model-3-recommendation-withdrawn-2019-02-21",
+        "model-y-unveil-2019",
+        "model-3-euro-ncap-5-star-2019-07-03",
+        "model-3-iihs-top-safety-pick-plus-2019-09-19",
+        "gigafactory-shanghai-model-3-production-2019",
+        "china-model-3-customer-deliveries-2020-01-07",
+        "model-y-deliveries-begin-2020",
+        "tesla-25k-car-promise-2020-09-22",
+        "model-y-nhtsa-5-star-2021-01-13",
+        "hertz-100k-order-1-trillion-2021-10-25",
+        "model-3-s-recalls-475k-2021-12-30",
+        "gigafactory-texas-model-y-deliveries-2022",
+        "structural-4680-model-y-texas-2022",
+        "lfp-nearly-half-production-q1-2022",
+        "model-y-euro-ncap-5-star-2022-09-07",
+        "us-vehicle-price-cuts-january-2023",
+        "model-3-highland-refresh-launch-2023",
+        "model-y-worlds-best-selling-car-2023-jato-2024-06-13",
+        "new-model-y-four-factories-2025",
+        "new-model-y-china-deliveries-2025-02-26",
+        "new-model-y-europe-deliveries-2025-03-07",
+        "model-yl-china-launch-q3-2025",
+        "model-y-india-deliveries-begin-q3-2025",
+        "model-3-y-standard-us-launch-2025-10",
+        "model-yl-us-launch-2026-07",
+        "powershare-home-backup-model-3-y-2026-10-06",
+        "giga-berlin-7000-model-y-week-2026-10-23"
+      ]
+    },
+    {
+      "id": "charging",
+      "title": "Superchargers and NACS",
+      "blurb": "Tesla's charging network and how its plug became an industry standard.",
+      "eventIds": [
+        "supercharger-network-unveiled-2012-09-24",
+        "supercharger-non-tesla-access-2021",
+        "nacs-opened-2022",
+        "supercharger-us-open-non-tesla-nevi-2023",
+        "ford-nacs-supercharger-access-2023",
+        "gm-nacs-supercharger-access-2023",
+        "rivian-nacs-supercharger-access-2023-06-20",
+        "sae-nacs-standardization-announced-2023",
+        "fisker-nacs-supercharger-access-2023",
+        "sae-j3400-tir-nacs-2023",
+        "ford-supercharger-access-begins-2024",
+        "rivian-supercharger-access-begins-2024-03-18",
+        "supercharger-team-dismissed-2024-04-30",
+        "gm-supercharger-access-begins-2024-09-18",
+        "sae-j3400-recommended-practice-2024-09-30",
+        "v4-supercharger-cabinet-unveiled-2024-11-14",
+        "v4-supercharger-cabinets-launch-2025-09",
+        "megacharger-first-southern-california-q1-2026",
+        "gfn-v4-cabinet-production-q1-2026",
+        "supercharger-network-8704-stations-q2-2026",
+        "emergency-drive-away-superchargers-2026-10-01",
+        "first-east-coast-megacharger-atlanta-savannah-2026-10-07"
+      ]
+    },
+    {
+      "id": "legal-regulatory",
+      "title": "Legal and regulatory",
+      "blurb": "Recalls, investigations, lawsuits and rulings, as the record shows them.",
+      "eventIds": [
+        "nhtsa-pe13037-model-s-battery-fires-2013-11-15",
+        "model-s-wall-adapter-recall-14v006-2014-01-14",
+        "nhtsa-pe16007-autopilot-fatal-crash-2016-06-28",
+        "musk-funding-secured-tweet-2018",
+        "sec-musk-tesla-settlement-2018",
+        "ntsb-mountain-view-model-x-probable-cause-2020-02-25",
+        "munich-court-autopilot-advertising-ruling-2020-07-14",
+        "mcu-emmc-recall-21v035-2021-02-02",
+        "china-regulators-summon-tesla-2021-02-08",
+        "shanghai-auto-show-brake-protest-2021-04-19",
+        "nhtsa-pe21020-autopilot-first-responder-2021-08-13",
+        "diaz-racial-harassment-verdict-2021-10-04",
+        "model-3-s-recalls-475k-2021-12-30",
+        "fsd-beta-rolling-stop-recall-22v037-2022-02-01",
+        "dfeh-race-discrimination-lawsuit-2022-02-09",
+        "solarcity-chancery-ruling-for-musk-2022-04-27",
+        "nhtsa-ea22002-autopilot-upgrade-2022-06-08",
+        "ca-dmv-autopilot-fsd-false-advertising-accusation-2022-07-28",
+        "doj-autopilot-criminal-probe-reported-2022-10-26",
+        "funding-secured-securities-trial-verdict-2023-02-03",
+        "fsd-beta-recall-23v085-2023",
+        "hsu-autopilot-trial-verdict-2023-04-21",
+        "eeoc-racial-harassment-lawsuit-2023-09-28",
+        "lee-fatal-autopilot-trial-verdict-2023-10-31",
+        "autopilot-recall-23v838-2023-12-13",
+        "china-samr-autosteer-recall-1-6m-2024-01-05",
+        "tornetta-chancery-rescinds-2018-award-2024-01-30",
+        "nhtsa-ea24001-steering-loss-2024-02-01",
+        "warning-light-font-recall-24v051-2024-02-02",
+        "gruenheide-expansion-referendum-rejected-2024-02-20",
+        "cybertruck-accelerator-pedal-recall-24v276-2024-04-19",
+        "nhtsa-ea22002-closed-rq24009-opened-2024-04-25",
+        "votetesla-proxy-website-update-2024-05-03",
+        "texas-redomestication-proxy-letter-2024",
+        "delaware-to-texas-conversion-2024",
+        "china-frunk-hood-latch-recall-samr-2024-08-06",
+        "nhtsa-pe24031-fsd-reduced-visibility-2024-10-17",
+        "cybertruck-cant-rail-recall-25v170-2025-03-20",
+        "bylaws-amendments-texas-2025-05-15",
+        "benavides-autopilot-verdict-243m-2025-08-01",
+        "indemnification-agreements-updated-2025-09-03",
+        "ca-dmv-autopilot-fsd-marketing-decision-2025-12-16",
+        "delaware-supreme-court-reinstates-2018-award-2025-12-19",
+        "nhtsa-ea26002-fsd-visibility-upgrade-2026-03-18",
+        "nhtsa-closes-pe24033-actually-smart-summon-2026-04-03",
+        "rearview-camera-ota-recall-26v283-2026-05-06",
+        "nhtsa-denies-headlight-fmvss108-petition-2026-07-16",
+        "headlight-fmvss108-recall-26v507-2026-08-04",
+        "nhtsa-aq26002-cybercab-fmvss-2026-09-03",
+        "nhtsa-special-order-cybercab-aq26002-2026-09-10",
+        "nhtsa-dp26010-robotaxi-school-zone-speeding-2026-10-09",
+        "ninth-circuit-vacates-fsd-class-certification-2026-10-16"
+      ]
+    },
+    {
+      "id": "model-s-x",
+      "title": "Model S and Model X",
+      "blurb": "The premium cars that built Tesla, from the 2009 prototype to the last cars built in May 2026.",
+      "eventIds": [
+        "model-s-prototype-reveal-2009",
+        "model-x-prototype-reveal-2012",
+        "model-s-deliveries-begin-2012",
+        "model-s-motor-trend-car-of-the-year-2012-11-12",
+        "consumer-reports-model-s-99-score-2013-05-09",
+        "model-s-nhtsa-5-star-2013-08-19",
+        "nhtsa-pe13037-model-s-battery-fires-2013-11-15",
+        "model-s-wall-adapter-recall-14v006-2014-01-14",
+        "autopilot-hardware-2014",
+        "dual-motor-powertrain-launch-2014",
+        "consumer-reports-model-s-p85d-103-2015-08-27",
+        "model-x-deliveries-begin-2015",
+        "consumer-reports-model-s-not-recommended-2015-10-20",
+        "model-x-nhtsa-5-star-2017-06-13",
+        "model-s-motor-trend-ultimate-car-of-the-year-2019-07-10",
+        "ntsb-mountain-view-model-x-probable-cause-2020-02-25",
+        "model-s-plaid-introduced-2020",
+        "mcu-emmc-recall-21v035-2021-02-02",
+        "model-s-x-plaid-deliveries-begin-2021",
+        "model-3-s-recalls-475k-2021-12-30",
+        "fremont-optimus-lines-after-sx-decommission-q2-2026"
+      ]
+    },
+    {
+      "id": "earnings",
+      "title": "Earnings, deliveries and finance",
+      "blurb": "Quarter by quarter: what Tesla built, delivered and earned, plus loans, stock splits and other money moves.",
+      "eventIds": [
+        "doe-atvm-loan-facility-2010",
+        "ipo-nasdaq-2010",
+        "q2-2010-earnings-results-2010-08-04",
+        "q3-2010-earnings-results-2010-11-09",
+        "q4-fy-2010-earnings-results-2011-02-15",
+        "q1-2011-earnings-results-2011-05-04",
+        "q2-2011-earnings-results-2011-08-03",
+        "q3-2011-earnings-results-2011-11-02",
+        "q4-fy-2011-earnings-results-2012-02-15",
+        "q1-2012-earnings-results-2012-05-09",
+        "q2-2012-earnings-results-2012-07-25",
+        "q3-2012-earnings-results-2012-11-05",
+        "q4-fy-2012-earnings-results-2013-02-20",
+        "q1-2013-earnings-results-2013-05-08",
+        "doe-loan-repaid-2013",
+        "q2-2013-earnings-results-2013-08-07",
+        "q3-2013-earnings-results-2013-11-05",
+        "q4-fy-2013-earnings-results-2014-02-19",
+        "q1-2014-earnings-results-2014-05-07",
+        "q2-2014-earnings-results-2014-07-31",
+        "q3-2014-earnings-results-2014-11-05",
+        "q4-fy-2014-earnings-results-2015-02-11",
+        "q1-2015-earnings-results-2015-05-06",
+        "q2-2015-earnings-results-2015-08-05",
+        "q3-2015-earnings-results-2015-11-03",
+        "q4-fy-2015-earnings-results-2016-02-10",
+        "q1-2016-earnings-results-2016-05-04",
+        "q2-2016-earnings-results-2016-08-03",
+        "q3-2016-earnings-results-2016-10-26",
+        "q4-fy-2016-earnings-results-2017-02-22",
+        "q1-2017-earnings-results-2017-05-03",
+        "q2-2017-earnings-results-2017-08-02",
+        "q3-2017-earnings-results-2017-11-01",
+        "q4-2017-production-deliveries-2018-01-03",
+        "q4-fy-2017-earnings-results-2018-02-07",
+        "q1-2018-production-deliveries-2018-04-03",
+        "q1-2018-earnings-results-2018-05-02",
+        "q2-2018-production-deliveries-5k-week-2018-07-02",
+        "q2-2018-earnings-results-2018-08-01",
+        "q3-2018-production-deliveries-2018-10-02",
+        "q3-2018-first-gaap-profit-2018-10-24",
+        "q4-fy-2018-production-deliveries-2019-01-02",
+        "q4-fy-2018-earnings-results-2019-01-30",
+        "q1-2019-earnings-results-2019-04-24",
+        "capital-raise-equity-convert-2019-05-02",
+        "q2-2019-production-deliveries-2019-07-02",
+        "q2-2019-earnings-results-2019-07-24",
+        "q3-2019-earnings-results-2019-10-23",
+        "q4-fy-2019-earnings-results-2020-01-29",
+        "q1-2020-earnings-results-2020-04-29",
+        "q2-2020-earnings-results-2020-07-22",
+        "five-for-one-stock-split-announced-2020",
+        "five-for-one-stock-split-trading-2020",
+        "q3-2020-earnings-results-2020-10-21",
+        "sp500-addition-announced-2020-11-16",
+        "sp500-added-2020-12-21",
+        "q4-fy-2020-production-deliveries-2021-01-02",
+        "first-full-year-gaap-profit-2020",
+        "bitcoin-1-5b-purchase-2021-02-08",
+        "bitcoin-vehicle-payments-begin-2021-03-24",
+        "q1-2021-production-deliveries-2021-04-02",
+        "q1-2021-earnings-results-2021-04-26",
+        "bitcoin-vehicle-payments-suspended-2021-05-12",
+        "q2-2021-production-deliveries-2021-07-02",
+        "q2-2021-earnings-results-2021-07-26",
+        "q3-2021-production-deliveries-2021-10-02",
+        "q3-2021-earnings-results-2021-10-20",
+        "deliveries-2021-over-936000",
+        "q4-fy-2021-earnings-results-2022-01-26",
+        "q1-2022-earnings-results-2022-04-20",
+        "q2-2022-production-deliveries-2022-07-02",
+        "q2-2022-earnings-results-2022-07-20",
+        "three-for-one-stock-split-announced-2022",
+        "inflation-reduction-act-2022",
+        "three-for-one-stock-split-trading-2022",
+        "q3-2022-production-deliveries-2022-10-02",
+        "q3-2022-earnings-results-2022-10-19",
+        "q4-fy-2022-earnings-results-2023-01-25",
+        "q1-2023-production-deliveries-2023-04-02",
+        "q1-2023-earnings-results-2023-04-19",
+        "q2-2023-production-deliveries-2023-07-02",
+        "q2-2023-earnings-results-2023-07-19",
+        "q3-2023-production-deliveries-2023-10-02",
+        "q3-2023-earnings-results-2023-10-18",
+        "q4-fy-2023-production-deliveries-2024-01-02",
+        "q4-fy-2023-earnings-results-2024-01-24",
+        "q1-2024-production-deliveries-storage-2024-04-02",
+        "q1-2024-earnings-results-2024-04-23",
+        "q2-2024-production-deliveries-storage-2024-07-02",
+        "q2-2024-earnings-results-2024-07-23",
+        "q3-2024-production-deliveries-storage-2024-10-02",
+        "q3-2024-earnings-results-2024-10-23",
+        "q4-2024-production-deliveries-storage-2025-01-02",
+        "q4-fy-2024-earnings-results-2025-01-29",
+        "q1-2025-production-deliveries-storage-2025-04-02",
+        "q1-2025-earnings-results-2025-04-22",
+        "q2-2025-production-deliveries-storage-2025-07-02",
+        "q2-2025-earnings-results-2025-07-23",
+        "q3-2025-production-deliveries-storage-2025-10-02",
+        "q3-2025-earnings-results-2025-10-22",
+        "fy-2025-production-deliveries-storage-2025",
+        "q4-2025-production-deliveries-storage-2026-01-02",
+        "xai-series-e-investment-2026-01-16",
+        "q4-fy-2025-earnings-results-2026-01-28",
+        "q1-2026-production-deliveries-storage-2026-04-02",
+        "q1-2026-earnings-results-2026-04-22",
+        "cumulative-deliveries-9-7-million-q2-2026",
+        "services-other-record-gross-profit-q2-2026",
+        "ttm-revenue-over-100b-first-time-q2-2026",
+        "q2-2026-production-deliveries-storage-2026-07-02",
+        "q2-2026-earnings-results-2026-07-22",
+        "credit-facilities-30b-2026-09-29",
+        "q3-2026-production-deliveries-storage-2026-10-02",
+        "capex-2026-guidance-about-20b-2026-10-21",
+        "q3-2026-earnings-results-2026-10-21"
+      ]
+    },
+    {
+      "id": "musk-companies",
+      "title": "Tesla and SpaceX, xAI",
+      "blurb": "Where Tesla crosses paths with Musk's other companies: a shared chip fab, an xAI investment and merger talks.",
+      "eventIds": [
+        "xai-series-e-investment-2026-01-16",
+        "terafab-austin-announced-2026-03-22",
+        "spacex-q3-2026-results-2026-10-20",
+        "spacex-starship-flight-15-dual-catch-planned-2026-10-20",
+        "spacex-tesla-merger-special-committees-2026-10-20",
+        "spacex-40b-apollo-gpu-finance-lease-2026-10-26"
+      ]
+    },
+    {
+      "id": "pay-governance",
+      "title": "Musk's pay and Tesla's governance",
+      "blurb": "The CEO pay packages, the move to Texas, board changes and shareholder votes.",
+      "eventIds": [
+        "incorporated-delaware-2003",
+        "musk-chairman-april-2004",
+        "name-change-tesla-inc-2017",
+        "ceo-performance-award-stockholder-approval-2018-03-21",
+        "musk-funding-secured-tweet-2018",
+        "sec-musk-tesla-settlement-2018",
+        "board-ellison-wilson-thompson-2018-12-27",
+        "hq-moved-to-texas-2021",
+        "funding-secured-securities-trial-verdict-2023-02-03",
+        "cfo-taneja-succeeds-kirkhorn-2023-08-04",
+        "tornetta-chancery-rescinds-2018-award-2024-01-30",
+        "votetesla-proxy-website-update-2024-05-03",
+        "texas-redomestication-proxy-letter-2024",
+        "delaware-to-texas-conversion-2024",
+        "bylaws-amendments-texas-2025-05-15",
+        "hartung-appointed-board-2025-05-15",
+        "annual-meeting-2025-date-set-2025-07-09",
+        "ceo-interim-restricted-stock-award-2025-08-03",
+        "indemnification-agreements-updated-2025-09-03",
+        "annual-meeting-2025-ceo-performance-award-approved-2025-11-06",
+        "delaware-supreme-court-reinstates-2018-award-2025-12-19",
+        "ceo-interim-award-forfeited-2026-04-21",
+        "musk-exercises-2018-ceo-award-options-2026-06-16",
+        "form-144-taneja-proposed-sale-2026-09-08",
+        "annual-meeting-2026-proxy-filed-2026-10-19",
+        "spacex-tesla-merger-special-committees-2026-10-20"
+      ]
+    }
+  ],
+  "cards": {
+    "incorporated-delaware-2003": {
+      "headline": "Tesla Motors is incorporated in Delaware",
+      "why": "The company that became Tesla, Inc. was legally born on July 1, 2003."
+    },
+    "musk-chairman-april-2004": {
+      "headline": "Elon Musk leads funding, becomes chairman",
+      "why": "Musk led the Series A funding round and became chairman of the board."
+    },
+    "roadster-first-delivery-2008": {
+      "headline": "The first Roadster reaches a customer",
+      "why": "Tesla's first customer car handoff, after slips from mid-2007; about 2,450 Roadsters were delivered by 2012."
+    },
+    "first-store-los-angeles-2008": {
+      "headline": "Tesla's first store opens in Los Angeles",
+      "why": "It started Tesla's model of selling cars directly from company-owned stores."
+    },
+    "model-s-prototype-reveal-2009": {
+      "headline": "Model S prototype shown to the press",
+      "why": "A family electric sedan meant to reach far more buyers than the Roadster."
+    },
+    "doe-atvm-loan-facility-2010": {
+      "headline": "$465 million government loan arranged",
+      "why": "A Department of Energy loan of up to about $465 million backed Tesla's car and powertrain manufacturing."
+    },
+    "fremont-factory-purchase-agreement-2010": {
+      "headline": "Deal to buy the Fremont factory",
+      "why": "Tesla agreed to buy the former NUMMI plant and land in Fremont for $42 million."
+    },
+    "ipo-nasdaq-2010": {
+      "headline": "Tesla goes public as TSLA",
+      "why": "The IPO priced at $17 a share and brought Tesla $188.8 million, plus $50 million from Toyota."
+    },
+    "q2-2010-earnings-results-2010-08-04": {
+      "headline": "Q2 2010: $28.4M revenue, $38.5M loss",
+      "why": "Over 1,200 Roadsters were on the road in 28 countries (a cumulative count; no quarterly delivery figure is given)."
+    },
+    "fremont-factory-purchase-2010": {
+      "headline": "Tesla takes over the Fremont factory",
+      "why": "Tesla gained a full car plant and about 210 acres, intended for Model S and future vehicles."
+    },
+    "q3-2010-earnings-results-2010-11-09": {
+      "headline": "Q3 2010: $31.2M revenue, $34.9M loss",
+      "why": "Over 1,300 Roadsters were on the road in 31 countries as of October 31, 2010 (cumulative; no quarterly delivery figure is given)."
+    },
+    "q4-fy-2010-earnings-results-2011-02-15": {
+      "headline": "Q4 2010: $36.3M revenue, $51.4M loss",
+      "why": "Tesla delivered its 1,500th Roadster during the quarter; full-year 2010 revenue was $116.7 million and the full-year net loss was $154.3 million."
+    },
+    "q1-2011-earnings-results-2011-05-04": {
+      "headline": "Q1 2011: $49.0M revenue, $48.9M loss",
+      "why": "Tesla had delivered over 1,650 Roadsters worldwide (cumulative)."
+    },
+    "q2-2011-earnings-results-2011-08-03": {
+      "headline": "Q2 2011: $58.2M revenue, $58.9M loss",
+      "why": "Tesla delivered 190 Roadsters in the quarter."
+    },
+    "q3-2011-earnings-results-2011-11-02": {
+      "headline": "Q3 2011: $57.7M revenue, $65.1M loss",
+      "why": "Tesla delivered 184 Roadsters in the quarter."
+    },
+    "model-x-prototype-reveal-2012": {
+      "headline": "Model X prototype revealed",
+      "why": "The first planned vehicle built on the Model S platform, a seven-seat crossover."
+    },
+    "q4-fy-2011-earnings-results-2012-02-15": {
+      "headline": "Q4 2011: $39.4M revenue, $81.5M loss",
+      "why": "Total Roadster deliveries worldwide exceeded 2,150; full-year 2011 revenue was $204.2 million and the full-year net loss was $254.4 million."
+    },
+    "q1-2012-earnings-results-2012-05-09": {
+      "headline": "Q1 2012: $30.2M revenue, $89.9M loss",
+      "why": "Total Roadster deliveries exceeded 2,250."
+    },
+    "model-s-deliveries-begin-2012": {
+      "headline": "Model S deliveries begin",
+      "why": "Tesla's first mass-production car reached customers; about 2,650 were delivered by the end of 2012."
+    },
+    "q2-2012-earnings-results-2012-07-25": {
+      "headline": "Q2 2012: $26.7M revenue, $105.6M loss",
+      "why": "Model S customer deliveries officially began on June 22 with an event at the Fremont factory; no Model S delivery count is given for the quarter."
+    },
+    "supercharger-network-unveiled-2012-09-24": {
+      "headline": "Supercharger network launches with six stations",
+      "why": "Tesla opened its own fast-charging network, free for Model S owners at launch."
+    },
+    "q3-2012-earnings-results-2012-11-05": {
+      "headline": "Q3 2012: $50.1M revenue, $110.8M loss",
+      "why": "Tesla made over 250 Model S deliveries in the quarter."
+    },
+    "model-s-motor-trend-car-of-the-year-2012-11-12": {
+      "headline": "Model S wins Car of the Year",
+      "why": "It was the first all-electric car to win Motor Trend's Car of the Year, by unanimous vote."
+    },
+    "residential-energy-storage-sales-2013": {
+      "headline": "Tesla starts selling home batteries",
+      "why": "The first step of Tesla's energy storage business, before commercial and utility systems."
+    },
+    "q4-fy-2012-earnings-results-2013-02-20": {
+      "headline": "Q4 2012: $306.3M revenue, $89.9M loss",
+      "why": "Tesla delivered approximately 2,400 Model S vehicles in the quarter and about 2,650 for the year; full-year 2012 revenue was $413.3 million and the full-year net loss was $396.2 million."
+    },
+    "q1-2013-earnings-results-2013-05-08": {
+      "headline": "Q1 2013: $561.8M revenue, $11.2M profit",
+      "why": "4,900 vehicles delivered in the quarter."
+    },
+    "consumer-reports-model-s-99-score-2013-05-09": {
+      "headline": "Consumer Reports gives Model S 99/100",
+      "why": "It was the highest road-test score Consumer Reports had awarded at the time."
+    },
+    "doe-loan-repaid-2013": {
+      "headline": "Government loan repaid nine years early",
+      "why": "Tesla paid off about $451.8 million owed on its Department of Energy loan."
+    },
+    "q2-2013-earnings-results-2013-08-07": {
+      "headline": "Q2 2013: $405.1M revenue, $30.5M loss",
+      "why": "Record sales of 5,150 Model S vehicles in North America."
+    },
+    "model-s-nhtsa-5-star-2013-08-19": {
+      "headline": "Model S gets five stars everywhere",
+      "why": "NHTSA gave Model S five stars overall and in every category, though it disputed Tesla's \"5.4 stars\" claim."
+    },
+    "q3-2013-earnings-results-2013-11-05": {
+      "headline": "Q3 2013: $431.3M revenue, $38.5M loss",
+      "why": "A record 5,500 Model S deliveries."
+    },
+    "nhtsa-pe13037-model-s-battery-fires-2013-11-15": {
+      "headline": "Regulators probe Model S battery fires",
+      "why": "After two road-debris fires, Tesla added underbody shields; NHTSA closed the probe without finding a defect trend."
+    },
+    "commercial-utility-storage-sales-2014": {
+      "headline": "Energy storage expands to businesses and utilities",
+      "why": "Tesla's storage sales grew beyond homes to commercial and utility customers."
+    },
+    "model-s-wall-adapter-recall-14v006-2014-01-14": {
+      "headline": "Wall-adapter fix classed as a recall",
+      "why": "NHTSA called Tesla's over-the-air charging fix a recall, though Musk argued the word shouldn't apply."
+    },
+    "q4-fy-2013-earnings-results-2014-02-19": {
+      "headline": "Q4 2013: $615.2M revenue, $16.3M loss",
+      "why": "Record deliveries of 6,892 Model S vehicles in Q4 and 22,477 vehicles for 2013; full-year GAAP revenue was $2.01 billion and the full-year net loss was $74.0 million."
+    },
+    "gigafactory-announced-2014": {
+      "headline": "Tesla plans a giant battery factory",
+      "why": "The Gigafactory aimed to make enough batteries for about 500,000 vehicles a year by 2020."
+    },
+    "q1-2014-earnings-results-2014-05-07": {
+      "headline": "Q1 2014: $620.5M revenue, $49.8M loss",
+      "why": "Tesla delivered 6,457 Model S vehicles, slightly above guidance."
+    },
+    "gigafactory-nevada-groundbreaking-2014": {
+      "headline": "Ground broken on Nevada Gigafactory",
+      "why": "Construction of Tesla's first Gigafactory began near Reno, Nevada."
+    },
+    "q2-2014-earnings-results-2014-07-31": {
+      "headline": "Q2 2014: $769.3M revenue, $61.9M loss",
+      "why": "Record Q2 Model S deliveries of 7,579 vehicles."
+    },
+    "autopilot-hardware-2014": {
+      "headline": "Autopilot hardware arrives on Model S",
+      "why": "Every Model S began carrying the sensors that Autopilot software would later use."
+    },
+    "dual-motor-powertrain-launch-2014": {
+      "headline": "Dual-motor all-wheel drive launches",
+      "why": "Two motors gave Model S all-wheel drive with better efficiency, performance and range."
+    },
+    "q3-2014-earnings-results-2014-11-05": {
+      "headline": "Q3 2014: $851.8M revenue, $74.7M loss",
+      "why": "7,785 deliveries, its highest quarter to that point, despite a factory shutdown in July."
+    },
+    "q4-fy-2014-earnings-results-2015-02-11": {
+      "headline": "Q4 2014: $956.7M revenue, $107.6M loss",
+      "why": "Tesla delivered 9,834 vehicles as P85D production delays pushed some deliveries into Q1; full-year GAAP revenue was $3.20 billion and the full-year net loss was $294.0 million."
+    },
+    "q1-2015-earnings-results-2015-05-06": {
+      "headline": "Q1 2015: $939.9M revenue, $154.2M loss",
+      "why": "Record quarterly deliveries of 10,045 vehicles."
+    },
+    "energy-powerwall-deliveries-2015": {
+      "headline": "Powerwall and Powerpack deliveries begin",
+      "why": "Tesla Energy's first branded home and business batteries reached customers."
+    },
+    "q2-2015-earnings-results-2015-08-05": {
+      "headline": "Q2 2015: $955.0M revenue, $184.2M loss",
+      "why": "Record quarterly deliveries of 11,532 vehicles."
+    },
+    "consumer-reports-model-s-p85d-103-2015-08-27": {
+      "headline": "Model S P85D breaks Consumer Reports' scale",
+      "why": "The car scored 103 out of 100, forcing Consumer Reports to change its scoring."
+    },
+    "model-x-deliveries-begin-2015": {
+      "headline": "Model X deliveries begin",
+      "why": "Tesla's falcon-wing SUV expanded the lineup beyond the Model S sedan."
+    },
+    "autopilot-software-2015": {
+      "headline": "Autopilot switched on over the air",
+      "why": "About 40,000 cars gained lane-keeping, lane changes and self-parking through a software update."
+    },
+    "consumer-reports-model-s-not-recommended-2015-10-20": {
+      "headline": "Model S loses Consumer Reports recommendation",
+      "why": "Owner-reported reliability problems cost the car its \"recommended\" status, and Tesla shares fell."
+    },
+    "q3-2015-earnings-results-2015-11-03": {
+      "headline": "Q3 2015: $936.8M revenue, $229.9M loss",
+      "why": "A record 11,603 new vehicles delivered and the launch and start of deliveries of Model X."
+    },
+    "q4-fy-2015-earnings-results-2016-02-10": {
+      "headline": "Q4 2015: $1.21B revenue, $320.4M loss",
+      "why": "Q4 2015 total revenue of $1.21 billion and a net loss of $320.4 million."
+    },
+    "model-3-unveil-2016": {
+      "headline": "Model 3 unveiled at $35,000",
+      "why": "Tesla's mass-market sedan was promised for late 2017, with $1,000 reservations."
+    },
+    "q1-2016-earnings-results-2016-05-04": {
+      "headline": "Q1 2016: $1.15B revenue, $282.3M loss",
+      "why": "Q1 2016 total revenue of $1.15 billion and a net loss of $282.3 million."
+    },
+    "nhtsa-pe16007-autopilot-fatal-crash-2016-06-28": {
+      "headline": "Probe opens after first fatal Autopilot crash",
+      "why": "NHTSA investigated after Joshua Brown's death, then closed the probe without finding a defect."
+    },
+    "q2-2016-earnings-results-2016-08-03": {
+      "headline": "Q2 2016: $1.27B revenue, $293.2M loss",
+      "why": "Q2 2016 total revenue of $1.27 billion and a net loss of $293.2 million."
+    },
+    "software-8-radar-autopilot-2016-09-11": {
+      "headline": "Radar becomes a main Autopilot sensor",
+      "why": "Software 8.0 used radar alongside the camera to see more of the road ahead."
+    },
+    "powerwall2-powerpack2-production-2016": {
+      "headline": "Powerwall 2 and Powerpack 2 production starts",
+      "why": "The second-generation batteries began production at Gigafactory 1."
+    },
+    "autopilot-hw2-2016": {
+      "headline": "All new Teslas get Hardware 2",
+      "why": "Every new car got eight cameras and a new computer meant for future self-driving."
+    },
+    "tesla-coast-to-coast-autonomous-drive-promise-2016-10-19": {
+      "headline": "Musk promises a hands-free LA-to-New York self-driving demo by end of 2017",
+      "why": "He said the car would drop the rider off in Times Square and then park itself, without the need for a single touch."
+    },
+    "q3-2016-earnings-results-2016-10-26": {
+      "headline": "Q3 2016: $2.30B revenue, $21.9M profit",
+      "why": "Q3 2016 total revenue of $2.30 billion and GAAP net income of $21.9 million."
+    },
+    "solar-roof-reveal-2016": {
+      "headline": "Solar Roof tiles revealed",
+      "why": "Tesla and SolarCity showed glass roof tiles that double as solar panels."
+    },
+    "solarcity-acquisition-2016": {
+      "headline": "Tesla completes SolarCity acquisition",
+      "why": "SolarCity became a wholly owned Tesla subsidiary, bringing solar into the company."
+    },
+    "panasonic-gf2-pv-agreement-2016": {
+      "headline": "Panasonic to make solar cells in Buffalo",
+      "why": "The deal set up solar cell and module production at Gigafactory 2."
+    },
+    "gigafactory-1-cell-production-2017": {
+      "headline": "Nevada Gigafactory starts making battery cells",
+      "why": "Tesla and Panasonic began mass-producing 2170 cells, first for energy products, then Model 3."
+    },
+    "name-change-tesla-inc-2017": {
+      "headline": "Tesla Motors becomes Tesla, Inc.",
+      "why": "The company dropped \"Motors\" from its legal name; the ticker stayed TSLA."
+    },
+    "q4-fy-2016-earnings-results-2017-02-22": {
+      "headline": "Q4 2016: $2.28B revenue, $121.3M loss",
+      "why": "Q4 2016 total revenue of $2.28 billion and a net loss attributable to common stockholders of $121.3 million."
+    },
+    "q1-2017-earnings-results-2017-05-03": {
+      "headline": "Q1 2017: $2.70B revenue, $330.3M loss",
+      "why": "Q1 2017 total revenue of $2.70 billion and a net loss attributable to common stockholders of $330.3 million."
+    },
+    "model-x-nhtsa-5-star-2017-06-13": {
+      "headline": "Model X earns five stars across the board",
+      "why": "It was reported as the first SUV to get five stars in every NHTSA category."
+    },
+    "model-3-deliveries-begin-2017": {
+      "headline": "First Model 3s handed over",
+      "why": "The \"even more affordable car\" from Tesla's original Master Plan began reaching buyers."
+    },
+    "q2-2017-earnings-results-2017-08-02": {
+      "headline": "Q2 2017: $2.79B revenue, $336.4M loss",
+      "why": "Q2 2017 total revenue of $2.79 billion and a net loss attributable to common stockholders of $336.4 million."
+    },
+    "q3-2017-earnings-results-2017-11-01": {
+      "headline": "Q3 2017: $2.98B revenue, $619.4M loss",
+      "why": "Q3 2017 total revenue of $2.98 billion and a net loss attributable to common stockholders of $619.4 million."
+    },
+    "roadster-second-gen-reveal-2017-11-16": {
+      "headline": "New Roadster surprises at Semi event",
+      "why": "Tesla claimed 0-60 mph in 1.9 seconds, 620 miles of range and a $200,000 base price."
+    },
+    "tesla-semi-unveil-2017": {
+      "headline": "Tesla Semi electric truck unveiled",
+      "why": "Production was promised for 2019 but slipped; first deliveries came in December 2022."
+    },
+    "solar-roof-gf2-initial-production-2017": {
+      "headline": "Solar Roof production starts in Buffalo",
+      "why": "Tesla began making Solar Roof tiles, with a slow ramp due to manufacturing and install complexity."
+    },
+    "south-australia-battery-complete-2017": {
+      "headline": "South Australia's giant battery completed",
+      "why": "Tesla finished what it called the world's largest battery, ahead of schedule."
+    },
+    "q4-2017-production-deliveries-2018-01-03": {
+      "headline": "Q4 2017: Model 3 ramp still slow",
+      "why": "Only 1,550 Model 3s were delivered as Tesla set targets of 2,500, then 5,000 a week."
+    },
+    "q4-fy-2017-earnings-results-2018-02-07": {
+      "headline": "Q4 2017: $3.29B revenue, $675.4M loss",
+      "why": "Q4 2017 total revenue of $3.29 billion and a net loss attributable to common stockholders of $675.4 million."
+    },
+    "ceo-performance-award-stockholder-approval-2018-03-21": {
+      "headline": "Shareholders approve Musk's 2018 pay award",
+      "why": "About 73% of disinterested shares approved the CEO Performance Award."
+    },
+    "q1-2018-production-deliveries-2018-04-03": {
+      "headline": "Q1 2018: 29,980 deliveries",
+      "why": "Model 3 output was rising, and Tesla said it didn't need to raise money that year."
+    },
+    "q1-2018-earnings-results-2018-05-02": {
+      "headline": "Q1 2018: $710 million loss",
+      "why": "Tesla reported a big loss but expected profit later in 2018 if the Model 3 ramp continued."
+    },
+    "consumer-reports-model-3-not-recommended-2018-05-21": {
+      "headline": "Model 3 braking fails Consumer Reports test",
+      "why": "Consumer Reports withheld its recommendation over long stopping distances."
+    },
+    "model-3-braking-ota-cr-recommended-2018-05-30": {
+      "headline": "Software update fixes Model 3 braking",
+      "why": "An over-the-air update cut stopping distance by 19 feet and won Consumer Reports' recommendation."
+    },
+    "q2-2018-production-deliveries-5k-week-2018-07-02": {
+      "headline": "Tesla hits 5,000 Model 3s in a week",
+      "why": "The long-promised production goal was reached in the last week of Q2 2018."
+    },
+    "gigafactory-shanghai-announced-2018": {
+      "headline": "Shanghai Gigafactory announced",
+      "why": "It was Tesla's first planned Gigafactory outside the United States."
+    },
+    "q2-2018-earnings-results-2018-08-01": {
+      "headline": "Q2 2018: $4.00B revenue, $717.5M loss",
+      "why": "Q2 2018 total revenue of $4.00 billion and a net loss attributable to common stockholders of $717.5 million."
+    },
+    "musk-funding-secured-tweet-2018": {
+      "headline": "Musk tweets \"funding secured\" at $420",
+      "why": "A tweet about taking Tesla private led to a board review and, later, an SEC case."
+    },
+    "model-3-nhtsa-5-star-2018-09-20": {
+      "headline": "Model 3 earns five stars from NHTSA",
+      "why": "The rear-wheel-drive Model 3 scored five stars overall and in every category."
+    },
+    "sec-musk-tesla-settlement-2018": {
+      "headline": "SEC settles over \"funding secured\" tweets",
+      "why": "Musk gave up the chairman role for three years, and he and Tesla each paid $20 million."
+    },
+    "q3-2018-production-deliveries-2018-10-02": {
+      "headline": "Q3 2018: 83,500 deliveries",
+      "why": "Model 3 deliveries jumped to 55,840 as weekly output passed 5,300."
+    },
+    "software-version-9-release-2018-10-05": {
+      "headline": "Software 9.0 brings a new interface",
+      "why": "The update added a redesigned screen layout and dashcam recording for many cars."
+    },
+    "q3-2018-first-gaap-profit-2018-10-24": {
+      "headline": "Tesla posts a $312 million profit",
+      "why": "Q3 2018 was described as Tesla's first GAAP-profitable quarter, helped by Model 3."
+    },
+    "navigate-on-autopilot-us-rollout-2018-10-26": {
+      "headline": "Navigate on Autopilot starts rolling out",
+      "why": "Cars could guide themselves from on-ramp to off-ramp on highways, with driver supervision."
+    },
+    "board-ellison-wilson-thompson-2018-12-27": {
+      "headline": "Two new independent directors join board",
+      "why": "Larry Ellison and Kathleen Wilson-Thompson joined as Tesla worked through its SEC settlement steps."
+    },
+    "q4-fy-2018-production-deliveries-2019-01-02": {
+      "headline": "2018 deliveries reach 245,240",
+      "why": "Model 3 made up most of Tesla's 2018 deliveries, and U.S. prices fell $2,000."
+    },
+    "gigafactory-shanghai-construction-2019": {
+      "headline": "Shanghai Gigafactory construction begins",
+      "why": "Tesla broke ground in China, aiming to build Model 3 there by the end of 2019."
+    },
+    "q4-fy-2018-earnings-results-2019-01-30": {
+      "headline": "Q4 2018: $7.23B revenue, $139.5M profit",
+      "why": "Q4 2018 total revenue of $7.23 billion and GAAP net income attributable to common stockholders of $139.5 million."
+    },
+    "consumer-reports-model-3-recommendation-withdrawn-2019-02-21": {
+      "headline": "Model 3 loses recommendation over reliability",
+      "why": "Owner problems led Consumer Reports to pull its recommendation, restored that November."
+    },
+    "model-y-unveil-2019": {
+      "headline": "Model Y compact SUV unveiled",
+      "why": "A smaller SUV built on the Model 3 platform, priced from about $39,000."
+    },
+    "autonomy-day-fsd-computer-2019-04-22": {
+      "headline": "Tesla shows its own self-driving chip",
+      "why": "Tesla's in-house Hardware 3 computer replaced Nvidia-based hardware in new cars."
+    },
+    "tesla-million-robotaxis-2020-promise-2019-04-22": {
+      "headline": "Musk predicts over a million Tesla robotaxis on the road in 2020",
+      "why": "He also said Tesla expected to have its first operating robotaxis with no one in them in 2020, subject to regulatory approval in at least some places."
+    },
+    "q1-2019-earnings-results-2019-04-24": {
+      "headline": "Q1 2019: $4.54B revenue, $702.1M loss",
+      "why": "Q1 2019 total revenue of $4.54 billion and a net loss attributable to common stockholders of $702.1 million."
+    },
+    "capital-raise-equity-convert-2019-05-02": {
+      "headline": "Tesla raises money with stock and notes",
+      "why": "Tesla sold new shares and convertible notes, expecting about $2.3 billion in net proceeds before underwriter options."
+    },
+    "q2-2019-production-deliveries-2019-07-02": {
+      "headline": "Q2 2019: record production and deliveries",
+      "why": "Tesla built a record 87,048 cars and delivered about 95,200, mostly Model 3."
+    },
+    "model-3-euro-ncap-5-star-2019-07-03": {
+      "headline": "Model 3 earns five stars in Europe",
+      "why": "Euro NCAP gave Model 3 its highest Safety Assist score under the protocol then in use."
+    },
+    "model-s-motor-trend-ultimate-car-of-the-year-2019-07-10": {
+      "headline": "Model S named \"Ultimate Car of the Year\"",
+      "why": "MotorTrend called the 2013 Model S its most significant past Car of the Year winner."
+    },
+    "q2-2019-earnings-results-2019-07-24": {
+      "headline": "Q2 2019: $6.35B revenue, $408.3M loss",
+      "why": "Q2 2019 total revenue of $6.35 billion and a net loss attributable to common stockholders of $408.3 million."
+    },
+    "model-3-iihs-top-safety-pick-plus-2019-09-19": {
+      "headline": "Model 3 wins IIHS Top Safety Pick+",
+      "why": "It earned the insurance institute's highest safety award."
+    },
+    "software-version-10-release-2019-09-26": {
+      "headline": "Software V10 adds Smart Summon",
+      "why": "Cars could drive themselves to their owners in parking lots, in beta."
+    },
+    "q3-2019-earnings-results-2019-10-23": {
+      "headline": "Q3 2019: $6.3B revenue, $143M profit",
+      "why": "17,483 Model S/X and 79,703 Model 3 deliveries."
+    },
+    "solar-roof-gen3-sales-2019": {
+      "headline": "Cheaper third-generation Solar Roof launches",
+      "why": "Tesla said version 3 cost less than a regular roof plus add-on solar panels."
+    },
+    "cybertruck-unveil-2019": {
+      "headline": "Cybertruck unveiled in Hawthorne",
+      "why": "Tesla showed its stainless-steel pickup; deliveries didn't begin until November 2023."
+    },
+    "megapack-deliveries-begin-2019": {
+      "headline": "First Megapack deliveries",
+      "why": "Tesla's utility-scale battery reached early customers, including one in New Brunswick, Canada."
+    },
+    "gigafactory-shanghai-model-3-production-2019": {
+      "headline": "First China-built Model 3s delivered",
+      "why": "Shanghai began building cars less than 10 months after groundbreaking."
+    },
+    "china-model-3-customer-deliveries-2020-01-07": {
+      "headline": "China-built Model 3 reaches public buyers",
+      "why": "The Shanghai plant began handing cars to customers outside the company."
+    },
+    "q4-fy-2019-earnings-results-2020-01-29": {
+      "headline": "Q4 2019: $7.4B revenue, $105M profit",
+      "why": "19,475 Model S/X and 92,620 Model 3 deliveries in Q4."
+    },
+    "ntsb-mountain-view-model-x-probable-cause-2020-02-25": {
+      "headline": "NTSB faults Autopilot limits in fatal crash",
+      "why": "Investigators blamed system limits, driver distraction and weak driver-monitoring for Walter Huang's death."
+    },
+    "model-y-deliveries-begin-2020": {
+      "headline": "Model Y deliveries begin",
+      "why": "The compact SUV arrived months ahead of the original late-2020 target."
+    },
+    "traffic-light-stop-sign-control-2020-04-24": {
+      "headline": "Cars learn to stop at lights and signs",
+      "why": "A beta feature let cars slow and stop for traffic lights and stop signs."
+    },
+    "q1-2020-earnings-results-2020-04-29": {
+      "headline": "Q1 2020: $6.0B revenue, $16M profit",
+      "why": "88,496 total deliveries (12,230 Model S/X and 76,266 Model 3/Y)."
+    },
+    "munich-court-autopilot-advertising-ruling-2020-07-14": {
+      "headline": "German court rules Autopilot ads misleading",
+      "why": "A Munich court barred phrases suggesting Teslas could drive themselves, finding buyers could be misled."
+    },
+    "next-us-gigafactory-site-selected-2020": {
+      "headline": "Austin, Texas picked for next Gigafactory",
+      "why": "The Texas plant was chosen to build Cybertruck, Model Y and Semi."
+    },
+    "q2-2020-earnings-results-2020-07-22": {
+      "headline": "Q2 2020: $6.0B revenue, $104M profit",
+      "why": "90,891 total deliveries (10,614 Model S/X and 80,277 Model 3/Y)."
+    },
+    "five-for-one-stock-split-announced-2020": {
+      "headline": "Tesla announces a five-for-one stock split",
+      "why": "Each shareholder would get four extra shares for every share held."
+    },
+    "five-for-one-stock-split-trading-2020": {
+      "headline": "Split-adjusted trading begins",
+      "why": "Tesla shares began trading on a five-for-one split-adjusted basis."
+    },
+    "battery-day-4680-2020-09-22": {
+      "headline": "Battery Day introduces the 4680 cell",
+      "why": "Tesla presented a bigger, tabless battery cell meant to cut cost and add range."
+    },
+    "model-s-plaid-introduced-2020": {
+      "headline": "Model S and X Plaid introduced",
+      "why": "A three-motor version replaced the Performance models at the top of the lineup."
+    },
+    "tesla-25k-car-promise-2020-09-22": {
+      "headline": "Battery Day: Musk promises a ~$25,000 Tesla in about three years",
+      "why": "Tesla's Q3 2020 Update said Battery Day described a path to reducing battery pack cost per kWh by 56%, enabling production of a profitable $25,000 vehicle."
+    },
+    "fsd-beta-limited-release-2020-10-20": {
+      "headline": "FSD Beta reaches a small group",
+      "why": "City-streets self-driving software went to Early Access drivers, who still had to supervise."
+    },
+    "q3-2020-earnings-results-2020-10-21": {
+      "headline": "Q3 2020: $8.8B revenue, $331M profit",
+      "why": "139,593 total deliveries (15,275 Model S/X and 124,318 Model 3/Y)."
+    },
+    "sp500-addition-announced-2020-11-16": {
+      "headline": "Tesla to join the S&P 500",
+      "why": "S&P announced Tesla would join the index on December 21, 2020."
+    },
+    "sp500-added-2020-12-21": {
+      "headline": "Tesla joins the S&P 500",
+      "why": "Tesla entered the index at full weight in a single step."
+    },
+    "q4-fy-2020-production-deliveries-2021-01-02": {
+      "headline": "2020 deliveries reach nearly 500,000",
+      "why": "Tesla delivered 499,550 cars in 2020 and began Model Y production in Shanghai."
+    },
+    "model-y-nhtsa-5-star-2021-01-13": {
+      "headline": "Model Y earns five stars from NHTSA",
+      "why": "Tesla said its rollover risk was the lowest NHTSA had recorded for an SUV."
+    },
+    "first-full-year-gaap-profit-2020": {
+      "headline": "Tesla's first profitable full year",
+      "why": "Tesla earned $721 million in 2020 after losing $862 million in 2019."
+    },
+    "mcu-emmc-recall-21v035-2021-02-02": {
+      "headline": "Recall for failing touchscreen memory",
+      "why": "About 135,000 older Model S and X cars got upgraded memory boards after NHTSA asked."
+    },
+    "bitcoin-1-5b-purchase-2021-02-08": {
+      "headline": "Tesla buys $1.5 billion in bitcoin",
+      "why": "Tesla changed its investment policy to hold digital assets and planned to accept bitcoin."
+    },
+    "china-regulators-summon-tesla-2021-02-08": {
+      "headline": "Chinese regulators summon Tesla",
+      "why": "Five agencies called Tesla in over complaints about acceleration, battery fires and software updates."
+    },
+    "bitcoin-vehicle-payments-begin-2021-03-24": {
+      "headline": "Teslas can be bought with bitcoin",
+      "why": "Musk said U.S. buyers could pay in bitcoin, and Tesla would keep the bitcoin rather than convert it."
+    },
+    "q1-2021-production-deliveries-2021-04-02": {
+      "headline": "Q1 2021: 184,800 deliveries",
+      "why": "Tesla credited strong Model Y demand in China as refreshed Model S/X production began."
+    },
+    "shanghai-auto-show-brake-protest-2021-04-19": {
+      "headline": "Brake protest at Shanghai Auto Show",
+      "why": "An owner's protest drew state media and regulator pressure, and Tesla apologized."
+    },
+    "q1-2021-earnings-results-2021-04-26": {
+      "headline": "Q1 2021: $438 million profit",
+      "why": "Tesla posted record first-quarter production despite supply-chain problems."
+    },
+    "bitcoin-vehicle-payments-suspended-2021-05-12": {
+      "headline": "Tesla stops taking bitcoin",
+      "why": "Musk cited fossil-fuel use in bitcoin mining; Tesla kept its bitcoin holdings."
+    },
+    "model-s-x-plaid-deliveries-begin-2021": {
+      "headline": "First Model S Plaid cars delivered",
+      "why": "About 25 Plaid cars were handed over at a Fremont event."
+    },
+    "q2-2021-production-deliveries-2021-07-02": {
+      "headline": "Q2 2021: deliveries pass 200,000",
+      "why": "Tesla delivered 201,250 cars while navigating supply-chain and shipping problems."
+    },
+    "q2-2021-earnings-results-2021-07-26": {
+      "headline": "Quarterly profit tops $1 billion",
+      "why": "Tesla's GAAP net income passed $1 billion in a quarter for the first time."
+    },
+    "nhtsa-pe21020-autopilot-first-responder-2021-08-13": {
+      "headline": "Probe into Autopilot crashes at emergency scenes",
+      "why": "NHTSA examined 11 crashes into first-responder scenes covering about 765,000 cars."
+    },
+    "ai-day-optimus-concept-2021-08-19": {
+      "headline": "Tesla announces the Optimus humanoid robot",
+      "why": "The robot was shown as a concept, presented by a person in a suit."
+    },
+    "q3-2021-production-deliveries-2021-10-02": {
+      "headline": "Q3 2021: 241,300 deliveries",
+      "why": "Deliveries kept climbing despite ongoing supply-chain and logistics challenges."
+    },
+    "diaz-racial-harassment-verdict-2021-10-04": {
+      "headline": "Jury awards $137 million in harassment case",
+      "why": "A jury found a Black Fremont worker faced racial harassment; after the award was cut, a retrial awarded $3.2 million."
+    },
+    "berlin-giga-fest-production-target-2021-10-09": {
+      "headline": "Musk targets Berlin output by end of 2021",
+      "why": "At Giga Fest, Tesla aimed to start Model Y production in Berlin before year-end."
+    },
+    "tesla-insurance-launch-2021": {
+      "headline": "Driving-based Tesla Insurance launches in Texas",
+      "why": "Premiums were priced using real-time driving behavior and Safety Score."
+    },
+    "q3-2021-earnings-results-2021-10-20": {
+      "headline": "Q3 2021: record $1.6 billion profit",
+      "why": "Tesla reported record profitability and a 14.6% operating margin."
+    },
+    "hertz-100k-order-1-trillion-2021-10-25": {
+      "headline": "Hertz order; Tesla hits $1 trillion",
+      "why": "Hertz ordered 100,000 Model 3s, and Tesla's market value passed $1 trillion for the first time."
+    },
+    "supercharger-non-tesla-access-2021": {
+      "headline": "Superchargers open to other EVs",
+      "why": "A Dutch pilot let non-Tesla cars use Superchargers for the first time."
+    },
+    "hq-moved-to-texas-2021": {
+      "headline": "Headquarters moves to Austin, Texas",
+      "why": "Tesla relocated its corporate headquarters to Gigafactory Texas."
+    },
+    "software-v11-holiday-update-2021-12-24": {
+      "headline": "Holiday update redesigns Model 3/Y screen",
+      "why": "Software V11 brought the refreshed Model S interface to Model 3 and Model Y."
+    },
+    "model-3-s-recalls-475k-2021-12-30": {
+      "headline": "Recall of 475,000 Model 3 and S cars",
+      "why": "Trunk-cable and frunk-latch problems led to free inspections and repairs."
+    },
+    "deliveries-2021-over-936000": {
+      "headline": "2021 deliveries top 936,000",
+      "why": "Tesla delivered over 936,000 vehicles in 2021."
+    },
+    "q4-fy-2021-earnings-results-2022-01-26": {
+      "headline": "Q4 2021: $17.7B revenue, $2.3B profit",
+      "why": "308,650 total deliveries in Q4 (11,766 Model S/X and 296,884 Model 3/Y) and 936,222 for 2021."
+    },
+    "fsd-beta-rolling-stop-recall-22v037-2022-02-01": {
+      "headline": "FSD Beta \"rolling stop\" recalled",
+      "why": "A software update disabled a feature that let cars roll through all-way stops."
+    },
+    "dfeh-race-discrimination-lawsuit-2022-02-09": {
+      "headline": "California sues Tesla over race discrimination",
+      "why": "The state alleged Black Fremont workers faced slurs and unfair treatment."
+    },
+    "gigafactory-berlin-production-2022": {
+      "headline": "Berlin Gigafactory opens",
+      "why": "Tesla's first European plant began delivering German-built Model Ys."
+    },
+    "fsd-beta-canada-2022": {
+      "headline": "FSD Beta expands to Canada",
+      "why": "Eligible Canadian owners began receiving FSD Beta, with supervision still required."
+    },
+    "gigafactory-texas-model-y-deliveries-2022": {
+      "headline": "Texas Gigafactory begins Model Y deliveries",
+      "why": "The Austin plant opened with a \"Cyber Rodeo\" and its first Texas-built cars."
+    },
+    "structural-4680-model-y-texas-2022": {
+      "headline": "First Model Ys with 4680 cells delivered",
+      "why": "Texas cars combined Tesla's own 4680 cells, structural packs and big castings."
+    },
+    "lfp-nearly-half-production-q1-2022": {
+      "headline": "Half of new Teslas use LFP batteries",
+      "why": "Nickel- and cobalt-free LFP packs went into most standard-range cars."
+    },
+    "q1-2022-earnings-results-2022-04-20": {
+      "headline": "Q1 2022: $18.8B revenue, $3.3B profit",
+      "why": "310,048 total deliveries (14,724 Model S/X and 295,324 Model 3/Y)."
+    },
+    "solarcity-chancery-ruling-for-musk-2022-04-27": {
+      "headline": "Court rules SolarCity deal was fair",
+      "why": "A Delaware judge cleared Musk, finding the price fair despite a flawed process."
+    },
+    "nhtsa-ea22002-autopilot-upgrade-2022-06-08": {
+      "headline": "Autopilot probe escalates",
+      "why": "NHTSA widened its probe to about 830,000 cars, contributing to a 2023 recall."
+    },
+    "berlin-1000-vehicles-week-q2-2022": {
+      "headline": "Berlin builds 1,000 cars in a week",
+      "why": "Three months after opening, the plant passed 1,000 Model Ys a week."
+    },
+    "q2-2022-production-deliveries-2022-07-02": {
+      "headline": "Q2 2022: 254,695 deliveries",
+      "why": "June 2022 was Tesla's best production month despite factory shutdowns."
+    },
+    "q2-2022-earnings-results-2022-07-20": {
+      "headline": "Q2 2022: $16.9B revenue, $2.3B profit",
+      "why": "254,695 total deliveries (16,162 Model S/X and 238,533 Model 3/Y)."
+    },
+    "ca-dmv-autopilot-fsd-false-advertising-accusation-2022-07-28": {
+      "headline": "California DMV accuses Tesla of misleading ads",
+      "why": "The DMV said \"Autopilot\" and \"Full Self-Driving\" names wrongly implied the cars drive themselves."
+    },
+    "three-for-one-stock-split-announced-2022": {
+      "headline": "Tesla announces a three-for-one split",
+      "why": "Each shareholder would get two extra shares per share held."
+    },
+    "inflation-reduction-act-2022": {
+      "headline": "Inflation Reduction Act becomes law",
+      "why": "The law offered up to $7,500 in federal credits for qualifying EV buyers."
+    },
+    "three-for-one-stock-split-trading-2022": {
+      "headline": "Three-for-one split takes effect",
+      "why": "Tesla shares began trading on a split-adjusted basis."
+    },
+    "model-y-euro-ncap-5-star-2022-09-07": {
+      "headline": "Berlin Model Y earns record safety score",
+      "why": "Euro NCAP gave it five stars and a record 98% for Safety Assist."
+    },
+    "ai-day-optimus-prototype-2022-09-30": {
+      "headline": "Optimus prototypes walk on stage",
+      "why": "Early engineering prototypes showed progress, though not production-ready robots."
+    },
+    "q3-2022-production-deliveries-2022-10-02": {
+      "headline": "Q3 2022: 343,830 deliveries",
+      "why": "More cars were in transit as Tesla evened out its regional build mix."
+    },
+    "q3-2022-earnings-results-2022-10-19": {
+      "headline": "Q3 2022: $21.5B revenue, $3.3B profit",
+      "why": "343,830 total deliveries (18,672 Model S/X and 325,158 Model 3/Y)."
+    },
+    "doj-autopilot-criminal-probe-reported-2022-10-26": {
+      "headline": "Report: DOJ probing self-driving claims",
+      "why": "Reuters reported a criminal probe into whether Tesla misled people about Autopilot and FSD."
+    },
+    "nacs-opened-2022": {
+      "headline": "Tesla opens its charging plug design",
+      "why": "Tesla offered its connector to the industry as the North American Charging Standard."
+    },
+    "semi-early-production-2022": {
+      "headline": "First Semi trucks delivered to PepsiCo",
+      "why": "Semi deliveries began five years after the truck's unveiling."
+    },
+    "us-vehicle-price-cuts-january-2023": {
+      "headline": "Big U.S. price cuts on Model 3/Y",
+      "why": "Tesla cut prices by thousands of dollars, lowering its average selling price."
+    },
+    "q4-fy-2022-earnings-results-2023-01-25": {
+      "headline": "Q4 2022: $24.3B revenue, $3.7B profit",
+      "why": "405,278 total deliveries in Q4 (17,147 Model S/X and 388,131 Model 3/Y) and 1,313,851 for 2022."
+    },
+    "funding-secured-securities-trial-verdict-2023-02-03": {
+      "headline": "Jury clears Musk over \"funding secured\"",
+      "why": "A jury found Musk and Tesla not liable to shareholders after a three-week trial."
+    },
+    "supercharger-us-open-non-tesla-nevi-2023": {
+      "headline": "Tesla pledges U.S. Superchargers for all EVs",
+      "why": "Tesla committed to open at least 7,500 chargers to other EVs by end of 2024."
+    },
+    "fsd-beta-recall-23v085-2023": {
+      "headline": "FSD Beta recall covers 363,000 cars",
+      "why": "NHTSA cited unsafe intersection behavior; Tesla fixed it with a software update."
+    },
+    "gigafactory-mexico-monterrey-announced-2023": {
+      "headline": "Mexico Gigafactory announced, later paused",
+      "why": "Tesla announced a Monterrey plant; it was later put on pause, with no construction completion reported."
+    },
+    "investor-day-2023-03-01": {
+      "headline": "Investor Day held at Giga Texas",
+      "why": "Tesla laid out long-term expansion and its next-generation vehicle platform."
+    },
+    "q1-2023-production-deliveries-2023-04-02": {
+      "headline": "Q1 2023: 422,875 deliveries",
+      "why": "Tesla kept shifting toward a more even regional build mix."
+    },
+    "master-plan-part-3-2023-04-05": {
+      "headline": "Master Plan Part 3 published",
+      "why": "Tesla proposed a path to a sustainable global energy economy."
+    },
+    "q1-2023-earnings-results-2023-04-19": {
+      "headline": "Q1 2023: $23.3B revenue, $2.5B profit",
+      "why": "422,875 total deliveries (10,695 Model S/X and 412,180 Model 3/Y)."
+    },
+    "hsu-autopilot-trial-verdict-2023-04-21": {
+      "headline": "Tesla wins first Autopilot crash trial",
+      "why": "A Los Angeles jury found Autopilot did not fail and awarded no damages."
+    },
+    "ford-nacs-supercharger-access-2023": {
+      "headline": "Ford adopts Tesla's charging plug",
+      "why": "Ford EVs gained Supercharger access, starting a wave of automakers switching to NACS."
+    },
+    "gm-nacs-supercharger-access-2023": {
+      "headline": "GM adopts Tesla's charging plug",
+      "why": "GM announced NACS and planned Supercharger access for its drivers."
+    },
+    "rivian-nacs-supercharger-access-2023-06-20": {
+      "headline": "Rivian adopts Tesla's charging plug",
+      "why": "Rivian drivers were promised Supercharger access via an adapter in 2024."
+    },
+    "sae-nacs-standardization-announced-2023": {
+      "headline": "SAE moves to standardize NACS",
+      "why": "Any manufacturer could use Tesla's connector once the formal standard was set."
+    },
+    "q2-2023-production-deliveries-2023-07-02": {
+      "headline": "Q2 2023: 466,140 deliveries",
+      "why": "Tesla produced 479,700 cars in the quarter."
+    },
+    "cybertruck-first-built-giga-texas-2023": {
+      "headline": "First Cybertruck built in Texas",
+      "why": "Production-intent assembly began, nearly two years after early schedule talk."
+    },
+    "q2-2023-earnings-results-2023-07-19": {
+      "headline": "Q2 2023: $24.9B revenue, $2.7B profit",
+      "why": "466,140 total deliveries (19,225 Model S/X and 446,915 Model 3/Y)."
+    },
+    "cfo-taneja-succeeds-kirkhorn-2023-08-04": {
+      "headline": "Vaibhav Taneja becomes CFO",
+      "why": "He succeeded Zach Kirkhorn, who stepped down after about thirteen years at Tesla."
+    },
+    "fisker-nacs-supercharger-access-2023": {
+      "headline": "Fisker adopts Tesla's charging plug",
+      "why": "Fisker planned NACS and Supercharger access starting in 2025."
+    },
+    "model-3-highland-refresh-launch-2023": {
+      "headline": "Refreshed Model 3 launches outside the U.S.",
+      "why": "The redesign brought a quieter cabin, rear display and longer range."
+    },
+    "eeoc-racial-harassment-lawsuit-2023-09-28": {
+      "headline": "Federal agency sues over Fremont harassment",
+      "why": "The EEOC alleged widespread racial harassment of Black workers since 2015."
+    },
+    "q3-2023-production-deliveries-2023-10-02": {
+      "headline": "Q3 2023: 435,059 deliveries",
+      "why": "Factory upgrades slowed output, but Tesla kept its 1.8 million target."
+    },
+    "q3-2023-earnings-results-2023-10-18": {
+      "headline": "Q3 2023: $23.4B revenue, $1.9B profit",
+      "why": "435,059 total deliveries (15,985 Model S/X and 419,074 Model 3/Y)."
+    },
+    "if-metall-sweden-strike-begins-2023-10-27": {
+      "headline": "Swedish mechanics strike against Tesla",
+      "why": "About 130 union mechanics struck after Tesla declined a collective agreement."
+    },
+    "lee-fatal-autopilot-trial-verdict-2023-10-31": {
+      "headline": "Tesla wins first fatal Autopilot trial",
+      "why": "A Riverside jury found no manufacturing defect in a deadly 2019 crash."
+    },
+    "cybertruck-deliveries-begin-2023": {
+      "headline": "First Cybertrucks delivered",
+      "why": "Customer handovers began four years after the 2019 unveiling."
+    },
+    "optimus-gen-2-unveiled-2023-12-12": {
+      "headline": "Optimus Gen 2 prototype shown",
+      "why": "The second-generation robot walked 30% faster, weighed 10 kg less and had more sensitive hands."
+    },
+    "autopilot-recall-23v838-2023-12-13": {
+      "headline": "Autopilot recall covers 2 million cars",
+      "why": "After NHTSA's probe, an update added stronger alerts to curb driver misuse of Autosteer."
+    },
+    "sae-j3400-tir-nacs-2023": {
+      "headline": "First technical standard published for NACS",
+      "why": "SAE set key engineering parameters for Tesla's connector, though a full standard was still to come."
+    },
+    "q4-fy-2023-production-deliveries-2024-01-02": {
+      "headline": "2023 deliveries reach 1.81 million",
+      "why": "Deliveries grew 38% from 2022."
+    },
+    "china-samr-autosteer-recall-1-6m-2024-01-05": {
+      "headline": "China recalls 1.6 million Teslas over Autosteer",
+      "why": "Free software updates added controls and alerts to curb misuse of Autosteer."
+    },
+    "fsd-v12-beta-customer-rollout-2024": {
+      "headline": "FSD v12 switches to end-to-end AI",
+      "why": "One neural net trained on fleet video replaced hand-written city-driving code."
+    },
+    "q4-fy-2023-earnings-results-2024-01-24": {
+      "headline": "Q4 2023: $25.2B revenue, $7.9B profit",
+      "why": "484,507 total deliveries in Q4 (461,538 Model 3/Y and 22,969 other models)."
+    },
+    "tornetta-chancery-rescinds-2018-award-2024-01-30": {
+      "headline": "Court voids Musk's 2018 pay package",
+      "why": "A Delaware judge rescinded the award, valued at about $56 billion, over a flawed process."
+    },
+    "nhtsa-ea24001-steering-loss-2024-02-01": {
+      "headline": "Steering-loss probe escalates",
+      "why": "NHTSA investigated 2,388 complaints of lost steering assist on about 334,000 cars."
+    },
+    "warning-light-font-recall-24v051-2024-02-02": {
+      "headline": "Recall for too-small warning-light text",
+      "why": "About 2.2 million cars got a software fix to enlarge brake warning icons."
+    },
+    "gruenheide-expansion-referendum-rejected-2024-02-20": {
+      "headline": "Local vote rejects Berlin plant expansion",
+      "why": "Residents opposed clearing forest; a revised plan was approved that May."
+    },
+    "ford-supercharger-access-begins-2024": {
+      "headline": "Ford drivers start using Superchargers",
+      "why": "Ford owners became the first non-Tesla brand customers with Supercharger access."
+    },
+    "berlin-gigafactory-arson-outage-2024-03-05": {
+      "headline": "Arson attack halts Berlin factory",
+      "why": "A fire on a power pylon cut electricity, stopping production for days."
+    },
+    "fsd-v12-3-customer-rollout-2024": {
+      "headline": "FSD v12.3 reaches customers",
+      "why": "The update added U-turns and more of the new end-to-end driving software."
+    },
+    "rivian-supercharger-access-begins-2024-03-18": {
+      "headline": "Rivian owners begin Tesla Supercharger access",
+      "why": "Owners needed a free Tesla-made NACS adapter, which Rivian began shipping in April 2024."
+    },
+    "fsd-v12-3-delivery-demo-mandate-free-trial-2024-03-25": {
+      "headline": "FSD demos required; free trial offered",
+      "why": "Musk required FSD test rides at delivery and a one-month free U.S. trial."
+    },
+    "q1-2024-production-deliveries-storage-2024-04-02": {
+      "headline": "Q1 2024: deliveries drop to 386,810",
+      "why": "Tesla cited the Model 3 update, Red Sea shipping and the Berlin arson."
+    },
+    "cybertruck-accelerator-pedal-recall-24v276-2024-04-19": {
+      "headline": "First Cybertruck recall: accelerator pedal",
+      "why": "A loose pedal pad could stick, so 3,878 trucks got free repairs."
+    },
+    "q1-2024-earnings-results-2024-04-23": {
+      "headline": "Q1 2024: $21.3B revenue, $1.1B profit",
+      "why": "386,810 total deliveries (369,783 Model 3/Y and 17,027 other models)."
+    },
+    "nhtsa-ea22002-closed-rq24009-opened-2024-04-25": {
+      "headline": "NHTSA questions Autopilot recall fix",
+      "why": "It closed its probe citing a \"critical safety gap\" and checked if the recall worked."
+    },
+    "supercharger-team-dismissed-2024-04-30": {
+      "headline": "Musk dismisses most of charging team",
+      "why": "Supercharger head Rebecca Tinucci and most of the roughly 500-person team were let go."
+    },
+    "votetesla-proxy-website-update-2024-05-03": {
+      "headline": "Tesla campaigns for shareholder votes",
+      "why": "Tesla urged votes for moving to Texas and ratifying Musk's 2018 award."
+    },
+    "texas-redomestication-proxy-letter-2024": {
+      "headline": "Chair urges vote to move to Texas",
+      "why": "Robyn Denholm argued Texas was already Tesla's business home."
+    },
+    "delaware-to-texas-conversion-2024": {
+      "headline": "Tesla becomes a Texas corporation",
+      "why": "Tesla formally moved its legal home from Delaware to Texas."
+    },
+    "model-y-worlds-best-selling-car-2023-jato-2024-06-13": {
+      "headline": "Model Y: world's best-selling car of 2023",
+      "why": "It was the first pure-electric vehicle to lead global sales."
+    },
+    "q2-2024-production-deliveries-storage-2024-07-02": {
+      "headline": "Q2 2024: record 9.4 GWh storage",
+      "why": "Energy storage deployments hit a quarterly record as deliveries rose to 443,956."
+    },
+    "q2-2024-earnings-results-2024-07-23": {
+      "headline": "Q2 2024: record revenue of $25.5 billion",
+      "why": "Tesla earned about $1.5 billion, with record energy storage deployments."
+    },
+    "shanghai-10-millionth-drive-unit-2024-08-01": {
+      "headline": "Tesla's 10-millionth drive unit built",
+      "why": "The milestone motor rolled off the line in Shanghai."
+    },
+    "china-frunk-hood-latch-recall-samr-2024-08-06": {
+      "headline": "China recalls 1.68 million cars over hood latch",
+      "why": "Cars might not warn when the front trunk wasn't fully latched."
+    },
+    "actually-smart-summon-q3-2024": {
+      "headline": "Actually Smart Summon released",
+      "why": "Cars could drive to their owners in parking lots, under supervision."
+    },
+    "hundred-millionth-4680-cell-q3-2024": {
+      "headline": "100-millionth 4680 cell produced",
+      "why": "Tesla's in-house battery cell reached a major production milestone."
+    },
+    "gm-supercharger-access-begins-2024-09-18": {
+      "headline": "GM drivers start using Superchargers",
+      "why": "GM owners gained access to over 17,800 Superchargers with an adapter."
+    },
+    "shanghai-1-millionth-export-2024": {
+      "headline": "Shanghai exports its millionth car",
+      "why": "The Chinese plant became a major export hub."
+    },
+    "fsd-supervised-2b-miles-q3-2024": {
+      "headline": "FSD passes 2 billion miles",
+      "why": "Owners had driven over two billion miles on FSD (Supervised)."
+    },
+    "fsd-supervised-cybertruck-q3-2024": {
+      "headline": "FSD comes to Cybertruck",
+      "why": "FSD (Supervised) reached Cybertruck, first for employees and early testers."
+    },
+    "powerwall-vpp-100k-enrolled-q3-2024": {
+      "headline": "100,000 Powerwalls join virtual power plants",
+      "why": "Home batteries were pooled to support the grid."
+    },
+    "sae-j3400-recommended-practice-2024-09-30": {
+      "headline": "SAE publishes J3400 Recommended Practice for NACS",
+      "why": "It sets the physical, electrical, functional, safety and performance requirements for the Tesla-developed connector so any vehicle or charging-equipment maker can build and deploy it."
+    },
+    "q3-2024-production-deliveries-storage-2024-10-02": {
+      "headline": "Q3 2024: 462,890 deliveries",
+      "why": "Tesla also deployed 6.9 GWh of energy storage."
+    },
+    "we-robot-cybercab-robovan-unveil-2024": {
+      "headline": "Cybercab and Robovan unveiled",
+      "why": "Tesla showed robotaxi concepts; Cybercab later entered production, Robovan has not."
+    },
+    "shanghai-3-millionth-vehicle-2024": {
+      "headline": "Shanghai builds its 3-millionth car",
+      "why": "The Chinese factory reached three million vehicles produced."
+    },
+    "nhtsa-pe24031-fsd-reduced-visibility-2024-10-17": {
+      "headline": "Probe into FSD in poor visibility",
+      "why": "Four crashes in glare, fog or dust, one fatal, prompted a review of 2.4 million cars."
+    },
+    "seven-millionth-vehicle-2024": {
+      "headline": "Tesla builds its 7-millionth car",
+      "why": "The milestone vehicle was built at Fremont."
+    },
+    "lathrop-megafactory-200-megapacks-week-q3-2024": {
+      "headline": "Megafactory hits 200 Megapacks a week",
+      "why": "Lathrop reached a 40 GWh annual production rate."
+    },
+    "q3-2024-earnings-results-2024-10-23": {
+      "headline": "Q3 2024: $2.2 billion profit",
+      "why": "Profit and cash flow rose as deliveries grew."
+    },
+    "shanghai-megafactory-shipping-target-q1-2025": {
+      "headline": "Shanghai Megafactory targets early 2025",
+      "why": "Tesla planned to start shipping Megapacks from Shanghai in Q1 2025."
+    },
+    "v4-supercharger-cabinet-unveiled-2024-11-14": {
+      "headline": "V4 Supercharger cabinet unveiled",
+      "why": "It promised up to 500 kW for cars and 1.2 MW for Semi."
+    },
+    "fsd-v13-wide-release-hw4-2024-12-17": {
+      "headline": "FSD v13 rolls out to newer cars",
+      "why": "Only HW4 cars got v13; older HW3 cars were offered v12.6."
+    },
+    "megafactory-shanghai-construction-complete-2024-12": {
+      "headline": "Shanghai Megafactory construction finished",
+      "why": "The plant was ready to begin ramping in early 2025."
+    },
+    "q4-2024-production-deliveries-storage-2025-01-02": {
+      "headline": "2024 deliveries: about 1.79 million",
+      "why": "Q4 set records for deliveries and storage; 2024 storage reached 31.4 GWh."
+    },
+    "new-model-y-four-factories-2025": {
+      "headline": "Redesigned Model Y launches",
+      "why": "The refreshed Model Y rolled out across all four car factories in 2025."
+    },
+    "q4-fy-2024-earnings-results-2025-01-29": {
+      "headline": "2024: $97.7 billion revenue, $7.1 billion profit",
+      "why": "Tesla closed 2024 with $36.6 billion in cash and investments."
+    },
+    "fsd-supervised-naming-10k-2024": {
+      "headline": "\"FSD (Supervised)\" becomes the official name",
+      "why": "Tesla's annual report formalized the name, stressing drivers must stay engaged."
+    },
+    "new-model-y-china-deliveries-2025-02-26": {
+      "headline": "New Model Y deliveries start in China",
+      "why": "China was first to receive the refreshed Model Y."
+    },
+    "new-model-y-europe-deliveries-2025-03-07": {
+      "headline": "New Model Y arrives in Europe",
+      "why": "European handovers of the refreshed Model Y began."
+    },
+    "cybertruck-cant-rail-recall-25v170-2025-03-20": {
+      "headline": "Cybertruck recall: roof panel could fall off",
+      "why": "Nearly every Cybertruck built, 46,096 trucks, needed a replacement panel."
+    },
+    "q1-2025-production-deliveries-storage-2025-04-02": {
+      "headline": "Q1 2025: 336,681 deliveries",
+      "why": "Model Y line changeovers at all four factories cost production weeks."
+    },
+    "q1-2025-earnings-results-2025-04-22": {
+      "headline": "Q1 2025: $409 million profit",
+      "why": "Revenue was $19.3 billion as new Model Y changeovers ran across factories."
+    },
+    "bylaws-amendments-texas-2025-05-15": {
+      "headline": "Board changes bylaws under Texas law",
+      "why": "New rules added a jury-trial waiver and a 3% threshold for shareholder suits."
+    },
+    "hartung-appointed-board-2025-05-15": {
+      "headline": "Jack Hartung joins Tesla's board",
+      "why": "The Chipotle executive joined the board and audit committee."
+    },
+    "robotaxi-austin-launch-2025": {
+      "headline": "Robotaxi service launches in Austin",
+      "why": "Tesla says its cars carried passengers without human drivers for the first time."
+    },
+    "q2-2025-production-deliveries-storage-2025-07-02": {
+      "headline": "Q2 2025: 384,122 deliveries",
+      "why": "Tesla also deployed 9.6 GWh of energy storage."
+    },
+    "annual-meeting-2025-date-set-2025-07-09": {
+      "headline": "2025 shareholder meeting set for Nov. 6",
+      "why": "The board set the date and deadlines for shareholder proposals."
+    },
+    "q2-2025-earnings-results-2025-07-23": {
+      "headline": "Q2 2025: $1.2 billion profit",
+      "why": "Tesla reported the Austin Robotaxi launch and first Shanghai Megapacks."
+    },
+    "samsung-chip-deal-2025": {
+      "headline": "$16.5 billion Samsung chip deal",
+      "why": "Samsung agreed to make AI chips for Tesla through 2033."
+    },
+    "robotaxi-bay-area-ride-hailing-q3-2025": {
+      "headline": "Bay Area ride-hailing launches",
+      "why": "The service ran from San Francisco to San Jose with human safety drivers."
+    },
+    "benavides-autopilot-verdict-243m-2025-08-01": {
+      "headline": "Jury finds Tesla partly liable in fatal crash",
+      "why": "Tesla was found 33% responsible for a 2019 Autopilot crash, owing about $243 million."
+    },
+    "ceo-interim-restricted-stock-award-2025-08-03": {
+      "headline": "Board grants Musk 96 million shares",
+      "why": "The interim award vests after two years if Musk stays in his role."
+    },
+    "model-yl-china-launch-q3-2025": {
+      "headline": "Six-seat Model YL launches in China",
+      "why": "A longer, three-row Model Y went on sale in China."
+    },
+    "indemnification-agreements-updated-2025-09-03": {
+      "headline": "Updated legal protections for directors",
+      "why": "New agreements cover directors and officers to the fullest extent of Texas law."
+    },
+    "megapack3-megablock-unveil-q3-2025": {
+      "headline": "Megapack 3 and Megablock unveiled",
+      "why": "Tesla's next utility batteries were unveiled, with production targeted for Houston in 2026."
+    },
+    "fsd-australia-new-zealand-q3-2025": {
+      "headline": "FSD launches in Australia and New Zealand",
+      "why": "FSD (Supervised) became available to eligible newer cars there."
+    },
+    "model-y-india-deliveries-begin-q3-2025": {
+      "headline": "Model Y deliveries begin in India",
+      "why": "Tesla's first India deliveries came after it opened bookings and a Mumbai experience centre."
+    },
+    "v4-supercharger-cabinets-launch-2025-09": {
+      "headline": "First V4 Supercharger cabinets go live",
+      "why": "The first site, in Redwood City, offers up to 500 kW for cars."
+    },
+    "q3-2025-production-deliveries-storage-2025-10-02": {
+      "headline": "Q3 2025: record 497,099 deliveries",
+      "why": "Deliveries and energy storage deployments both hit records."
+    },
+    "fsd-v14-deployment-october-2025": {
+      "headline": "FSD v14 starts reaching owners",
+      "why": "It brought more of the Robotaxi software to customer cars."
+    },
+    "model-3-y-standard-us-launch-2025-10": {
+      "headline": "Cheaper Model 3 and Y Standard launch",
+      "why": "Tesla's most affordable trims arrived after the federal EV tax credit expired."
+    },
+    "q3-2025-earnings-results-2025-10-22": {
+      "headline": "Q3 2025: record free cash flow",
+      "why": "Revenue hit $28.1 billion and free cash flow nearly $4 billion."
+    },
+    "annual-meeting-2025-ceo-performance-award-approved-2025-11-06": {
+      "headline": "Shareholders approve Musk's 2025 pay award",
+      "why": "Shareholders approved the 2025 CEO Performance Award at the annual meeting."
+    },
+    "fsd-south-korea-launch-q4-2025": {
+      "headline": "FSD launches in South Korea",
+      "why": "Owners there drove over 1 million kilometers on FSD in the first month."
+    },
+    "ca-dmv-autopilot-fsd-marketing-decision-2025-12-16": {
+      "headline": "California DMV rules Autopilot marketing misleading",
+      "why": "Tesla had to drop \"Autopilot\" in California marketing, and later did."
+    },
+    "delaware-supreme-court-reinstates-2018-award-2025-12-19": {
+      "headline": "Musk's 2018 pay package reinstated",
+      "why": "Delaware's top court said rescission was the wrong remedy."
+    },
+    "fy-2025-production-deliveries-storage-2025": {
+      "headline": "2025 deliveries: about 1.64 million",
+      "why": "Tesla also deployed 46.7 GWh of energy storage in 2025."
+    },
+    "powerwall-vpp-1m-installed-fy-2025": {
+      "headline": "Powerwall network passes 1 million units",
+      "why": "Tesla said homeowners saved over $1 billion on electricity bills."
+    },
+    "q4-2025-production-deliveries-storage-2026-01-02": {
+      "headline": "Q4 2025: 418,227 deliveries",
+      "why": "Energy storage deployments set a record at 14.2 GWh."
+    },
+    "xai-series-e-investment-2026-01-16": {
+      "headline": "Tesla to invest about $2 billion in xAI",
+      "why": "Tesla joined xAI's funding round on the same terms as other investors."
+    },
+    "cybertruck-uae-deliveries-q1-2026": {
+      "headline": "Cybertruck deliveries begin in the UAE",
+      "why": "The UAE became the first Cybertruck market outside North America."
+    },
+    "robotaxi-austin-unsupervised-monitor-removal-2026-01": {
+      "headline": "Some Austin Robotaxi rides lose safety monitors",
+      "why": "Limited customer rides began without anyone from Tesla inside the car."
+    },
+    "next-gen-roadster-design-development-pending": {
+      "headline": "Next Roadster still in design",
+      "why": "Filings list the next-generation Roadster as in design development, with no deliveries."
+    },
+    "q4-fy-2025-earnings-results-2026-01-28": {
+      "headline": "2025 results: about $3.8 billion profit",
+      "why": "Tesla ended 2025 with about $44.1 billion in cash and investments."
+    },
+    "semi-final-specs-2026-02-09": {
+      "headline": "Tesla publishes final Semi specs",
+      "why": "Two versions were listed: about 325 miles and about 500 miles of range."
+    },
+    "cybercab-production-begins-gftx-q2-2026": {
+      "headline": "First Cybercab rolls off the line",
+      "why": "Tesla's robotaxi with no steering wheel or pedals entered production in Texas."
+    },
+    "megacharger-first-southern-california-q1-2026": {
+      "headline": "First public Megacharger opens for Semi",
+      "why": "The Ontario, California site was the first customer-facing Megacharger outside a Tesla factory."
+    },
+    "nhtsa-ea26002-fsd-visibility-upgrade-2026-03-18": {
+      "headline": "FSD visibility probe escalates",
+      "why": "NHTSA widened its review to about 3.2 million cars with FSD."
+    },
+    "terafab-austin-announced-2026-03-22": {
+      "headline": "Musk announces Terafab chip plant in Austin",
+      "why": "Tesla and SpaceX plan to jointly run a chip factory, citing chip shortfalls."
+    },
+    "megafactory-texas-nearing-completion-megapack3-sop-2026": {
+      "headline": "Texas Megafactory nears completion",
+      "why": "Megapack 3 and Megablock production was still planned for 2026."
+    },
+    "tesla-semi-nevada-factory-production-planned-2026": {
+      "headline": "Semi volume production planned for 2026",
+      "why": "Tesla said its new Nevada Semi factory was on track for 2026."
+    },
+    "q1-2026-production-deliveries-storage-2026-04-02": {
+      "headline": "Q1 2026: 358,023 deliveries",
+      "why": "Tesla also deployed 8.8 GWh of energy storage."
+    },
+    "nhtsa-closes-pe24033-actually-smart-summon-2026-04-03": {
+      "headline": "Smart Summon probe closed",
+      "why": "Most of the incidents were low-speed bumps with no injuries, and software updates addressed them."
+    },
+    "fsd-netherlands-approval-2026-04": {
+      "headline": "FSD approved in the Netherlands",
+      "why": "The Dutch approval cleared a path for FSD (Supervised) in other EU countries."
+    },
+    "ai5-tape-out-2026-04-15": {
+      "headline": "Tesla finishes AI5 chip design",
+      "why": "The next-generation chip design was locked for manufacturing, not yet in vehicles."
+    },
+    "robotaxi-dallas-houston-unsupervised-2026-04": {
+      "headline": "Driverless Robotaxi rides reach Dallas and Houston",
+      "why": "Rides began with no safety operator inside the car."
+    },
+    "ceo-interim-award-forfeited-2026-04-21": {
+      "headline": "Musk gives up his 2025 interim award",
+      "why": "Once the 2018 award could be exercised, the interim award was forfeited under its terms."
+    },
+    "cortex-2-online-q1-2026": {
+      "headline": "Cortex 2 AI supercomputer comes online",
+      "why": "The Texas cluster began training AI, adding over 130,000 H100-equivalents."
+    },
+    "gfn-in-house-solar-panel-deployments-q1-2026": {
+      "headline": "Tesla's own solar panel reaches customers",
+      "why": "The Buffalo-made panel is designed to produce more energy in shade."
+    },
+    "gfn-v4-cabinet-production-q1-2026": {
+      "headline": "Buffalo factory builds V4 Supercharger cabinets",
+      "why": "Gigafactory New York began producing Tesla's newest charging hardware."
+    },
+    "lithium-cathode-lfp-early-ramp-q1-2026": {
+      "headline": "Tesla begins making its own battery materials",
+      "why": "Texas lithium refining and cathode lines, plus Nevada LFP cells, began ramping."
+    },
+    "q1-2026-earnings-results-2026-04-22": {
+      "headline": "Q1 2026: $477 million profit",
+      "why": "Revenue was $22.4 billion as Robotaxi expanded and FSD won Dutch approval."
+    },
+    "powerwall-3p-available-germany-q2-2026": {
+      "headline": "Three-phase Powerwall 3P launches in Germany",
+      "why": "A single-unit home battery built for three-phase homes became available."
+    },
+    "semi-first-high-volume-line-2026-04-29": {
+      "headline": "First Semi off the high-volume line",
+      "why": "Semi production shifted from hand-built units to factory manufacturing."
+    },
+    "rearview-camera-ota-recall-26v283-2026-05-06": {
+      "headline": "Recall for delayed backup-camera image",
+      "why": "A software bug left the camera blank for seconds; an update fixed nearly all cars."
+    },
+    "fremont-optimus-lines-after-sx-decommission-q2-2026": {
+      "headline": "Last Model S and X built; Optimus next",
+      "why": "Fremont ended 14 years of Model S production and began installing Optimus lines."
+    },
+    "fsd-eu-approvals-baltics-denmark-belgium-q2-2026": {
+      "headline": "FSD approved in four more European countries",
+      "why": "Lithuania, Estonia, Denmark and Belgium followed the Netherlands in approving FSD (Supervised)."
+    },
+    "cybercab-epa-certificate-2026-05-26": {
+      "headline": "EPA certifies the Cybercab",
+      "why": "The certificate allowed the two-seat robotaxi to be sold in the U.S."
+    },
+    "musk-exercises-2018-ceo-award-options-2026-06-16": {
+      "headline": "Musk exercises his 2018 award options",
+      "why": "He exercised all 303.96 million options; the remaining shares vest in 2028 if he stays."
+    },
+    "natpower-megapack-25gwh-europe-2026-06-23": {
+      "headline": "25 GWh Megapack deal for Italy and UK",
+      "why": "NatPower agreed to buy over 25 GWh of Megapacks in a program targeting 100 GWh."
+    },
+    "fsd-v14-lite-ai3-us-korea-2026": {
+      "headline": "Older cars get FSD v14 lite",
+      "why": "A slimmed-down v14 reached HW3 cars in the U.S. and South Korea."
+    },
+    "active-fsd-subscriptions-1-48m-q2-2026": {
+      "headline": "FSD subscriptions reach 1.48 million",
+      "why": "Over 55% of new North American deliveries included an FSD subscription."
+    },
+    "cortex-texas-compute-doubled-h1-2026": {
+      "headline": "Texas AI computing power more than doubles",
+      "why": "Tesla doubled its onsite AI training power in the first half of 2026."
+    },
+    "cumulative-deliveries-9-7-million-q2-2026": {
+      "headline": "All-time deliveries reach 9.7 million",
+      "why": "Tesla's cumulative deliveries rose from 9.2 million a quarter earlier."
+    },
+    "services-other-record-gross-profit-q2-2026": {
+      "headline": "Record profit from services",
+      "why": "Services and other gross profit hit a record $648 million."
+    },
+    "supercharger-network-8704-stations-q2-2026": {
+      "headline": "Superchargers reach 8,704 stations",
+      "why": "The network grew about 18% in a year, to 82,357 connectors."
+    },
+    "ttm-revenue-over-100b-first-time-q2-2026": {
+      "headline": "Yearly revenue passes $100 billion",
+      "why": "Tesla topped $100 billion in revenue over twelve months for the first time."
+    },
+    "model-yl-us-launch-2026-07": {
+      "headline": "Six-seat Model YL comes to the U.S.",
+      "why": "The longer three-row Model Y opened for U.S. orders at $61,990."
+    },
+    "q2-2026-production-deliveries-storage-2026-07-02": {
+      "headline": "Q2 2026: 480,126 deliveries",
+      "why": "Tesla also deployed 13.5 GWh of energy storage."
+    },
+    "robotaxi-florida-unsupervised-seven-metros-2026-07": {
+      "headline": "Robotaxi reaches Florida; seven metros total",
+      "why": "Driverless rides launched in Miami, Orlando and Tampa."
+    },
+    "cybercab-public-tests-employee-rides-q2-2026": {
+      "headline": "Cybercab gives first driverless employee rides",
+      "why": "Production Cybercabs carried employees around Giga Texas ahead of public service."
+    },
+    "nhtsa-denies-headlight-fmvss108-petition-2026-07-16": {
+      "headline": "NHTSA orders fix for too-bright headlights",
+      "why": "Regulators rejected Tesla's request to skip a remedy for glaring low beams."
+    },
+    "megafactory-shanghai-ramping-q2-2026": {
+      "headline": "Shanghai Megafactory drives record Europe deployments",
+      "why": "Its output supported record energy storage deployments in EMEA."
+    },
+    "q2-2026-earnings-results-2026-07-22": {
+      "headline": "Q2 2026: $28.2 billion revenue",
+      "why": "Revenue rose 26% from a year earlier, while free cash flow was negative $1.1 billion."
+    },
+    "semiconductor-fab-austin-progress-q2-2026": {
+      "headline": "Austin chip fab construction under way",
+      "why": "Tesla called the early-stage fab a way to secure long-term chip supply."
+    },
+    "summer-release-software-2026-07": {
+      "headline": "Summer software update expands Grok",
+      "why": "The update added shareable self-driving stats and more Grok voice features."
+    },
+    "headlight-fmvss108-recall-26v507-2026-08-04": {
+      "headline": "Recall for 20,349 too-bright headlights",
+      "why": "Tesla will replace headlights for free, though a repair wasn't yet available."
+    },
+    "megapack3-brookshire-production-2026-08-06": {
+      "headline": "Megapack 3 production begins in Texas",
+      "why": "The new Brookshire Megafactory is designed for 50 GWh a year."
+    },
+    "einride-500-semi-order-2026-08-18": {
+      "headline": "Einride orders 500 Tesla Semis",
+      "why": "It was described as the largest Tesla Semi deployment to date."
+    },
+    "solar-roof-discontinued-2026-08-20": {
+      "headline": "Tesla quietly drops Solar Roof",
+      "why": "Only about 3,000 were installed in the U.S., far short of the goal."
+    },
+    "cybercab-commercial-austin-2026-09-03": {
+      "headline": "Paid Cybercab rides begin in Austin",
+      "why": "A small fleet of purpose-built robotaxis began commercial service."
+    },
+    "nhtsa-aq26002-cybercab-fmvss-2026-09-03": {
+      "headline": "NHTSA questions Cybercab safety certification",
+      "why": "Regulators are examining how Tesla certified a car without conventional controls."
+    },
+    "form-144-taneja-proposed-sale-2026-09-08": {
+      "headline": "CFO shares sold to cover taxes",
+      "why": "About 2,606 of Taneja's shares were sold automatically for tax withholding on vesting."
+    },
+    "cybercab-austin-open-app-hailing-2026-09-10": {
+      "headline": "Anyone in Austin can hail a Cybercab",
+      "why": "Access widened from invite-only to anyone using the Robotaxi app."
+    },
+    "nhtsa-special-order-cybercab-aq26002-2026-09-10": {
+      "headline": "NHTSA orders sworn Cybercab answers",
+      "why": "Tesla must explain under oath how it certified the Cybercab."
+    },
+    "grok-bot-connectors-tesla-2026-09-22": {
+      "headline": "In-car Grok can handle email and calendar",
+      "why": "Drivers can manage inbox, calendar and files hands-free through Connectors."
+    },
+    "zet-scale-2500-semi-order-2026-09-22": {
+      "headline": "Tesla picked for 2,500-truck order",
+      "why": "It was described as the largest U.S. electric heavy-truck order to date."
+    },
+    "first-cybercab-in-house-cathode-2026-09-23": {
+      "headline": "First Cybercab with Tesla-made cathode",
+      "why": "Tesla built a Cybercab using cathode from its own Texas plant."
+    },
+    "semi-nevada-high-volume-production-2026-09-24": {
+      "headline": "Semi high-volume production launches",
+      "why": "Tesla's first dedicated Semi factory, designed for 50,000 trucks a year, began deliveries."
+    },
+    "roadster-demo-rescheduled-2026-10-15": {
+      "headline": "Roadster demo delayed by weather",
+      "why": "The outdoor Roadster event moved to October 15."
+    },
+    "credit-facilities-30b-2026-09-29": {
+      "headline": "Tesla arranges $30 billion in credit",
+      "why": "Three new loan facilities replaced a $5 billion revolver; none were drawn at signing."
+    },
+    "ai5-ai6-memory-cut-for-optimus-volume-2026-10-01": {
+      "headline": "Chip memory cut to scale Optimus",
+      "why": "Musk said halving AI5 memory cuts cost so Optimus can be built in volume."
+    },
+    "emergency-drive-away-superchargers-2026-10-01": {
+      "headline": "Emergency Drive Away at Superchargers",
+      "why": "Drivers can pull away while still plugged in during an emergency, though it damages the car and charger."
+    },
+    "q3-2026-production-deliveries-storage-2026-10-02": {
+      "headline": "Q3 2026: 486,532 deliveries",
+      "why": "Tesla also deployed 13.7 GWh of energy storage."
+    },
+    "powershare-home-backup-model-3-y-2026-10-06": {
+      "headline": "Model 3 and Y can now power homes",
+      "why": "With Powerwall 3, new Model 3 and Y can extend home backup by over two days."
+    },
+    "first-east-coast-megacharger-atlanta-savannah-2026-10-07": {
+      "headline": "First East Coast Megachargers for Semi",
+      "why": "New Georgia sites gave Semi its first public charging corridor in the Southeast."
+    },
+    "nhtsa-dp26010-robotaxi-school-zone-speeding-2026-10-09": {
+      "headline": "Petition claims Robotaxis speed in school zones",
+      "why": "NHTSA will decide whether to open a formal investigation; no crashes were reported."
+    },
+    "cybercab-austin-300-fleet-2026-10-10": {
+      "headline": "Tesla says 300+ Cybercabs serve Austin",
+      "why": "Tesla reported an eightfold fleet increase in a month, though independent counts differed."
+    },
+    "cybercab-paris-motor-show-europe-debut-2026-10-12": {
+      "headline": "Cybercab debuts in Europe at Paris show",
+      "why": "It was shown on display only, with no European service announced."
+    },
+    "next-gen-roadster-unveil-2026-10-15": {
+      "headline": "Next-generation Roadster unveiled",
+      "why": "Reservations opened, but no price or delivery date was set; Musk said production starts in 2028."
+    },
+    "ninth-circuit-vacates-fsd-class-certification-2026-10-16": {
+      "headline": "Court blocks FSD class action",
+      "why": "The ruling said buyers can't sue as a class, but the underlying case continues."
+    },
+    "annual-meeting-2026-proxy-filed-2026-10-19": {
+      "headline": "2026 shareholder meeting set for Dec. 3",
+      "why": "Shareholders will vote on directors, executive pay and the auditor."
+    },
+    "spacex-q3-2026-results-2026-10-20": {
+      "headline": "SpaceX Q3 2026 results: $14.6B revenue, $4.4B net income",
+      "why": "Revenue was $14,575M, up 161% from $5,576M a year earlier: Space $1,767M, Connectivity $5,248M and Super Intelligence (SI, the segment covering Grok) $7,560M."
+    },
+    "spacex-starship-flight-15-dual-catch-planned-2026-10-20": {
+      "headline": "SpaceX plans to catch both Starship stages on Flight 15",
+      "why": "SpaceNews reported the attempt is pending regulatory approval."
+    },
+    "spacex-tesla-merger-special-committees-2026-10-20": {
+      "headline": "Tesla and SpaceX study a merger",
+      "why": "Independent committees are weighing a combination, with no terms agreed."
+    },
+    "capex-2026-guidance-about-20b-2026-10-21": {
+      "headline": "Tesla lowers 2026 spending plan",
+      "why": "Capital spending is now guided to about $20 billion, funded mainly from operations."
+    },
+    "cybercab-customer-sales-by-end-2026-target-2026-10-21": {
+      "headline": "Cybercab customer deliveries targeted for 2026",
+      "why": "Tesla aims to start delivering Cybercabs to customers by year-end, starting small."
+    },
+    "cybercab-dallas-launch-november-2026-announced-2026-10-21": {
+      "headline": "Cybercab to launch in Dallas next month",
+      "why": "Tesla said Dallas comes next, before Cybercab expands to other cities."
+    },
+    "five-million-vehicles-a-year-by-2030-target-2026-10-21": {
+      "headline": "Goal: 5 million cars a year by 2030",
+      "why": "The target would roughly double Tesla's current production capacity."
+    },
+    "fsd-eu-wide-approval-hoped-q1-2027-2026-10-21": {
+      "headline": "Musk hopes for EU-wide FSD by early 2027",
+      "why": "FSD (Supervised) is now approved in nine EU countries."
+    },
+    "optimus-fremont-production-customer-deliveries-end-2027-target-2026-10-21": {
+      "headline": "Optimus production begins in Fremont",
+      "why": "The first production-quality robots came off the line; customer deliveries are targeted for late 2027."
+    },
+    "q3-2026-earnings-results-2026-10-21": {
+      "headline": "Q3 2026: $787 million profit",
+      "why": "Tesla reported Optimus and Semi production starts and its 10-millionth vehicle."
+    },
+    "robotaxi-safety-report-four-coming-soon-cities-2026-10-21": {
+      "headline": "Tesla publishes Robotaxi Safety Report and lists Las Vegas, Jacksonville, Phoenix and San Antonio as coming soon",
+      "why": "The page lists Las Vegas, Jacksonville, Phoenix and San Antonio as coming soon, with no launch dates."
+    },
+    "unsupervised-fsd-customer-cars-robotaxi-fleet-q2-2027-target-2026-10-21": {
+      "headline": "Customer cars may join Robotaxi in 2027",
+      "why": "Tesla targets around Q2 2027 for some owner cars to join its Robotaxi fleet."
+    },
+    "giga-berlin-7000-model-y-week-2026-10-23": {
+      "headline": "Giga Berlin builds 7,000 Model Y in one week",
+      "why": "Tesla did not say how long it expects to hold that rate."
+    },
+    "fsd-supervised-latvia-approval-2026-10-26": {
+      "headline": "Latvia approves FSD (Supervised), the tenth EU country",
+      "why": "CSDD said its decision weighed Tesla changes that lower the maximum speed-limit offset, reset any manual offset after each trip and strengthen driver monitoring."
+    },
+    "spacex-40b-apollo-gpu-finance-lease-2026-10-26": {
+      "headline": "SpaceX commits to a $40B GPU finance lease with Apollo",
+      "why": "Apollo and Goldman Sachs led the financing, with anchor commitments from BlackRock, Goldman Sachs Asset Management and KKR-advised accounts."
+    }
+  },
+  "promises": [
+    {
+      "eventId": "model-s-prototype-reveal-2009",
+      "thread": "model-s-x",
+      "state": "delivered",
+      "resolvedByEventId": "model-s-deliveries-begin-2012",
+      "bettable": false,
+      "target": "2012",
+      "targetEnd": "2012-12-31",
+      "targetSource": "ledger",
+      "timingNote": "Judged against the 2010 S-1/A target of 2012 (a filing). The 2009 reveal reportedly said Q3 2011, but only press paraphrase of that survives, so it is not used.",
+      "outcome": "on-time",
+      "promiseQuote": "We currently intend to begin volume production of the Model S in 2012 with a target annual production of up to approximately 20,000 cars per year.",
+      "promiseSpeaker": "Tesla (Form S-1/A)",
+      "promiseSaidDate": "2010-03-29",
+      "promiseTarget": "2012",
+      "deliveryCriterion": "Model S customer deliveries / volume production begin.",
+      "promiseKind": "product",
+      "promiseSources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312510068933/ds1a.htm",
+          "publisher": "SEC, Tesla S-1/A, March 2010",
+          "accessed": "2026-09-05",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "eventId": "model-x-prototype-reveal-2012",
+      "thread": "model-s-x",
+      "state": "delivered",
+      "resolvedByEventId": "model-x-deliveries-begin-2015",
+      "bettable": false,
+      "target": "late 2013",
+      "targetEnd": "2013-12-31",
+      "targetSource": "ledger",
+      "outcome": "late",
+      "promiseQuote": "We plan to start Model X production in late 2013 and ramp to significant customer deliveries in early 2014, with volumes targeted at 10,000-15,000 units per year.",
+      "promiseSpeaker": "Tesla (Q4 2011 shareholder letter)",
+      "promiseSaidDate": "2012-02-15",
+      "promiseTarget": "late 2013",
+      "deliveryCriterion": "Model X production starts (first customer deliveries).",
+      "promiseKind": "product",
+      "promiseSources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312512063402/d299083dex991.htm",
+          "publisher": "SEC, Tesla Q4/FY 2011 shareholder letter (EX-99.1)",
+          "accessed": "2026-09-05",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "eventId": "gigafactory-announced-2014",
+      "thread": "gigafactories",
+      "state": "delivered",
+      "resolvedByEventId": "gigafactory-1-cell-production-2017",
+      "bettable": false,
+      "target": "2020",
+      "targetEnd": "2020-12-31",
+      "targetSource": "ledger",
+      "outcome": "timing-unknown",
+      "timingNote": "The stated target was about 35 GWh a year of cells by 2020. Cell production began in 2017, but no source in the record shows 35 GWh a year reached by 2020, so this is not counted as on time.",
+      "promiseQuote": "2020 Gigafactory Cell Output 35 GWh/yr 2020 Gigafactory Pack Output 50 GWh/yr",
+      "promiseSpeaker": "Tesla (Gigafactory presentation)",
+      "promiseSaidDate": "2014-02-26",
+      "promiseTarget": "2020",
+      "deliveryCriterion": "Gigafactory reaches 35 GWh/yr cell output and 50 GWh/yr pack output in 2020.",
+      "promiseKind": "corporate",
+      "promiseSources": [
+        {
+          "url": "https://www.tesla.com/sites/default/files/blog_attachments/gigafactory.pdf",
+          "publisher": "Tesla, Gigafactory presentation (blog attachment), February 26, 2014",
+          "accessed": "2026-10-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "eventId": "model-3-unveil-2016",
+      "thread": "model-3-y",
+      "state": "delivered",
+      "resolvedByEventId": "model-3-deliveries-begin-2017",
+      "bettable": false,
+      "target": "late 2017",
+      "targetEnd": "2017-12-31",
+      "targetSource": "ledger",
+      "outcome": "on-time",
+      "promiseQuote": "We intend to unveil Model 3 in the first quarter of 2016 and start production and deliveries in late 2017.",
+      "promiseSpeaker": "Tesla (Form 10-K FY2015)",
+      "promiseSaidDate": "2016-02-24",
+      "promiseTarget": "late 2017",
+      "deliveryCriterion": "Model 3 production and first customer deliveries begin.",
+      "promiseKind": "product",
+      "promiseSources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459016013195/tsla-10k_20151231.htm",
+          "publisher": "SEC, Tesla Form 10-K for year ended Dec. 31, 2015",
+          "accessed": "2026-09-05",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "eventId": "tesla-coast-to-coast-autonomous-drive-promise-2016-10-19",
+      "thread": "fsd-autopilot",
+      "state": "promised",
+      "resolvedByEventId": null,
+      "bettable": false,
+      "targetDate": "2017-12-31",
+      "targetPassed": true,
+      "targetSource": "ledger",
+      "promiseQuote": "our goal is, I feel pretty good about this goal, is that we'll be able to do a, a demonstration drive of full autonomy all the way from LA to New York. So basically from a home in LA to, let's say, dropping you off in, in Times Square in New York, and the having the car go and park itself by the end of next year, without, without, without the need for a single touch, including the charger.",
+      "promiseSpeaker": "Elon Musk (Tesla Autopilot 2.0 press call)",
+      "promiseSaidDate": "2016-10-19",
+      "promiseTarget": "by the end of next year",
+      "deliveryCriterion": "A Tesla drives itself from Los Angeles to New York (Times Square) and parks itself with no human touch.",
+      "promiseKind": "product",
+      "promiseSources": [
+        {
+          "url": "https://storage.courtlistener.com/recap/gov.uscourts.flsd.593426/gov.uscourts.flsd.593426.462.4.pdf",
+          "publisher": "Audio transcription of Tesla's Oct. 19, 2016 Autopilot 2.0 conference call, filed as Exhibit D (Dkt. 462-4) in Benavides v. Tesla, S.D. Fla., entered July 11, 2025",
+          "accessed": "2026-10-27",
+          "kind": "primary"
+        },
+        {
+          "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.400427/gov.uscourts.cand.400427.131.2.pdf",
+          "publisher": "Tesla's discovery responses quoting the Oct. 19, 2016 'Cross-Country Statement', Matsko v. Tesla, N.D. Cal., Dkt. 131-2, filed Apr. 10, 2025",
+          "accessed": "2026-10-27",
+          "kind": "secondary"
+        }
+      ]
+    },
+    {
+      "eventId": "solar-roof-reveal-2016",
+      "thread": "energy",
+      "state": "partial",
+      "resolvedByEventId": null,
+      "bettable": false,
+      "targetDate": "2019-12-31",
+      "targetPassed": true,
+      "targetSource": "ledger",
+      "promiseQuote": "Spooling up production line rapidly. Hoping to manufacture ~1000 solar roofs/week by end of this year.",
+      "promiseSpeaker": "Elon Musk (@elonmusk on X)",
+      "promiseSaidDate": "2019-07-29",
+      "promiseTarget": "by end of this year",
+      "deliveryCriterion": "Tesla manufactures and installs about 1,000 Solar Roofs per week.",
+      "promiseKind": "product",
+      "promiseSources": [
+        {
+          "url": "https://x.com/elonmusk/status/1156005185656782848",
+          "publisher": "Elon Musk (@elonmusk) on X, hoping to manufacture ~1000 solar roofs/week by end of this year, July 30, 2019",
+          "accessed": "2026-10-27",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "eventId": "roadster-second-gen-reveal-2017-11-16",
+      "thread": "roadster",
+      "state": "promised",
+      "resolvedByEventId": null,
+      "bettable": true,
+      "targetDate": "2020-12-31",
+      "targetPassed": true,
+      "question": "When will the new Roadster reach its first customer?",
+      "targetSource": "ledger",
+      "promiseSpeaker": "Elon Musk (unveil event)",
+      "promiseSaidDate": "2017-11-16",
+      "promiseTarget": "2020",
+      "deliveryCriterion": "First customer deliveries of the next-generation Roadster.",
+      "promiseKind": "product",
+      "promiseSources": [
+        {
+          "url": "https://www.cnbc.com/2017/11/16/tesla-ceo-elon-musk-unveils-a-surprise-new-car-a-new-roadster.html",
+          "publisher": "CNBC (secondary), Tesla CEO Elon Musk unveils a surprise new car: a new Roadster, November 16, 2017",
+          "accessed": "2026-10-20",
+          "kind": "secondary"
+        },
+        {
+          "url": "https://www.bbc.com/news/technology-42021713",
+          "publisher": "BBC News (secondary), Tesla unveils first truck - and roadster, November 2017",
+          "accessed": "2026-10-20",
+          "kind": "secondary"
+        }
+      ]
+    },
+    {
+      "eventId": "tesla-semi-unveil-2017",
+      "thread": "semi",
+      "state": "delivered",
+      "resolvedByEventId": "semi-early-production-2022",
+      "bettable": false,
+      "target": "2019",
+      "targetEnd": "2019-12-31",
+      "targetSource": "ledger",
+      "outcome": "late",
+      "promiseSpeaker": "Elon Musk (unveil event)",
+      "promiseSaidDate": "2017-11-16",
+      "promiseTarget": "2019",
+      "deliveryCriterion": "Tesla Semi production begins (first customer deliveries).",
+      "promiseKind": "product",
+      "promiseSources": [
+        {
+          "url": "https://www.youtube.com/watch?v=5RRmepp7i5g",
+          "publisher": "Tesla (YouTube), Tesla Semi & Roadster unveil, Nov. 16, 2017",
+          "accessed": "2026-10-27",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "eventId": "gigafactory-shanghai-announced-2018",
+      "thread": "gigafactories",
+      "state": "delivered",
+      "resolvedByEventId": "gigafactory-shanghai-model-3-production-2019",
+      "bettable": false,
+      "target": "in about three years",
+      "targetEnd": "2021-08-31",
+      "targetSource": "ledger",
+      "outcome": "on-time",
+      "promiseQuote": "Initial capacity is expected to be roughly 250,000 vehicles and battery packs per year, and will grow to 500,000, with the first cars expected to roll off the production line in about three years.",
+      "promiseSpeaker": "Tesla (Q2 2018 Update)",
+      "promiseSaidDate": "2018-08-01",
+      "promiseTarget": "in about three years",
+      "deliveryCriterion": "First cars roll off the Shanghai production line.",
+      "promiseKind": "corporate",
+      "promiseSources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459018018490/tsla-ex991_6.htm",
+          "publisher": "SEC, Tesla Q2 2018 Update, Exhibit 99.1",
+          "accessed": "2026-09-01",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "eventId": "model-y-unveil-2019",
+      "thread": "model-3-y",
+      "state": "delivered",
+      "resolvedByEventId": "model-y-deliveries-begin-2020",
+      "bettable": false,
+      "target": "by the end of 2020",
+      "targetEnd": "2020-12-31",
+      "targetSource": "ledger",
+      "outcome": "on-time",
+      "promiseQuote": "this year we will start tooling for Model Y to achieve volume production by the end of 2020, most likely at Gigafactory 1.",
+      "promiseSpeaker": "Tesla (Q4 2018 Update)",
+      "promiseSaidDate": "2019-01-30",
+      "promiseTarget": "by the end of 2020",
+      "deliveryCriterion": "Model Y in volume production with customer deliveries.",
+      "promiseKind": "product",
+      "promiseSources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459019001399/tsla-ex991_6.htm",
+          "publisher": "SEC, Tesla Q4 2018 Update (EX-99.1), Jan. 30, 2019",
+          "accessed": "2026-10-27",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312519135910/d730491dex991.htm",
+          "publisher": "SEC, Tesla prospectus supplement Exhibit 99.1 (filed May 2019)",
+          "accessed": "2026-09-03",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "eventId": "tesla-million-robotaxis-2020-promise-2019-04-22",
+      "thread": "robotaxi-cybercab",
+      "state": "partial",
+      "resolvedByEventId": null,
+      "bettable": false,
+      "targetDate": "2020-12-31",
+      "targetPassed": true,
+      "targetSource": "ledger",
+      "promiseQuote": "next year for sure, we'll have over a million robotaxis on the road",
+      "promiseSpeaker": "Elon Musk (Tesla Autonomy Day)",
+      "promiseSaidDate": "2019-04-22",
+      "promiseTarget": "next year",
+      "deliveryCriterion": "Over one million Tesla vehicles operating as driverless robotaxis.",
+      "promiseKind": "product",
+      "promiseSources": [
+        {
+          "url": "https://techcrunch.com/2019/04/22/tesla-plans-to-launch-a-robotaxi-network-in-2020/",
+          "publisher": "TechCrunch, Tesla plans to launch a robotaxi network in 2020, Apr. 22, 2019",
+          "accessed": "2026-10-27",
+          "kind": "secondary"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Ucp0TTmvqOE",
+          "publisher": "Tesla, Autonomy Day livestream / recording, April 22, 2019",
+          "accessed": "2026-10-27",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "eventId": "cybertruck-unveil-2019",
+      "thread": "cybertruck",
+      "state": "delivered",
+      "resolvedByEventId": "cybertruck-deliveries-begin-2023",
+      "bettable": false,
+      "target": "late 2021",
+      "targetEnd": "2021-12-31",
+      "targetSource": "ledger",
+      "outcome": "late",
+      "promiseSpeaker": "Tesla (unveil event, as reported)",
+      "promiseSaidDate": "2019-11-21",
+      "promiseTarget": "late 2021",
+      "deliveryCriterion": "Cybertruck production begins with first customer deliveries.",
+      "promiseKind": "product",
+      "promiseSources": [
+        {
+          "url": "https://www.reuters.com/article/us-tesla-pickup/teslas-electric-pickup-breaks-the-mould-with-angular-design-and-armored-glass-idUSKBN1XW0BT/",
+          "publisher": "Reuters, Cybertruck unveiled; production expected to begin around late 2021, Nov. 21, 2019",
+          "accessed": "2026-10-27",
+          "kind": "secondary"
+        },
+        {
+          "url": "https://www.cnbc.com/2019/11/21/tesla-cybertruck-unveiled.html",
+          "publisher": "CNBC, “Tesla unveils its first electric pickup, the Cybertruck,” Nov. 21, 2019",
+          "accessed": "2026-09-15",
+          "kind": "secondary"
+        }
+      ]
+    },
+    {
+      "eventId": "next-us-gigafactory-site-selected-2020",
+      "thread": "gigafactories",
+      "state": "delivered",
+      "resolvedByEventId": "gigafactory-texas-model-y-deliveries-2022",
+      "bettable": false,
+      "outcome": "no-target",
+      "promiseQuote": "The next US Gigafactory site has been selected and preparations are underway.",
+      "promiseSpeaker": "Tesla (Q2 2020 Update)",
+      "promiseSaidDate": "2020-07-22",
+      "deliveryCriterion": "The new U.S. Gigafactory is built and begins vehicle production.",
+      "promiseKind": "corporate",
+      "promiseSources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459020033069/tsla-ex991_63.htm",
+          "publisher": "SEC, Tesla Q2 2020 update (EX-99.1)",
+          "accessed": "2026-09-23",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "eventId": "battery-day-4680-2020-09-22",
+      "thread": "gigafactories",
+      "state": "partial",
+      "resolvedByEventId": null,
+      "bettable": false,
+      "targetDate": "2021-09-30",
+      "targetPassed": true,
+      "targetSource": "ledger",
+      "promiseQuote": "I would say it's probably about a year before we get to the 10 gigawatt hour annualized rate with the pilot plant.",
+      "promiseSpeaker": "Elon Musk (Battery Day)",
+      "promiseSaidDate": "2020-09-22",
+      "promiseTarget": "about a year",
+      "deliveryCriterion": "Tesla's 4680 pilot plant reaches a 10 GWh annualized cell production rate, on the way to the projected Battery Day gains (up to 54% more range, 56% lower pack cost per kWh, 69% lower capex per GWh).",
+      "promiseKind": "product",
+      "promiseSources": [
+        {
+          "url": "https://www.youtube.com/watch?v=l6T9xIeZTds",
+          "publisher": "Tesla, Battery Day livestream / recording, Sept. 22, 2020",
+          "accessed": "2026-09-28",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459020047108/tsla-ex991_57.htm",
+          "publisher": "SEC, Tesla Form 8-K Exhibit 99.1 (Q3 2020 Update), Oct. 21, 2020",
+          "accessed": "2026-10-27",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "eventId": "model-s-plaid-introduced-2020",
+      "thread": "model-s-x",
+      "state": "delivered",
+      "resolvedByEventId": "model-s-x-plaid-deliveries-begin-2021",
+      "bettable": false,
+      "target": "end of next year",
+      "targetEnd": "2021-12-31",
+      "targetSource": "ledger",
+      "outcome": "on-time",
+      "promiseQuote": "you can order it now. And it's available basically end of next year.",
+      "promiseSpeaker": "Elon Musk (Battery Day)",
+      "promiseSaidDate": "2020-09-22",
+      "promiseTarget": "end of next year",
+      "deliveryCriterion": "Model S Plaid customer deliveries begin.",
+      "promiseKind": "product",
+      "promiseSources": [
+        {
+          "url": "https://www.tesla.com/2020shareholdermeeting",
+          "publisher": "Tesla, 2020 Annual Meeting of Stockholders and Battery Day",
+          "accessed": "2026-09-23",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=l6T9xIeZTds",
+          "publisher": "Tesla, Battery Day livestream / recording, Sept. 22, 2020",
+          "accessed": "2026-10-27",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "eventId": "tesla-25k-car-promise-2020-09-22",
+      "thread": "model-3-y",
+      "state": "promised",
+      "resolvedByEventId": null,
+      "bettable": false,
+      "targetDate": "2023-09-30",
+      "targetPassed": true,
+      "targetSource": "ledger",
+      "promiseQuote": "about three years from now, we're confident we can make a very compelling $25,000 electric vehicle that's also fully autonomous.",
+      "promiseSpeaker": "Elon Musk (Battery Day)",
+      "promiseSaidDate": "2020-09-22",
+      "promiseTarget": "about three years from now",
+      "deliveryCriterion": "Tesla sells a roughly $25,000 EV built on the Battery Day cell and pack cost reductions.",
+      "promiseKind": "product",
+      "promiseSources": [
+        {
+          "url": "https://www.youtube.com/watch?v=l6T9xIeZTds",
+          "publisher": "Tesla, Battery Day livestream / recording, Sept. 22, 2020",
+          "accessed": "2026-09-28",
+          "kind": "primary"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459020047108/tsla-ex991_57.htm",
+          "publisher": "SEC, Tesla Form 8-K Exhibit 99.1 (Q3 2020 Update), Oct. 21, 2020",
+          "accessed": "2026-10-27",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "eventId": "fsd-beta-limited-release-2020-10-20",
+      "thread": "fsd-autopilot",
+      "state": "partial",
+      "resolvedByEventId": null,
+      "bettable": false,
+      "promiseQuote": "This rewrite will allow the remaining driving features to be released.",
+      "promiseSpeaker": "Tesla (Q3 2020 Update)",
+      "promiseSaidDate": "2020-10-21",
+      "deliveryCriterion": "FSD (City Streets) released to the general customer fleet, beyond limited Early Access.",
+      "promiseKind": "product",
+      "promiseSources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459020047108/tsla-ex991_57.htm",
+          "publisher": "SEC, Tesla Q3 2020 Update (EX-99.1), Oct. 21, 2020 — FSD beta / City Streets to Early Access in October",
+          "accessed": "2026-09-28",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "eventId": "ai-day-optimus-concept-2021-08-19",
+      "thread": "optimus",
+      "state": "delivered",
+      "resolvedByEventId": "ai-day-optimus-prototype-2022-09-30",
+      "bettable": false,
+      "target": "sometime next year",
+      "targetEnd": "2022-12-31",
+      "targetSource": "ledger",
+      "outcome": "on-time",
+      "promiseQuote": "we think we'll probably have a prototype sometime next year that basically looks like this",
+      "promiseSpeaker": "Elon Musk (AI Day 2021)",
+      "promiseSaidDate": "2021-08-19",
+      "promiseTarget": "sometime next year",
+      "deliveryCriterion": "A working Optimus prototype is shown.",
+      "promiseKind": "product",
+      "promiseSources": [
+        {
+          "url": "https://www.youtube.com/watch?v=j0z4FweCy4M",
+          "publisher": "Tesla, AI Day 2021 livestream / recording, Aug. 19, 2021",
+          "accessed": "2026-09-28",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "eventId": "berlin-giga-fest-production-target-2021-10-09",
+      "thread": "gigafactories",
+      "state": "delivered",
+      "resolvedByEventId": "gigafactory-berlin-production-2022",
+      "bettable": false,
+      "target": "November or December",
+      "targetEnd": "2021-12-31",
+      "targetSource": "ledger",
+      "outcome": "late",
+      "promiseQuote": "We're aiming to start production in a few months, basically, November or December, and hopefully deliver our first cars in December",
+      "promiseSpeaker": "Elon Musk (Giga Fest Berlin)",
+      "promiseSaidDate": "2021-10-09",
+      "promiseTarget": "November or December",
+      "deliveryCriterion": "Giga Berlin starts production and delivers first cars.",
+      "promiseKind": "corporate",
+      "promiseSources": [
+        {
+          "url": "https://techcrunch.com/2021/10/10/tesla-hosts-festival-at-berlin-gigafactory-to-announce-start-of-production-by-december/",
+          "publisher": "TechCrunch, Giga Fest / year-end production target, October 10, 2021",
+          "accessed": "2026-09-22",
+          "kind": "secondary"
+        }
+      ]
+    },
+    {
+      "eventId": "ai-day-optimus-prototype-2022-09-30",
+      "thread": "optimus",
+      "state": "partial",
+      "resolvedByEventId": null,
+      "bettable": false,
+      "targetDate": "2027-09-30",
+      "targetSource": "ledger",
+      "promiseQuote": "I'd say probably within 3 years, not more than five years. within three to five years you could probably receive an Optimus.",
+      "promiseSpeaker": "Elon Musk (AI Day 2022)",
+      "promiseSaidDate": "2022-09-30",
+      "promiseTarget": "within three to five years",
+      "deliveryCriterion": "Customers can receive (buy) an Optimus robot.",
+      "promiseKind": "product",
+      "promiseSources": [
+        {
+          "url": "https://www.youtube.com/watch?v=ODSJsviD_SU",
+          "publisher": "Tesla, AI Day 2022 livestream / recording, Sept. 30, 2022",
+          "accessed": "2026-09-28",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "eventId": "supercharger-us-open-non-tesla-nevi-2023",
+      "thread": "charging",
+      "state": "partial",
+      "resolvedByEventId": null,
+      "bettable": false,
+      "targetDate": "2024-12-31",
+      "targetPassed": true,
+      "targetSource": "ledger",
+      "promiseQuote": "Tesla, for the first time, will open a portion of its U.S. Supercharger and Destination Charger network to non-Tesla EVs, making at least 7,500 chargers available for all EVs by the end of 2024.",
+      "promiseSpeaker": "White House fact sheet (Tesla commitment)",
+      "promiseSaidDate": "2023-02-15",
+      "promiseTarget": "by the end of 2024",
+      "deliveryCriterion": "At least 7,500 U.S. Tesla chargers (including at least 3,500 250 kW Superchargers) usable by all EVs via the Tesla app or website.",
+      "promiseKind": "corporate",
+      "promiseSources": [
+        {
+          "url": "https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2023/02/15/fact-sheet-biden-harris-administration-announces-new-standards-and-major-progress-for-a-made-in-america-national-network-of-electric-vehicle-chargers/",
+          "publisher": "White House fact sheet (archived), Tesla to open at least 7,500 chargers to all EVs by end of 2024, Feb. 15, 2023",
+          "accessed": "2026-10-27",
+          "kind": "primary"
+        },
+        {
+          "url": "https://x.com/TeslaCharging/status/1625798923704225793",
+          "publisher": "Tesla Charging on X, select U.S. Superchargers open to all EVs, Feb. 15, 2023",
+          "accessed": "2026-09-18",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "eventId": "gigafactory-mexico-monterrey-announced-2023",
+      "thread": "gigafactories",
+      "state": "promised",
+      "resolvedByEventId": null,
+      "bettable": true,
+      "question": "When will Gigafactory Mexico start production?",
+      "promiseQuote": "In March 2023, we announced the location of our next Gigafactory in Monterrey, Mexico.",
+      "promiseSpeaker": "Tesla (Form 10-K FY2023)",
+      "promiseSaidDate": "2024-01-29",
+      "deliveryCriterion": "Gigafactory Mexico is built and starts production.",
+      "promiseKind": "corporate",
+      "promiseSources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828024002390/tsla-20231231.htm",
+          "publisher": "SEC, Tesla Form 10-K for year ended Dec. 31, 2023",
+          "accessed": "2026-09-05",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "eventId": "we-robot-cybercab-robovan-unveil-2024",
+      "thread": "robotaxi-cybercab",
+      "state": "partial",
+      "resolvedByEventId": null,
+      "bettable": true,
+      "question": "When will Robovan go into production?",
+      "targetDate": "2026-12-31",
+      "targetSource": "ledger",
+      "promiseQuote": "we expect to be in production with the Cybercab ... in 2026, so yeah, before 2027, let me put it that way",
+      "promiseSpeaker": "Elon Musk (We, Robot)",
+      "promiseSaidDate": "2024-10-10",
+      "promiseTarget": "before 2027",
+      "deliveryCriterion": "Cybercab enters production.",
+      "promiseKind": "product",
+      "promiseSources": [
+        {
+          "url": "https://www.youtube.com/watch?v=6v6dbxPlsXs",
+          "publisher": "Tesla (YouTube), We, Robot event, Oct. 10, 2024",
+          "accessed": "2026-10-27",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "eventId": "shanghai-megafactory-shipping-target-q1-2025",
+      "thread": "energy",
+      "state": "delivered",
+      "resolvedByEventId": "q2-2025-earnings-results-2025-07-23",
+      "bettable": false,
+      "target": "Q1 2025",
+      "targetEnd": "2025-03-31",
+      "targetSource": "ledger",
+      "outcome": "timing-unknown",
+      "timingNote": "The resolving row is the Q2 2025 report (2025-07-23); the ledger has no first-shipment date.",
+      "promiseQuote": "The Shanghai Megafactory remains on track to begin shipping Megapacks in Q1 2025.",
+      "promiseSpeaker": "Tesla (Q3 2024 Update)",
+      "promiseSaidDate": "2024-10-23",
+      "promiseTarget": "Q1 2025",
+      "deliveryCriterion": "Shanghai Megafactory ships its first Megapacks.",
+      "promiseKind": "corporate",
+      "promiseSources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828024043432/exhibit.htm",
+          "publisher": "SEC, Tesla Q3 2024 Update (EX-99.1 / IR packet)",
+          "accessed": "2026-09-06",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "eventId": "v4-supercharger-cabinet-unveiled-2024-11-14",
+      "thread": "charging",
+      "state": "delivered",
+      "resolvedByEventId": "v4-supercharger-cabinets-launch-2025-09",
+      "bettable": false,
+      "target": "next year",
+      "targetEnd": "2025-12-31",
+      "targetSource": "ledger",
+      "outcome": "on-time",
+      "promiseSpeaker": "Tesla (as reported)",
+      "promiseSaidDate": "2024-11-14",
+      "promiseTarget": "next year",
+      "deliveryCriterion": "First V4-cabinet Supercharger sites open to drivers.",
+      "promiseKind": "product",
+      "promiseSources": [
+        {
+          "url": "https://electrek.co/2024/11/14/tesla-announces-500-kw-charging-as-it-finally-delivers-v4-supercharger-cabinets/",
+          "publisher": "Electrek (secondary), V4 Supercharger cabinet / 500 kW announcement, November 14, 2024",
+          "accessed": "2026-09-20",
+          "kind": "secondary"
+        }
+      ]
+    },
+    {
+      "eventId": "robotaxi-bay-area-ride-hailing-q3-2025",
+      "thread": "robotaxi-cybercab",
+      "state": "partial",
+      "resolvedByEventId": null,
+      "bettable": false,
+      "targetDate": "2025-12-31",
+      "targetPassed": true,
+      "targetSource": "ledger",
+      "promiseQuote": "we do expect actually to start fully autonomous unsupervised FSD in Texas and California next year",
+      "promiseSpeaker": "Elon Musk (We, Robot)",
+      "promiseSaidDate": "2024-10-10",
+      "promiseTarget": "next year",
+      "deliveryCriterion": "Unsupervised (no safety driver or monitor) paid rides in California.",
+      "promiseKind": "product",
+      "promiseSources": [
+        {
+          "url": "https://www.youtube.com/watch?v=6v6dbxPlsXs",
+          "publisher": "Tesla (YouTube), We, Robot event, Oct. 10, 2024",
+          "accessed": "2026-10-27",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "eventId": "megapack3-megablock-unveil-q3-2025",
+      "thread": "energy",
+      "state": "partial",
+      "resolvedByEventId": null,
+      "bettable": true,
+      "question": "When will Megablock reach production or delivery?",
+      "targetDate": "2026-12-31",
+      "targetSource": "ledger",
+      "promiseQuote": "Megapack 3 production will begin at Megafactory Houston in 2026 with up to 50 GWh per year of manufacturing capacity.",
+      "promiseSpeaker": "Tesla (Q3 2025 Update)",
+      "promiseSaidDate": "2025-10-22",
+      "promiseTarget": "2026",
+      "deliveryCriterion": "Megapack 3 and Megablock in production at Megafactory Houston.",
+      "promiseKind": "product",
+      "promiseSources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045861/exhibit991.htm",
+          "publisher": "SEC, Tesla Form 8-K Exhibit 99.1 (Q3 2025 Update), October 22, 2025",
+          "accessed": "2026-09-23",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "eventId": "robotaxi-austin-unsupervised-monitor-removal-2026-01",
+      "thread": "robotaxi-cybercab",
+      "state": "partial",
+      "resolvedByEventId": null,
+      "bettable": false,
+      "targetDate": "2026-12-31",
+      "targetSource": "ledger",
+      "promiseQuote": "very widespread by the end of this year within the U.S.",
+      "promiseSpeaker": "Elon Musk (World Economic Forum, Davos)",
+      "promiseSaidDate": "2026-01-22",
+      "promiseTarget": "by the end of this year",
+      "deliveryCriterion": "Robotaxi rides with no safety monitor available widely across U.S. markets, not a few Austin vehicles.",
+      "promiseKind": "product",
+      "promiseSources": [
+        {
+          "url": "https://www.cnbc.com/2026/01/22/musk-says-tesla-takes-safety-supervisors-out-of-some-austin-robotaxis.html",
+          "publisher": "CNBC, Musk: safety supervisors out of some Austin Robotaxis, January 22, 2026",
+          "accessed": "2026-09-23",
+          "kind": "secondary"
+        }
+      ]
+    },
+    {
+      "eventId": "terafab-austin-announced-2026-03-22",
+      "thread": "gigafactories",
+      "state": "promised",
+      "resolvedByEventId": null,
+      "bettable": true,
+      "question": "When will Terafab reach volume chip production?",
+      "promiseQuote": "We either build the Terafab or we don't have the chips, and we need the chips, so we build the Terafab.",
+      "promiseSpeaker": "Elon Musk",
+      "promiseSaidDate": "2026-03-22",
+      "deliveryCriterion": "Terafab produces chips in volume.",
+      "promiseKind": "corporate",
+      "promiseSources": [
+        {
+          "url": "https://fortune.com/2026/03/22/musk-terafab-chip-project-tesla-spacex-xai-space-data-center-satellite/",
+          "publisher": "Fortune, Musk Terafab Austin announcement, March 22, 2026",
+          "accessed": "2026-09-28",
+          "kind": "secondary"
+        }
+      ]
+    },
+    {
+      "eventId": "megafactory-texas-nearing-completion-megapack3-sop-2026",
+      "thread": "energy",
+      "state": "delivered",
+      "resolvedByEventId": "megapack3-brookshire-production-2026-08-06",
+      "bettable": false,
+      "target": "this year",
+      "targetEnd": "2026-12-31",
+      "targetSource": "ledger",
+      "outcome": "on-time",
+      "promiseQuote": "Megafactory Texas is nearing completion, with start of production planned for this year.",
+      "promiseSpeaker": "Tesla (Q2 2026 Update)",
+      "promiseSaidDate": "2026-07-22",
+      "promiseTarget": "this year",
+      "deliveryCriterion": "Megafactory Texas starts Megapack 3 production.",
+      "promiseKind": "corporate",
+      "promiseSources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026049213/exhibit991.htm",
+          "publisher": "SEC, Tesla Form 8-K Exhibit 99.1 (Q2 2026 Update), July 22, 2026",
+          "accessed": "2026-09-28",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "eventId": "tesla-semi-nevada-factory-production-planned-2026",
+      "thread": "semi",
+      "state": "delivered",
+      "resolvedByEventId": "semi-nevada-high-volume-production-2026-09-24",
+      "bettable": false,
+      "target": "this year",
+      "targetEnd": "2026-12-31",
+      "targetSource": "ledger",
+      "outcome": "on-time",
+      "promiseQuote": "Tesla Semi remains on track for production this year at our new factory in Nevada.",
+      "promiseSpeaker": "Tesla (Q2 2026 Update)",
+      "promiseSaidDate": "2026-07-22",
+      "promiseTarget": "this year",
+      "deliveryCriterion": "Tesla Semi volume production starts at the Nevada factory.",
+      "promiseKind": "product",
+      "promiseSources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026049213/exhibit991.htm",
+          "publisher": "SEC, Tesla Form 8-K Exhibit 99.1 (Q2 2026 Update), July 22, 2026",
+          "accessed": "2026-09-28",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "eventId": "ai5-tape-out-2026-04-15",
+      "thread": "fsd-autopilot",
+      "state": "promised",
+      "resolvedByEventId": null,
+      "bettable": true,
+      "question": "When will AI5 chips ship in Tesla cars or robots?",
+      "promiseSpeaker": "Elon Musk (@elonmusk on X)",
+      "promiseSaidDate": "2026-04-15",
+      "deliveryCriterion": "AI5 boards ship in production Tesla vehicles or robots.",
+      "promiseKind": "product",
+      "promiseSources": [
+        {
+          "url": "https://x.com/elonmusk/status/2044315118583066738",
+          "publisher": "Elon Musk (@elonmusk) X post congratulating Tesla_AI on AI5 tape-out, April 15, 2026",
+          "accessed": "2026-09-28",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "eventId": "fremont-optimus-lines-after-sx-decommission-q2-2026",
+      "thread": "optimus",
+      "state": "partial",
+      "resolvedByEventId": null,
+      "bettable": false,
+      "promiseQuote": "We have decommissioned the manufacturing lines for Models S & X at our Fremont Factory and are installing the first-generation lines for Optimus, where we expect to start production soon.",
+      "promiseSpeaker": "Tesla (Q2 2026 Update)",
+      "promiseSaidDate": "2026-07-22",
+      "promiseTarget": "soon",
+      "deliveryCriterion": "Optimus production starts on the Fremont first-generation lines.",
+      "promiseKind": "product",
+      "promiseSources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026049213/exhibit991.htm",
+          "publisher": "SEC, Tesla Form 8-K Exhibit 99.1 (Q2 2026 Update), July 22, 2026",
+          "accessed": "2026-09-28",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "eventId": "natpower-megapack-25gwh-europe-2026-06-23",
+      "thread": "energy",
+      "state": "promised",
+      "resolvedByEventId": null,
+      "bettable": true,
+      "question": "When will the first NatPower Megapack project be energized?",
+      "promiseQuote": "NatPower and Tesla have entered into a multi-year supply and execution agreement covering more than 25 GWh of battery energy storage systems (BESS) across European markets.",
+      "promiseSpeaker": "NatPower (joint announcement with Tesla)",
+      "promiseSaidDate": "2026-06-23",
+      "deliveryCriterion": "More than 25 GWh of Tesla BESS delivered to NatPower projects in Europe.",
+      "promiseKind": "financial",
+      "promiseSources": [
+        {
+          "url": "https://natpower.com/2026/06/23/natpower-and-tesla-sign-a-strategic-agreement-for-more-than-25-gwh-of-battery-energy-storage-systems-in-europe-2/",
+          "publisher": "NatPower press release, Megapack / Autobidder Europe agreement, June 23, 2026",
+          "accessed": "2026-09-28",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "eventId": "cybercab-public-tests-employee-rides-q2-2026",
+      "thread": "robotaxi-cybercab",
+      "state": "partial",
+      "resolvedByEventId": null,
+      "bettable": false,
+      "promiseQuote": "Cybercab employee rides at Giga Texas starting soon",
+      "promiseSpeaker": "Tesla (@Tesla on X)",
+      "promiseSaidDate": "2026-07-10",
+      "promiseTarget": "starting soon",
+      "deliveryCriterion": "Employees ride in Cybercabs at Giga Texas.",
+      "promiseKind": "product",
+      "promiseSources": [
+        {
+          "url": "https://x.com/Tesla/status/2075766625593389515",
+          "publisher": "Tesla (@Tesla) on X, July 10, 2026 (PT)",
+          "accessed": "2026-10-07",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "eventId": "einride-500-semi-order-2026-08-18",
+      "thread": "semi",
+      "state": "promised",
+      "resolvedByEventId": null,
+      "bettable": true,
+      "question": "When will Semis start arriving under Einride's 500-truck order?",
+      "promiseSpeaker": "Einride",
+      "promiseSaidDate": "2026-08-18",
+      "deliveryCriterion": "Einride takes delivery of 500 Tesla Semis.",
+      "promiseKind": "financial",
+      "promiseSources": [
+        {
+          "url": "https://www.fleetowner.com/equipment/news/55398801/einride-orders-500-tesla-semis-for-ai-managed-electric-fleet",
+          "publisher": "FleetOwner, Einride 500 Semi order, August 2026",
+          "accessed": "2026-09-28",
+          "kind": "secondary"
+        }
+      ]
+    },
+    {
+      "eventId": "cybercab-commercial-austin-2026-09-03",
+      "thread": "robotaxi-cybercab",
+      "state": "partial",
+      "resolvedByEventId": null,
+      "bettable": false,
+      "promiseSpeaker": "Tesla",
+      "promiseSaidDate": "2026-09-03",
+      "deliveryCriterion": "Cybercab commercial service runs at scale in Austin, with the NHTSA FMVSS audit resolved.",
+      "promiseKind": "product",
+      "promiseSources": [
+        {
+          "url": "https://static.nhtsa.gov/odi/inv/2026/INOA-AQ26002-17078.pdf",
+          "publisher": "NHTSA ODI / OVSC resume, AQ26002 (Cybercab FMVSS Certification), opened September 3, 2026",
+          "accessed": "2026-09-22",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "eventId": "cybercab-austin-open-app-hailing-2026-09-10",
+      "thread": "robotaxi-cybercab",
+      "state": "partial",
+      "resolvedByEventId": null,
+      "bettable": false,
+      "promiseQuote": "Anyone can try Cybercab in Austin\n\nJust download the Robotaxi app & hail a ride",
+      "promiseSpeaker": "Tesla (@robotaxi on X)",
+      "promiseSaidDate": "2026-09-10",
+      "deliveryCriterion": "Any Robotaxi app user in Austin can hail a Cybercab.",
+      "promiseKind": "product",
+      "promiseSources": [
+        {
+          "url": "https://x.com/robotaxi/status/2098099999888593064",
+          "publisher": "Robotaxi (@robotaxi) X post, Anyone can try Cybercab in Austin, September 10, 2026",
+          "accessed": "2026-09-28",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "eventId": "zet-scale-2500-semi-order-2026-09-22",
+      "thread": "semi",
+      "state": "promised",
+      "resolvedByEventId": null,
+      "bettable": true,
+      "question": "When will Semis start arriving for the ZET SCALE alliance?",
+      "promiseQuote": "We are proud to have been the primary selection in this RFP and look forward to giving shippers and carriers a new competitive edge.",
+      "promiseSpeaker": "Tesla (quoted in CALSTART release)",
+      "promiseSaidDate": "2026-09-22",
+      "deliveryCriterion": "2,500 Tesla Semis delivered under ZET SCALE.",
+      "promiseKind": "financial",
+      "promiseSources": [
+        {
+          "url": "https://calstart.org/catalyst-mobility-and-smart-freight-centre-launch-zet-scale-program/",
+          "publisher": "Catalyst Mobility / CALSTART, ZET SCALE 2,500-truck announcement, September 22, 2026",
+          "accessed": "2026-09-28",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "eventId": "cybercab-austin-300-fleet-2026-10-10",
+      "thread": "robotaxi-cybercab",
+      "state": "partial",
+      "resolvedByEventId": null,
+      "bettable": false,
+      "promiseQuote": "Two years since the 10/10 Cybercab WeRobot event, the cabs are everywhere in Austin now. Dallas soon.",
+      "promiseSpeaker": "Ashok Elluswamy (@aelluswamy on X)",
+      "promiseSaidDate": "2026-10-10",
+      "promiseTarget": "soon",
+      "deliveryCriterion": "Cybercab service launches in Dallas.",
+      "promiseKind": "product",
+      "promiseSources": [
+        {
+          "url": "https://x.com/aelluswamy/status/2108986941127696515",
+          "publisher": "Ashok Elluswamy (@aelluswamy) on X, Cybercabs everywhere in Austin / Dallas soon, October 10, 2026",
+          "accessed": "2026-10-12",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "eventId": "spacex-starship-flight-15-dual-catch-planned-2026-10-20",
+      "thread": null,
+      "state": "promised",
+      "resolvedByEventId": null,
+      "bettable": false,
+      "promiseQuote": "I'd say it's more likely than not that this succeeds next flight,",
+      "promiseSpeaker": "Elon Musk (SpaceX Q3 2026 call)",
+      "promiseSaidDate": "2026-10-20",
+      "promiseTarget": "next flight",
+      "deliveryCriterion": "Starship Flight 15 flies and both booster and ship are caught.",
+      "promiseKind": "other",
+      "promiseSources": [
+        {
+          "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-will-attempt-1st-ever-double-starship-rocket-catch-on-next-test-launch-a-profound-technology-milestone-elon-musk-says",
+          "publisher": "Space.com, SpaceX will attempt 1st-ever double Starship rocket catch on next test launch, October 20, 2026",
+          "accessed": "2026-10-26",
+          "kind": "secondary"
+        }
+      ]
+    },
+    {
+      "eventId": "cybercab-customer-sales-by-end-2026-target-2026-10-21",
+      "thread": "robotaxi-cybercab",
+      "state": "promised",
+      "resolvedByEventId": null,
+      "bettable": true,
+      "question": "When will Tesla deliver its first Cybercab to a customer?",
+      "targetDate": "2026-12-31",
+      "targetSource": "ledger",
+      "promiseQuote": "we're trying to get Cybercabs to customers by the end of this year, 2026.",
+      "promiseSpeaker": "Lars Moravy (Q3 2026 earnings call)",
+      "promiseSaidDate": "2026-10-21",
+      "promiseTarget": "by the end of this year, 2026",
+      "deliveryCriterion": "First Cybercab delivered to a customer who owns it.",
+      "promiseKind": "product",
+      "promiseSources": [
+        {
+          "url": "https://x.com/Tesla/status/2113019308356039038",
+          "publisher": "Tesla (@Tesla) on X, Q3 2026 Earnings Call audio-only webcast, October 21, 2026",
+          "accessed": "2026-10-22",
+          "kind": "primary"
+        },
+        {
+          "url": "https://teslanorth.com/2026/10/21/tesla-q3-2026-call-takeaways/",
+          "publisher": "TeslaNorth, Tesla Q3 Earnings Call: Cybercab Hits Dallas, FSD Unsupervised in 2027, October 21, 2026",
+          "accessed": "2026-10-27",
+          "kind": "secondary"
+        }
+      ]
+    },
+    {
+      "eventId": "cybercab-dallas-launch-november-2026-announced-2026-10-21",
+      "thread": "robotaxi-cybercab",
+      "state": "promised",
+      "resolvedByEventId": null,
+      "bettable": true,
+      "question": "When will Cybercab launch in Dallas?",
+      "targetDate": "2026-11-30",
+      "targetSource": "ledger",
+      "promiseQuote": "next month we'll be launching in Dallas.",
+      "promiseSpeaker": "Ashok Elluswamy (Q3 2026 earnings call)",
+      "promiseSaidDate": "2026-10-21",
+      "promiseTarget": "next month",
+      "deliveryCriterion": "Cybercab/Robotaxi rides open to riders in Dallas.",
+      "promiseKind": "product",
+      "promiseSources": [
+        {
+          "url": "https://x.com/Tesla/status/2113019308356039038",
+          "publisher": "Tesla (@Tesla) on X, Q3 2026 Earnings Call audio-only webcast (broadcast x.com/i/broadcasts/1jxXgBNRDljJZ), October 21, 2026",
+          "accessed": "2026-10-21",
+          "kind": "primary"
+        },
+        {
+          "url": "https://teslanorth.com/2026/10/21/tesla-q3-2026-call-takeaways/",
+          "publisher": "TeslaNorth, Tesla Q3 Earnings Call: Cybercab Hits Dallas, FSD Unsupervised in 2027, October 21, 2026",
+          "accessed": "2026-10-21",
+          "kind": "secondary"
+        }
+      ]
+    },
+    {
+      "eventId": "five-million-vehicles-a-year-by-2030-target-2026-10-21",
+      "thread": "gigafactories",
+      "state": "promised",
+      "resolvedByEventId": null,
+      "bettable": true,
+      "question": "When will Tesla build 5 million vehicles in a year?",
+      "targetDate": "2030-12-31",
+      "targetSource": "ledger",
+      "promiseQuote": "aiming for 5 million vehicles a year by approximately 2030,",
+      "promiseSpeaker": "Elon Musk (Q3 2026 earnings call)",
+      "promiseSaidDate": "2026-10-21",
+      "promiseTarget": "by approximately 2030",
+      "deliveryCriterion": "Tesla production reaches a 5 million vehicles per year rate.",
+      "promiseKind": "financial",
+      "promiseSources": [
+        {
+          "url": "https://x.com/Tesla/status/2113019308356039038",
+          "publisher": "Tesla (@Tesla) on X, Q3 2026 Earnings Call audio-only webcast, October 21, 2026",
+          "accessed": "2026-10-22",
+          "kind": "primary"
+        },
+        {
+          "url": "https://teslanorth.com/2026/10/21/tesla-q3-2026-call-takeaways/",
+          "publisher": "TeslaNorth, Tesla Q3 Earnings Call: Cybercab Hits Dallas, FSD Unsupervised in 2027, October 21, 2026",
+          "accessed": "2026-10-27",
+          "kind": "secondary"
+        }
+      ]
+    },
+    {
+      "eventId": "fsd-eu-wide-approval-hoped-q1-2027-2026-10-21",
+      "thread": "fsd-autopilot",
+      "state": "promised",
+      "resolvedByEventId": null,
+      "bettable": true,
+      "question": "When will FSD (Supervised) win EU-wide approval?",
+      "promiseQuote": "maybe within a few months",
+      "promiseSpeaker": "Elon Musk (Q3 2026 earnings call)",
+      "promiseSaidDate": "2026-10-21",
+      "promiseTarget": "maybe within a few months",
+      "deliveryCriterion": "EU-wide (type) approval of FSD (Supervised).",
+      "promiseKind": "product",
+      "promiseSources": [
+        {
+          "url": "https://x.com/Tesla/status/2113019308356039038",
+          "publisher": "Tesla (@Tesla) on X, Q3 2026 Earnings Call audio-only webcast (broadcast x.com/i/broadcasts/1jxXgBNRDljJZ), October 21, 2026",
+          "accessed": "2026-10-21",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "eventId": "optimus-fremont-production-customer-deliveries-end-2027-target-2026-10-21",
+      "thread": "optimus",
+      "state": "partial",
+      "resolvedByEventId": null,
+      "bettable": true,
+      "question": "When will Optimus reach its first customers?",
+      "targetDate": "2027-12-31",
+      "targetSource": "ledger",
+      "promiseQuote": "towards the end of next year.",
+      "promiseSpeaker": "Elon Musk (Q3 2026 earnings call)",
+      "promiseSaidDate": "2026-10-21",
+      "promiseTarget": "towards the end of next year",
+      "deliveryCriterion": "Optimus robots delivered to outside customers.",
+      "promiseKind": "product",
+      "promiseSources": [
+        {
+          "url": "https://x.com/Tesla/status/2113019308356039038",
+          "publisher": "Tesla (@Tesla) on X, Q3 2026 Earnings Call audio-only webcast (broadcast x.com/i/broadcasts/1jxXgBNRDljJZ), October 21, 2026",
+          "accessed": "2026-10-21",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "eventId": "robotaxi-safety-report-four-coming-soon-cities-2026-10-21",
+      "thread": "robotaxi-cybercab",
+      "state": "promised",
+      "resolvedByEventId": null,
+      "bettable": false,
+      "promiseSpeaker": "Tesla (Robotaxi Safety Report page)",
+      "promiseSaidDate": "2026-10-21",
+      "deliveryCriterion": "Robotaxi service launches in Las Vegas, Jacksonville, Phoenix and San Antonio.",
+      "promiseKind": "product",
+      "promiseSources": [
+        {
+          "url": "https://www.notateslaapp.com/news/4860/tesla-names-next-robotaxi-cities-shares-miles-driven-safety-data",
+          "publisher": "Not a Tesla App, Tesla Names Next Robotaxi Cities, Shares Miles Driven & Safety Data, October 21, 2026",
+          "accessed": "2026-10-26",
+          "kind": "secondary"
+        }
+      ]
+    },
+    {
+      "eventId": "unsupervised-fsd-customer-cars-robotaxi-fleet-q2-2027-target-2026-10-21",
+      "thread": "robotaxi-cybercab",
+      "state": "promised",
+      "resolvedByEventId": null,
+      "bettable": true,
+      "question": "When will the first customer-owned cars join the Robotaxi fleet?",
+      "targetDate": "2027-06-30",
+      "targetSource": "ledger",
+      "promiseQuote": "We suspect somewhere around Q2 next year is when we can turn on some of the first customer vehicles to be part of the robotaxi fleet,",
+      "promiseSpeaker": "Ashok Elluswamy (Q3 2026 earnings call)",
+      "promiseSaidDate": "2026-10-21",
+      "promiseTarget": "around Q2 next year",
+      "deliveryCriterion": "First customer-owned Teslas operate unsupervised in the Robotaxi fleet.",
+      "promiseKind": "product",
+      "promiseSources": [
+        {
+          "url": "https://x.com/Tesla/status/2113019308356039038",
+          "publisher": "Tesla (@Tesla) on X, Q3 2026 Earnings Call audio-only webcast (broadcast x.com/i/broadcasts/1jxXgBNRDljJZ), October 21, 2026",
+          "accessed": "2026-10-21",
+          "kind": "primary"
+        },
+        {
+          "url": "https://teslanorth.com/2026/10/21/tesla-q3-2026-call-takeaways/",
+          "publisher": "TeslaNorth, Tesla Q3 Earnings Call: Cybercab Hits Dallas, FSD Unsupervised in 2027, October 21, 2026",
+          "accessed": "2026-10-21",
+          "kind": "secondary"
+        }
+      ]
+    }
+  ],
+  "recent": {
+    "method": "added",
+    "asOf": "2026-10-23",
+    "windowDays": 30,
+    "eventIds": [
+      "fsd-supervised-latvia-approval-2026-10-26",
+      "spacex-40b-apollo-gpu-finance-lease-2026-10-26",
+      "giga-berlin-7000-model-y-week-2026-10-23",
+      "robotaxi-safety-report-four-coming-soon-cities-2026-10-21",
+      "spacex-q3-2026-results-2026-10-20",
+      "spacex-starship-flight-15-dual-catch-planned-2026-10-20",
+      "sae-j3400-recommended-practice-2024-09-30",
+      "q1-2024-earnings-results-2024-04-23",
+      "rivian-supercharger-access-begins-2024-03-18",
+      "q4-fy-2023-earnings-results-2024-01-24",
+      "q3-2023-earnings-results-2023-10-18",
+      "q2-2023-earnings-results-2023-07-19",
+      "q1-2023-earnings-results-2023-04-19",
+      "q4-fy-2022-earnings-results-2023-01-25",
+      "q3-2022-earnings-results-2022-10-19",
+      "q2-2022-earnings-results-2022-07-20",
+      "q1-2022-earnings-results-2022-04-20",
+      "q4-fy-2021-earnings-results-2022-01-26",
+      "q3-2020-earnings-results-2020-10-21",
+      "tesla-25k-car-promise-2020-09-22",
+      "q2-2020-earnings-results-2020-07-22",
+      "q1-2020-earnings-results-2020-04-29",
+      "q4-fy-2019-earnings-results-2020-01-29",
+      "q3-2019-earnings-results-2019-10-23",
+      "q2-2019-earnings-results-2019-07-24",
+      "q1-2019-earnings-results-2019-04-24",
+      "tesla-million-robotaxis-2020-promise-2019-04-22",
+      "q4-fy-2018-earnings-results-2019-01-30",
+      "q2-2018-earnings-results-2018-08-01",
+      "q4-fy-2017-earnings-results-2018-02-07",
+      "q3-2017-earnings-results-2017-11-01",
+      "q2-2017-earnings-results-2017-08-02",
+      "q1-2017-earnings-results-2017-05-03",
+      "q4-fy-2016-earnings-results-2017-02-22",
+      "q3-2016-earnings-results-2016-10-26",
+      "tesla-coast-to-coast-autonomous-drive-promise-2016-10-19",
+      "q2-2016-earnings-results-2016-08-03",
+      "q1-2016-earnings-results-2016-05-04",
+      "q4-fy-2015-earnings-results-2016-02-10",
+      "q3-2015-earnings-results-2015-11-03",
+      "q2-2015-earnings-results-2015-08-05",
+      "q1-2015-earnings-results-2015-05-06",
+      "q4-fy-2014-earnings-results-2015-02-11",
+      "q3-2014-earnings-results-2014-11-05",
+      "q2-2014-earnings-results-2014-07-31",
+      "q1-2014-earnings-results-2014-05-07",
+      "q4-fy-2013-earnings-results-2014-02-19",
+      "q3-2013-earnings-results-2013-11-05",
+      "q2-2013-earnings-results-2013-08-07",
+      "q1-2013-earnings-results-2013-05-08",
+      "q4-fy-2012-earnings-results-2013-02-20",
+      "q3-2012-earnings-results-2012-11-05",
+      "q2-2012-earnings-results-2012-07-25",
+      "q1-2012-earnings-results-2012-05-09",
+      "q4-fy-2011-earnings-results-2012-02-15",
+      "q3-2011-earnings-results-2011-11-02",
+      "q2-2011-earnings-results-2011-08-03",
+      "q1-2011-earnings-results-2011-05-04",
+      "q4-fy-2010-earnings-results-2011-02-15",
+      "q3-2010-earnings-results-2010-11-09"
+    ]
+  },
+  "closedPromises": [
+    {
+      "eventId": "fisker-nacs-supercharger-access-2023",
+      "thread": "charging",
+      "outcome": "moot",
+      "label": "Not delivered (moot)",
+      "relatedEventId": null,
+      "promiseQuote": "Fisker customers will utilize a NACS adapter to plug in at Superchargers starting in Q1 2025.",
+      "promiseSpeaker": "Fisker Inc. (press release)",
+      "promiseSaidDate": "2023-08-15",
+      "promiseTarget": "starting in Q1 2025",
+      "deliveryCriterion": "Fisker owners can charge at Tesla Superchargers with a NACS adapter.",
+      "promiseKind": "corporate",
+      "promiseSources": [
+        {
+          "url": "https://assets.ctfassets.net/cghen8gr8e1n/4f7JR0LEe25l5u51K2Kikn/b6696c398e26ddc09d700b0640e75317/Fisker_Tesla_Charging_FINAL.pdf",
+          "publisher": "Fisker Inc. press release PDF, NACS / Supercharger access, Aug. 15, 2023",
+          "accessed": "2026-09-18",
+          "kind": "primary"
+        }
+      ],
+      "targetEnd": "2025-03-31"
+    },
+    {
+      "eventId": "bitcoin-vehicle-payments-begin-2021-03-24",
+      "thread": "earnings",
+      "outcome": "reversed",
+      "label": "Launched, then reversed",
+      "relatedEventId": "bitcoin-vehicle-payments-suspended-2021-05-12",
+      "promiseQuote": "Pay by Bitcoin capability available outside US later this year",
+      "promiseSpeaker": "Elon Musk (@elonmusk on X)",
+      "promiseSaidDate": "2021-03-24",
+      "promiseTarget": "later this year",
+      "deliveryCriterion": "Tesla accepts Bitcoin for vehicle purchases outside the U.S.",
+      "promiseKind": "product",
+      "promiseSources": [
+        {
+          "url": "https://x.com/elonmusk/status/1374619672973221892",
+          "publisher": "Elon Musk (@elonmusk) on X, Pay by Bitcoin capability available outside US later this year, March 24, 2021",
+          "accessed": "2026-10-27",
+          "kind": "primary"
+        }
+      ],
+      "targetEnd": "2021-12-31"
+    }
+  ],
+  "promiseExclusions": [
+    {
+      "eventId": "headlight-fmvss108-recall-26v507-2026-08-04",
+      "reason": "Recall (ledger phase: notice), not a company promise."
+    },
+    {
+      "eventId": "nhtsa-aq26002-cybercab-fmvss-2026-09-03",
+      "reason": "NHTSA audit query (ledger phase: notice), not a company promise."
+    },
+    {
+      "eventId": "nhtsa-special-order-cybercab-aq26002-2026-09-10",
+      "reason": "NHTSA Special Order (ledger phase: notice), not a company promise."
+    },
+    {
+      "eventId": "nhtsa-dp26010-robotaxi-school-zone-speeding-2026-10-09",
+      "reason": "Defect petition under NHTSA review (ledger phase: notice), not a company promise."
+    },
+    {
+      "eventId": "annual-meeting-2026-proxy-filed-2026-10-19",
+      "reason": "Proxy filing; the outcome is a shareholder vote (ledger phase: notice), not a company promise."
+    },
+    {
+      "eventId": "spacex-tesla-merger-special-committees-2026-10-20",
+      "reason": "Merger study by board committees, no stated commitment (ledger phase: notice)."
+    },
+    {
+      "eventId": "capex-2026-guidance-about-20b-2026-10-21",
+      "reason": "Capex guidance cut, not a deliverable promise."
+    },
+    {
+      "eventId": "spacex-40b-apollo-gpu-finance-lease-2026-10-26",
+      "reason": "Financing deal (a GPU lease commitment between SpaceX/xAI and Apollo), not a product or delivery promise."
+    },
+    {
+      "eventId": "sae-j3400-tir-nacs-2023",
+      "reason": "Standards milestone; evidence for the SAE standardization promise."
+    },
+    {
+      "eventId": "semiconductor-fab-austin-progress-q2-2026",
+      "reason": "Progress report; the fab promise is tracked once, on Terafab."
+    },
+    {
+      "eventId": "next-gen-roadster-design-development-pending",
+      "reason": "Filing-status row (notice); Roadster deliveries are tracked once, on the 2017 reveal."
+    },
+    {
+      "eventId": "next-gen-roadster-unveil-2026-10-15",
+      "reason": "The unveil itself; it resolves the rescheduled-demo promise, and deliveries stay on the 2017 reveal."
+    },
+    {
+      "eventId": "votetesla-proxy-website-update-2024-05-03",
+      "reason": "Proxy filing (notice)."
+    },
+    {
+      "eventId": "texas-redomestication-proxy-letter-2024",
+      "reason": "Proxy solicitation (notice); the conversion itself is delaware-to-texas-conversion-2024."
+    },
+    {
+      "eventId": "sp500-addition-announced-2020-11-16",
+      "reason": "Index provider decision (S&P Dow Jones Indices), not a Tesla promise."
+    },
+    {
+      "eventId": "five-for-one-stock-split-announced-2020",
+      "reason": "Procedural corporate action with a fixed calendar, not a promise."
+    },
+    {
+      "eventId": "three-for-one-stock-split-announced-2022",
+      "reason": "Procedural corporate action with a fixed calendar, not a promise."
+    },
+    {
+      "eventId": "ford-nacs-supercharger-access-2023",
+      "reason": "Ford's announcement of access for its owners; tracked under the charging thread, not as a Tesla promise."
+    },
+    {
+      "eventId": "gm-nacs-supercharger-access-2023",
+      "reason": "GM's announcement of access for its owners; not a Tesla promise."
+    },
+    {
+      "eventId": "rivian-nacs-supercharger-access-2023-06-20",
+      "reason": "Rivian's announcement of access for its owners; not a Tesla promise."
+    },
+    {
+      "eventId": "sae-nacs-standardization-announced-2023",
+      "reason": "SAE International's standards process, not a Tesla promise."
+    },
+    {
+      "eventId": "roadster-demo-rescheduled-2026-10-15",
+      "reason": "An event date move, not a product promise; Roadster deliveries stay on the 2017 reveal."
+    },
+    {
+      "eventId": "semi-first-high-volume-line-2026-04-29",
+      "reason": "Milestone of tesla-semi-nevada-factory-production-planned-2026, which is tracked once."
+    }
+  ]
+}

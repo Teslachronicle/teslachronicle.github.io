@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chronicle Weekly — Issue 288 — SpaceX commits to a $40B GPU finance lease with Apollo</title>
+<style>
+  :root {
+    --ink: #161513;
+    --muted: #4a463f;
+    --rule: #161513;
+    --paper: #f4efe4;
+    --box: #efe6d4;
+    --accent: #7a1f1f;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: #e4dccb; color: var(--ink); }
+  body {
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+    line-height: 1.45;
+  }
+  .paper {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 28px 36px 48px;
+    background: var(--paper);
+    box-shadow: 0 0 0 1px rgba(22,21,19,.12), 0 12px 40px rgba(22,21,19,.08);
+  }
+  .masthead { text-align: center; border-bottom: 3px solid var(--rule); padding-bottom: 12px; }
+  .masthead .kicker {
+    margin: 0 0 6px;
+    font-size: 11px;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .masthead h1 {
+    margin: 0;
+    font-size: 34px;
+    line-height: 1.15;
+    font-weight: 700;
+    letter-spacing: .01em;
+  }
+  .masthead .scope {
+    margin: 8px 0 0;
+    font-size: 13px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .issue-line {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 12px;
+    padding: 6px 0;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    font-size: 12px;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+  }
+  .lead { margin: 22px 0 28px; }
+  .section-label {
+    margin: 0 0 6px;
+    font-size: 11px;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+  .lead h2 {
+    margin: 0 0 8px;
+    font-size: 34px;
+    line-height: 1.12;
+    font-weight: 700;
+  }
+  .dek {
+    margin: 0 0 10px;
+    font-size: 18px;
+    line-height: 1.35;
+    color: var(--muted);
+  }
+  .hero { margin: 12px 0 16px; }
+  .hero img { width: 100%; height: auto; display: block; background: #ddd; }
+  .hero figcaption {
+    margin-top: 4px;
+    font-size: 11px;
+    color: var(--muted);
+    font-style: italic;
+  }
+  .story .meta, .event-id {
+    font-size: 12px;
+    color: var(--muted);
+    letter-spacing: .02em;
+  }
+  .story .body { margin: 8px 0 10px; font-size: 16px; }
+  .story-sources {
+    margin: 8px 0;
+    padding-left: 18px;
+    font-size: 12px;
+    color: var(--muted);
+    overflow-wrap: anywhere;
+  }
+  .story-sources .kind, .kind {
+    font-variant: small-caps;
+    letter-spacing: .04em;
+    color: var(--accent);
+  }
+  .event-id { margin: 0; }
+  .company-block {
+    border-top: 1px solid var(--rule);
+    margin-top: 8px;
+    padding-top: 12px;
+  }
+  .company-name {
+    margin: 0 0 8px;
+    font-size: 13px;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+  .story.secondary { margin-bottom: 22px; }
+  .story.secondary h3 { margin: 0 0 4px; font-size: 22px; line-height: 1.2; }
+  .status { font-size: 13px; color: var(--muted); }
+  blockquote.promise {
+    margin: 10px 0;
+    padding: 8px 14px;
+    border-left: 3px solid var(--accent);
+    color: var(--ink);
+    font-style: italic;
+  }
+  blockquote.promise p { margin: 0 0 4px; }
+  blockquote.promise cite { font-style: normal; font-size: 12px; color: var(--muted); }
+  .pending {
+    margin: 28px 0;
+    padding: 16px 18px;
+    background: var(--box);
+    border: 1px solid #c9b896;
+  }
+  .pending h2 {
+    margin: 0 0 6px;
+    font-size: 16px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+  }
+  .pending-intro { margin: 0 0 10px; font-size: 13px; color: var(--muted); }
+  .pending ul { margin: 0; padding-left: 18px; }
+  .pending li { margin: 0 0 10px; }
+  .pending li p { margin: 4px 0 0; font-size: 14px; color: var(--muted); }
+  .status-flag { font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); }
+  .sources-page {
+    border-top: 3px solid var(--rule);
+    margin-top: 12px;
+    padding-top: 16px;
+  }
+  .sources-page h2 {
+    margin: 0 0 8px;
+    font-size: 16px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+  }
+  .sources-page ol {
+    margin: 0;
+    padding-left: 22px;
+    font-size: 12px;
+    color: var(--muted);
+    overflow-wrap: anywhere;
+  }
+  .sources-page li { margin: 0 0 6px; }
+  .for-event { color: #7a7468; }
+  footer.colophon {
+    margin-top: 28px;
+    border-top: 1px solid var(--rule);
+    padding-top: 12px;
+    font-size: 12px;
+    color: var(--muted);
+  }
+  a { color: #1f3348; }
+  @media (max-width: 640px) {
+    .paper { padding: 18px 16px 32px; }
+    .masthead h1 { font-size: 24px; }
+    .lead h2 { font-size: 26px; }
+    .issue-line { flex-direction: column; gap: 2px; text-align: center; }
+  }
+</style>
+</head>
+<body>
+  <article class="paper">
+    <header class="masthead">
+      <p class="kicker">A dated, sourced weekly paper from the public event ledger</p>
+      <h1>Chronicle Weekly, Wednesday Edition, October 28, 2026</h1>
+      <p class="scope">Tesla · SpaceX · xAI · X · Neuralink · The Boring Company</p>
+      <div class="issue-line">
+        <span>Issue No. 288</span>
+        <span>Thursday–Wednesday · October 22–28, 2026</span>
+        <span>2026-10-28</span>
+      </div>
+    </header>
+
+    <section class="lead">
+      <p class="section-label">Lead</p>
+      <h2>SpaceX commits to a $40B GPU finance lease with Apollo</h2>
+      <p class="dek">Apollo and Goldman Sachs led the financing, with anchor commitments from BlackRock, Goldman Sachs Asset Management and KKR-advised accounts.</p>
+      
+      <article class="story lead" id="spacex-40b-apollo-gpu-finance-lease-2026-10-26"><p class="meta">Monday, October 26, 2026 · Finance · SpaceX · xAI</p><p class="body">On October 26, 2026 SpaceX announced a binding commitment, signed October 24, to enter an approximately $40 billion master finance lease with an entity managed by Apollo Global Management for GPU pods and related data-center equipment, including NVIDIA Vera Rubin chips for its Super Intelligence (Grok) compute buildout. The lease is expected to close before year-end 2026, with roughly five-year lease schedules starting as GPUs are delivered in the first half of 2027.</p><p class="status"><strong>announced pending</strong> — Elon Musk posted on X on October 25, 2026 that SpaceX had closed the $40B GPU financing; the 8-K describes a binding commitment letter, with the master lease itself subject to closing conditions and expected before year-end 2026. Musk said it would not be a major factor in Q4 2026. Watch for the lease closing. Reported, not yet confirmed by SpaceX: Bloomberg said on November 17, 2026 that SpaceX could begin selling about $4 billion of bonds that week as part of the $40B financing, underwritten by Goldman Sachs and Apollo, with BlackRock- and KKR-linked funds also committing. Reported 2026-11-20, not confirmed by SpaceX: the Financial Times said investors bought more than $30 billion of debt tied to the lease on November 19, including a $25 billion investment-grade bond, and that some lenders sought a clause barring the pledged chips from being launched to orbit (via TeslaNorth, https://teslanorth.com/2026/11/20/spacex-lenders-ai-chips-orbit-ban/). Lease closing still pending.</p><ul class="story-sources"><li><span class="kind">primary</span> SpaceX Investor Relations, SpaceX Secures $40 Billion in the Largest GPU Financing Ever, October 26, 2026 — <a href="https://ir.spacex.com/updates/releases-details/2026/SPACEX-SECURES-40-BILLION-IN-THE-LARGEST-GPU-FINANCING-EVER-2026-EnDqGhTAB3/default.aspx">https://ir.spacex.com/updates/releases-details/2026/SPACEX-SECURES-40-BILLION-IN-THE-LARGEST-GPU-FINANCING-EVER-2026-EnDqGhTAB3/default.aspx</a></li><li><span class="kind">primary</span> SEC, SpaceX Form 8-K Item 8.01 (event date October 24, 2026), signed October 26, 2026 — <a href="https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm">https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm</a></li><li><span class="kind">primary</span> Apollo Global Management press release, October 26, 2026 — <a href="https://www.apollo.com/insights-news/pressreleases/2026/10/spacex-secures--40-billion-in-the-largest-gpu-financing-ever">https://www.apollo.com/insights-news/pressreleases/2026/10/spacex-secures--40-billion-in-the-largest-gpu-financing-ever</a></li><li><span class="kind">secondary</span> Reuters (via Investing.com), SpaceX enters $40 billion deal with Apollo for AI chip financing, October 26, 2026 — <a href="https://www.investing.com/news/stock-market-news/spacex-enters-40-billion-deal-with-apollo-for-ai-chip-financing-4972566">https://www.investing.com/news/stock-market-news/spacex-enters-40-billion-deal-with-apollo-for-ai-chip-financing-4972566</a></li><li><span class="kind">secondary</span> Yahoo Finance, citing Bloomberg, SpaceX to reportedly launch $4B bond sale this week, November 17, 2026 — <a href="https://finance.yahoo.com/markets/stocks/articles/spcx-stock-focus-spacex-reportedly-180704362.html">https://finance.yahoo.com/markets/stocks/articles/spcx-stock-focus-spacex-reportedly-180704362.html</a></li></ul><p class="event-id">Ledger id: spacex-40b-apollo-gpu-finance-lease-2026-10-26</p></article>
+    </section>
+
+    <section class="company-block"><h2 class="company-name">Tesla</h2><article class="story secondary" id="giga-berlin-7000-model-y-week-2026-10-23"><h3>Giga Berlin builds 7,000 Model Y in one week</h3><p class="meta">Friday, October 23, 2026 · Factory · Tesla</p><p class="body">On October 23, 2026 Tesla Manufacturing posted on X that Giga Berlin had built 7,000 Model Y in one week, calling it the plant's next production milestone as its ramp continues. Tesla did not say how long it expects to hold that rate. TeslaNorth noted the plant first reached 6,000 a week in early 2024.</p><ul class="story-sources"><li><span class="kind">primary</span> Tesla Manufacturing (@gigafactories) on X, 7,000 Model Y built in one week at Giga Berlin, October 23, 2026 2:33 PM PT — <a href="https://x.com/gigafactories/status/2113745614228099452">https://x.com/gigafactories/status/2113745614228099452</a></li><li><span class="kind">secondary</span> TeslaNorth, Giga Berlin Hits 7,000 Model Y in One Week as Tesla Ramps Up Output, October 23, 2026 — <a href="https://teslanorth.com/2026/10/23/tesla-giga-berlin-7000-model-y-week/">https://teslanorth.com/2026/10/23/tesla-giga-berlin-7000-model-y-week/</a></li></ul><p class="event-id">Ledger id: giga-berlin-7000-model-y-week-2026-10-23</p></article><article class="story secondary" id="fsd-supervised-latvia-approval-2026-10-26"><h3>Latvia approves FSD (Supervised), the tenth EU country</h3><p class="meta">Monday, October 26, 2026 · Autonomy · Tesla</p><p class="body">On October 26, 2026 Latvia's Road Traffic Safety Directorate (CSDD) recognized the Dutch RDW provisional EU type approval for Tesla's Level 2 driver-assistance system, sold in Europe as Tesla Assisted Driving (formerly FSD (Supervised)). CSDD said its decision weighed Tesla changes that lower the maximum speed-limit offset, reset any manual offset after each trip and strengthen driver monitoring. Tesla's Europe account posted that rollout begins soon; Reuters reported Latvia is the tenth EU country to allow the system.</p><ul class="story-sources"><li><span class="kind">primary</span> Tesla Europe, Middle East &amp; Africa (@teslaeurope) on X, "Now approved in Latvia. Rollout begins soon", October 26, 2026 3:36 AM PT — <a href="https://x.com/teslaeurope/status/2114667445223149619">https://x.com/teslaeurope/status/2114667445223149619</a></li><li><span class="kind">secondary</span> Apollo.lv (TVNET), CSDD recognizes Dutch provisional approval of Tesla driver-assistance system (CSDD statement), October 26, 2026 — <a href="https://www.apollo.lv/8571479/csdd-atzist-niderlande-izsniegto-provizorisko-apstiprinajumu-tesla-izstradatajai-vaditaja-paligsistemai">https://www.apollo.lv/8571479/csdd-atzist-niderlande-izsniegto-provizorisko-apstiprinajumu-tesla-izstradatajai-vaditaja-paligsistemai</a></li><li><span class="kind">secondary</span> Reuters via Devdiscourse, Tesla says Latvia approved its self driving system FSD (tenth EU country), October 26, 2026 — <a href="https://www.devdiscourse.com/article/international/3997318-tesla-says-latvia-approved-its-self-driving-system-fsd">https://www.devdiscourse.com/article/international/3997318-tesla-says-latvia-approved-its-self-driving-system-fsd</a></li><li><span class="kind">secondary</span> EV (eletric-vehicles.com), Tesla FSD Approved in Latvia, the 10th EU Country to Back Dutch Ruling, October 26, 2026 — <a href="https://eletric-vehicles.com/tesla/tesla-fsd-approved-in-latvia-the-10th-eu-country-to-back-dutch-ruling/">https://eletric-vehicles.com/tesla/tesla-fsd-approved-in-latvia-the-10th-eu-country-to-back-dutch-ruling/</a></li></ul><p class="event-id">Ledger id: fsd-supervised-latvia-approval-2026-10-26</p></article><article class="story secondary" id="robotaxi-houston-610-loop-expansion-2026-10-26"><h3>Tesla expands Houston Robotaxi service into much of the 610 Loop</h3><p class="meta">Monday, October 26, 2026 · Autonomy · Tesla</p><p class="body">On October 26, 2026 Tesla widened its Houston Robotaxi service area from about 25 square miles around Jersey Village to roughly 251 to 254 square miles, announcing it on its Robotaxi X account with the post "Houston, we have liftoff." The new zone reaches downtown, Midtown, Montrose, the Heights, East Downtown and Bellaire, but leaves out part of the northeast Loop and both major airports. Rides run with no driver or front-seat safety monitor.</p><ul class="story-sources"><li><span class="kind">secondary</span> Houston Public Media, Tesla's self-driving Robotaxi service expands into greater Houston, October 26, 2026 (quotes the @robotaxi post) — <a href="https://www.houstonpublicmedia.org/articles/news/transportation/2026/10/26/565273/teslas-robotaxi-houston-service-expands-with-a-rocket-shaped-map/">https://www.houstonpublicmedia.org/articles/news/transportation/2026/10/26/565273/teslas-robotaxi-houston-service-expands-with-a-rocket-shaped-map/</a></li><li><span class="kind">secondary</span> Houston Chronicle, Tesla expands robotaxi in Houston, October 2026 — <a href="https://www.houstonchronicle.com/news/houston-texas/transportation/article/houston-tesla-robotaxi-expansion-22494979.php">https://www.houstonchronicle.com/news/houston-texas/transportation/article/houston-tesla-robotaxi-expansion-22494979.php</a></li><li><span class="kind">secondary</span> Axios Houston, Tesla's Robotaxi footprint grows in Houston, October 27, 2026 — <a href="https://www.axios.com/local/houston/2026/10/27/tesla-robotaxi-expands-houston-service-area-rocket">https://www.axios.com/local/houston/2026/10/27/tesla-robotaxi-expands-houston-service-area-rocket</a></li></ul><p class="event-id">Ledger id: robotaxi-houston-610-loop-expansion-2026-10-26</p></article><article class="story secondary" id="cybercab-majority-texas-robotaxi-fleet-2026-10-27"><h3>Cybercabs become the majority of Tesla's authorized Texas robotaxi fleet</h3><p class="meta">Tuesday, October 27, 2026 · Autonomy · Tesla</p><p class="body">Texas DMV automated-vehicle records for Tesla Robotaxi, LLC listed 1,051 authorized vehicles on October 27, 2026: 544 Cybercabs and 507 Model Ys. It was the first time Cybercabs outnumbered Model Ys in the registry, up from 739 vehicles (319 Cybercabs) in early October. Registry counts show authorized vehicles, not cars in active service.</p><ul class="story-sources"><li><span class="kind">primary</span> Texas DMV TxMCCS, Tesla Robotaxi, LLC automated motor vehicles registry — <a href="https://txmccs.txdmv.gov/truckstop/companies/81edcff1-8a6e-4ed0-be1f-60668515e223/automated-motor-vehicles">https://txmccs.txdmv.gov/truckstop/companies/81edcff1-8a6e-4ed0-be1f-60668515e223/automated-motor-vehicles</a></li><li><span class="kind">secondary</span> TeslaNorth, Cybercab Surpasses Model Y as Tesla's Texas Robotaxi Fleet Hits 1,051, October 27, 2026 — <a href="https://teslanorth.com/2026/10/27/tesla-cybercab-outnumbers-model-y-texas/">https://teslanorth.com/2026/10/27/tesla-cybercab-outnumbers-model-y-texas/</a></li><li><span class="kind">secondary</span> Yahoo Finance, TSLA Stock Rises As Cybercabs Overtake Model Ys In Authorized Texas Robotaxi Fleet, October 2026 — <a href="https://finance.yahoo.com/markets/stocks/articles/tsla-stock-rises-cybercabs-overtake-223957703.html">https://finance.yahoo.com/markets/stocks/articles/tsla-stock-rises-cybercabs-overtake-223957703.html</a></li><li><span class="kind">secondary</span> TeslaNorth, Tesla's Texas Robotaxi Roster Now Has More Than 800 Cybercabs, November 25, 2026 — <a href="https://teslanorth.com/2026/11/25/tesla-texas-robotaxi-roster-822-cybercabs/">https://teslanorth.com/2026/11/25/tesla-texas-robotaxi-roster-822-cybercabs/</a></li></ul><p class="event-id">Ledger id: cybercab-majority-texas-robotaxi-fleet-2026-10-27</p></article><article class="story secondary" id="tesla-vietnam-entry-hiring-2026-10-28"><h3>Tesla begins hiring in Vietnam ahead of market entry</h3><p class="meta">Wednesday, October 28, 2026 · Corporate · Tesla</p><p class="body">On October 28, 2026, Tesla recruiter Ricky Ip posted that Tesla is officially coming to Vietnam, listing five openings including sales manager, service manager and a charging project developer. Tesla Motors Vietnam LLC had been registered in Ho Chi Minh City on September 11, 2026, with a scope covering car imports, wholesale and retail. Tesla gave no launch date, models or pricing.</p><p class="status"><strong>announced pending</strong> — Confirmed by a Tesla recruiter's post and job listings, not a Tesla press statement. No sales launch as of 2026-10-29.</p><ul class="story-sources"><li><span class="kind">secondary</span> Electrek, Tesla confirms Vietnam entry to take on VinFast and its 36% market share, October 28, 2026 — <a href="https://electrek.co/2026/10/28/tesla-vietnam-entry-vinfast/">https://electrek.co/2026/10/28/tesla-vietnam-entry-vinfast/</a></li></ul><p class="event-id">Ledger id: tesla-vietnam-entry-hiring-2026-10-28</p></article></section><section class="company-block"><h2 class="company-name">SpaceX</h2><article class="story secondary" id="spacex-anthropic-compute-up-to-120b-disclosed-2026-10-26"><h3>Anthropic's S-1 shows up to $120.5B in compute spending with SpaceXAI</h3><p class="meta">Monday, October 26, 2026 · Finance · SpaceX · xAI</p><p class="body">Anthropic's Form S-1, filed October 26, 2026, says it agreed to spend up to $120.5 billion with SpaceX.AI LLC, the SpaceX subsidiary formerly X.AI LLC, for NVIDIA GPU compute over terms running into 2029. Payments reach about $3.1 billion a month once all capacity is delivered, which Anthropic expects in December 2026. The agreements were signed and amended between May and October 2026, and after non-cancelable periods ending in January and March 2027 either side may terminate on 90 days' notice, so the total is a ceiling.</p><ul class="story-sources"><li><span class="kind">primary</span> SEC, Anthropic, PBC Form S-1, filed October 26, 2026 — <a href="https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm">https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm</a></li><li><span class="kind">secondary</span> Yahoo Finance, Anthropic discloses up to $120.5 billion in SpaceX compute spending through 2029, October 26, 2026 — <a href="https://finance.yahoo.com/technology/ai/articles/anthropic-discloses-120-5-billion-140613686.html">https://finance.yahoo.com/technology/ai/articles/anthropic-discloses-120-5-billion-140613686.html</a></li><li><span class="kind">secondary</span> TeslaNorth, Anthropic Reveals It Will Pay SpaceX Up to $120.5B for AI Compute, October 26, 2026 — <a href="https://teslanorth.com/2026/10/26/anthropic-s1-spacex-120b-compute/">https://teslanorth.com/2026/10/26/anthropic-s1-spacex-120b-compute/</a></li></ul><p class="event-id">Ledger id: spacex-anthropic-compute-up-to-120b-disclosed-2026-10-26</p></article><article class="story secondary" id="spacex-starfall-afrl-rocket-cargo-recovered-2026-10-26"><h3>Air Force recovers Rocket Cargo pods from SpaceX Starfall capsule</h3><p class="meta">Monday, October 26, 2026 · Product · SpaceX</p><p class="body">A SpaceX Starfall reentry capsule launched on the Bandwagon-5 Falcon 9 rideshare from Cape Canaveral on October 20, 2026, carrying Air Force Research Laboratory cargo pods for a Rocket Cargo point-to-point delivery test. On October 26 AFRL posted that, with SpaceX's support, the pods were recovered after splashdown in the Pacific Ocean. The pods held sensors and sample gear such as a satellite tracker, batteries, a desalinator and medical equipment to measure temperature, shock and vibration through launch and reentry.</p><ul class="story-sources"><li><span class="kind">primary</span> Air Force Research Laboratory Public Affairs, AFRL demonstrates Rocket Cargo delivery with SpaceX Starfall reentry capsule, October 20, 2026 — <a href="https://www.afresearchlab.com/afrl-demonstrates-rocket-cargo-delivery-with-spacex-starfall-reentry-capsule/">https://www.afresearchlab.com/afrl-demonstrates-rocket-cargo-delivery-with-spacex-starfall-reentry-capsule/</a></li><li><span class="kind">secondary</span> SpaceNews, Air Force recovers experimental military cargo from SpaceX Starfall capsule, October 26, 2026 — <a href="https://spacenews.com/air-force-recovers-experimental-military-cargo-from-spacex-starfall-capsule/">https://spacenews.com/air-force-recovers-experimental-military-cargo-from-spacex-starfall-capsule/</a></li><li><span class="kind">secondary</span> Space.com, SpaceX's Starfall capsule delivers cargo for US Air Force in landmark 'point to point' space mission, October 29, 2026 (quotes AFRL X post of October 26) — <a href="https://www.space.com/space-exploration/launches-spacecraft/spacexs-starfall-capsule-delivers-cargo-for-us-air-force-in-landmark-point-to-point-space-mission">https://www.space.com/space-exploration/launches-spacecraft/spacexs-starfall-capsule-delivers-cargo-for-us-air-force-in-landmark-point-to-point-space-mission</a></li></ul><p class="event-id">Ledger id: spacex-starfall-afrl-rocket-cargo-recovered-2026-10-26</p></article></section><section class="company-block"><h2 class="company-name">Neuralink</h2><article class="story secondary" id="neuralink-voice-speech-75-wpm-data-2026-10-28"><h3>Neuralink reports first speech-restoration data: 75 words a minute in week one</h3><p class="meta">Wednesday, October 28, 2026 · Product · Neuralink</p><p class="body">On October 28, 2026, Neuralink released early data from its VOICE speech-restoration study, presented by principal investigator Dr. Nader Pouratian at the 2026 Annual NEALS Meeting. Neuralink said participants with ALS were producing text and voice at conversational rates, and that one participant reached 75 words per minute at a 5.8% word error rate on a 125,000-word vocabulary in their first week. The N1 device remains investigational and is not FDA-approved.</p><ul class="story-sources"><li><span class="kind">primary</span> Neuralink (@neuralink) on X, early speech restoration data, October 28, 2026 — <a href="https://x.com/neuralink/status/2115534593147187397">https://x.com/neuralink/status/2115534593147187397</a></li><li><span class="kind">secondary</span> TeslaNorth, Neuralink Says One ALS Patient Hit 75 Words a Minute in Week One, October 28, 2026 — <a href="https://teslanorth.com/2026/10/28/neuralink-als-patient-75-words-minute-week-one/">https://teslanorth.com/2026/10/28/neuralink-als-patient-75-words-minute-week-one/</a></li></ul><p class="event-id">Ledger id: neuralink-voice-speech-75-wpm-data-2026-10-28</p></article></section>
+
+    <aside class="pending" data-editorial="true"><h2>Still pending</h2><p class="pending-intro">Rows from this week whose ledger status is still announced-pending or partially launched. The notes below are copied from the ledger.</p><ul><li><strong>SpaceX commits to a $40B GPU finance lease with Apollo</strong> <span class="status-flag">announced pending</span><p>Elon Musk posted on X on October 25, 2026 that SpaceX had closed the $40B GPU financing; the 8-K describes a binding commitment letter, with the master lease itself subject to closing conditions and expected before year-end 2026. Musk said it would not be a major factor in Q4 2026. Watch for the lease closing. Reported, not yet confirmed by SpaceX: Bloomberg said on November 17, 2026 that SpaceX could begin selling about $4 billion of bonds that week as part of the $40B financing, underwritten by Goldman Sachs and Apollo, with BlackRock- and KKR-linked funds also committing. Reported 2026-11-20, not confirmed by SpaceX: the Financial Times said investors bought more than $30 billion of debt tied to the lease on November 19, including a $25 billion investment-grade bond, and that some lenders sought a clause barring the pledged chips from being launched to orbit (via TeslaNorth, https://teslanorth.com/2026/11/20/spacex-lenders-ai-chips-orbit-ban/). Lease closing still pending.</p></li><li><strong>Tesla begins hiring in Vietnam ahead of market entry</strong> <span class="status-flag">announced pending</span><p>Confirmed by a Tesla recruiter's post and job listings, not a Tesla press statement. No sales launch as of 2026-10-29.</p></li></ul></aside>
+
+    <section class="sources-page">
+      <h2>Sources</h2>
+      <ol>
+        <li><span class="kind">primary</span> SpaceX Investor Relations, SpaceX Secures $40 Billion in the Largest GPU Financing Ever, October 26, 2026 — <a href="https://ir.spacex.com/updates/releases-details/2026/SPACEX-SECURES-40-BILLION-IN-THE-LARGEST-GPU-FINANCING-EVER-2026-EnDqGhTAB3/default.aspx">https://ir.spacex.com/updates/releases-details/2026/SPACEX-SECURES-40-BILLION-IN-THE-LARGEST-GPU-FINANCING-EVER-2026-EnDqGhTAB3/default.aspx</a><span class="for-event"> (spacex-40b-apollo-gpu-finance-lease-2026-10-26)</span></li><li><span class="kind">primary</span> SEC, SpaceX Form 8-K Item 8.01 (event date October 24, 2026), signed October 26, 2026 — <a href="https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm">https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm</a><span class="for-event"> (spacex-40b-apollo-gpu-finance-lease-2026-10-26)</span></li><li><span class="kind">primary</span> Apollo Global Management press release, October 26, 2026 — <a href="https://www.apollo.com/insights-news/pressreleases/2026/10/spacex-secures--40-billion-in-the-largest-gpu-financing-ever">https://www.apollo.com/insights-news/pressreleases/2026/10/spacex-secures--40-billion-in-the-largest-gpu-financing-ever</a><span class="for-event"> (spacex-40b-apollo-gpu-finance-lease-2026-10-26)</span></li><li><span class="kind">secondary</span> Reuters (via Investing.com), SpaceX enters $40 billion deal with Apollo for AI chip financing, October 26, 2026 — <a href="https://www.investing.com/news/stock-market-news/spacex-enters-40-billion-deal-with-apollo-for-ai-chip-financing-4972566">https://www.investing.com/news/stock-market-news/spacex-enters-40-billion-deal-with-apollo-for-ai-chip-financing-4972566</a><span class="for-event"> (spacex-40b-apollo-gpu-finance-lease-2026-10-26)</span></li><li><span class="kind">secondary</span> Yahoo Finance, citing Bloomberg, SpaceX to reportedly launch $4B bond sale this week, November 17, 2026 — <a href="https://finance.yahoo.com/markets/stocks/articles/spcx-stock-focus-spacex-reportedly-180704362.html">https://finance.yahoo.com/markets/stocks/articles/spcx-stock-focus-spacex-reportedly-180704362.html</a><span class="for-event"> (spacex-40b-apollo-gpu-finance-lease-2026-10-26)</span></li><li><span class="kind">primary</span> Tesla Manufacturing (@gigafactories) on X, 7,000 Model Y built in one week at Giga Berlin, October 23, 2026 2:33 PM PT — <a href="https://x.com/gigafactories/status/2113745614228099452">https://x.com/gigafactories/status/2113745614228099452</a><span class="for-event"> (giga-berlin-7000-model-y-week-2026-10-23)</span></li><li><span class="kind">secondary</span> TeslaNorth, Giga Berlin Hits 7,000 Model Y in One Week as Tesla Ramps Up Output, October 23, 2026 — <a href="https://teslanorth.com/2026/10/23/tesla-giga-berlin-7000-model-y-week/">https://teslanorth.com/2026/10/23/tesla-giga-berlin-7000-model-y-week/</a><span class="for-event"> (giga-berlin-7000-model-y-week-2026-10-23)</span></li><li><span class="kind">primary</span> Tesla Europe, Middle East &amp; Africa (@teslaeurope) on X, "Now approved in Latvia. Rollout begins soon", October 26, 2026 3:36 AM PT — <a href="https://x.com/teslaeurope/status/2114667445223149619">https://x.com/teslaeurope/status/2114667445223149619</a><span class="for-event"> (fsd-supervised-latvia-approval-2026-10-26)</span></li><li><span class="kind">secondary</span> Apollo.lv (TVNET), CSDD recognizes Dutch provisional approval of Tesla driver-assistance system (CSDD statement), October 26, 2026 — <a href="https://www.apollo.lv/8571479/csdd-atzist-niderlande-izsniegto-provizorisko-apstiprinajumu-tesla-izstradatajai-vaditaja-paligsistemai">https://www.apollo.lv/8571479/csdd-atzist-niderlande-izsniegto-provizorisko-apstiprinajumu-tesla-izstradatajai-vaditaja-paligsistemai</a><span class="for-event"> (fsd-supervised-latvia-approval-2026-10-26)</span></li><li><span class="kind">secondary</span> Reuters via Devdiscourse, Tesla says Latvia approved its self driving system FSD (tenth EU country), October 26, 2026 — <a href="https://www.devdiscourse.com/article/international/3997318-tesla-says-latvia-approved-its-self-driving-system-fsd">https://www.devdiscourse.com/article/international/3997318-tesla-says-latvia-approved-its-self-driving-system-fsd</a><span class="for-event"> (fsd-supervised-latvia-approval-2026-10-26)</span></li><li><span class="kind">secondary</span> EV (eletric-vehicles.com), Tesla FSD Approved in Latvia, the 10th EU Country to Back Dutch Ruling, October 26, 2026 — <a href="https://eletric-vehicles.com/tesla/tesla-fsd-approved-in-latvia-the-10th-eu-country-to-back-dutch-ruling/">https://eletric-vehicles.com/tesla/tesla-fsd-approved-in-latvia-the-10th-eu-country-to-back-dutch-ruling/</a><span class="for-event"> (fsd-supervised-latvia-approval-2026-10-26)</span></li><li><span class="kind">secondary</span> Houston Public Media, Tesla's self-driving Robotaxi service expands into greater Houston, October 26, 2026 (quotes the @robotaxi post) — <a href="https://www.houstonpublicmedia.org/articles/news/transportation/2026/10/26/565273/teslas-robotaxi-houston-service-expands-with-a-rocket-shaped-map/">https://www.houstonpublicmedia.org/articles/news/transportation/2026/10/26/565273/teslas-robotaxi-houston-service-expands-with-a-rocket-shaped-map/</a><span class="for-event"> (robotaxi-houston-610-loop-expansion-2026-10-26)</span></li><li><span class="kind">secondary</span> Houston Chronicle, Tesla expands robotaxi in Houston, October 2026 — <a href="https://www.houstonchronicle.com/news/houston-texas/transportation/article/houston-tesla-robotaxi-expansion-22494979.php">https://www.houstonchronicle.com/news/houston-texas/transportation/article/houston-tesla-robotaxi-expansion-22494979.php</a><span class="for-event"> (robotaxi-houston-610-loop-expansion-2026-10-26)</span></li><li><span class="kind">secondary</span> Axios Houston, Tesla's Robotaxi footprint grows in Houston, October 27, 2026 — <a href="https://www.axios.com/local/houston/2026/10/27/tesla-robotaxi-expands-houston-service-area-rocket">https://www.axios.com/local/houston/2026/10/27/tesla-robotaxi-expands-houston-service-area-rocket</a><span class="for-event"> (robotaxi-houston-610-loop-expansion-2026-10-26)</span></li><li><span class="kind">primary</span> Texas DMV TxMCCS, Tesla Robotaxi, LLC automated motor vehicles registry — <a href="https://txmccs.txdmv.gov/truckstop/companies/81edcff1-8a6e-4ed0-be1f-60668515e223/automated-motor-vehicles">https://txmccs.txdmv.gov/truckstop/companies/81edcff1-8a6e-4ed0-be1f-60668515e223/automated-motor-vehicles</a><span class="for-event"> (cybercab-majority-texas-robotaxi-fleet-2026-10-27)</span></li><li><span class="kind">secondary</span> TeslaNorth, Cybercab Surpasses Model Y as Tesla's Texas Robotaxi Fleet Hits 1,051, October 27, 2026 — <a href="https://teslanorth.com/2026/10/27/tesla-cybercab-outnumbers-model-y-texas/">https://teslanorth.com/2026/10/27/tesla-cybercab-outnumbers-model-y-texas/</a><span class="for-event"> (cybercab-majority-texas-robotaxi-fleet-2026-10-27)</span></li><li><span class="kind">secondary</span> Yahoo Finance, TSLA Stock Rises As Cybercabs Overtake Model Ys In Authorized Texas Robotaxi Fleet, October 2026 — <a href="https://finance.yahoo.com/markets/stocks/articles/tsla-stock-rises-cybercabs-overtake-223957703.html">https://finance.yahoo.com/markets/stocks/articles/tsla-stock-rises-cybercabs-overtake-223957703.html</a><span class="for-event"> (cybercab-majority-texas-robotaxi-fleet-2026-10-27)</span></li><li><span class="kind">secondary</span> TeslaNorth, Tesla's Texas Robotaxi Roster Now Has More Than 800 Cybercabs, November 25, 2026 — <a href="https://teslanorth.com/2026/11/25/tesla-texas-robotaxi-roster-822-cybercabs/">https://teslanorth.com/2026/11/25/tesla-texas-robotaxi-roster-822-cybercabs/</a><span class="for-event"> (cybercab-majority-texas-robotaxi-fleet-2026-10-27)</span></li><li><span class="kind">secondary</span> Electrek, Tesla confirms Vietnam entry to take on VinFast and its 36% market share, October 28, 2026 — <a href="https://electrek.co/2026/10/28/tesla-vietnam-entry-vinfast/">https://electrek.co/2026/10/28/tesla-vietnam-entry-vinfast/</a><span class="for-event"> (tesla-vietnam-entry-hiring-2026-10-28)</span></li><li><span class="kind">primary</span> SEC, Anthropic, PBC Form S-1, filed October 26, 2026 — <a href="https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm">https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm</a><span class="for-event"> (spacex-anthropic-compute-up-to-120b-disclosed-2026-10-26)</span></li><li><span class="kind">secondary</span> Yahoo Finance, Anthropic discloses up to $120.5 billion in SpaceX compute spending through 2029, October 26, 2026 — <a href="https://finance.yahoo.com/technology/ai/articles/anthropic-discloses-120-5-billion-140613686.html">https://finance.yahoo.com/technology/ai/articles/anthropic-discloses-120-5-billion-140613686.html</a><span class="for-event"> (spacex-anthropic-compute-up-to-120b-disclosed-2026-10-26)</span></li><li><span class="kind">secondary</span> TeslaNorth, Anthropic Reveals It Will Pay SpaceX Up to $120.5B for AI Compute, October 26, 2026 — <a href="https://teslanorth.com/2026/10/26/anthropic-s1-spacex-120b-compute/">https://teslanorth.com/2026/10/26/anthropic-s1-spacex-120b-compute/</a><span class="for-event"> (spacex-anthropic-compute-up-to-120b-disclosed-2026-10-26)</span></li><li><span class="kind">primary</span> Air Force Research Laboratory Public Affairs, AFRL demonstrates Rocket Cargo delivery with SpaceX Starfall reentry capsule, October 20, 2026 — <a href="https://www.afresearchlab.com/afrl-demonstrates-rocket-cargo-delivery-with-spacex-starfall-reentry-capsule/">https://www.afresearchlab.com/afrl-demonstrates-rocket-cargo-delivery-with-spacex-starfall-reentry-capsule/</a><span class="for-event"> (spacex-starfall-afrl-rocket-cargo-recovered-2026-10-26)</span></li><li><span class="kind">secondary</span> SpaceNews, Air Force recovers experimental military cargo from SpaceX Starfall capsule, October 26, 2026 — <a href="https://spacenews.com/air-force-recovers-experimental-military-cargo-from-spacex-starfall-capsule/">https://spacenews.com/air-force-recovers-experimental-military-cargo-from-spacex-starfall-capsule/</a><span class="for-event"> (spacex-starfall-afrl-rocket-cargo-recovered-2026-10-26)</span></li><li><span class="kind">secondary</span> Space.com, SpaceX's Starfall capsule delivers cargo for US Air Force in landmark 'point to point' space mission, October 29, 2026 (quotes AFRL X post of October 26) — <a href="https://www.space.com/space-exploration/launches-spacecraft/spacexs-starfall-capsule-delivers-cargo-for-us-air-force-in-landmark-point-to-point-space-mission">https://www.space.com/space-exploration/launches-spacecraft/spacexs-starfall-capsule-delivers-cargo-for-us-air-force-in-landmark-point-to-point-space-mission</a><span class="for-event"> (spacex-starfall-afrl-rocket-cargo-recovered-2026-10-26)</span></li><li><span class="kind">primary</span> Neuralink (@neuralink) on X, early speech restoration data, October 28, 2026 — <a href="https://x.com/neuralink/status/2115534593147187397">https://x.com/neuralink/status/2115534593147187397</a><span class="for-event"> (neuralink-voice-speech-75-wpm-data-2026-10-28)</span></li><li><span class="kind">secondary</span> TeslaNorth, Neuralink Says One ALS Patient Hit 75 Words a Minute in Week One, October 28, 2026 — <a href="https://teslanorth.com/2026/10/28/neuralink-als-patient-75-words-minute-week-one/">https://teslanorth.com/2026/10/28/neuralink-als-patient-75-words-minute-week-one/</a><span class="for-event"> (neuralink-voice-speech-75-wpm-data-2026-10-28)</span></li>
+      </ol>
+    </section>
+
+    <footer class="colophon">
+      Every article restates a dated row in the public event ledger. No facts, days, figures or quotes are added beyond that row. Source URLs are copied unchanged. Each issue is a Wednesday edition covering Thursday through Wednesday, dated the Wednesday it closes on. Ledger updated 2026-11-25. Sample page for review — not the timeline interface.
+    </footer>
+  </article>
+</body>
+</html>

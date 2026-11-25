@@ -1,0 +1,220 @@
+/* Tesla Chronicle · company themes
+   Usage: <html data-company="all|tesla|spacex|xai|x|neuralink|boring">  (set by themes.js)
+   Every theme defines the same token set. Text pairs are checked for WCAG AA (≥ 4.5:1 body text,
+   ≥ 3:1 large text / UI) — see the contrast table in ART-NOTES.md.
+   System fonts only; no network requests.                                                      */
+
+:root, html[data-company] {
+  --tc-sans: "Inter", "Segoe UI", "Helvetica Neue", system-ui, -apple-system, Roboto, Arial, sans-serif;
+  --tc-mono: "SF Mono", "JetBrains Mono", "Cascadia Code", ui-monospace, Menlo, Consolas, monospace;
+  --tc-display: var(--tc-sans);
+  --tc-display-weight: 600;
+  --tc-display-tracking: -0.02em;
+  --tc-display-case: none;
+  --tc-radius: 14px;
+  --tc-ease: cubic-bezier(.2, .7, .2, 1);
+  --tc-dur: 520ms;
+}
+
+/* ———————————————————————————————— All · "Universe" (neutral graphite, champagne accent) */
+:root, html[data-company="all"] {
+  --tc-bg: #0e1116; --tc-bg2: #151a21;
+  --tc-surface: rgba(255,255,255,.045); --tc-surface-solid: #171c23; --tc-surface2: rgba(255,255,255,.08);
+  --tc-ink: #eceef1; --tc-muted: #a2abb5; --tc-faint: #6f7883;
+  --tc-line: rgba(236,238,241,.12); --tc-line-strong: rgba(236,238,241,.24);
+  --tc-accent: #d9c49a; --tc-accent-ink: #15120c; --tc-link: #e6d3ab;
+  --tc-hero-ink: #f5f6f7;
+  --tc-bg-image:
+    radial-gradient(ellipse 70% 45% at 85% -10%, rgba(217,196,154,.12), transparent 60%),
+    radial-gradient(ellipse 60% 40% at 0% 0%, rgba(120,150,190,.10), transparent 60%),
+    linear-gradient(180deg, #11151b 0%, #0e1116 60%);
+  /* company swatches (used for card chips; tuned per theme for contrast) */
+  --co-tesla: #ff5a6e; --co-spacex: #b9d3ff; --co-xai: #ffffff; --co-x: #d6d9dc; --co-neuralink: #9fd3c7; --co-boring: #ffb45e;
+  /* artwork tokens consumed by art/*.svg */
+  --art-body: #e6eaee; --art-body2: #bcc6cf; --art-dark: #1a1f26; --art-mid: #7d8996; --art-glass: #2d3945;
+  --art-accent: #e31937; --art-glow: #ffd9a0; --art-line: #4a5561; --art-line-light: rgba(255,255,255,.5);
+  --art-dim: #8e99a5; --art-cap: #dfe4e9;
+  color-scheme: dark;
+}
+
+/* ———————————————————————————————— Tesla · clean, light, Tesla red */
+html[data-company="tesla"] {
+  --tc-bg: #f4f4f4; --tc-bg2: #ffffff;
+  --tc-surface: #ffffff; --tc-surface-solid: #ffffff; --tc-surface2: #eeeeee;
+  --tc-ink: #171a20; --tc-muted: #5c5e62; --tc-faint: #8e8e8e;
+  --tc-line: rgba(23,26,32,.10); --tc-line-strong: rgba(23,26,32,.22);
+  --tc-accent: #d0102b; --tc-accent-ink: #ffffff; --tc-link: #b30e25;
+  --tc-hero-ink: #171a20;
+  --tc-display-weight: 500; --tc-display-tracking: -0.01em;
+  --tc-bg-image:
+    radial-gradient(ellipse 80% 50% at 50% -20%, #ffffff 0%, rgba(255,255,255,0) 70%),
+    linear-gradient(180deg, #fafafa 0%, #f1f1f1 100%);
+  --co-tesla: #d0102b; --co-spacex: #2f3a4a; --co-xai: #111111; --co-x: #111111; --co-neuralink: #2f6f68; --co-boring: #9a5a12;
+  --art-body: #ffffff; --art-body2: #dfe2e6; --art-dark: #22262d; --art-mid: #9aa1a9; --art-glass: #2a3039;
+  --art-accent: #d0102b; --art-glow: #ffe1a8; --art-line: #3d4148; --art-line-light: rgba(255,255,255,.7);
+  --art-dim: #6b6e73; --art-cap: #171a20;
+  color-scheme: light;
+}
+
+/* ———————————————————————————————— SpaceX · deep space, starfield, cool white */
+html[data-company="spacex"] {
+  --tc-bg: #02040a; --tc-bg2: #070b14;
+  --tc-surface: rgba(255,255,255,.04); --tc-surface-solid: #0a0f19; --tc-surface2: rgba(255,255,255,.08);
+  --tc-ink: #eef3fa; --tc-muted: #a7b2c2; --tc-faint: #6d7889;
+  --tc-line: rgba(220,232,255,.12); --tc-line-strong: rgba(220,232,255,.26);
+  --tc-accent: #cfe0ff; --tc-accent-ink: #050a14; --tc-link: #cfe0ff;
+  --tc-hero-ink: #ffffff;
+  --tc-display-weight: 500; --tc-display-tracking: 0.22em; --tc-display-case: uppercase;
+  --tc-bg-image:
+    radial-gradient(1px 1px at 12% 18%, rgba(255,255,255,.85), transparent 60%),
+    radial-gradient(1px 1px at 27% 72%, rgba(255,255,255,.55), transparent 60%),
+    radial-gradient(1.5px 1.5px at 41% 33%, rgba(220,232,255,.9), transparent 60%),
+    radial-gradient(1px 1px at 58% 12%, rgba(255,255,255,.6), transparent 60%),
+    radial-gradient(1px 1px at 66% 58%, rgba(255,255,255,.45), transparent 60%),
+    radial-gradient(1.5px 1.5px at 79% 26%, rgba(255,255,255,.8), transparent 60%),
+    radial-gradient(1px 1px at 88% 81%, rgba(200,220,255,.6), transparent 60%),
+    radial-gradient(1px 1px at 6% 90%, rgba(255,255,255,.5), transparent 60%),
+    radial-gradient(1px 1px at 93% 46%, rgba(255,255,255,.55), transparent 60%),
+    radial-gradient(1px 1px at 35% 95%, rgba(255,255,255,.4), transparent 60%),
+    radial-gradient(ellipse 120% 60% at 50% 120%, rgba(60,110,200,.22), transparent 60%),
+    linear-gradient(180deg, #000208 0%, #03060e 55%, #060c1a 100%);
+  --tc-bg-size: 420px 420px, 380px 380px, 520px 520px, 300px 300px, 460px 460px, 610px 610px, 350px 350px, 270px 270px, 490px 490px, 330px 330px, 100% 100%, 100% 100%;
+  --co-tesla: #ff7083; --co-spacex: #cfe0ff; --co-xai: #ffffff; --co-x: #e1e5ea; --co-neuralink: #a8e0d3; --co-boring: #ffbd6e;
+  --art-body: #eef2f7; --art-body2: #b9c4d2; --art-dark: #10151d; --art-mid: #6f7d8d; --art-glass: #26303c;
+  --art-accent: #cfe0ff; --art-glow: #ffd9a0; --art-line: #3e4957; --art-line-light: rgba(255,255,255,.55);
+  --art-dim: #8592a3; --art-cap: #e6edf6;
+  color-scheme: dark;
+}
+
+/* ———————————————————————————————— xAI · stark monochrome on a precise grid */
+html[data-company="xai"] {
+  --tc-bg: #000000; --tc-bg2: #0a0a0a;
+  --tc-surface: rgba(0,0,0,.72); --tc-surface-solid: #0b0b0b; --tc-surface2: #161616;
+  --tc-ink: #ffffff; --tc-muted: #a3a3a3; --tc-faint: #6b6b6b;
+  --tc-line: rgba(255,255,255,.14); --tc-line-strong: rgba(255,255,255,.34);
+  --tc-accent: #ffffff; --tc-accent-ink: #000000; --tc-link: #ffffff;
+  --tc-hero-ink: #ffffff; --tc-radius: 0px;
+  --tc-display: var(--tc-mono); --tc-display-weight: 500; --tc-display-tracking: -0.01em;
+  --tc-bg-image:
+    linear-gradient(rgba(255,255,255,.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.055) 1px, transparent 1px),
+    linear-gradient(rgba(255,255,255,.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.025) 1px, transparent 1px),
+    radial-gradient(ellipse 60% 50% at 50% 0%, rgba(255,255,255,.07), transparent 70%),
+    linear-gradient(#000, #000);
+  --tc-bg-size: 96px 96px, 96px 96px, 24px 24px, 24px 24px, 100% 100%, 100% 100%;
+  --co-tesla: #ff7083; --co-spacex: #cfe0ff; --co-xai: #ffffff; --co-x: #d9d9d9; --co-neuralink: #a8e0d3; --co-boring: #ffbd6e;
+  --art-body: #f2f2f2; --art-body2: #bdbdbd; --art-dark: #111111; --art-mid: #777777; --art-glass: #2a2a2a;
+  --art-accent: #ffffff; --art-glow: #e0e0e0; --art-line: #4a4a4a; --art-line-light: rgba(255,255,255,.5);
+  --art-dim: #8f8f8f; --art-cap: #ffffff;
+  color-scheme: dark;
+}
+
+/* ———————————————————————————————— X · black and white, crisp */
+html[data-company="x"] {
+  --tc-bg: #000000; --tc-bg2: #000000;
+  --tc-surface: #000000; --tc-surface-solid: #000000; --tc-surface2: #16181c;
+  --tc-ink: #e7e9ea; --tc-muted: #8b98a5; --tc-faint: #5b6670;
+  --tc-line: #2f3336; --tc-line-strong: #536471;
+  --tc-accent: #eff3f4; --tc-accent-ink: #0f1419; --tc-link: #eff3f4;
+  --tc-hero-ink: #ffffff; --tc-radius: 16px;
+  --tc-display-weight: 800; --tc-display-tracking: -0.03em;
+  --tc-bg-image: linear-gradient(#000, #000);
+  --co-tesla: #ff7083; --co-spacex: #cfe0ff; --co-xai: #ffffff; --co-x: #eff3f4; --co-neuralink: #a8e0d3; --co-boring: #ffbd6e;
+  --art-body: #eff3f4; --art-body2: #aab4bc; --art-dark: #0f1419; --art-mid: #71767b; --art-glass: #202327;
+  --art-accent: #eff3f4; --art-glow: #e7e9ea; --art-line: #536471; --art-line-light: rgba(255,255,255,.5);
+  --art-dim: #8b98a5; --art-cap: #e7e9ea;
+  color-scheme: dark;
+}
+
+/* ———————————————————————————————— Neuralink · soft, clinical, refined */
+html[data-company="neuralink"] {
+  --tc-bg: #f3f4f1; --tc-bg2: #fbfbf9;
+  --tc-surface: rgba(255,255,255,.82); --tc-surface-solid: #ffffff; --tc-surface2: #eceeea;
+  --tc-ink: #1c2220; --tc-muted: #56605c; --tc-faint: #8a928e;
+  --tc-line: rgba(28,34,32,.09); --tc-line-strong: rgba(28,34,32,.2);
+  --tc-accent: #2d6a62; --tc-accent-ink: #ffffff; --tc-link: #245a53;
+  --tc-hero-ink: #1c2220; --tc-radius: 22px;
+  --tc-display-weight: 300; --tc-display-tracking: -0.02em;
+  --tc-bg-image:
+    radial-gradient(ellipse 60% 50% at 80% 0%, rgba(173,214,204,.38), transparent 65%),
+    radial-gradient(ellipse 50% 40% at 0% 30%, rgba(222,214,240,.40), transparent 65%),
+    linear-gradient(180deg, #f8f8f6 0%, #f1f2ef 100%);
+  --co-tesla: #c0102a; --co-spacex: #34405a; --co-xai: #111111; --co-x: #111111; --co-neuralink: #2d6a62; --co-boring: #8a4f0e;
+  --art-body: #ffffff; --art-body2: #dfe3e0; --art-dark: #2a302e; --art-mid: #9aa49f; --art-glass: #3a4542;
+  --art-accent: #2d6a62; --art-glow: #bfe3da; --art-line: #4b5552; --art-line-light: rgba(255,255,255,.75);
+  --art-dim: #6c7672; --art-cap: #1c2220;
+  color-scheme: light;
+}
+
+/* ———————————————————————————————— The Boring Company · tunnel concrete, warm light */
+html[data-company="boring"] {
+  --tc-bg: #1b1916; --tc-bg2: #24211d;
+  --tc-surface: rgba(255,244,228,.05); --tc-surface-solid: #26231f; --tc-surface2: rgba(255,244,228,.09);
+  --tc-ink: #f4ede3; --tc-muted: #bcae9b; --tc-faint: #857a6c;
+  --tc-line: rgba(244,237,227,.12); --tc-line-strong: rgba(244,237,227,.25);
+  --tc-accent: #ffb04a; --tc-accent-ink: #1b1305; --tc-link: #ffc574;
+  --tc-hero-ink: #fff7ec; --tc-radius: 10px;
+  --tc-display-weight: 700; --tc-display-tracking: 0.02em; --tc-display-case: uppercase;
+  --tc-bg-image:
+    radial-gradient(ellipse 55% 38% at 50% -6%, rgba(255,176,74,.30), transparent 70%),
+    radial-gradient(ellipse 30% 22% at 50% -2%, rgba(255,214,150,.22), transparent 70%),
+    repeating-linear-gradient(90deg, rgba(0,0,0,0) 0 179px, rgba(0,0,0,.22) 179px 181px),
+    repeating-linear-gradient(0deg, rgba(255,255,255,.012) 0 3px, rgba(0,0,0,.02) 3px 6px),
+    linear-gradient(180deg, #24201b 0%, #1b1916 45%, #141210 100%);
+  --co-tesla: #ff7a8c; --co-spacex: #cfe0ff; --co-xai: #ffffff; --co-x: #e6e1da; --co-neuralink: #a8e0d3; --co-boring: #ffb04a;
+  --art-body: #efe8de; --art-body2: #b8ab98; --art-dark: #161412; --art-mid: #7c7166; --art-glass: #2c2925;
+  --art-accent: #ffb04a; --art-glow: #ffd28a; --art-line: #5a5147; --art-line-light: rgba(255,240,220,.45);
+  --art-dim: #a3968a; --art-cap: #f4ede3;
+  color-scheme: dark;
+}
+
+/* ———————————————————————————————— Base application of the tokens */
+html[data-company] body, body.tc-themed {
+  background-color: var(--tc-bg);
+  background-image: var(--tc-bg-image);
+  background-size: var(--tc-bg-size, auto);
+  background-attachment: fixed;
+  color: var(--tc-ink);
+}
+/* links: timeline maps --sky → --tc-link below; demo styles its own anchors */
+
+/* Map tokens onto the existing timeline.html variables so the reader re-skins without edits to its CSS. */
+html[data-company] {
+  --storm: var(--tc-bg); --ink: var(--tc-ink); --muted: var(--tc-muted); --fog: var(--tc-muted);
+  --sky: var(--tc-link); --glow: var(--tc-accent);
+  --panel: var(--tc-surface-solid); --glass: var(--tc-surface2); --stroke: var(--tc-line-strong);
+}
+
+/* Company chip / dot for cards: <span class="tc-co" data-co="spacex">SpaceX</span> */
+.tc-co { --co: var(--co-tesla); display: inline-flex; align-items: center; gap: .4em; font: 600 .68rem/1 var(--tc-sans); letter-spacing: .08em; text-transform: uppercase; color: var(--tc-muted); }
+.tc-co::before { content: ""; width: .55em; height: .55em; border-radius: 50%; background: var(--co); box-shadow: 0 0 0 3px color-mix(in srgb, var(--co) 18%, transparent); }
+.tc-co[data-co="tesla"] { --co: var(--co-tesla); } .tc-co[data-co="spacex"] { --co: var(--co-spacex); }
+.tc-co[data-co="xai"] { --co: var(--co-xai); } .tc-co[data-co="x"] { --co: var(--co-x); }
+.tc-co[data-co="neuralink"] { --co: var(--co-neuralink); } .tc-co[data-co="boring"] { --co: var(--co-boring); }
+[data-co-accent="tesla"] { --co: var(--co-tesla); } [data-co-accent="spacex"] { --co: var(--co-spacex); }
+[data-co-accent="xai"] { --co: var(--co-xai); } [data-co-accent="x"] { --co: var(--co-x); }
+[data-co-accent="neuralink"] { --co: var(--co-neuralink); } [data-co-accent="boring"] { --co: var(--co-boring); }
+
+/* Hero art host: <div class="tc-art" data-theme-art="hero"></div> (themes.js inlines the SVG) */
+.tc-art { position: relative; }
+.tc-art > svg { display: block; width: 100%; height: 100%; }
+.tc-art.tc-art-out { opacity: 0; transform: translateY(8px) scale(.995); }
+.tc-art { transition: opacity var(--tc-dur) var(--tc-ease), transform var(--tc-dur) var(--tc-ease); }
+
+/* Smooth theme change. themes.js adds .tc-switching for one frame window. */
+html.tc-switching, html.tc-switching body, html.tc-switching body * {
+  transition: background-color var(--tc-dur) var(--tc-ease), color var(--tc-dur) var(--tc-ease),
+              border-color var(--tc-dur) var(--tc-ease), fill var(--tc-dur) var(--tc-ease), stroke var(--tc-dur) var(--tc-ease) !important;
+}
+::view-transition-old(root), ::view-transition-new(root) { animation-duration: var(--tc-dur); animation-timing-function: var(--tc-ease); }
+
+@media (prefers-reduced-motion: reduce) {
+  html.tc-switching, html.tc-switching body, html.tc-switching body *, .tc-art { transition: none !important; }
+  .tc-art.tc-art-out { opacity: 1; transform: none; }
+  ::view-transition-old(root), ::view-transition-new(root) { animation: none !important; }
+}
+
+/* ———————————————————————————————— timeline.html adapters (its bars use hard-coded dark rgba) */
+html[data-company] .topbar, html[data-company] .sheet-bar { background: color-mix(in srgb, var(--tc-bg) 84%, transparent); }
+html[data-company] .topbar { border-bottom-color: var(--tc-line); }

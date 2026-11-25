@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2224 -3305 11648 4865" role="img" aria-labelledby="t-megapack d-megapack">
+<title id="t-megapack">Megapack 2 XL · illustration</title><desc id="d-megapack">Illustration, not a photo. Tesla Megapack 2 XL · 8,800 × 1,650 × 2,785 mm (datasheet) · person 1.75 m for scale. Drawn to scale from published dimensions; see ART-NOTES.md.</desc>
+<style>
+.ta-body{fill:var(--art-body,#e9edf1)}.ta-body2{fill:var(--art-body2,#cfd6dd)}
+.ta-dark{fill:var(--art-dark,#20262c)}.ta-mid{fill:var(--art-mid,#8b97a3)}
+.ta-glass{fill:var(--art-glass,#2b3640)}.ta-acc{fill:var(--art-accent,#e31937)}
+.ta-glow{fill:var(--art-glow,#ffd9a0)}
+.ta-ln{fill:none;stroke:var(--art-line,#58636e);stroke-width:1.1;vector-effect:non-scaling-stroke;stroke-linejoin:round;stroke-linecap:round}
+.ta-lnl{fill:none;stroke:var(--art-line-light,rgba(255,255,255,.55));stroke-width:.9;vector-effect:non-scaling-stroke;stroke-linecap:round}
+.ta-hair{fill:none;stroke:var(--art-line,#58636e);stroke-width:.45;vector-effect:non-scaling-stroke}
+.ta-dim{fill:none;stroke:var(--art-dim,#8d99a5);stroke-width:.8;vector-effect:non-scaling-stroke}
+.ta-gnd{fill:none;stroke:var(--art-dim,#8d99a5);stroke-width:1;vector-effect:non-scaling-stroke;stroke-dasharray:2 3}
+.ta-t{fill:var(--art-dim,#8d99a5);font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;letter-spacing:.04em}
+.ta-cap{fill:var(--art-cap,#c4ccd4);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-weight:600;letter-spacing:.02em}
+</style><defs></defs>
+<g class="ta-art">
+<rect class="ta-dark" x="0" y="-180" width="8800" height="180" rx="0"/>
+<rect class="ta-body" x="0" y="-2365" width="8800" height="2185" rx="0"/>
+<rect class="ta-body2" x="-40" y="-2785" width="8880" height="420" rx="0"/>
+<rect class="ta-ln" x="0" y="-2365" width="8800" height="2185" rx="0"/>
+<circle class="ta-mid" cx="-900" cy="-1635" r="115"/>
+<path class="ta-mid" d="M-1110,-1500 C-1083.3,-1541.3 -716.7,-1541.3 -690,-1500 C-663.3,-1458.7 -704,-980 -710,-880 C-716,-780 -768.7,-58.7 -780,0 C-791.3,58.7 -872,52 -880,0 C-888,-52 -897.3,-780 -900,-780 C-902.7,-780 -912,-52 -920,0 C-928,52 -1008.7,58.7 -1020,0 C-1031.3,-58.7 -1084,-780 -1090,-880 C-1096,-980 -1136.7,-1458.7 -1110,-1500 Z"/>
+</g>
+<g class="ta-anno">
+<path class="ta-gnd" d="M-2016,0 L9216,0"/>
+<path class="ta-dim" d="M0,436.8 L8800,436.8"/>
+<path class="ta-dim" d="M0,561.6 L0,312"/>
+<path class="ta-dim" d="M8800,561.6 L8800,312"/>
+<text class="ta-t" x="4400" y="686.4" font-size="156" text-anchor="middle">8,800 mm</text>
+<path class="ta-dim" d="M9132.8,0 L9132.8,-2785"/>
+<path class="ta-dim" d="M9008,0 L9257.6,0"/>
+<path class="ta-dim" d="M9008,-2785 L9257.6,-2785"/>
+<text class="ta-t" x="9278.4" y="-1392.5" font-size="156" text-anchor="middle" transform="rotate(90 9278.4 -1392.5)">2,785</text>
+<text class="ta-cap" x="-2016" y="852.8" font-size="322.4">Megapack 2 XL · illustration</text><text class="ta-t" x="-2016" y="1206.4" font-size="161.2">Tesla Megapack 2 XL · 8,800 × 1,650 × 2,785 mm (datasheet) · person 1.75 m for scale</text><rect x="8216" y="759.2" width="250" height="72.8" class="ta-mid"/><rect x="8466" y="759.2" width="250" height="72.8" class="ta-body2"/><rect x="8716" y="759.2" width="250" height="72.8" class="ta-mid"/><rect x="8966" y="759.2" width="250" height="72.8" class="ta-body2"/><text class="ta-t" x="9216" y="686.4" font-size="156" text-anchor="end">1 m</text></g>
+</svg>

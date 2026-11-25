@@ -1,0 +1,413 @@
+{
+  "title": "Chronicle Weekly",
+  "description": "Wednesday editions of the public event ledger, covering Thursday through Wednesday and dated the Wednesday each edition closes on. Only published editions are included; the set grows backwards over weekly runs. Index entries are newest first. Each article restates one ledger row. No facts are added.",
+  "schemaVersion": 1,
+  "sourceLedger": "events.json",
+  "ledgerUpdated": "2026-11-25",
+  "issueCount": 11,
+  "dayEventCount": 83,
+  "undatedEventCount": 7,
+  "ledgerDayEventCount": 461,
+  "ledgerEditionCount": 292,
+  "undatedHandling": "Only events with datePrecision=day are placed in a Thursday–Wednesday Wednesday edition. Events with month, quarter, or year precision are not assigned to a week. They appear in undatedByPeriod, grouped by the period the ledger already records, and are never given a fake week.",
+  "issues": [
+    {
+      "id": "2026-11-25",
+      "editionDate": "2026-11-25",
+      "weekStart": "2026-11-19",
+      "weekEnd": "2026-11-25",
+      "issueNumber": 292,
+      "headline": "Tesla opens public Cybercab rides in Dallas",
+      "articleCount": 7,
+      "companies": [
+        "tesla",
+        "spacex",
+        "x",
+        "boring"
+      ]
+    },
+    {
+      "id": "2026-11-18",
+      "editionDate": "2026-11-18",
+      "weekStart": "2026-11-12",
+      "weekEnd": "2026-11-18",
+      "issueNumber": 291,
+      "headline": "Starship Flight 15: first upper-stage tower catch; booster lost offshore",
+      "articleCount": 11,
+      "companies": [
+        "tesla",
+        "spacex",
+        "xai",
+        "x"
+      ]
+    },
+    {
+      "id": "2026-11-11",
+      "editionDate": "2026-11-11",
+      "weekStart": "2026-11-05",
+      "weekEnd": "2026-11-11",
+      "issueNumber": 290,
+      "headline": "Musk: Cybertruck production at Giga Texas winds down mid-2027 for Cybercab",
+      "articleCount": 13,
+      "companies": [
+        "tesla",
+        "spacex",
+        "xai",
+        "neuralink",
+        "boring"
+      ]
+    },
+    {
+      "id": "2026-11-04",
+      "editionDate": "2026-11-04",
+      "weekStart": "2026-10-29",
+      "weekEnd": "2026-11-04",
+      "issueNumber": 289,
+      "headline": "Tesla opens unsupervised Robotaxi service in Fort Worth",
+      "articleCount": 11,
+      "companies": [
+        "tesla",
+        "spacex",
+        "xai",
+        "x"
+      ]
+    },
+    {
+      "id": "2026-10-28",
+      "editionDate": "2026-10-28",
+      "weekStart": "2026-10-22",
+      "weekEnd": "2026-10-28",
+      "issueNumber": 288,
+      "headline": "SpaceX commits to a $40B GPU finance lease with Apollo",
+      "articleCount": 9,
+      "companies": [
+        "tesla",
+        "spacex",
+        "xai",
+        "neuralink"
+      ]
+    },
+    {
+      "id": "2026-10-21",
+      "editionDate": "2026-10-21",
+      "weekStart": "2026-10-15",
+      "weekEnd": "2026-10-21",
+      "issueNumber": 287,
+      "headline": "Next-generation Roadster unveiled at SpaceX McGregor; reservations open",
+      "articleCount": 16,
+      "companies": [
+        "tesla",
+        "spacex",
+        "xai"
+      ]
+    },
+    {
+      "id": "2026-10-14",
+      "editionDate": "2026-10-14",
+      "weekStart": "2026-10-08",
+      "weekEnd": "2026-10-14",
+      "issueNumber": 286,
+      "headline": "Tesla says 300+ Cybercabs serving Austin one month after launch",
+      "articleCount": 3,
+      "companies": [
+        "tesla"
+      ]
+    },
+    {
+      "id": "2026-10-07",
+      "editionDate": "2026-10-07",
+      "weekStart": "2026-10-01",
+      "weekEnd": "2026-10-07",
+      "issueNumber": 285,
+      "headline": "Q3 2026: over 464k produced, over 486k delivered, 13.7 GWh storage deployed",
+      "articleCount": 5,
+      "companies": [
+        "tesla"
+      ]
+    },
+    {
+      "id": "2026-09-30",
+      "editionDate": "2026-09-30",
+      "weekStart": "2026-09-24",
+      "weekEnd": "2026-09-30",
+      "issueNumber": 284,
+      "headline": "Tesla launches Semi high-volume production at Nevada factory",
+      "articleCount": 3,
+      "companies": [
+        "tesla"
+      ]
+    },
+    {
+      "id": "2026-09-23",
+      "editionDate": "2026-09-23",
+      "weekStart": "2026-09-17",
+      "weekEnd": "2026-09-23",
+      "issueNumber": 283,
+      "headline": "First Cybercab built with Tesla's in-house Giga Texas cathode",
+      "articleCount": 3,
+      "companies": [
+        "tesla"
+      ]
+    },
+    {
+      "id": "2026-09-16",
+      "editionDate": "2026-09-16",
+      "weekStart": "2026-09-10",
+      "weekEnd": "2026-09-16",
+      "issueNumber": 282,
+      "headline": "Robotaxi opens Cybercab app hailing to anyone in Austin",
+      "articleCount": 2,
+      "companies": [
+        "tesla"
+      ]
+    }
+  ],
+  "undatedByPeriod": [
+    {
+      "period": "2013",
+      "precision": "year",
+      "label": "2013 (date not pinned to a day)",
+      "articles": [
+        {
+          "eventId": "residential-energy-storage-sales-2013",
+          "date": "2013-01-01",
+          "headline": "Residential energy storage sales begin",
+          "body": "Tesla began selling residential energy storage systems in 2013, per its Form 10-K for 2016. Commercial and utility systems followed in 2014; Powerwall 2 / Powerpack 2 production came later in Q4 2016.",
+          "category": "energy",
+          "companies": [
+            "tesla"
+          ],
+          "sources": [
+            {
+              "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459017003118/tsla-10k_20161231.htm",
+              "publisher": "SEC, Tesla Form 10-K for year ended Dec. 31, 2016",
+              "kind": "primary"
+            }
+          ],
+          "status": "done"
+        }
+      ]
+    },
+    {
+      "period": "2014",
+      "precision": "year",
+      "label": "2014 (date not pinned to a day)",
+      "articles": [
+        {
+          "eventId": "commercial-utility-storage-sales-2014",
+          "date": "2014-01-01",
+          "headline": "Commercial and utility energy storage sales begin",
+          "body": "Tesla began selling commercial and utility energy storage systems in 2014 (after residential in 2013), covering backup power, peak demand reduction, and wholesale market services, per the 2016 Form 10-K.",
+          "category": "energy",
+          "companies": [
+            "tesla"
+          ],
+          "sources": [
+            {
+              "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459017003118/tsla-10k_20161231.htm",
+              "publisher": "SEC, Tesla Form 10-K for year ended Dec. 31, 2016",
+              "kind": "primary"
+            }
+          ],
+          "status": "done"
+        }
+      ]
+    },
+    {
+      "period": "2015-Q3",
+      "precision": "quarter",
+      "label": "Q3 2015 (date not pinned to a day)",
+      "articles": [
+        {
+          "eventId": "energy-powerwall-deliveries-2015",
+          "date": "2015-07-01",
+          "headline": "Tesla Energy Powerwall production and deliveries begin",
+          "body": "In Q3 2015 Tesla began production and deliveries of Powerwall (7/10 kWh) and Powerpack under the Tesla Energy brand, after the April 30, 2015 stage unveil. Gigafactory assembly of Tesla Energy products began in Q4 2015. Earlier home energy systems had been sold since 2013.",
+          "category": "energy",
+          "companies": [
+            "tesla"
+          ],
+          "sources": [
+            {
+              "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459016013195/tsla-10k_20151231.htm",
+              "publisher": "SEC, Tesla Form 10-K for year ended Dec. 31, 2015",
+              "kind": "primary"
+            }
+          ],
+          "status": "done"
+        }
+      ]
+    },
+    {
+      "period": "2016-Q4",
+      "precision": "quarter",
+      "label": "Q4 2016 (date not pinned to a day)",
+      "articles": [
+        {
+          "eventId": "powerwall2-powerpack2-production-2016",
+          "date": "2016-10-01",
+          "headline": "Powerwall 2 and Powerpack 2 production begins",
+          "body": "In Q4 2016 Tesla began production and deliveries of Powerwall 2 (14 kWh) and Powerpack 2 (200 kWh blocks) at Gigafactory 1, with over-the-air update capability, per the 2016 Form 10-K.",
+          "category": "energy",
+          "companies": [
+            "tesla"
+          ],
+          "sources": [
+            {
+              "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459017003118/tsla-10k_20161231.htm",
+              "publisher": "SEC, Tesla Form 10-K for year ended Dec. 31, 2016",
+              "kind": "primary"
+            }
+          ],
+          "status": "done"
+        }
+      ]
+    },
+    {
+      "period": "2017-12",
+      "precision": "month",
+      "label": "December 2017 (date not pinned to a day)",
+      "articles": [
+        {
+          "eventId": "solar-roof-gf2-initial-production-2017",
+          "date": "2017-12-01",
+          "headline": "Solar Roof initial production at Gigafactory 2",
+          "body": "In December 2017 Tesla began manufacturing Solar Roof tiles (Textured and Smooth) at Gigafactory 2 in Buffalo; Tesla told Reuters on January 9, 2018 that manufacturing had started the prior month and that customer site surveys had begun. The Q4/FY 2017 shareholder letter likewise placed initial Solar Roof production in Q4, with hiring ahead of schedule and a gradual ramp due to manufacturing and installation complexity. (August 31, 2017 AP coverage marked solar-cell production start at the plant, not Solar Roof tile SOP.)",
+          "category": "energy",
+          "companies": [
+            "tesla"
+          ],
+          "sources": [
+            {
+              "url": "https://www.sec.gov/Archives/edgar/data/1318605/000156459018001521/tsla-ex991_8.htm",
+              "publisher": "SEC, Tesla Q4/FY 2017 shareholder letter (EX-99.1)",
+              "kind": "primary"
+            },
+            {
+              "url": "https://www.reuters.com/article/technology/tesla-says-solar-roof-production-has-started-in-buffalo-idUSKBN1EY2B9/",
+              "publisher": "Reuters, Tesla says solar roof production has started in Buffalo, January 9, 2018",
+              "kind": "secondary"
+            },
+            {
+              "url": "https://electrek.co/2018/01/09/tesla-solar-roof-tile-installation-production-gigafactory-2/",
+              "publisher": "Electrek, Solar Roof tile production at Gigafactory 2 / customer install process, January 9, 2018",
+              "kind": "secondary"
+            }
+          ],
+          "status": "done"
+        }
+      ]
+    },
+    {
+      "period": "2026-Q2",
+      "precision": "quarter",
+      "label": "Q2 2026 (date not pinned to a day)",
+      "articles": [
+        {
+          "eventId": "megafactory-texas-nearing-completion-megapack3-sop-2026",
+          "date": "2026-04-01",
+          "headline": "Megafactory Texas nearing completion; Megapack 3 and Megablock SOP planned 2026",
+          "body": "In Q2 2026 Megafactory Texas was nearing completion with Megapack 3 and Megablock start of production still planned for 2026, per the Q2 2026 Update. Earlier updates described the same Houston-area Megafactory. This is progress toward SOP, not SOP itself.",
+          "category": "energy",
+          "companies": [
+            "tesla"
+          ],
+          "sources": [
+            {
+              "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026049213/exhibit991.htm",
+              "publisher": "SEC, Tesla Form 8-K Exhibit 99.1 (Q2 2026 Update), July 22, 2026",
+              "kind": "primary"
+            },
+            {
+              "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026049213/0001628280-26-049213-index.htm",
+              "publisher": "SEC EDGAR index, Tesla Form 8-K, July 22, 2026",
+              "kind": "primary"
+            },
+            {
+              "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045861/exhibit991.htm",
+              "publisher": "SEC, Tesla Form 8-K Exhibit 99.1 (Q3 2025 Update), October 22, 2025",
+              "kind": "primary"
+            },
+            {
+              "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026026551/exhibit991.htm",
+              "publisher": "SEC, Tesla Form 8-K Exhibit 99.1 (Q1 2026 Update), April 22, 2026",
+              "kind": "primary"
+            },
+            {
+              "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+              "publisher": "SEC, Tesla Form 8-K Exhibit 99.1 (Q3 2026 Update), October 21, 2026",
+              "kind": "primary"
+            }
+          ],
+          "status": "done",
+          "statusNote": "Done: Megapack 3 rolled off the Brookshire line 2026-08-06 (megapack3-brookshire-production-2026-08-06); the Q3 2026 Update says Megafactory Texas began production and lists Texas Megapack 50 GWh as Production. Megablock stays open on megapack3-megablock-unveil-q3-2025.",
+          "promiseQuote": "Megafactory Texas is nearing completion, with start of production planned for this year.",
+          "promiseSpeaker": "Tesla (Q2 2026 Update)",
+          "promiseSaidDate": "2026-07-22",
+          "promiseTarget": "this year",
+          "deliveryCriterion": "Megafactory Texas starts Megapack 3 production.",
+          "promiseKind": "corporate",
+          "promiseSources": [
+            {
+              "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026049213/exhibit991.htm",
+              "publisher": "SEC, Tesla Form 8-K Exhibit 99.1 (Q2 2026 Update), July 22, 2026",
+              "kind": "primary"
+            }
+          ]
+        },
+        {
+          "eventId": "tesla-semi-nevada-factory-production-planned-2026",
+          "date": "2026-04-01",
+          "headline": "Tesla Semi volume production planned 2026 at new Nevada factory",
+          "body": "In Q2 2026 Tesla said Semi remained on track for 2026 production at the new Nevada factory (capacity table: Commissioning). Prior Q1 2026 and Q4/FY 2025 Updates likewise kept 2026 volume production on schedule. Distinct from 2022 early/pilot Semi production.",
+          "category": "product",
+          "companies": [
+            "tesla"
+          ],
+          "sources": [
+            {
+              "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026049213/exhibit991.htm",
+              "publisher": "SEC, Tesla Form 8-K Exhibit 99.1 (Q2 2026 Update), July 22, 2026",
+              "kind": "primary"
+            },
+            {
+              "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026049213/0001628280-26-049213-index.htm",
+              "publisher": "SEC EDGAR index, Tesla Form 8-K, July 22, 2026",
+              "kind": "primary"
+            },
+            {
+              "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026026551/exhibit991.htm",
+              "publisher": "SEC, Tesla Form 8-K Exhibit 99.1 (Q1 2026 Update), April 22, 2026",
+              "kind": "primary"
+            },
+            {
+              "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003837/exhibit991.htm",
+              "publisher": "SEC, Tesla Form 8-K Exhibit 99.1 (Q4 and FY 2025 Update), January 28, 2026",
+              "kind": "primary"
+            },
+            {
+              "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+              "publisher": "SEC, Tesla Form 8-K Exhibit 99.1 (Q3 2026 Update), October 21, 2026",
+              "kind": "primary"
+            }
+          ],
+          "status": "done",
+          "statusNote": "Done: the Q3 2026 Update (8-K Exhibit 99.1, 2026-10-21) says Tesla began volume production of Tesla Semi, that production has begun for Semi in Nevada, and lists Nevada Tesla Semi (25,000) as Production. First HV-line unit 2026-04-29 and HV launch 2026-09-24 live on separate day rows.",
+          "promiseQuote": "Tesla Semi remains on track for production this year at our new factory in Nevada.",
+          "promiseSpeaker": "Tesla (Q2 2026 Update)",
+          "promiseSaidDate": "2026-07-22",
+          "promiseTarget": "this year",
+          "deliveryCriterion": "Tesla Semi volume production starts at the Nevada factory.",
+          "promiseKind": "product",
+          "promiseSources": [
+            {
+              "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026049213/exhibit991.htm",
+              "publisher": "SEC, Tesla Form 8-K Exhibit 99.1 (Q2 2026 Update), July 22, 2026",
+              "kind": "primary"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2912 -2860 5824 6240" role="img" aria-labelledby="t-boring-tunnel d-boring-tunnel">
+<title id="t-boring-tunnel">Loop tunnel cross-section · illustration</title><desc id="d-boring-tunnel">Illustration, not a photo. The Boring Company LVCC Loop · ring ID 3.66 m (12 ft) · OD 4.11 m (13.5 ft) · Model Y to scale. Drawn to scale from published dimensions; see ART-NOTES.md.</desc>
+<style>
+.ta-body{fill:var(--art-body,#e9edf1)}.ta-body2{fill:var(--art-body2,#cfd6dd)}
+.ta-dark{fill:var(--art-dark,#20262c)}.ta-mid{fill:var(--art-mid,#8b97a3)}
+.ta-glass{fill:var(--art-glass,#2b3640)}.ta-acc{fill:var(--art-accent,#e31937)}
+.ta-glow{fill:var(--art-glow,#ffd9a0)}
+.ta-ln{fill:none;stroke:var(--art-line,#58636e);stroke-width:1.1;vector-effect:non-scaling-stroke;stroke-linejoin:round;stroke-linecap:round}
+.ta-lnl{fill:none;stroke:var(--art-line-light,rgba(255,255,255,.55));stroke-width:.9;vector-effect:non-scaling-stroke;stroke-linecap:round}
+.ta-hair{fill:none;stroke:var(--art-line,#58636e);stroke-width:.45;vector-effect:non-scaling-stroke}
+.ta-dim{fill:none;stroke:var(--art-dim,#8d99a5);stroke-width:.8;vector-effect:non-scaling-stroke}
+.ta-gnd{fill:none;stroke:var(--art-dim,#8d99a5);stroke-width:1;vector-effect:non-scaling-stroke;stroke-dasharray:2 3}
+.ta-t{fill:var(--art-dim,#8d99a5);font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;letter-spacing:.04em}
+.ta-cap{fill:var(--art-cap,#c4ccd4);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-weight:600;letter-spacing:.02em}
+</style><defs></defs>
+<g class="ta-art">
+<circle class="ta-body2" cx="0" cy="0" r="2657" opacity=".35"/>
+<circle class="ta-mid" cx="0" cy="0" r="2057"/>
+<circle class="ta-dark" cx="0" cy="0" r="1829"/>
+<path class="ta-ln" d="M-914.5,-1584 L-1028.5,-1781.4"/>
+<path class="ta-ln" d="M-1829,-0 L-2057,-0"/>
+<path class="ta-ln" d="M-914.5,1584 L-1028.5,1781.4"/>
+<path class="ta-ln" d="M914.5,1584 L1028.5,1781.4"/>
+<path class="ta-ln" d="M1829,0 L2057,0"/>
+<path class="ta-ln" d="M914.5,-1584 L1028.5,-1781.4"/>
+<path class="ta-body2" d="M-1583.7,915 L-1583.7,915 L-1479.4,1075.5 L-1358.9,1224.2 L-1223.5,1359.5 L-1074.8,1479.9 L-914.2,1584.1 L-743.7,1671 L-565,1739.5 L-380.2,1789.1 L-191.1,1819 L-0,1829 L191.1,1819 L380.2,1789.1 L565,1739.5 L743.7,1671 L914.2,1584.1 L1074.8,1479.9 L1223.5,1359.5 L1358.9,1224.2 L1479.4,1075.5 L1583.7,915 L1583.7,915 Z"/>
+<path class="ta-lnl" d="M-1524,915 L1524,915"/>
+<circle class="ta-glow" cx="-1500" cy="-950" r="50"/>
+<circle class="ta-glow" cx="1500" cy="-950" r="50"/>
+<path class="ta-body" d="M-960,655 C-1213.3,580.3 -964,201.7 -940,95 C-916,-11.7 -820,-51.7 -780,-145 C-740,-238.3 -704,-529.8 -640,-605 C-576,-680.2 -425.3,-695.1 -300,-709 C-174.7,-722.9 174.7,-722.9 300,-709 C425.3,-695.1 576,-680.2 640,-605 C704,-529.8 740,-238.3 780,-145 C820,-51.7 916,-11.7 940,95 C964,201.7 1213.3,580.3 960,655 C706.7,729.7 -706.7,729.7 -960,655 Z"/>
+<path class="ta-glass" d="M-700,-185 C-826,-221 -686,-509 -560,-545 C-434,-581 434,-581 560,-545 C686,-509 826,-221 700,-185 C574,-149 -574,-149 -700,-185 Z"/>
+<path class="ta-glow" d="M-850,135 C-822,142 -589,157 -560,155 C-531,153 -532,122 -560,115 C-588,108 -811,83 -840,85 C-869,87 -878,128 -850,135 Z"/>
+<path class="ta-glow" d="M850,135 C822,142 589,157 560,155 C531,153 532,122 560,115 C588,108 811,83 840,85 C869,87 878,128 850,135 Z"/>
+<rect class="ta-dark" x="-946" y="615" width="256" height="300" rx="40"/>
+<rect class="ta-dark" x="690" y="615" width="256" height="300" rx="40"/>
+<path class="ta-ln" d="M-960,655 C-1213.3,580.3 -964,201.7 -940,95 C-916,-11.7 -820,-51.7 -780,-145 C-740,-238.3 -704,-529.8 -640,-605 C-576,-680.2 -425.3,-695.1 -300,-709 C-174.7,-722.9 174.7,-722.9 300,-709 C425.3,-695.1 576,-680.2 640,-605 C704,-529.8 740,-238.3 780,-145 C820,-51.7 916,-11.7 940,95 C964,201.7 1213.3,580.3 960,655 C706.7,729.7 -706.7,729.7 -960,655 Z"/>
+</g>
+<g class="ta-anno">
+<path class="ta-dim" d="M-1829,2813 L1829,2813"/>
+<path class="ta-dim" d="M-1829,2875.4 L-1829,2750.6"/>
+<path class="ta-dim" d="M1829,2875.4 L1829,2750.6"/>
+<text class="ta-t" x="0" y="2937.8" font-size="78" text-anchor="middle">ID 3.66 m (12 ft)</text>
+<path class="ta-dim" d="M-2057,-2735 L2057,-2735"/>
+<path class="ta-dim" d="M-2057,-2672.6 L-2057,-2797.4"/>
+<path class="ta-dim" d="M2057,-2672.6 L2057,-2797.4"/>
+<text class="ta-t" x="0" y="-2610.2" font-size="78" text-anchor="middle">OD 4.11 m (13.5 ft)</text>
+<text class="ta-cap" x="-2808" y="3026.4" font-size="161.2">Loop tunnel cross-section · illustration</text><text class="ta-t" x="-2808" y="3203.2" font-size="80.6">The Boring Company LVCC Loop · ring ID 3.66 m (12 ft) · OD 4.11 m (13.5 ft) · Model Y to scale</text><rect x="1808" y="2979.6" width="250" height="36.4" class="ta-mid"/><rect x="2058" y="2979.6" width="250" height="36.4" class="ta-body2"/><rect x="2308" y="2979.6" width="250" height="36.4" class="ta-mid"/><rect x="2558" y="2979.6" width="250" height="36.4" class="ta-body2"/><text class="ta-t" x="2808" y="2943.2" font-size="78" text-anchor="end">1 m</text></g>
+</svg>

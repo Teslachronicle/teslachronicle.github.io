@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chronicle Weekly — Issue 289 — Tesla opens unsupervised Robotaxi service in Fort Worth</title>
+<style>
+  :root {
+    --ink: #161513;
+    --muted: #4a463f;
+    --rule: #161513;
+    --paper: #f4efe4;
+    --box: #efe6d4;
+    --accent: #7a1f1f;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: #e4dccb; color: var(--ink); }
+  body {
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+    line-height: 1.45;
+  }
+  .paper {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 28px 36px 48px;
+    background: var(--paper);
+    box-shadow: 0 0 0 1px rgba(22,21,19,.12), 0 12px 40px rgba(22,21,19,.08);
+  }
+  .masthead { text-align: center; border-bottom: 3px solid var(--rule); padding-bottom: 12px; }
+  .masthead .kicker {
+    margin: 0 0 6px;
+    font-size: 11px;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .masthead h1 {
+    margin: 0;
+    font-size: 34px;
+    line-height: 1.15;
+    font-weight: 700;
+    letter-spacing: .01em;
+  }
+  .masthead .scope {
+    margin: 8px 0 0;
+    font-size: 13px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .issue-line {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 12px;
+    padding: 6px 0;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    font-size: 12px;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+  }
+  .lead { margin: 22px 0 28px; }
+  .section-label {
+    margin: 0 0 6px;
+    font-size: 11px;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+  .lead h2 {
+    margin: 0 0 8px;
+    font-size: 34px;
+    line-height: 1.12;
+    font-weight: 700;
+  }
+  .dek {
+    margin: 0 0 10px;
+    font-size: 18px;
+    line-height: 1.35;
+    color: var(--muted);
+  }
+  .hero { margin: 12px 0 16px; }
+  .hero img { width: 100%; height: auto; display: block; background: #ddd; }
+  .hero figcaption {
+    margin-top: 4px;
+    font-size: 11px;
+    color: var(--muted);
+    font-style: italic;
+  }
+  .story .meta, .event-id {
+    font-size: 12px;
+    color: var(--muted);
+    letter-spacing: .02em;
+  }
+  .story .body { margin: 8px 0 10px; font-size: 16px; }
+  .story-sources {
+    margin: 8px 0;
+    padding-left: 18px;
+    font-size: 12px;
+    color: var(--muted);
+    overflow-wrap: anywhere;
+  }
+  .story-sources .kind, .kind {
+    font-variant: small-caps;
+    letter-spacing: .04em;
+    color: var(--accent);
+  }
+  .event-id { margin: 0; }
+  .company-block {
+    border-top: 1px solid var(--rule);
+    margin-top: 8px;
+    padding-top: 12px;
+  }
+  .company-name {
+    margin: 0 0 8px;
+    font-size: 13px;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+  .story.secondary { margin-bottom: 22px; }
+  .story.secondary h3 { margin: 0 0 4px; font-size: 22px; line-height: 1.2; }
+  .status { font-size: 13px; color: var(--muted); }
+  blockquote.promise {
+    margin: 10px 0;
+    padding: 8px 14px;
+    border-left: 3px solid var(--accent);
+    color: var(--ink);
+    font-style: italic;
+  }
+  blockquote.promise p { margin: 0 0 4px; }
+  blockquote.promise cite { font-style: normal; font-size: 12px; color: var(--muted); }
+  .pending {
+    margin: 28px 0;
+    padding: 16px 18px;
+    background: var(--box);
+    border: 1px solid #c9b896;
+  }
+  .pending h2 {
+    margin: 0 0 6px;
+    font-size: 16px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+  }
+  .pending-intro { margin: 0 0 10px; font-size: 13px; color: var(--muted); }
+  .pending ul { margin: 0; padding-left: 18px; }
+  .pending li { margin: 0 0 10px; }
+  .pending li p { margin: 4px 0 0; font-size: 14px; color: var(--muted); }
+  .status-flag { font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); }
+  .sources-page {
+    border-top: 3px solid var(--rule);
+    margin-top: 12px;
+    padding-top: 16px;
+  }
+  .sources-page h2 {
+    margin: 0 0 8px;
+    font-size: 16px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+  }
+  .sources-page ol {
+    margin: 0;
+    padding-left: 22px;
+    font-size: 12px;
+    color: var(--muted);
+    overflow-wrap: anywhere;
+  }
+  .sources-page li { margin: 0 0 6px; }
+  .for-event { color: #7a7468; }
+  footer.colophon {
+    margin-top: 28px;
+    border-top: 1px solid var(--rule);
+    padding-top: 12px;
+    font-size: 12px;
+    color: var(--muted);
+  }
+  a { color: #1f3348; }
+  @media (max-width: 640px) {
+    .paper { padding: 18px 16px 32px; }
+    .masthead h1 { font-size: 24px; }
+    .lead h2 { font-size: 26px; }
+    .issue-line { flex-direction: column; gap: 2px; text-align: center; }
+  }
+</style>
+</head>
+<body>
+  <article class="paper">
+    <header class="masthead">
+      <p class="kicker">A dated, sourced weekly paper from the public event ledger</p>
+      <h1>Chronicle Weekly, Wednesday Edition, November 4, 2026</h1>
+      <p class="scope">Tesla · SpaceX · xAI · X · Neuralink · The Boring Company</p>
+      <div class="issue-line">
+        <span>Issue No. 289</span>
+        <span>Thursday–Wednesday · October 29 – November 4, 2026</span>
+        <span>2026-11-04</span>
+      </div>
+    </header>
+
+    <section class="lead">
+      <p class="section-label">Lead</p>
+      <h2>Tesla opens unsupervised Robotaxi service in Fort Worth</h2>
+      <p class="dek">The service area covers about 143 square miles around downtown Fort Worth and launched with Model Y vehicles.</p>
+      
+      <article class="story lead" id="robotaxi-fort-worth-launch-2026-11-02"><p class="meta">Monday, November 2, 2026 · Autonomy · Tesla</p><p class="body">On November 2, 2026 Tesla began Robotaxi rides in Fort Worth, Texas, at 6 a.m. local time with no safety monitor in the car, after its Robotaxi X account announced the start the night before. Fort Worth is Tesla's seventh Robotaxi city, joining Austin, Dallas, Houston, Miami, Orlando and Tampa.</p><ul class="story-sources"><li><span class="kind">secondary</span> San Antonio Express-News, Tesla adds Fort Worth to growing Texas robotaxi network, November 2026 — <a href="https://www.expressnews.com/business/article/tesla-robotaxi-fort-worth-texas-22506473.php">https://www.expressnews.com/business/article/tesla-robotaxi-fort-worth-texas-22506473.php</a></li><li><span class="kind">secondary</span> Tesla News Wire, Tesla Robotaxi opens in Fort Worth with a 143-square-mile unsupervised zone, November 2, 2026 (quotes the @robotaxi post) — <a href="https://teslanewswire.com/articles/tesla-robotaxi-fort-worth-launch-143-square-miles-unsupervised-seventh-city-nov-2-2026">https://teslanewswire.com/articles/tesla-robotaxi-fort-worth-launch-143-square-miles-unsupervised-seventh-city-nov-2-2026</a></li></ul><p class="event-id">Ledger id: robotaxi-fort-worth-launch-2026-11-02</p></article>
+    </section>
+
+    <section class="company-block"><h2 class="company-name">Tesla</h2><article class="story secondary" id="tesla-seoul-court-dismisses-fsd-refund-suit-2026-10-29"><h3>Seoul court dismisses Tesla owners' FSD refund lawsuit</h3><p class="meta">Thursday, October 29, 2026 · Legal · Tesla</p><p class="body">On October 29, 2026, the Seoul Central District Court ruled against Tesla owners who had sued Tesla Korea for refunds of the Full Self-Driving option, which Tesla has sold in South Korea since March 2017. The court found the option did not promise fully driverless (Level 5) driving, that Tesla had delivered Autopilot and Enhanced Autopilot functions and, through a recent update, traffic light and sign recognition and city driving on HW3 cars, and that Tesla was not liable for delays caused by technology limits or regulation. Reuters put the plaintiffs at 88; Maeil Business Newspaper reported 89, after nine of the original filers dropped out of the suit filed in December 2024.</p><ul class="story-sources"><li><span class="kind">secondary</span> Reuters via Investing.com, Seoul court dismisses lawsuit by Tesla owners seeking refunds for 'Full Self-Driving' tech, October 29, 2026 — <a href="https://www.investing.com/news/stock-market-news/seoul-court-dismisses-lawsuit-by-tesla-owners-seeking-refunds-for-full-selfdriving-tech-4981351">https://www.investing.com/news/stock-market-news/seoul-court-dismisses-lawsuit-by-tesla-owners-seeking-refunds-for-full-selfdriving-tech-4981351</a></li><li><span class="kind">secondary</span> Maeil Business Newspaper (MK), Tesla owners lose FSD option refund lawsuit, October 29, 2026 — <a href="https://www.mk.co.kr/en/society/12189671">https://www.mk.co.kr/en/society/12189671</a></li></ul><p class="event-id">Ledger id: tesla-seoul-court-dismisses-fsd-refund-suit-2026-10-29</p></article><article class="story secondary" id="nhtsa-aq26002-tesla-response-confidential-2026-10-30"><h3>Tesla files AQ26002 Special Order response under full confidentiality claim</h3><p class="meta">Friday, October 30, 2026 · Legal · Tesla</p><p class="body">Tesla met NHTSA's October 30, 2026 deadline for sworn answers to the AQ26002 Cybercab Special Order and asked the agency to treat the entirety of its response as confidential business information. The public docket shows a one-page confidentiality cover letter and a placeholder for Question 8 on how Cybercab was certified to each applicable FMVSS; the substantive certification answers are not public. The only substantive public Tesla document posted with that package is the Cybercab First Responder Interaction Plan. NHTSA has not ruled on the confidentiality request and has not found Cybercab noncompliant.</p><p class="status"><strong>announced pending</strong> — Response filed; audit and confidentiality ruling still pending. No public finding of noncompliance as of 2026-11-06.</p><ul class="story-sources"><li><span class="kind">secondary</span> Electrek, Tesla wants its sworn Cybercab answers to NHTSA kept entirely secret, November 5, 2026 — <a href="https://electrek.co/2026/11/05/tesla-cybercab-nhtsa-sworn-answers-confidential/">https://electrek.co/2026/11/05/tesla-cybercab-nhtsa-sworn-answers-confidential/</a></li><li><span class="kind">secondary</span> TeslaNorth, Tesla Answers NHTSA's Cybercab Order but Keeps Question 8 Secret, November 3, 2026 — <a href="https://teslanorth.com/2026/11/03/tesla-cybercab-nhtsa-question-8-secret/">https://teslanorth.com/2026/11/03/tesla-cybercab-nhtsa-question-8-secret/</a></li></ul><p class="event-id">Ledger id: nhtsa-aq26002-tesla-response-confidential-2026-10-30</p></article><article class="story secondary" id="tesla-rdw-approves-tesla-assisted-driving-rename-speed-cap-2026-11-03"><h3>RDW approves 'Tesla Assisted Driving' name and +10% speed cap in Europe</h3><p class="meta">Tuesday, November 3, 2026 · Autonomy · Tesla</p><p class="body">The Dutch vehicle authority RDW approved changes to FSD (Supervised) in Europe, which is renamed Tesla Assisted Driving on HW4 and later cars. The maximum speed margin drops from +50% to +10% and resets to 0% at each start; Tesla delivers the changes over the air. The existing type approval stays valid, and EU-wide approval is still pending in the TCMV.</p><ul class="story-sources"><li><span class="kind">primary</span> RDW, RDW approves changes to Tesla driver assistance system, 3 November 2026 — <a href="https://www.rdw.nl/en/news/2026/rdw-approves-changes-to-tesla-driver-assistance-system">https://www.rdw.nl/en/news/2026/rdw-approves-changes-to-tesla-driver-assistance-system</a></li><li><span class="kind">secondary</span> Electrek, Nov 3, 2026 — <a href="https://electrek.co/2026/11/03/tesla-assisted-driving-rdw-speed-cap-10-percent-europe/">https://electrek.co/2026/11/03/tesla-assisted-driving-rdw-speed-cap-10-percent-europe/</a></li></ul><p class="event-id">Ledger id: tesla-rdw-approves-tesla-assisted-driving-rename-speed-cap-2026-11-03</p></article><article class="story secondary" id="berlin-tesla-engineering-center-opens-2026-11-04"><h3>Tesla opens Berlin Engineering Center in Köpenick</h3><p class="meta">Wednesday, November 4, 2026 · Factory · Tesla</p><p class="body">On November 4, 2026 Tesla opened the Berlin Tesla Engineering Center (BTEC) in Berlin-Köpenick, renovating an old factory complex of about 20,000 square metres between central Berlin and Giga Berlin. Tesla said the campus is its third such hub after Fremont and Shanghai, combining materials, powertrain, vehicle engineering, validation and safety testing in about 30 specialized laboratories and initially staffing about 250 engineers and technicians relocated from prior sites. The company said it is investing about €100 million and has applied for a second phase that could raise headcount to about 500.</p><ul class="story-sources"><li><span class="kind">secondary</span> rbb24, Tesla eröffnet Forschungszentrum in Berlin-Köpenick, November 4, 2026 — <a href="https://www.rbb24.de/wirtschaft/beitrag/2026/11/tesla-eroeffnet-entwicklungszentrum-berlin-koepenick-eauto.html">https://www.rbb24.de/wirtschaft/beitrag/2026/11/tesla-eroeffnet-entwicklungszentrum-berlin-koepenick-eauto.html</a></li><li><span class="kind">secondary</span> electrive, Tesla opens new engineering centre in Berlin-Köpenick, November 5, 2026 — <a href="https://www.electrive.com/2026/11/05/new-tesla-engineering-centre-opens-in-berlin-kopenick/">https://www.electrive.com/2026/11/05/new-tesla-engineering-centre-opens-in-berlin-kopenick/</a></li><li><span class="kind">secondary</span> TeslaNorth, Tesla Opens Berlin Engineering Center, November 4, 2026 — <a href="https://teslanorth.com/2026/11/04/tesla-berlin-engineering-center/">https://teslanorth.com/2026/11/04/tesla-berlin-engineering-center/</a></li></ul><p class="event-id">Ledger id: berlin-tesla-engineering-center-opens-2026-11-04</p></article></section><section class="company-block"><h2 class="company-name">SpaceX</h2><article class="story secondary" id="spacex-falcon9-700th-launch-2026-10-30"><h3>Falcon 9 flies its 700th launch</h3><p class="meta">Friday, October 30, 2026 · Product · SpaceX</p><p class="body">On October 30, 2026 at 9:04 p.m. PDT, SpaceX launched 27 Starlink satellites (Starlink 15-18) on a Falcon 9 from Vandenberg Space Force Base, the rocket's 700th launch. Booster B1093 landed on the droneship Of Course I Still Love You on its 18th flight, the 675th Falcon booster landing. It was SpaceX's final orbital launch of October as the company winds down Falcon 9 in favor of Starship.</p><ul class="story-sources"><li><span class="kind">secondary</span> Spaceflight Now, SpaceX closes out October with 700th Falcon 9 launch to date, October 30, 2026 — <a href="https://spaceflightnow.com/2026/10/30/live-coverage-spacex-to-close-out-october-with-halloween-eve-falcon-9-launch/">https://spaceflightnow.com/2026/10/30/live-coverage-spacex-to-close-out-october-with-halloween-eve-falcon-9-launch/</a></li><li><span class="kind">secondary</span> Space.com, SpaceX launches 27 Starlink satellites to orbit from California, October 31, 2026 — <a href="https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-launch-falcon-9-group-15-18-landing-ocisly">https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-launch-falcon-9-group-15-18-landing-ocisly</a></li></ul><p class="event-id">Ledger id: spacex-falcon9-700th-launch-2026-10-30</p></article><article class="story secondary" id="spacex-cochise-county-supercompute-campus-2026-11-04"><h3>SpaceX confirms roughly $50 billion supercompute campus plan in Cochise County, Arizona</h3><p class="meta">Wednesday, November 4, 2026 · Factory · SpaceX</p><p class="body">On November 4, 2026, SpaceX publicly confirmed it is the company behind a proposed supercompute campus in Cochise County, Arizona, near the Apache Generating Station, at a town hall covered by KVOA. The special-use application had been filed October 30, 2026, under the name Tombstone Resources L.L.C. SpaceX's November 12, 2026 official update described a roughly $50 billion campus expected to create approximately 5,500 construction jobs and 1,000 permanent jobs, using dry cooling with no planned industrial groundwater consumption; a Cochise County Planning and Zoning Commission hearing is set for December 9, 2026.</p><p class="status"><strong>announced pending</strong> — Special-use application and company announcement only. Cochise County Planning and Zoning Commission hearing set for December 9, 2026; no approval or construction start is documented in these sources. The $50 billion figure is SpaceX's stated plan (Herald Review coverage of the Nov 4 town hall; restated as 'roughly $50 billion' on the Nov 12 official update), not committed or spent capital.</p><ul class="story-sources"><li><span class="kind">primary</span> SpaceX Updates, Building the Future, November 12, 2026 (roughly $50 billion campus; about 5,500 construction and 1,000 permanent jobs; dry cooling; no planned industrial groundwater use) — <a href="https://www.spacex.com/updates#building-the-future">https://www.spacex.com/updates#building-the-future</a></li><li><span class="kind">secondary</span> KVOA (News 4 Tucson), SpaceX hosts rowdy meeting on proposed Cochise Co. data center campus, November 4, 2026 (updated November 5) — <a href="https://www.kvoa.com/news/cochisecounty/spacex-hosts-rowdy-meeting-on-proposed-cochise-co-data-center-campus/article_3a9de0c9-74e8-4f46-a00e-083a8cfda0d3.html">https://www.kvoa.com/news/cochisecounty/spacex-hosts-rowdy-meeting-on-proposed-cochise-co-data-center-campus/article_3a9de0c9-74e8-4f46-a00e-083a8cfda0d3.html</a></li><li><span class="kind">secondary</span> Herald Review, SpaceX outlines $50 billion Cochise data center plans amid fierce opposition, November 5, 2026 (attributes the investment figure to SpaceX's November 4 presentation) — <a href="https://www.myheraldreview.com/news/cochise_county/spacex-outlines-50-billion-cochise-data-center-plans-amid-fierce-opposition/article_e8c166dd-3e72-4e39-b216-ce75e24322c2.html">https://www.myheraldreview.com/news/cochise_county/spacex-outlines-50-billion-cochise-data-center-plans-amid-fierce-opposition/article_e8c166dd-3e72-4e39-b216-ce75e24322c2.html</a></li></ul><p class="event-id">Ledger id: spacex-cochise-county-supercompute-campus-2026-11-04</p></article><article class="story secondary" id="spacex-donald-harrison-resigns-board-2026-11-04"><h3>Google executive Donald Harrison resigns from SpaceX board</h3><p class="meta">Wednesday, November 4, 2026 · Corporate · SpaceX</p><p class="body">Donald Harrison, Google's president of Global Partnerships and Corporate Development, notified SpaceX on November 4, 2026 that he was resigning from its board, effective immediately, after more than a decade as a director. SpaceX disclosed the resignation on November 6 and said it was not due to any disagreement over its operations, policies or practices. Alphabet is SpaceX's largest single institutional holder, with about 555 million shares.</p><ul class="story-sources"><li><span class="kind">secondary</span> Reuters (via U.S. News), Google Executive Donald Harrison Resigns From SpaceX Board, November 6, 2026 — <a href="https://money.usnews.com/investing/news/articles/2026-11-06/google-executive-donald-harrison-resigns-from-spacex-board">https://money.usnews.com/investing/news/articles/2026-11-06/google-executive-donald-harrison-resigns-from-spacex-board</a></li></ul><p class="event-id">Ledger id: spacex-donald-harrison-resigns-board-2026-11-04</p></article><article class="story secondary" id="spacex-qualcomm-starlink-mobile-5g-deal-2026-11-04"><h3>SpaceX selects Qualcomm for Starlink Mobile nationwide terrestrial 5G</h3><p class="meta">Wednesday, November 4, 2026 · Product · SpaceX</p><p class="body">On November 4, 2026 Qualcomm announced a multi-year agreement to supply Dragonwing radio equipment, baseband units and software for SpaceX's Starlink Mobile planned nationwide terrestrial 5G network. The equipment is to be deployed across tens of thousands of U.S. macro cell sites starting in 2027, combining terrestrial 5G with Starlink satellite connectivity as SpaceX seeks to become a major U.S. wireless carrier. Qualcomm called it its biggest 5G deal yet and did not disclose financial terms.</p><p class="status"><strong>announced pending</strong> — Supplier deal announced; financial terms undisclosed. Nationwide carrier service and site deployments not yet begun as of 2026-11-06.</p><ul class="story-sources"><li><span class="kind">primary</span> Qualcomm, SpaceX Selects Qualcomm to Accelerate Starlink Mobile's Nationwide 5G Network, November 4, 2026 — <a href="https://www.qualcomm.com/news/releases/2026/11/spacex-selects-qualcomm-to-accelerate-starlink-mobile-s-nationwi">https://www.qualcomm.com/news/releases/2026/11/spacex-selects-qualcomm-to-accelerate-starlink-mobile-s-nationwi</a></li><li><span class="kind">secondary</span> Reuters via Investing.com, Qualcomm signs major 5G infrastructure deal with SpaceX for Starlink Mobile network, November 4, 2026 — <a href="https://www.investing.com/news/stock-market-news/qualcomm-signs-major-5g-infrastructure-deal-with-spacex-for-starlink-mobile-network-4999443">https://www.investing.com/news/stock-market-news/qualcomm-signs-major-5g-infrastructure-deal-with-spacex-for-starlink-mobile-network-4999443</a></li><li><span class="kind">secondary</span> Axios, SpaceX taps Qualcomm for nationwide 5G network, November 4, 2026 — <a href="https://www.axios.com/2026/11/04/spacex-qualcomm-cellular-network">https://www.axios.com/2026/11/04/spacex-qualcomm-cellular-network</a></li><li><span class="kind">secondary</span> The Verge, SpaceX is working with Qualcomm to build its Starlink Mobile 5G network, November 4, 2026 — <a href="https://www.theverge.com/science/1026287/spacex-qualcomm-starlink-mobile-5g-netwowrk">https://www.theverge.com/science/1026287/spacex-qualcomm-starlink-mobile-5g-netwowrk</a></li></ul><p class="event-id">Ledger id: spacex-qualcomm-starlink-mobile-5g-deal-2026-11-04</p></article></section><section class="company-block"><h2 class="company-name">xAI</h2><article class="story secondary" id="xai-naacp-clean-air-suit-dismissal-denied-2026-10-30"><h3>Court denies xAI motion to dismiss NAACP Clean Air Act suit over Southaven turbines</h3><p class="meta">Friday, October 30, 2026 · Legal · xAI · SpaceX</p><p class="body">On October 30, 2026 Chief U.S. District Judge Debra M. Brown of the Northern District of Mississippi denied xAI's motion to dismiss the NAACP's Clean Air Act lawsuit over the gas turbines powering its Colossus 2 data center from Southaven, Mississippi. The court held that the turbines are not exempt mobile sources and need air permits, that the NAACP has standing, and that the citizen-suit provision is constitutional. The case proceeds; the court has not ruled on the NAACP's request for a preliminary injunction.</p><ul class="story-sources"><li><span class="kind">secondary</span> CNBC, SpaceX loses bid to toss NAACP suit over data center pollution, October 31, 2026 — <a href="https://www.cnbc.com/2026/10/31/xai-naacp-clean-air-act-lawsuit-dismissal.html">https://www.cnbc.com/2026/10/31/xai-naacp-clean-air-act-lawsuit-dismissal.html</a></li><li><span class="kind">secondary</span> Bloomberg Law, Elon Musk's xAI loses bid to escape NAACP suit over gas turbines (NAACP v. xAI Corp., N.D. Miss., No. 3:26-cv-00074) — <a href="https://news.bloomberglaw.com/environment-and-energy/elon-musks-xai-loses-bid-to-escape-naacp-suit-over-gas-turbines">https://news.bloomberglaw.com/environment-and-energy/elon-musks-xai-loses-bid-to-escape-naacp-suit-over-gas-turbines</a></li><li><span class="kind">primary</span> Earthjustice (plaintiffs' counsel), Court denies xAI's motion to dismiss, October 30, 2026 — <a href="https://earthjustice.org/press/2026/court-denies-xais-motion-to-dismiss-air-pollution-lawsuit-against-elon-musks-company">https://earthjustice.org/press/2026/court-denies-xais-motion-to-dismiss-air-pollution-lawsuit-against-elon-musks-company</a></li></ul><p class="event-id">Ledger id: xai-naacp-clean-air-suit-dismissal-denied-2026-10-30</p></article></section><section class="company-block"><h2 class="company-name">X</h2><article class="story secondary" id="x-uk-high-court-upholds-ofcom-information-notices-2026-10-30"><h3>UK High Court rejects X, Meta and TikTok challenge to Ofcom data demands</h3><p class="meta">Friday, October 30, 2026 · Legal · X</p><p class="body">On October 30, 2026, London's High Court dismissed a challenge by X, Meta and TikTok to information notices Ofcom issued in February 2026 under the Online Safety Act, which sought detailed content-moderation metrics such as posts removed or restricted and users exposed to harmful content. X had called it the most burdensome information request it had received from any regulator, costing it millions of pounds; the court rejected the argument that the requests were disproportionate. It was one of the first court tests of the UK's online safety regime.</p><ul class="story-sources"><li><span class="kind">secondary</span> Reuters via Yahoo News, Meta, TikTok, X lose legal challenge against UK watchdog over online safety data demands, October 30, 2026 — <a href="https://www.yahoo.com/news/world/articles/meta-tiktok-x-lose-legal-101935616.html">https://www.yahoo.com/news/world/articles/meta-tiktok-x-lose-legal-101935616.html</a></li></ul><p class="event-id">Ledger id: x-uk-high-court-upholds-ofcom-information-notices-2026-10-30</p></article></section>
+
+    <aside class="pending" data-editorial="true"><h2>Still pending</h2><p class="pending-intro">Rows from this week whose ledger status is still announced-pending or partially launched. The notes below are copied from the ledger.</p><ul><li><strong>Tesla files AQ26002 Special Order response under full confidentiality claim</strong> <span class="status-flag">announced pending</span><p>Response filed; audit and confidentiality ruling still pending. No public finding of noncompliance as of 2026-11-06.</p></li><li><strong>SpaceX confirms roughly $50 billion supercompute campus plan in Cochise County, Arizona</strong> <span class="status-flag">announced pending</span><p>Special-use application and company announcement only. Cochise County Planning and Zoning Commission hearing set for December 9, 2026; no approval or construction start is documented in these sources. The $50 billion figure is SpaceX's stated plan (Herald Review coverage of the Nov 4 town hall; restated as 'roughly $50 billion' on the Nov 12 official update), not committed or spent capital.</p></li><li><strong>SpaceX selects Qualcomm for Starlink Mobile nationwide terrestrial 5G</strong> <span class="status-flag">announced pending</span><p>Supplier deal announced; financial terms undisclosed. Nationwide carrier service and site deployments not yet begun as of 2026-11-06.</p></li></ul></aside>
+
+    <section class="sources-page">
+      <h2>Sources</h2>
+      <ol>
+        <li><span class="kind">secondary</span> San Antonio Express-News, Tesla adds Fort Worth to growing Texas robotaxi network, November 2026 — <a href="https://www.expressnews.com/business/article/tesla-robotaxi-fort-worth-texas-22506473.php">https://www.expressnews.com/business/article/tesla-robotaxi-fort-worth-texas-22506473.php</a><span class="for-event"> (robotaxi-fort-worth-launch-2026-11-02)</span></li><li><span class="kind">secondary</span> Tesla News Wire, Tesla Robotaxi opens in Fort Worth with a 143-square-mile unsupervised zone, November 2, 2026 (quotes the @robotaxi post) — <a href="https://teslanewswire.com/articles/tesla-robotaxi-fort-worth-launch-143-square-miles-unsupervised-seventh-city-nov-2-2026">https://teslanewswire.com/articles/tesla-robotaxi-fort-worth-launch-143-square-miles-unsupervised-seventh-city-nov-2-2026</a><span class="for-event"> (robotaxi-fort-worth-launch-2026-11-02)</span></li><li><span class="kind">secondary</span> Reuters via Investing.com, Seoul court dismisses lawsuit by Tesla owners seeking refunds for 'Full Self-Driving' tech, October 29, 2026 — <a href="https://www.investing.com/news/stock-market-news/seoul-court-dismisses-lawsuit-by-tesla-owners-seeking-refunds-for-full-selfdriving-tech-4981351">https://www.investing.com/news/stock-market-news/seoul-court-dismisses-lawsuit-by-tesla-owners-seeking-refunds-for-full-selfdriving-tech-4981351</a><span class="for-event"> (tesla-seoul-court-dismisses-fsd-refund-suit-2026-10-29)</span></li><li><span class="kind">secondary</span> Maeil Business Newspaper (MK), Tesla owners lose FSD option refund lawsuit, October 29, 2026 — <a href="https://www.mk.co.kr/en/society/12189671">https://www.mk.co.kr/en/society/12189671</a><span class="for-event"> (tesla-seoul-court-dismisses-fsd-refund-suit-2026-10-29)</span></li><li><span class="kind">secondary</span> Electrek, Tesla wants its sworn Cybercab answers to NHTSA kept entirely secret, November 5, 2026 — <a href="https://electrek.co/2026/11/05/tesla-cybercab-nhtsa-sworn-answers-confidential/">https://electrek.co/2026/11/05/tesla-cybercab-nhtsa-sworn-answers-confidential/</a><span class="for-event"> (nhtsa-aq26002-tesla-response-confidential-2026-10-30)</span></li><li><span class="kind">secondary</span> TeslaNorth, Tesla Answers NHTSA's Cybercab Order but Keeps Question 8 Secret, November 3, 2026 — <a href="https://teslanorth.com/2026/11/03/tesla-cybercab-nhtsa-question-8-secret/">https://teslanorth.com/2026/11/03/tesla-cybercab-nhtsa-question-8-secret/</a><span class="for-event"> (nhtsa-aq26002-tesla-response-confidential-2026-10-30)</span></li><li><span class="kind">primary</span> RDW, RDW approves changes to Tesla driver assistance system, 3 November 2026 — <a href="https://www.rdw.nl/en/news/2026/rdw-approves-changes-to-tesla-driver-assistance-system">https://www.rdw.nl/en/news/2026/rdw-approves-changes-to-tesla-driver-assistance-system</a><span class="for-event"> (tesla-rdw-approves-tesla-assisted-driving-rename-speed-cap-2026-11-03)</span></li><li><span class="kind">secondary</span> Electrek, Nov 3, 2026 — <a href="https://electrek.co/2026/11/03/tesla-assisted-driving-rdw-speed-cap-10-percent-europe/">https://electrek.co/2026/11/03/tesla-assisted-driving-rdw-speed-cap-10-percent-europe/</a><span class="for-event"> (tesla-rdw-approves-tesla-assisted-driving-rename-speed-cap-2026-11-03)</span></li><li><span class="kind">secondary</span> rbb24, Tesla eröffnet Forschungszentrum in Berlin-Köpenick, November 4, 2026 — <a href="https://www.rbb24.de/wirtschaft/beitrag/2026/11/tesla-eroeffnet-entwicklungszentrum-berlin-koepenick-eauto.html">https://www.rbb24.de/wirtschaft/beitrag/2026/11/tesla-eroeffnet-entwicklungszentrum-berlin-koepenick-eauto.html</a><span class="for-event"> (berlin-tesla-engineering-center-opens-2026-11-04)</span></li><li><span class="kind">secondary</span> electrive, Tesla opens new engineering centre in Berlin-Köpenick, November 5, 2026 — <a href="https://www.electrive.com/2026/11/05/new-tesla-engineering-centre-opens-in-berlin-kopenick/">https://www.electrive.com/2026/11/05/new-tesla-engineering-centre-opens-in-berlin-kopenick/</a><span class="for-event"> (berlin-tesla-engineering-center-opens-2026-11-04)</span></li><li><span class="kind">secondary</span> TeslaNorth, Tesla Opens Berlin Engineering Center, November 4, 2026 — <a href="https://teslanorth.com/2026/11/04/tesla-berlin-engineering-center/">https://teslanorth.com/2026/11/04/tesla-berlin-engineering-center/</a><span class="for-event"> (berlin-tesla-engineering-center-opens-2026-11-04)</span></li><li><span class="kind">secondary</span> Spaceflight Now, SpaceX closes out October with 700th Falcon 9 launch to date, October 30, 2026 — <a href="https://spaceflightnow.com/2026/10/30/live-coverage-spacex-to-close-out-october-with-halloween-eve-falcon-9-launch/">https://spaceflightnow.com/2026/10/30/live-coverage-spacex-to-close-out-october-with-halloween-eve-falcon-9-launch/</a><span class="for-event"> (spacex-falcon9-700th-launch-2026-10-30)</span></li><li><span class="kind">secondary</span> Space.com, SpaceX launches 27 Starlink satellites to orbit from California, October 31, 2026 — <a href="https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-launch-falcon-9-group-15-18-landing-ocisly">https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-launch-falcon-9-group-15-18-landing-ocisly</a><span class="for-event"> (spacex-falcon9-700th-launch-2026-10-30)</span></li><li><span class="kind">primary</span> SpaceX Updates, Building the Future, November 12, 2026 (roughly $50 billion campus; about 5,500 construction and 1,000 permanent jobs; dry cooling; no planned industrial groundwater use) — <a href="https://www.spacex.com/updates#building-the-future">https://www.spacex.com/updates#building-the-future</a><span class="for-event"> (spacex-cochise-county-supercompute-campus-2026-11-04)</span></li><li><span class="kind">secondary</span> KVOA (News 4 Tucson), SpaceX hosts rowdy meeting on proposed Cochise Co. data center campus, November 4, 2026 (updated November 5) — <a href="https://www.kvoa.com/news/cochisecounty/spacex-hosts-rowdy-meeting-on-proposed-cochise-co-data-center-campus/article_3a9de0c9-74e8-4f46-a00e-083a8cfda0d3.html">https://www.kvoa.com/news/cochisecounty/spacex-hosts-rowdy-meeting-on-proposed-cochise-co-data-center-campus/article_3a9de0c9-74e8-4f46-a00e-083a8cfda0d3.html</a><span class="for-event"> (spacex-cochise-county-supercompute-campus-2026-11-04)</span></li><li><span class="kind">secondary</span> Herald Review, SpaceX outlines $50 billion Cochise data center plans amid fierce opposition, November 5, 2026 (attributes the investment figure to SpaceX's November 4 presentation) — <a href="https://www.myheraldreview.com/news/cochise_county/spacex-outlines-50-billion-cochise-data-center-plans-amid-fierce-opposition/article_e8c166dd-3e72-4e39-b216-ce75e24322c2.html">https://www.myheraldreview.com/news/cochise_county/spacex-outlines-50-billion-cochise-data-center-plans-amid-fierce-opposition/article_e8c166dd-3e72-4e39-b216-ce75e24322c2.html</a><span class="for-event"> (spacex-cochise-county-supercompute-campus-2026-11-04)</span></li><li><span class="kind">secondary</span> Reuters (via U.S. News), Google Executive Donald Harrison Resigns From SpaceX Board, November 6, 2026 — <a href="https://money.usnews.com/investing/news/articles/2026-11-06/google-executive-donald-harrison-resigns-from-spacex-board">https://money.usnews.com/investing/news/articles/2026-11-06/google-executive-donald-harrison-resigns-from-spacex-board</a><span class="for-event"> (spacex-donald-harrison-resigns-board-2026-11-04)</span></li><li><span class="kind">primary</span> Qualcomm, SpaceX Selects Qualcomm to Accelerate Starlink Mobile's Nationwide 5G Network, November 4, 2026 — <a href="https://www.qualcomm.com/news/releases/2026/11/spacex-selects-qualcomm-to-accelerate-starlink-mobile-s-nationwi">https://www.qualcomm.com/news/releases/2026/11/spacex-selects-qualcomm-to-accelerate-starlink-mobile-s-nationwi</a><span class="for-event"> (spacex-qualcomm-starlink-mobile-5g-deal-2026-11-04)</span></li><li><span class="kind">secondary</span> Reuters via Investing.com, Qualcomm signs major 5G infrastructure deal with SpaceX for Starlink Mobile network, November 4, 2026 — <a href="https://www.investing.com/news/stock-market-news/qualcomm-signs-major-5g-infrastructure-deal-with-spacex-for-starlink-mobile-network-4999443">https://www.investing.com/news/stock-market-news/qualcomm-signs-major-5g-infrastructure-deal-with-spacex-for-starlink-mobile-network-4999443</a><span class="for-event"> (spacex-qualcomm-starlink-mobile-5g-deal-2026-11-04)</span></li><li><span class="kind">secondary</span> Axios, SpaceX taps Qualcomm for nationwide 5G network, November 4, 2026 — <a href="https://www.axios.com/2026/11/04/spacex-qualcomm-cellular-network">https://www.axios.com/2026/11/04/spacex-qualcomm-cellular-network</a><span class="for-event"> (spacex-qualcomm-starlink-mobile-5g-deal-2026-11-04)</span></li><li><span class="kind">secondary</span> The Verge, SpaceX is working with Qualcomm to build its Starlink Mobile 5G network, November 4, 2026 — <a href="https://www.theverge.com/science/1026287/spacex-qualcomm-starlink-mobile-5g-netwowrk">https://www.theverge.com/science/1026287/spacex-qualcomm-starlink-mobile-5g-netwowrk</a><span class="for-event"> (spacex-qualcomm-starlink-mobile-5g-deal-2026-11-04)</span></li><li><span class="kind">secondary</span> CNBC, SpaceX loses bid to toss NAACP suit over data center pollution, October 31, 2026 — <a href="https://www.cnbc.com/2026/10/31/xai-naacp-clean-air-act-lawsuit-dismissal.html">https://www.cnbc.com/2026/10/31/xai-naacp-clean-air-act-lawsuit-dismissal.html</a><span class="for-event"> (xai-naacp-clean-air-suit-dismissal-denied-2026-10-30)</span></li><li><span class="kind">secondary</span> Bloomberg Law, Elon Musk's xAI loses bid to escape NAACP suit over gas turbines (NAACP v. xAI Corp., N.D. Miss., No. 3:26-cv-00074) — <a href="https://news.bloomberglaw.com/environment-and-energy/elon-musks-xai-loses-bid-to-escape-naacp-suit-over-gas-turbines">https://news.bloomberglaw.com/environment-and-energy/elon-musks-xai-loses-bid-to-escape-naacp-suit-over-gas-turbines</a><span class="for-event"> (xai-naacp-clean-air-suit-dismissal-denied-2026-10-30)</span></li><li><span class="kind">primary</span> Earthjustice (plaintiffs' counsel), Court denies xAI's motion to dismiss, October 30, 2026 — <a href="https://earthjustice.org/press/2026/court-denies-xais-motion-to-dismiss-air-pollution-lawsuit-against-elon-musks-company">https://earthjustice.org/press/2026/court-denies-xais-motion-to-dismiss-air-pollution-lawsuit-against-elon-musks-company</a><span class="for-event"> (xai-naacp-clean-air-suit-dismissal-denied-2026-10-30)</span></li><li><span class="kind">secondary</span> Reuters via Yahoo News, Meta, TikTok, X lose legal challenge against UK watchdog over online safety data demands, October 30, 2026 — <a href="https://www.yahoo.com/news/world/articles/meta-tiktok-x-lose-legal-101935616.html">https://www.yahoo.com/news/world/articles/meta-tiktok-x-lose-legal-101935616.html</a><span class="for-event"> (x-uk-high-court-upholds-ofcom-information-notices-2026-10-30)</span></li>
+      </ol>
+    </section>
+
+    <footer class="colophon">
+      Every article restates a dated row in the public event ledger. No facts, days, figures or quotes are added beyond that row. Source URLs are copied unchanged. Each issue is a Wednesday edition covering Thursday through Wednesday, dated the Wednesday it closes on. Ledger updated 2026-11-25. Sample page for review — not the timeline interface.
+    </footer>
+  </article>
+</body>
+</html>

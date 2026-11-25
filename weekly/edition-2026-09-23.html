@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chronicle Weekly — Issue 283 — First Cybercab built with Tesla's in-house Giga Texas cathode</title>
+<style>
+  :root {
+    --ink: #161513;
+    --muted: #4a463f;
+    --rule: #161513;
+    --paper: #f4efe4;
+    --box: #efe6d4;
+    --accent: #7a1f1f;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: #e4dccb; color: var(--ink); }
+  body {
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+    line-height: 1.45;
+  }
+  .paper {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 28px 36px 48px;
+    background: var(--paper);
+    box-shadow: 0 0 0 1px rgba(22,21,19,.12), 0 12px 40px rgba(22,21,19,.08);
+  }
+  .masthead { text-align: center; border-bottom: 3px solid var(--rule); padding-bottom: 12px; }
+  .masthead .kicker {
+    margin: 0 0 6px;
+    font-size: 11px;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .masthead h1 {
+    margin: 0;
+    font-size: 34px;
+    line-height: 1.15;
+    font-weight: 700;
+    letter-spacing: .01em;
+  }
+  .masthead .scope {
+    margin: 8px 0 0;
+    font-size: 13px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .issue-line {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 12px;
+    padding: 6px 0;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    font-size: 12px;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+  }
+  .lead { margin: 22px 0 28px; }
+  .section-label {
+    margin: 0 0 6px;
+    font-size: 11px;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+  .lead h2 {
+    margin: 0 0 8px;
+    font-size: 34px;
+    line-height: 1.12;
+    font-weight: 700;
+  }
+  .dek {
+    margin: 0 0 10px;
+    font-size: 18px;
+    line-height: 1.35;
+    color: var(--muted);
+  }
+  .hero { margin: 12px 0 16px; }
+  .hero img { width: 100%; height: auto; display: block; background: #ddd; }
+  .hero figcaption {
+    margin-top: 4px;
+    font-size: 11px;
+    color: var(--muted);
+    font-style: italic;
+  }
+  .story .meta, .event-id {
+    font-size: 12px;
+    color: var(--muted);
+    letter-spacing: .02em;
+  }
+  .story .body { margin: 8px 0 10px; font-size: 16px; }
+  .story-sources {
+    margin: 8px 0;
+    padding-left: 18px;
+    font-size: 12px;
+    color: var(--muted);
+    overflow-wrap: anywhere;
+  }
+  .story-sources .kind, .kind {
+    font-variant: small-caps;
+    letter-spacing: .04em;
+    color: var(--accent);
+  }
+  .event-id { margin: 0; }
+  .company-block {
+    border-top: 1px solid var(--rule);
+    margin-top: 8px;
+    padding-top: 12px;
+  }
+  .company-name {
+    margin: 0 0 8px;
+    font-size: 13px;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+  .story.secondary { margin-bottom: 22px; }
+  .story.secondary h3 { margin: 0 0 4px; font-size: 22px; line-height: 1.2; }
+  .status { font-size: 13px; color: var(--muted); }
+  blockquote.promise {
+    margin: 10px 0;
+    padding: 8px 14px;
+    border-left: 3px solid var(--accent);
+    color: var(--ink);
+    font-style: italic;
+  }
+  blockquote.promise p { margin: 0 0 4px; }
+  blockquote.promise cite { font-style: normal; font-size: 12px; color: var(--muted); }
+  .pending {
+    margin: 28px 0;
+    padding: 16px 18px;
+    background: var(--box);
+    border: 1px solid #c9b896;
+  }
+  .pending h2 {
+    margin: 0 0 6px;
+    font-size: 16px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+  }
+  .pending-intro { margin: 0 0 10px; font-size: 13px; color: var(--muted); }
+  .pending ul { margin: 0; padding-left: 18px; }
+  .pending li { margin: 0 0 10px; }
+  .pending li p { margin: 4px 0 0; font-size: 14px; color: var(--muted); }
+  .status-flag { font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); }
+  .sources-page {
+    border-top: 3px solid var(--rule);
+    margin-top: 12px;
+    padding-top: 16px;
+  }
+  .sources-page h2 {
+    margin: 0 0 8px;
+    font-size: 16px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+  }
+  .sources-page ol {
+    margin: 0;
+    padding-left: 22px;
+    font-size: 12px;
+    color: var(--muted);
+    overflow-wrap: anywhere;
+  }
+  .sources-page li { margin: 0 0 6px; }
+  .for-event { color: #7a7468; }
+  footer.colophon {
+    margin-top: 28px;
+    border-top: 1px solid var(--rule);
+    padding-top: 12px;
+    font-size: 12px;
+    color: var(--muted);
+  }
+  a { color: #1f3348; }
+  @media (max-width: 640px) {
+    .paper { padding: 18px 16px 32px; }
+    .masthead h1 { font-size: 24px; }
+    .lead h2 { font-size: 26px; }
+    .issue-line { flex-direction: column; gap: 2px; text-align: center; }
+  }
+</style>
+</head>
+<body>
+  <article class="paper">
+    <header class="masthead">
+      <p class="kicker">A dated, sourced weekly paper from the public event ledger</p>
+      <h1>Chronicle Weekly, Wednesday Edition, September 23, 2026</h1>
+      <p class="scope">Tesla · SpaceX · xAI · X · Neuralink · The Boring Company</p>
+      <div class="issue-line">
+        <span>Issue No. 283</span>
+        <span>Thursday–Wednesday · September 17–23, 2026</span>
+        <span>2026-09-23</span>
+      </div>
+    </header>
+
+    <section class="lead">
+      <p class="section-label">Lead</p>
+      <h2>First Cybercab built with Tesla's in-house Giga Texas cathode</h2>
+      <p class="dek">The Texas cathode line had been in early ramp since Q1 2026 per Tesla's IR update.</p>
+      
+      <article class="story lead" id="first-cybercab-in-house-cathode-2026-09-23"><p class="meta">Wednesday, September 23, 2026 · Factory · Tesla</p><p class="body">On September 23, 2026, Tesla's Robotaxi account posted that it had built the first Cybercab using Tesla's in-house cathode material, from what it called the first cathode plant in the Americas, at Gigafactory Texas.</p><ul class="story-sources"><li><span class="kind">primary</span> Robotaxi (@robotaxi) on X, first Cybercab with in-house cathode, September 23, 2026 — <a href="https://x.com/robotaxi/status/2102870359511105606">https://x.com/robotaxi/status/2102870359511105606</a></li><li><span class="kind">secondary</span> TeslaNorth, Tesla Builds First Cybercab Using In-House Cathode Material, September 23, 2026 — <a href="https://teslanorth.com/2026/09/23/tesla-first-cybercab-in-house-cathode/">https://teslanorth.com/2026/09/23/tesla-first-cybercab-in-house-cathode/</a></li></ul><p class="event-id">Ledger id: first-cybercab-in-house-cathode-2026-09-23</p></article>
+    </section>
+
+    <section class="company-block"><h2 class="company-name">Tesla</h2><article class="story secondary" id="grok-bot-connectors-tesla-2026-09-22"><h3>Tesla enables in-car Grok Bot with Connectors for hands-free tasks</h3><p class="meta">Tuesday, September 22, 2026 · Product · Tesla</p><p class="body">On September 22, 2026, Tesla posted that Grok in the car can now do meaningful work through Connectors, such as managing an inbox, cleaning up a calendar, or talking through existing files, chats and tasks hands-free. Not a Tesla App reported the feature as Grok Bot in Tesla vehicles, available on SuperGrok tiers with recent vehicle software and separate from the earlier in-car Grok chat.</p><ul class="story-sources"><li><span class="kind">primary</span> Tesla (@Tesla) X post, Grok Connectors in Tesla, September 22, 2026 — <a href="https://x.com/Tesla/status/2102430656349544590">https://x.com/Tesla/status/2102430656349544590</a></li><li><span class="kind">secondary</span> Not a Tesla App, Grok Bot / Connectors in vehicles, September 2026 — <a href="https://www.notateslaapp.com/news/4724/tesla-adds-grok-bot-to-vehicles-for-hands-free-errands-and-tasks">https://www.notateslaapp.com/news/4724/tesla-adds-grok-bot-to-vehicles-for-hands-free-errands-and-tasks</a></li></ul><p class="event-id">Ledger id: grok-bot-connectors-tesla-2026-09-22</p></article><article class="story secondary" id="zet-scale-2500-semi-order-2026-09-22"><h3>ZET SCALE alliance selects Tesla as primary OEM for 2,500 Class 8 BEVs</h3><p class="meta">Tuesday, September 22, 2026 · Product · Tesla</p><p class="body">On September 22, 2026, Catalyst Mobility and Smart Freight Centre announced that the ZET SCALE shipper-carrier alliance enabled an order for 2,500 battery-electric Class 8 trucks—the largest U.S. electric Class 8 order to date—and selected Tesla as the primary OEM after a competitive RFP, with Kenworth, RIDE, and Volvo as secondary options. Founding shippers include Microsoft and PepsiCo; ZET Financial issues the purchase order and leases trucks. Tesla Semi Director Dan Priestley is quoted on the selection.</p><p class="status"><strong>announced pending</strong> — Primary OEM selection and order structure announced; deliveries against the 2,500 not day-counted as of access date.</p><blockquote class="promise"><p>“We are proud to have been the primary selection in this RFP and look forward to giving shippers and carriers a new competitive edge.”</p><cite>Tesla (quoted in CALSTART release) (Tuesday, September 22, 2026)</cite></blockquote><ul class="story-sources"><li><span class="kind">primary</span> Catalyst Mobility / CALSTART, ZET SCALE 2,500-truck announcement, September 22, 2026 — <a href="https://calstart.org/catalyst-mobility-and-smart-freight-centre-launch-zet-scale-program/">https://calstart.org/catalyst-mobility-and-smart-freight-centre-launch-zet-scale-program/</a></li><li><span class="kind">secondary</span> Reuters, Semi deliveries / notes ZET SCALE 2,500 order week, September 24–25, 2026 — <a href="https://www.reuters.com/business/autos-transportation/tesla-set-formally-roll-out-semi-electric-trucks-nevada-event-2026-09-24/">https://www.reuters.com/business/autos-transportation/tesla-set-formally-roll-out-semi-electric-trucks-nevada-event-2026-09-24/</a></li></ul><p class="event-id">Ledger id: zet-scale-2500-semi-order-2026-09-22</p></article></section>
+
+    <aside class="pending" data-editorial="true"><h2>Still pending</h2><p class="pending-intro">Rows from this week whose ledger status is still announced-pending or partially launched. The notes below are copied from the ledger.</p><ul><li><strong>ZET SCALE alliance selects Tesla as primary OEM for 2,500 Class 8 BEVs</strong> <span class="status-flag">announced pending</span><p>Primary OEM selection and order structure announced; deliveries against the 2,500 not day-counted as of access date.</p></li></ul></aside>
+
+    <section class="sources-page">
+      <h2>Sources</h2>
+      <ol>
+        <li><span class="kind">primary</span> Robotaxi (@robotaxi) on X, first Cybercab with in-house cathode, September 23, 2026 — <a href="https://x.com/robotaxi/status/2102870359511105606">https://x.com/robotaxi/status/2102870359511105606</a><span class="for-event"> (first-cybercab-in-house-cathode-2026-09-23)</span></li><li><span class="kind">secondary</span> TeslaNorth, Tesla Builds First Cybercab Using In-House Cathode Material, September 23, 2026 — <a href="https://teslanorth.com/2026/09/23/tesla-first-cybercab-in-house-cathode/">https://teslanorth.com/2026/09/23/tesla-first-cybercab-in-house-cathode/</a><span class="for-event"> (first-cybercab-in-house-cathode-2026-09-23)</span></li><li><span class="kind">primary</span> Tesla (@Tesla) X post, Grok Connectors in Tesla, September 22, 2026 — <a href="https://x.com/Tesla/status/2102430656349544590">https://x.com/Tesla/status/2102430656349544590</a><span class="for-event"> (grok-bot-connectors-tesla-2026-09-22)</span></li><li><span class="kind">secondary</span> Not a Tesla App, Grok Bot / Connectors in vehicles, September 2026 — <a href="https://www.notateslaapp.com/news/4724/tesla-adds-grok-bot-to-vehicles-for-hands-free-errands-and-tasks">https://www.notateslaapp.com/news/4724/tesla-adds-grok-bot-to-vehicles-for-hands-free-errands-and-tasks</a><span class="for-event"> (grok-bot-connectors-tesla-2026-09-22)</span></li><li><span class="kind">primary</span> Catalyst Mobility / CALSTART, ZET SCALE 2,500-truck announcement, September 22, 2026 — <a href="https://calstart.org/catalyst-mobility-and-smart-freight-centre-launch-zet-scale-program/">https://calstart.org/catalyst-mobility-and-smart-freight-centre-launch-zet-scale-program/</a><span class="for-event"> (zet-scale-2500-semi-order-2026-09-22)</span></li><li><span class="kind">secondary</span> Reuters, Semi deliveries / notes ZET SCALE 2,500 order week, September 24–25, 2026 — <a href="https://www.reuters.com/business/autos-transportation/tesla-set-formally-roll-out-semi-electric-trucks-nevada-event-2026-09-24/">https://www.reuters.com/business/autos-transportation/tesla-set-formally-roll-out-semi-electric-trucks-nevada-event-2026-09-24/</a><span class="for-event"> (zet-scale-2500-semi-order-2026-09-22)</span></li>
+      </ol>
+    </section>
+
+    <footer class="colophon">
+      Every article restates a dated row in the public event ledger. No facts, days, figures or quotes are added beyond that row. Source URLs are copied unchanged. Each issue is a Wednesday edition covering Thursday through Wednesday, dated the Wednesday it closes on. Ledger updated 2026-11-25. Sample page for review — not the timeline interface.
+    </footer>
+  </article>
+</body>
+</html>

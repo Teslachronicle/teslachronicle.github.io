@@ -1,0 +1,115 @@
+/* Chronicle Weekly: newspaper view inside the v5 reader (timeline-v5.html#weekly=YYYY-MM-DD).
+   Read-only view of weekly/issues.json + weekly/published.json. Uses the theme tokens, so dark and light themes both hold. */
+html.is-weekly #s-today, html.is-weekly #main > .wrap { display: none !important; }
+.wk {
+  --wk-serif: "FrauncesV5", "Iowan Old Style", "Charter", Georgia, serif;
+  --wk-text: "Iowan Old Style", "Charter", "Georgia", "Times New Roman", serif;
+  --wk-rule: var(--tc-line-strong, var(--line));
+  max-width: var(--maxw); margin: 0 auto; padding: var(--sp-3) var(--pad) var(--sp-4); color: var(--tc-ink);
+}
+.wk[hidden] { display: none; }
+
+/* Masthead */
+.wk-mast { text-align: center; border-bottom: 4px double var(--wk-rule); padding-bottom: 10px; }
+.wk-ear { display: flex; justify-content: space-between; gap: 12px; margin: 0 0 6px; font: 700 var(--fs-0)/1.3 var(--tc-sans); letter-spacing: .1em; text-transform: uppercase; color: var(--tc-muted); }
+.wk-flag { margin: 0; font-family: var(--wk-serif); font-weight: 700; font-size: clamp(40px, 10.5vw, 104px); line-height: .98; letter-spacing: -.035em; text-transform: none; outline: none; }
+.wk-flag:focus-visible { outline: 2px solid var(--tc-accent); outline-offset: 6px; border-radius: 4px; }
+.wk-dateline { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; margin: 14px 0 0; padding: 8px 0; border-top: 1px solid var(--wk-rule); border-bottom: 1px solid var(--wk-rule);
+  font: 600 var(--fs-1)/1.35 var(--tc-sans); font-variant-numeric: tabular-nums lining-nums; }
+.wk-no { font-family: var(--wk-serif); font-weight: 700; letter-spacing: .02em; }
+.wk-range { color: var(--tc-muted); }
+@media (max-width: 599px) { .wk-dateline { justify-content: center; text-align: center; } .wk-dateline > span { flex-basis: 100%; } .wk-ear { justify-content: center; } .wk-ear span + span { display: none; } }
+
+.wk-sh { margin: 0 0 12px; font: 800 var(--fs-0)/1.2 var(--tc-sans); letter-spacing: .14em; text-transform: uppercase; color: var(--tc-muted); display: flex; align-items: center; gap: 12px; }
+.wk-sh::after { content: ""; flex: 1; height: 1px; background: var(--wk-rule); }
+
+/* Back-issue picker: newest first, published editions only */
+.wk-issues { margin: var(--sp-3) 0 var(--sp-3); }
+.wk-issues ol { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; }
+.wk-issue { width: 100%; min-height: var(--hit); display: grid; grid-template-columns: auto 1fr; gap: 2px 10px; align-items: baseline; text-align: left; padding: 10px 12px;
+  border: 1px solid var(--line); border-radius: 10px; background: transparent; color: var(--tc-ink); font: inherit; cursor: pointer; }
+.wk-issue:hover { border-color: var(--wk-rule); background: var(--tc-surface, transparent); }
+.wk-issue:focus-visible { outline: 2px solid var(--tc-accent); outline-offset: 2px; }
+.wk-issue.on { border-color: var(--tc-ink); box-shadow: inset 0 0 0 1px var(--tc-ink); }
+.wk-in-n { font: 700 var(--fs-1)/1.2 var(--wk-serif); }
+.wk-in-d { font: 600 13px/1.2 var(--tc-sans); color: var(--tc-muted); font-variant-numeric: tabular-nums; }
+.wk-in-h { grid-column: 1 / -1; font: 500 14px/1.35 var(--tc-sans); color: var(--tc-muted); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.wk-issue.on .wk-in-h { color: var(--tc-ink); }
+@media (max-width: 599px) {
+  .wk-issues ol { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 6px; }
+  .wk-issues li { flex: 0 0 78%; scroll-snap-align: start; }
+}
+
+/* Headlines: real serif, set tight */
+.wk-hl { margin: 0; font-family: var(--wk-serif); font-weight: 650; letter-spacing: -.018em; text-transform: none; line-height: 1.1; text-wrap: balance; }
+.wk-hl button { all: unset; cursor: pointer; display: inline; color: inherit; border-radius: 3px; }
+@media (hover: hover) { .wk-hl button:hover { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: .14em; } }
+.wk-hl button:focus-visible { outline: 2px solid var(--tc-accent); outline-offset: 3px; }
+.wk-go { color: var(--tc-muted); font-weight: 400; }
+.wk-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; margin: 10px 0 0; font: 600 13px/1.3 var(--tc-sans); color: var(--tc-muted); }
+.wk-meta time { font-variant-numeric: tabular-nums; color: var(--tc-ink); }
+.wk-cat { display: inline-flex; align-items: center; gap: 6px; text-transform: uppercase; letter-spacing: .08em; font-size: 12px; font-weight: 750; }
+.wk-body { margin-top: 12px; font-family: var(--wk-text); font-size: 17px; line-height: 1.58; hyphens: auto; -webkit-hyphens: auto; }
+.wk-body p { margin: 0; }
+
+/* Lead story */
+.wk-lead { border-bottom: 1px solid var(--wk-rule); padding-bottom: var(--sp-3); margin-bottom: var(--sp-3); }
+.wk-kick { margin: 0 0 8px; font: 800 12px/1 var(--tc-sans); letter-spacing: .16em; text-transform: uppercase; color: var(--tc-accent-ink, var(--tc-muted)); }
+html[data-company] .wk-kick { color: var(--tc-muted); }
+.wk-lead .wk-hl { font-size: clamp(32px, 6.4vw, 64px); line-height: 1.02; letter-spacing: -.028em; max-width: 20ch; }
+.wk-dek { margin: 14px 0 0; font-family: var(--wk-serif); font-weight: 400; font-style: italic; font-size: clamp(19px, 2.3vw, 24px); line-height: 1.38; max-width: 46ch; color: var(--tc-ink); }
+.wk-lead .wk-body { font-size: 18px; }
+.wk-lead .wk-body p::first-letter { font-family: var(--wk-serif); font-weight: 700; float: left; font-size: 3.4em; line-height: .86; padding: 6px 8px 0 0; }
+@media (min-width: 900px) {
+  /* Typographic lead: headline, standfirst and meta span; the story sits in a wide column, its sources in a ruled side column. */
+  .wk-lead.no-hero .wk-lead-txt { display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr); column-gap: 40px; align-items: start; }
+  .wk-lead.no-hero .wk-lead-txt > :not(.wk-body):not(.wk-srcwrap) { grid-column: 1 / -1; }
+  .wk-lead.no-hero .wk-body { max-width: 62ch; }
+  .wk-lead.no-hero .wk-srcwrap { margin-top: 16px; padding: 0 0 0 20px; border-top: 0; border-left: 1px solid var(--line); }
+  .wk-lead.has-hero { display: grid; grid-template-columns: 1.15fr 1fr; gap: 0 40px; align-items: start; }
+}
+.wk-hero { margin: 0 0 16px; }
+.wk-hero img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 4px; }
+.wk-hero figcaption { margin-top: 6px; font: 500 12px/1.35 var(--tc-sans); color: var(--tc-muted); }
+
+/* Other stories: newspaper columns with rules between them */
+.wk-more { margin-bottom: var(--sp-3); }
+.wk-grid { columns: 3 280px; column-gap: 40px; column-rule: 1px solid var(--line); }
+.wk-art { break-inside: avoid; -webkit-column-break-inside: avoid; padding: 2px 0 22px; margin-bottom: 22px; border-bottom: 1px solid var(--line); }
+.wk-art .wk-hl { font-size: clamp(21px, 2.2vw, 25px); }
+.wk-art .wk-body { font-size: 16px; line-height: 1.55; }
+
+/* Sources, with the reader's one tier rule (Primary / News / Social) */
+.wk-srcwrap { margin-top: 14px; padding-top: 10px; border-top: 1px dotted var(--wk-rule); }
+.wk-srch { margin: 0 0 6px; font: 800 11px/1 var(--tc-sans); letter-spacing: .14em; text-transform: uppercase; color: var(--tc-muted); }
+.wk-srcs { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; font: 500 13px/1.4 var(--tc-sans); }
+.wk-srcs li { display: flex; align-items: flex-start; gap: 8px; }
+.wk-srcs .src-k { margin-top: 3px; }
+.wk-srcs a { color: var(--tc-ink); text-decoration: none; display: block; min-height: 24px; padding: 2px 0; }
+.wk-srcs a:hover .wk-pub { text-decoration: underline; }
+.wk-srcs a:focus-visible { outline: 2px solid var(--tc-accent); outline-offset: 2px; border-radius: 3px; }
+.wk-dom { color: var(--tc-muted); white-space: nowrap; }
+.wk-dom::after { content: " \2197"; }
+.wk-fine { margin: 6px 0 0; font: 500 12px/1.35 var(--tc-sans); color: var(--tc-muted); }
+
+/* Chronicle's note: editorial, not news. Boxed, tinted, labeled. */
+.wk-note { margin: var(--sp-3) 0; padding: 18px 20px 6px; border: 1px dashed var(--wk-rule); border-left: 4px solid var(--st-wait); border-radius: 6px;
+  background: color-mix(in srgb, var(--st-wait) 7%, transparent); }
+.wk-note-k { margin: 0 0 4px; font: 800 12px/1.2 var(--tc-sans); letter-spacing: .14em; text-transform: uppercase; color: var(--tc-muted); }
+.wk-note h2 { margin: 0 0 8px; font: italic 600 var(--fs-4)/1.15 var(--wk-serif); }
+.wk-note ul { list-style: none; margin: 0; padding: 0; }
+.wk-note li { padding: 10px 0 12px; border-top: 1px solid var(--line); }
+.wk-note-hl { margin: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; }
+.wk-note-hl .linkbtn { font-family: var(--wk-serif); font-size: var(--fs-2); color: var(--tc-ink); text-decoration: underline; text-decoration-color: var(--wk-rule); text-underline-offset: .18em; min-height: var(--hit); }
+.wk-note-t { margin: 2px 0 0; font: 400 15px/1.5 var(--wk-text); color: var(--tc-ink); }
+.wk-note-t button { all: unset; cursor: pointer; text-decoration: underline; }
+
+.wk-pager { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; margin-top: var(--sp-3); padding-top: var(--sp-2); border-top: 4px double var(--wk-rule); }
+@media (max-width: 599px) { .wk-pager > * { flex: 1 1 100%; } .wk-pager > span:empty { display: none; } }
+
+/* Event sheet backlink */
+.wk-in { display: flex; flex-wrap: wrap; align-items: center; gap: 0 12px; margin: 16px 0 0; padding: 8px 12px; border: 1px solid var(--line); border-radius: 10px; font-size: 15px; }
+.wk-in-k { display: inline-flex; align-items: center; gap: 8px; font-family: "FrauncesV5", Georgia, serif; font-weight: 700; }
+.wk-in svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+
+@media print { .topbar, .tabbar, .wk-issues, .wk-pager, .foot { display: none !important; } }

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-4032 -8460 8064 9540" role="img" aria-labelledby="t-dragon d-dragon">
+<title id="t-dragon">Crew Dragon · illustration</title><desc id="d-dragon">Illustration, not a photo. Crew Dragon · 8.1 m with trunk · Ø 4.0 m. Drawn to scale from published dimensions; see ART-NOTES.md.</desc>
+<style>
+.ta-body{fill:var(--art-body,#e9edf1)}.ta-body2{fill:var(--art-body2,#cfd6dd)}
+.ta-dark{fill:var(--art-dark,#20262c)}.ta-mid{fill:var(--art-mid,#8b97a3)}
+.ta-glass{fill:var(--art-glass,#2b3640)}.ta-acc{fill:var(--art-accent,#e31937)}
+.ta-glow{fill:var(--art-glow,#ffd9a0)}
+.ta-ln{fill:none;stroke:var(--art-line,#58636e);stroke-width:1.1;vector-effect:non-scaling-stroke;stroke-linejoin:round;stroke-linecap:round}
+.ta-lnl{fill:none;stroke:var(--art-line-light,rgba(255,255,255,.55));stroke-width:.9;vector-effect:non-scaling-stroke;stroke-linecap:round}
+.ta-hair{fill:none;stroke:var(--art-line,#58636e);stroke-width:.45;vector-effect:non-scaling-stroke}
+.ta-dim{fill:none;stroke:var(--art-dim,#8d99a5);stroke-width:.8;vector-effect:non-scaling-stroke}
+.ta-gnd{fill:none;stroke:var(--art-dim,#8d99a5);stroke-width:1;vector-effect:non-scaling-stroke;stroke-dasharray:2 3}
+.ta-t{fill:var(--art-dim,#8d99a5);font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;letter-spacing:.04em}
+.ta-cap{fill:var(--art-cap,#c4ccd4);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-weight:600;letter-spacing:.02em}
+</style><defs></defs>
+<g class="ta-art">
+<rect class="ta-body" x="-1850" y="-3600" width="3700" height="3600" rx="0"/>
+<rect class="ta-glass" x="-1850" y="-3600" width="1850" height="3600" rx="0"/>
+<path class="ta-lnl" d="M-1850,-400 L0,-400"/>
+<path class="ta-lnl" d="M-1850,-800 L0,-800"/>
+<path class="ta-lnl" d="M-1850,-1200 L0,-1200"/>
+<path class="ta-lnl" d="M-1850,-1600 L0,-1600"/>
+<path class="ta-lnl" d="M-1850,-2000 L0,-2000"/>
+<path class="ta-lnl" d="M-1850,-2400 L0,-2400"/>
+<path class="ta-lnl" d="M-1850,-2800 L0,-2800"/>
+<path class="ta-lnl" d="M-1850,-3200 L0,-3200"/>
+<path class="ta-body2" d="M-1850,0 L-2370,0 L-1850,-1400 Z"/>
+<path class="ta-body2" d="M1850,0 L2370,0 L1850,-1400 Z"/>
+<rect class="ta-dark" x="-2000" y="-3780" width="4000" height="180" rx="0"/>
+<path class="ta-body" d="M-2000,-3780 L-1350,-6430 L-1050,-6680 L1050,-6680 L1350,-6430 L2000,-3780 Z"/>
+<path class="ta-body2" d="M-1050,-6680 C-1375,-6780 -1000,-7083.3 -900,-7280 C-800,-7476.7 -600,-7753.3 -450,-7860 C-300,-7966.7 -150,-7920 0,-7920 C150,-7920 300,-7966.7 450,-7860 C600,-7753.3 800,-7476.7 900,-7280 C1000,-7083.3 1375,-6780 1050,-6680 C725,-6580 -725,-6580 -1050,-6680 Z"/>
+<path class="ta-mid" d="M-1880,-4230 L-1600,-5580 L-1450,-5580 L-1690,-4230 Z"/>
+<path class="ta-mid" d="M1880,-4230 L1600,-5580 L1450,-5580 L1690,-4230 Z"/>
+<path class="ta-glass" d="M-560,-5130 C-509.3,-5072.7 -245.3,-5150 -200,-5230 C-154.7,-5310 -169.3,-5672.7 -220,-5730 C-270.7,-5787.3 -534.7,-5740 -580,-5660 C-625.3,-5580 -610.7,-5187.3 -560,-5130 Z"/>
+<path class="ta-ln" d="M-2000,-3780 L2000,-3780"/>
+<path class="ta-ln" d="M-2000,-3780 L-1350,-6430 L-1050,-6680 L1050,-6680 L1350,-6430 L2000,-3780 Z"/>
+<path class="ta-ln" d="M-1050,-6680 C-1375,-6780 -1000,-7083.3 -900,-7280 C-800,-7476.7 -600,-7753.3 -450,-7860 C-300,-7966.7 -150,-7920 0,-7920 C150,-7920 300,-7966.7 450,-7860 C600,-7753.3 800,-7476.7 900,-7280 C1000,-7083.3 1375,-6780 1050,-6680 C725,-6580 -725,-6580 -1050,-6680 Z"/>
+</g>
+<g class="ta-anno">
+<path class="ta-dim" d="M2900,0 L2900,-8100"/>
+<path class="ta-dim" d="M2813.6,0 L2986.4,0"/>
+<path class="ta-dim" d="M2813.6,-8100 L2986.4,-8100"/>
+<text class="ta-t" x="3000.8" y="-4050" font-size="108" text-anchor="middle" transform="rotate(90 3000.8 -4050)">8.1 m</text>
+<path class="ta-dim" d="M-2000,288 L2000,288"/>
+<path class="ta-dim" d="M-2000,374.4 L-2000,201.6"/>
+<path class="ta-dim" d="M2000,374.4 L2000,201.6"/>
+<text class="ta-t" x="0" y="460.8" font-size="108" text-anchor="middle">Ø 4.0 m</text>
+<text class="ta-cap" x="-3888" y="590.4" font-size="223.2">Crew Dragon · illustration</text><text class="ta-t" x="-3888" y="835.2" font-size="111.6">Crew Dragon · 8.1 m with trunk · Ø 4.0 m</text><rect x="2888" y="525.6" width="250" height="50.4" class="ta-mid"/><rect x="3138" y="525.6" width="250" height="50.4" class="ta-body2"/><rect x="3388" y="525.6" width="250" height="50.4" class="ta-mid"/><rect x="3638" y="525.6" width="250" height="50.4" class="ta-body2"/><text class="ta-t" x="3888" y="475.2" font-size="108" text-anchor="end">1 m</text></g>
+</svg>

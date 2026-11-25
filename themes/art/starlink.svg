@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-16800 -4100 33600 11200" role="img" aria-labelledby="t-starlink d-starlink">
+<title id="t-starlink">Starlink V2 Mini · illustration</title><desc id="d-starlink">Illustration, not a photo. Starlink V2 Mini satellite · plan view · bus 4.1 × 2.7 m · two 12.8 × 4.1 m arrays · span ≈ 30 m. Drawn to scale from published dimensions; see ART-NOTES.md.</desc>
+<style>
+.ta-body{fill:var(--art-body,#e9edf1)}.ta-body2{fill:var(--art-body2,#cfd6dd)}
+.ta-dark{fill:var(--art-dark,#20262c)}.ta-mid{fill:var(--art-mid,#8b97a3)}
+.ta-glass{fill:var(--art-glass,#2b3640)}.ta-acc{fill:var(--art-accent,#e31937)}
+.ta-glow{fill:var(--art-glow,#ffd9a0)}
+.ta-ln{fill:none;stroke:var(--art-line,#58636e);stroke-width:1.1;vector-effect:non-scaling-stroke;stroke-linejoin:round;stroke-linecap:round}
+.ta-lnl{fill:none;stroke:var(--art-line-light,rgba(255,255,255,.55));stroke-width:.9;vector-effect:non-scaling-stroke;stroke-linecap:round}
+.ta-hair{fill:none;stroke:var(--art-line,#58636e);stroke-width:.45;vector-effect:non-scaling-stroke}
+.ta-dim{fill:none;stroke:var(--art-dim,#8d99a5);stroke-width:.8;vector-effect:non-scaling-stroke}
+.ta-gnd{fill:none;stroke:var(--art-dim,#8d99a5);stroke-width:1;vector-effect:non-scaling-stroke;stroke-dasharray:2 3}
+.ta-t{fill:var(--art-dim,#8d99a5);font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;letter-spacing:.04em}
+.ta-cap{fill:var(--art-cap,#c4ccd4);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-weight:600;letter-spacing:.02em}
+</style><defs></defs>
+<g class="ta-art">
+<rect class="ta-body" x="-1350" y="-2050" width="2700" height="4100" rx="0"/>
+<rect class="ta-body2" x="-1150" y="-1800" width="2300" height="3600" rx="0"/>
+<circle class="ta-mid" cx="-600" cy="-1300" r="260"/>
+<circle class="ta-mid" cx="0" cy="-1300" r="260"/>
+<circle class="ta-mid" cx="600" cy="-1300" r="260"/>
+<path class="ta-ln" d="M-1350,0 L-2250,0"/>
+<rect class="ta-glass" x="-15050" y="-2050" width="12800" height="4100" rx="0"/>
+<path class="ta-lnl" d="M-14250,2050 L-14250,-2050"/>
+<path class="ta-lnl" d="M-13450,2050 L-13450,-2050"/>
+<path class="ta-lnl" d="M-12650,2050 L-12650,-2050"/>
+<path class="ta-lnl" d="M-11850,2050 L-11850,-2050"/>
+<path class="ta-lnl" d="M-11050,2050 L-11050,-2050"/>
+<path class="ta-lnl" d="M-10250,2050 L-10250,-2050"/>
+<path class="ta-lnl" d="M-9450,2050 L-9450,-2050"/>
+<path class="ta-lnl" d="M-8650,2050 L-8650,-2050"/>
+<path class="ta-lnl" d="M-7850,2050 L-7850,-2050"/>
+<path class="ta-lnl" d="M-7050,2050 L-7050,-2050"/>
+<path class="ta-lnl" d="M-6250,2050 L-6250,-2050"/>
+<path class="ta-lnl" d="M-5450,2050 L-5450,-2050"/>
+<path class="ta-lnl" d="M-4650,2050 L-4650,-2050"/>
+<path class="ta-lnl" d="M-3850,2050 L-3850,-2050"/>
+<path class="ta-lnl" d="M-3050,2050 L-3050,-2050"/>
+<path class="ta-lnl" d="M-15050,0 L-2250,0"/>
+<rect class="ta-ln" x="-15050" y="-2050" width="12800" height="4100" rx="0"/>
+<path class="ta-ln" d="M1350,0 L2250,0"/>
+<rect class="ta-glass" x="2250" y="-2050" width="12800" height="4100" rx="0"/>
+<path class="ta-lnl" d="M3050,2050 L3050,-2050"/>
+<path class="ta-lnl" d="M3850,2050 L3850,-2050"/>
+<path class="ta-lnl" d="M4650,2050 L4650,-2050"/>
+<path class="ta-lnl" d="M5450,2050 L5450,-2050"/>
+<path class="ta-lnl" d="M6250,2050 L6250,-2050"/>
+<path class="ta-lnl" d="M7050,2050 L7050,-2050"/>
+<path class="ta-lnl" d="M7850,2050 L7850,-2050"/>
+<path class="ta-lnl" d="M8650,2050 L8650,-2050"/>
+<path class="ta-lnl" d="M9450,2050 L9450,-2050"/>
+<path class="ta-lnl" d="M10250,2050 L10250,-2050"/>
+<path class="ta-lnl" d="M11050,2050 L11050,-2050"/>
+<path class="ta-lnl" d="M11850,2050 L11850,-2050"/>
+<path class="ta-lnl" d="M12650,2050 L12650,-2050"/>
+<path class="ta-lnl" d="M13450,2050 L13450,-2050"/>
+<path class="ta-lnl" d="M14250,2050 L14250,-2050"/>
+<path class="ta-lnl" d="M2250,0 L15050,0"/>
+<rect class="ta-ln" x="2250" y="-2050" width="12800" height="4100" rx="0"/>
+</g>
+<g class="ta-anno">
+<path class="ta-dim" d="M-15050,3500 L15050,3500"/>
+<path class="ta-dim" d="M-15050,3860 L-15050,3140"/>
+<path class="ta-dim" d="M15050,3860 L15050,3140"/>
+<text class="ta-t" x="0" y="4220" font-size="450" text-anchor="middle">≈ 30 m span</text>
+<path class="ta-dim" d="M2250,-3500 L15050,-3500"/>
+<path class="ta-dim" d="M2250,-3140 L2250,-3860"/>
+<path class="ta-dim" d="M15050,-3140 L15050,-3860"/>
+<text class="ta-t" x="8650" y="-2780" font-size="450" text-anchor="middle">12.8 m</text>
+<text class="ta-cap" x="-16200" y="5060" font-size="930">Starlink V2 Mini · illustration</text><text class="ta-t" x="-16200" y="6080" font-size="465">Starlink V2 Mini satellite · plan view · bus 4.1 × 2.7 m · two 12.8 × 4.1 m arrays · span ≈ 30 m</text><rect x="11200" y="4790" width="1250" height="210" class="ta-mid"/><rect x="12450" y="4790" width="1250" height="210" class="ta-body2"/><rect x="13700" y="4790" width="1250" height="210" class="ta-mid"/><rect x="14950" y="4790" width="1250" height="210" class="ta-body2"/><text class="ta-t" x="16200" y="4580" font-size="450" text-anchor="end">5 m</text></g>
+</svg>

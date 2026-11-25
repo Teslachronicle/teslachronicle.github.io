@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-373.2 -4421 6966.4 5602.8" role="img" aria-labelledby="t-semi d-semi">
+<title id="t-semi">Semi · illustration</title><desc id="d-semi">Illustration, not a photo. Tesla Semi day cab · est. L ≈ 6.2 m · H ≈ 4.1 m high roof · no official dimensions published. Drawn to scale from published dimensions; see ART-NOTES.md.</desc>
+<style>
+.ta-body{fill:var(--art-body,#e9edf1)}.ta-body2{fill:var(--art-body2,#cfd6dd)}
+.ta-dark{fill:var(--art-dark,#20262c)}.ta-mid{fill:var(--art-mid,#8b97a3)}
+.ta-glass{fill:var(--art-glass,#2b3640)}.ta-acc{fill:var(--art-accent,#e31937)}
+.ta-glow{fill:var(--art-glow,#ffd9a0)}
+.ta-ln{fill:none;stroke:var(--art-line,#58636e);stroke-width:1.1;vector-effect:non-scaling-stroke;stroke-linejoin:round;stroke-linecap:round}
+.ta-lnl{fill:none;stroke:var(--art-line-light,rgba(255,255,255,.55));stroke-width:.9;vector-effect:non-scaling-stroke;stroke-linecap:round}
+.ta-hair{fill:none;stroke:var(--art-line,#58636e);stroke-width:.45;vector-effect:non-scaling-stroke}
+.ta-dim{fill:none;stroke:var(--art-dim,#8d99a5);stroke-width:.8;vector-effect:non-scaling-stroke}
+.ta-gnd{fill:none;stroke:var(--art-dim,#8d99a5);stroke-width:1;vector-effect:non-scaling-stroke;stroke-dasharray:2 3}
+.ta-t{fill:var(--art-dim,#8d99a5);font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;letter-spacing:.04em}
+.ta-cap{fill:var(--art-cap,#c4ccd4);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-weight:600;letter-spacing:.02em}
+</style><defs></defs>
+<g class="ta-art">
+<path class="ta-dark" d="M3300,-1080 L6180,-1080 L6180,-1240 L3300,-1240 Z"/>
+<rect class="ta-mid" x="4560" y="-1350" width="1250" height="110" rx="0"/>
+<path class="ta-body" d="M60,-420 C-23.9,-459.2 18.4,-593.6 10,-700 C1.6,-806.4 -7,-1068 0,-1180 C7,-1292 23.6,-1392.2 60,-1500 C96.4,-1607.8 181.6,-1803 260,-1950 C338.4,-2097 502.4,-2375 620,-2550 C737.6,-2725 960,-3036.2 1100,-3200 C1240,-3363.8 1473,-3606.6 1620,-3720 C1767,-3833.4 1998.8,-3955.4 2150,-4010 C2301.2,-4064.6 2560,-4101.6 2700,-4110 C2840,-4118.4 3047.8,-4102.2 3150,-4070 C3252.2,-4037.8 3385.2,-3973.8 3430,-3880 C3474.8,-3786.2 3464.4,-3803.2 3470,-3400 C3475.6,-2996.8 3479.8,-1417.2 3470,-1000 C3460.2,-582.8 3640.7,-501.2 3400,-420 C3159.3,-338.8 1980.8,-400.2 1750.4,-420 C1520,-439.8 1758.1,-522.4 1754.4,-561.5 C1750.7,-600.7 1737,-662.7 1723.8,-699.8 C1710.7,-736.9 1682.3,-793.7 1660.5,-826.4 C1638.7,-859.2 1597.3,-907.4 1568.2,-933.8 C1539.1,-960.3 1487.3,-997 1452.6,-1015.5 C1417.9,-1034.1 1358.7,-1057 1320.5,-1066.6 C1282.4,-1076.2 1219.3,-1084 1180,-1084 C1140.7,-1084 1077.6,-1076.2 1039.5,-1066.6 C1001.3,-1057 942.1,-1034.1 907.4,-1015.5 C872.7,-997 820.9,-960.3 791.8,-933.8 C762.7,-907.4 721.3,-859.2 699.5,-826.4 C677.7,-793.7 649.3,-736.9 636.2,-699.8 C623,-662.7 609.3,-600.7 605.6,-561.5 C601.9,-522.4 686,-439.8 609.6,-420 C533.2,-400.2 143.9,-380.8 60,-420 Z"/>
+<path class="ta-body2" d="M3470,-1050 L3700,-1050 L3700,-640 L3470,-640 Z"/>
+<path class="ta-glass" d="M470,-1960 C410,-2018 741,-2441 820,-2560 C899,-2679 1170,-3046 1260,-3150 C1350,-3254 1644,-3567 1720,-3600 C1796,-3633 2022,-3570 2020,-3480 C2018,-3390 1760,-2850 1700,-2700 C1640,-2550 1543,-2054 1420,-1980 C1297,-1906 530,-1902 470,-1960 Z"/>
+<path class="ta-glass" d="M1600,-2000 C1528.1,-2045.5 1839.7,-2522.5 1880,-2620 C1920.3,-2717.5 2084,-3267.7 2150,-3330 C2216,-3392.3 2727.9,-3567.5 2780,-3470 C2832.1,-3372.5 2946.5,-2107.8 2860,-2000 C2773.5,-1892.2 1671.9,-1954.5 1600,-2000 Z"/>
+<path class="ta-hair" d="M2950,-3560 L2930,-520"/>
+<path class="ta-lnl" d="M1560,-1960 L2950,-1960"/>
+<path class="ta-glow" d="M20,-1200 C11.7,-1210.3 13.3,-1239.7 80,-1250 C146.7,-1260.3 411.7,-1272.3 420,-1262 C428.3,-1251.7 196.7,-1198.3 130,-1188 C63.3,-1177.7 28.3,-1189.7 20,-1200 Z"/>
+<path class="ta-ln" d="M60,-420 C-23.9,-459.2 18.4,-593.6 10,-700 C1.6,-806.4 -7,-1068 0,-1180 C7,-1292 23.6,-1392.2 60,-1500 C96.4,-1607.8 181.6,-1803 260,-1950 C338.4,-2097 502.4,-2375 620,-2550 C737.6,-2725 960,-3036.2 1100,-3200 C1240,-3363.8 1473,-3606.6 1620,-3720 C1767,-3833.4 1998.8,-3955.4 2150,-4010 C2301.2,-4064.6 2560,-4101.6 2700,-4110 C2840,-4118.4 3047.8,-4102.2 3150,-4070 C3252.2,-4037.8 3385.2,-3973.8 3430,-3880 C3474.8,-3786.2 3464.4,-3803.2 3470,-3400 C3475.6,-2996.8 3479.8,-1417.2 3470,-1000 C3460.2,-582.8 3640.7,-501.2 3400,-420 C3159.3,-338.8 1980.8,-400.2 1750.4,-420 C1520,-439.8 1758.1,-522.4 1754.4,-561.5 C1750.7,-600.7 1737,-662.7 1723.8,-699.8 C1710.7,-736.9 1682.3,-793.7 1660.5,-826.4 C1638.7,-859.2 1597.3,-907.4 1568.2,-933.8 C1539.1,-960.3 1487.3,-997 1452.6,-1015.5 C1417.9,-1034.1 1358.7,-1057 1320.5,-1066.6 C1282.4,-1076.2 1219.3,-1084 1180,-1084 C1140.7,-1084 1077.6,-1076.2 1039.5,-1066.6 C1001.3,-1057 942.1,-1034.1 907.4,-1015.5 C872.7,-997 820.9,-960.3 791.8,-933.8 C762.7,-907.4 721.3,-859.2 699.5,-826.4 C677.7,-793.7 649.3,-736.9 636.2,-699.8 C623,-662.7 609.3,-600.7 605.6,-561.5 C601.9,-522.4 686,-439.8 609.6,-420 C533.2,-400.2 143.9,-380.8 60,-420 Z"/>
+<circle class="ta-dark" cx="1180" cy="-507" r="507"/>
+<circle class="ta-mid" cx="1180" cy="-507" r="294.1"/>
+<path class="ta-lnl" d="M1247.8,-528 L1446.9,-589.6"/>
+<path class="ta-lnl" d="M1222.5,-563.8 L1347.4,-730.7"/>
+<path class="ta-lnl" d="M1181,-578 L1184,-786.3"/>
+<path class="ta-lnl" d="M1139.1,-565 L1019,-735.3"/>
+<path class="ta-lnl" d="M1112.8,-529.9 L915.6,-597.1"/>
+<path class="ta-lnl" d="M1112.2,-486 L913.1,-424.4"/>
+<path class="ta-lnl" d="M1137.5,-450.2 L1012.6,-283.3"/>
+<path class="ta-lnl" d="M1179,-436 L1176,-227.7"/>
+<path class="ta-lnl" d="M1220.9,-449 L1341,-278.7"/>
+<path class="ta-lnl" d="M1247.2,-484.1 L1444.4,-416.9"/>
+<circle class="ta-dark" cx="1180" cy="-507" r="65.9"/>
+<circle class="ta-hair" cx="1180" cy="-507" r="507"/>
+<circle class="ta-dark" cx="4480" cy="-507" r="507"/>
+<circle class="ta-mid" cx="4480" cy="-507" r="294.1"/>
+<path class="ta-lnl" d="M4547.8,-528 L4746.9,-589.6"/>
+<path class="ta-lnl" d="M4522.5,-563.8 L4647.4,-730.7"/>
+<path class="ta-lnl" d="M4481,-578 L4484,-786.3"/>
+<path class="ta-lnl" d="M4439.1,-565 L4319,-735.3"/>
+<path class="ta-lnl" d="M4412.8,-529.9 L4215.6,-597.1"/>
+<path class="ta-lnl" d="M4412.2,-486 L4213.1,-424.4"/>
+<path class="ta-lnl" d="M4437.5,-450.2 L4312.6,-283.3"/>
+<path class="ta-lnl" d="M4479,-436 L4476,-227.7"/>
+<path class="ta-lnl" d="M4520.9,-449 L4641,-278.7"/>
+<path class="ta-lnl" d="M4547.2,-484.1 L4744.4,-416.9"/>
+<circle class="ta-dark" cx="4480" cy="-507" r="65.9"/>
+<circle class="ta-hair" cx="4480" cy="-507" r="507"/>
+<circle class="ta-dark" cx="5800" cy="-507" r="507"/>
+<circle class="ta-mid" cx="5800" cy="-507" r="294.1"/>
+<path class="ta-lnl" d="M5867.8,-528 L6066.9,-589.6"/>
+<path class="ta-lnl" d="M5842.5,-563.8 L5967.4,-730.7"/>
+<path class="ta-lnl" d="M5801,-578 L5804,-786.3"/>
+<path class="ta-lnl" d="M5759.1,-565 L5639,-735.3"/>
+<path class="ta-lnl" d="M5732.8,-529.9 L5535.6,-597.1"/>
+<path class="ta-lnl" d="M5732.2,-486 L5533.1,-424.4"/>
+<path class="ta-lnl" d="M5757.5,-450.2 L5632.6,-283.3"/>
+<path class="ta-lnl" d="M5799,-436 L5796,-227.7"/>
+<path class="ta-lnl" d="M5840.9,-449 L5961,-278.7"/>
+<path class="ta-lnl" d="M5867.2,-484.1 L6064.4,-416.9"/>
+<circle class="ta-dark" cx="5800" cy="-507" r="65.9"/>
+<circle class="ta-hair" cx="5800" cy="-507" r="507"/>
+</g>
+<g class="ta-anno">
+<path class="ta-gnd" d="M-248.8,0 L6468.8,0"/>
+<path class="ta-dim" d="M0,261.2 L6220,261.2"/>
+<path class="ta-dim" d="M0,335.9 L0,186.6"/>
+<path class="ta-dim" d="M6220,335.9 L6220,186.6"/>
+<text class="ta-t" x="3110" y="410.5" font-size="93.3" text-anchor="middle">≈ 6,220 mm (est.)</text>
+<path class="ta-dim" d="M6381.7,0 L6381.7,-4110"/>
+<path class="ta-dim" d="M6307.1,0 L6456.4,0"/>
+<path class="ta-dim" d="M6307.1,-4110 L6456.4,-4110"/>
+<text class="ta-t" x="6468.8" y="-2055" font-size="93.3" text-anchor="middle" transform="rotate(90 6468.8 -2055)">≈ 4,110 (est.)</text>
+<text class="ta-cap" x="-248.8" y="758.8" font-size="192.8">Semi · illustration</text><text class="ta-t" x="-248.8" y="970.3" font-size="96.4">Tesla Semi day cab · est. L ≈ 6.2 m · H ≈ 4.1 m high roof · no official dimensions published</text><rect x="5468.8" y="702.9" width="250" height="43.5" class="ta-mid"/><rect x="5718.8" y="702.9" width="250" height="43.5" class="ta-body2"/><rect x="5968.8" y="702.9" width="250" height="43.5" class="ta-mid"/><rect x="6218.8" y="702.9" width="250" height="43.5" class="ta-body2"/><text class="ta-t" x="6468.8" y="659.3" font-size="93.3" text-anchor="end">1 m</text></g>
+</svg>

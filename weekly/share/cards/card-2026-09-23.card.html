@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>No. 283</title>
+<style>
+@font-face {
+  font-family: FrauncesV5;
+  src: url("../assets/fraunces-v5.woff2") format("woff2");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: InterV5;
+  src: url("../assets/inter-v5.woff2") format("woff2");
+  font-weight: 400 750;
+  font-style: normal;
+  font-display: block;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {
+  width: 1200px;
+  height: 675px;
+  overflow: hidden;
+  background: #0e1116;
+}
+#card {
+  width: 1200px;
+  height: 675px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 52px 64px 44px;
+  background:
+    radial-gradient(ellipse 560px 420px at 100% 0%, rgba(217, 196, 154, .14), transparent 68%),
+    #0e1116;
+  color: #f5f6f7;
+  overflow: hidden;
+}
+.copy {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  min-width: 0;
+  min-height: 0;
+}
+#card::before {
+  content: "";
+  position: absolute;
+  inset: 36px;
+  border: 1px solid rgba(245, 246, 247, .20);
+  pointer-events: none;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 28px;
+}
+.name {
+  font-family: FrauncesV5, Georgia, serif;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: .95;
+  letter-spacing: -.03em;
+  color: #f5f6f7;
+}
+.wed {
+  margin-top: 6px;
+  font-family: InterV5, sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: #d9c49a;
+}
+.issuetop { text-align: right; }
+.no {
+  font-family: FrauncesV5, Georgia, serif;
+  font-weight: 650;
+  font-size: 40px;
+  line-height: 1;
+  color: #f5f6f7;
+}
+.when {
+  margin-top: 8px;
+  font-family: InterV5, sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 1;
+  color: #c4cad1;
+}
+.rules { margin: 18px 0 8px; }
+.rules span { display: block; height: 1px; background: rgba(245, 246, 247, .92); }
+.rules span + span { margin-top: 4px; }
+.mid {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 0;
+  padding: 8px 0 12px;
+}
+.kicker {
+  margin-bottom: 12px;
+  font-family: InterV5, sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: #d9c49a;
+}
+.hl {
+  font-family: FrauncesV5, Georgia, serif;
+  font-weight: 650;
+  font-size: 76px;
+  line-height: 1.05;
+  letter-spacing: -.03em;
+  color: #f5f6f7;
+  max-height: calc(1.05em * 4);
+  text-wrap: balance;
+  overflow-wrap: break-word;
+}
+.hl.clamp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+}
+.bot {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 24px;
+}
+.count {
+  font-family: InterV5, sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 1.2;
+  color: #c4cad1;
+}
+.wordmark {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: none;
+  font-family: InterV5, sans-serif;
+  font-weight: 650;
+  font-size: 22px;
+  line-height: 1;
+  color: #f5f6f7;
+}
+.mark {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  background: #d9c49a;
+  color: #1a140c;
+  font-family: FrauncesV5, Georgia, serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+}
+#card.has-photo {
+  flex-direction: row;
+  align-items: stretch;
+  gap: 28px;
+  padding-right: 0;
+}
+#card.has-photo .copy {
+  flex: none;
+  width: 60%;
+  padding-bottom: 44px;
+}
+#card.has-photo .mid { flex: 1; }
+.photo {
+  position: relative;
+  width: 40%;
+  margin: -52px 0 -44px 0;
+  overflow: hidden;
+  background: #0e1116;
+}
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.photo figcaption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 28px 18px 16px;
+  background: linear-gradient(transparent, rgba(8, 10, 14, .88) 42%);
+  color: #f5f6f7;
+  font-family: InterV5, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.3;
+}
+</style>
+</head>
+<body>
+<div id="card" class="card">
+<div class="copy">
+<div class="top">
+<div class="brandblock">
+<div class="name">Chronicle Weekly</div>
+<div class="wed">Wednesday Edition</div>
+</div>
+<div class="issuetop">
+<div class="no">No. 283</div>
+<div class="when">Sep 23, 2026</div>
+</div>
+</div>
+<div class="rules" aria-hidden="true"><span></span><span></span></div>
+<div class="mid">
+<p class="kicker">Lead story</p>
+<p class="hl">First Cybercab built with Tesla&#x27;s in-house Giga Texas cathode</p>
+</div>
+<div class="bot">
+<p class="count">3 stories · Week of Sep 17 – Sep 23, 2026</p>
+<p class="wordmark"><span class="mark" aria-hidden="true">T</span> Tesla Chronicle</p>
+</div>
+</div>
+
+</div>
+<script>
+(function () {
+  // Largest size (80px down to 44px) at which the headline fits: 3 lines at 56px and up, 4 below,
+  // with every element inside the 1200x675 frame and the middle band not overflowing. Else clamp to 4 lines.
+  function fit() {
+    var card = document.getElementById("card"), hl = document.querySelector(".hl"), mid = document.querySelector(".mid");
+    if (!card || !hl || !mid) { document.body.setAttribute("data-fit", "clamped"); document.body.setAttribute("data-overflow", "1"); return; }
+    function apply(px) { hl.style.fontSize = px + "px"; hl.style.lineHeight = "1.06"; }
+    function lines() { var lh = parseFloat(getComputedStyle(hl).lineHeight) || 1; return Math.round(hl.getBoundingClientRect().height / lh); }
+    function outside(el) { var r = el.getBoundingClientRect(); if (r.width < .5 && r.height < .5) return false; return r.left < 35.5 || r.top < 35.5 || r.right > 1164.5 || r.bottom > 639.5; }
+    function frameBad() {
+      if (card.scrollWidth > card.clientWidth + 1 || card.scrollHeight > card.clientHeight + 1) return true;
+      if (mid.scrollHeight > mid.clientHeight + 2) return true;
+      if (hl.scrollWidth > hl.clientWidth + 1) return true;
+      var nodes = card.querySelectorAll(".copy *");
+      for (var i = 0; i < nodes.length; i++) if (outside(nodes[i])) return true;  // nothing crosses the inset rule frame
+      return false;
+    }
+    hl.classList.remove("clamp"); hl.style.maxHeight = "none";
+    var size = 80, mode = "ok";
+    for (; size >= 44; size -= 2) { apply(size); if (lines() <= (size >= 56 ? 3 : 4) && !frameBad()) break; }
+    if (size < 44) { size = 44; apply(size); hl.classList.add("clamp"); hl.style.maxHeight = ""; mode = "clamped"; }
+    document.body.setAttribute("data-fit", mode);
+    document.body.setAttribute("data-overflow", frameBad() ? "1" : "0");
+    document.body.setAttribute("data-size", String(size));
+    document.body.setAttribute("data-lines", String(lines()));
+    document.body.setAttribute("data-font", (getComputedStyle(hl).fontFamily || "").slice(0, 48));
+  }
+  function whenFonts() {
+    var jobs = [];
+    if (document.fonts && document.fonts.load) {
+      jobs.push(document.fonts.load("700 54px FrauncesV5"));
+      jobs.push(document.fonts.load("650 76px FrauncesV5"));
+      jobs.push(document.fonts.load("600 26px InterV5"));
+      jobs.push(document.fonts.load("700 22px InterV5"));
+    }
+    var ready = document.fonts && document.fonts.ready ? document.fonts.ready : Promise.resolve();
+    window.__cardFit = Promise.all(jobs.concat([ready])).then(fit, fit).then(function () { var b = document.body; return { fit: b.getAttribute("data-fit"), overflow: b.getAttribute("data-overflow"), size: b.getAttribute("data-size"), font: b.getAttribute("data-font"), lines: b.getAttribute("data-lines"), fonts: Array.from(document.fonts || []).filter(function (f) { return f.status === "loaded"; }).map(function (f) { return f.family + " " + f.weight; }) }; });
+  }
+  fit();
+  whenFonts();
+})();
+</script>
+
+</body>
+</html>

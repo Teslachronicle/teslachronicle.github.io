@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chronicle Weekly — Issue 282 — Robotaxi opens Cybercab app hailing to anyone in Austin</title>
+<style>
+  :root {
+    --ink: #161513;
+    --muted: #4a463f;
+    --rule: #161513;
+    --paper: #f4efe4;
+    --box: #efe6d4;
+    --accent: #7a1f1f;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: #e4dccb; color: var(--ink); }
+  body {
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+    line-height: 1.45;
+  }
+  .paper {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 28px 36px 48px;
+    background: var(--paper);
+    box-shadow: 0 0 0 1px rgba(22,21,19,.12), 0 12px 40px rgba(22,21,19,.08);
+  }
+  .masthead { text-align: center; border-bottom: 3px solid var(--rule); padding-bottom: 12px; }
+  .masthead .kicker {
+    margin: 0 0 6px;
+    font-size: 11px;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .masthead h1 {
+    margin: 0;
+    font-size: 34px;
+    line-height: 1.15;
+    font-weight: 700;
+    letter-spacing: .01em;
+  }
+  .masthead .scope {
+    margin: 8px 0 0;
+    font-size: 13px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .issue-line {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 12px;
+    padding: 6px 0;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    font-size: 12px;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+  }
+  .lead { margin: 22px 0 28px; }
+  .section-label {
+    margin: 0 0 6px;
+    font-size: 11px;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+  .lead h2 {
+    margin: 0 0 8px;
+    font-size: 34px;
+    line-height: 1.12;
+    font-weight: 700;
+  }
+  .dek {
+    margin: 0 0 10px;
+    font-size: 18px;
+    line-height: 1.35;
+    color: var(--muted);
+  }
+  .hero { margin: 12px 0 16px; }
+  .hero img { width: 100%; height: auto; display: block; background: #ddd; }
+  .hero figcaption {
+    margin-top: 4px;
+    font-size: 11px;
+    color: var(--muted);
+    font-style: italic;
+  }
+  .story .meta, .event-id {
+    font-size: 12px;
+    color: var(--muted);
+    letter-spacing: .02em;
+  }
+  .story .body { margin: 8px 0 10px; font-size: 16px; }
+  .story-sources {
+    margin: 8px 0;
+    padding-left: 18px;
+    font-size: 12px;
+    color: var(--muted);
+    overflow-wrap: anywhere;
+  }
+  .story-sources .kind, .kind {
+    font-variant: small-caps;
+    letter-spacing: .04em;
+    color: var(--accent);
+  }
+  .event-id { margin: 0; }
+  .company-block {
+    border-top: 1px solid var(--rule);
+    margin-top: 8px;
+    padding-top: 12px;
+  }
+  .company-name {
+    margin: 0 0 8px;
+    font-size: 13px;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+  .story.secondary { margin-bottom: 22px; }
+  .story.secondary h3 { margin: 0 0 4px; font-size: 22px; line-height: 1.2; }
+  .status { font-size: 13px; color: var(--muted); }
+  blockquote.promise {
+    margin: 10px 0;
+    padding: 8px 14px;
+    border-left: 3px solid var(--accent);
+    color: var(--ink);
+    font-style: italic;
+  }
+  blockquote.promise p { margin: 0 0 4px; }
+  blockquote.promise cite { font-style: normal; font-size: 12px; color: var(--muted); }
+  .pending {
+    margin: 28px 0;
+    padding: 16px 18px;
+    background: var(--box);
+    border: 1px solid #c9b896;
+  }
+  .pending h2 {
+    margin: 0 0 6px;
+    font-size: 16px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+  }
+  .pending-intro { margin: 0 0 10px; font-size: 13px; color: var(--muted); }
+  .pending ul { margin: 0; padding-left: 18px; }
+  .pending li { margin: 0 0 10px; }
+  .pending li p { margin: 4px 0 0; font-size: 14px; color: var(--muted); }
+  .status-flag { font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); }
+  .sources-page {
+    border-top: 3px solid var(--rule);
+    margin-top: 12px;
+    padding-top: 16px;
+  }
+  .sources-page h2 {
+    margin: 0 0 8px;
+    font-size: 16px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+  }
+  .sources-page ol {
+    margin: 0;
+    padding-left: 22px;
+    font-size: 12px;
+    color: var(--muted);
+    overflow-wrap: anywhere;
+  }
+  .sources-page li { margin: 0 0 6px; }
+  .for-event { color: #7a7468; }
+  footer.colophon {
+    margin-top: 28px;
+    border-top: 1px solid var(--rule);
+    padding-top: 12px;
+    font-size: 12px;
+    color: var(--muted);
+  }
+  a { color: #1f3348; }
+  @media (max-width: 640px) {
+    .paper { padding: 18px 16px 32px; }
+    .masthead h1 { font-size: 24px; }
+    .lead h2 { font-size: 26px; }
+    .issue-line { flex-direction: column; gap: 2px; text-align: center; }
+  }
+</style>
+</head>
+<body>
+  <article class="paper">
+    <header class="masthead">
+      <p class="kicker">A dated, sourced weekly paper from the public event ledger</p>
+      <h1>Chronicle Weekly, Wednesday Edition, September 16, 2026</h1>
+      <p class="scope">Tesla · SpaceX · xAI · X · Neuralink · The Boring Company</p>
+      <div class="issue-line">
+        <span>Issue No. 282</span>
+        <span>Thursday–Wednesday · September 10–16, 2026</span>
+        <span>2026-09-16</span>
+      </div>
+    </header>
+
+    <section class="lead">
+      <p class="section-label">Lead</p>
+      <h2>Robotaxi opens Cybercab app hailing to anyone in Austin</h2>
+      <p class="dek">Service remains geofenced Austin commercial Robotaxi operation with a still-limited Cybercab fleet; NHTSA AQ26002 / Special Order on FMVSS self-certification continued in parallel.</p>
+      
+      <article class="story lead" id="cybercab-austin-open-app-hailing-2026-09-10"><p class="meta">Thursday, September 10, 2026 · Autonomy · Tesla</p><p class="body">Tesla’s Robotaxi account posted that anyone can try Cybercab in Austin by downloading the Robotaxi app and hailing a ride, widening access beyond the invite-only launch window that began September 3.</p><p class="status"><strong>partially launched</strong> — Open app hailing in Austin geofence; fleet still small and FMVSS audit active.</p><blockquote class="promise"><p>“Anyone can try Cybercab in Austin
+
+Just download the Robotaxi app &amp; hail a ride”</p><cite>Tesla (@robotaxi on X) (Thursday, September 10, 2026)</cite></blockquote><ul class="story-sources"><li><span class="kind">primary</span> Robotaxi (@robotaxi) X post, Anyone can try Cybercab in Austin, September 10, 2026 — <a href="https://x.com/robotaxi/status/2098099999888593064">https://x.com/robotaxi/status/2098099999888593064</a></li><li><span class="kind">primary</span> NHTSA AQ26002 resume (context: commercial Cybercab started September 3, 2026) — <a href="https://static.nhtsa.gov/odi/inv/2026/INOA-AQ26002-17078.pdf">https://static.nhtsa.gov/odi/inv/2026/INOA-AQ26002-17078.pdf</a></li></ul><p class="event-id">Ledger id: cybercab-austin-open-app-hailing-2026-09-10</p></article>
+    </section>
+
+    <section class="company-block"><h2 class="company-name">Tesla</h2><article class="story secondary" id="nhtsa-special-order-cybercab-aq26002-2026-09-10"><h3>NHTSA Special Order on Cybercab FMVSS certification (AQ26002)</h3><p class="meta">Thursday, September 10, 2026 · Legal · Tesla</p><p class="body">Dated September 10, 2026, NHTSA issued a Special Order in AQ26002 requiring Tesla to provide sworn answers by September 30, 2026 on the process and technical data behind Cybercab’s FMVSS self-certification after commercial service began September 3. The order restates that manufacturers may not issue a certification if, exercising reasonable care, they have reason to know it is false or misleading. Local archive copy saved under filings/.</p><p class="status"><strong>announced pending</strong> — Deadline moved to October 30, 2026. A NHTSA memo to the AQ26002 file dated September 29, 2026 says Tesla asked on September 18 for eight more weeks (to November 20); on September 22 NHTSA granted 30 days instead, making Tesla's sworn response due October 30, 2026. The memo was added to the public file around October 7 and first reported October 8. No finding against Cybercab and no public resolution yet. As of 2026-10-15 daily check, no newer public NHTSA memo or Tesla response filing; sworn answers still due October 30, 2026. As of 2026-10-26 daily check, no public Tesla response or new NHTSA document in AQ26002; sworn answers still due October 30, 2026. As of 2026-10-30 morning PT daily check, no public Tesla response or new NHTSA document in AQ26002; sworn answers due today, October 30, 2026. Tesla met the October 30 deadline with a response marked entirely confidential; Question 8 certification answers are not on the public docket (Electrek Nov 5; TeslaNorth Nov 3). Confidentiality ruling and audit outcome still pending.</p><ul class="story-sources"><li><span class="kind">primary</span> NHTSA Special Order, AQ26002 (Cybercab FMVSS Certification), dated September 10, 2026 (local archive) — <a href="filings/nhtsa-aq26002-special-order-2026-09-10.pdf">filings/nhtsa-aq26002-special-order-2026-09-10.pdf</a></li><li><span class="kind">primary</span> NHTSA Special Order PDF (AutoEvolution-hosted copy), dated September 10, 2026 — <a href="https://www.autoevolution.com/pdf/news_attachements/nhtsa-escalates-an-investigation-into-tesla-cybercab-s-lack-of-controls-threatens-legal-action-275674.pdf">https://www.autoevolution.com/pdf/news_attachements/nhtsa-escalates-an-investigation-into-tesla-cybercab-s-lack-of-controls-threatens-legal-action-275674.pdf</a></li><li><span class="kind">primary</span> NHTSA AQ26002 resume (context for Special Order) — <a href="https://static.nhtsa.gov/odi/inv/2026/INOA-AQ26002-17078.pdf">https://static.nhtsa.gov/odi/inv/2026/INOA-AQ26002-17078.pdf</a></li><li><span class="kind">secondary</span> CNBC, Tesla's Cybercab had a rocky first month in Austin, October 3, 2026 (NHTSA spokesperson confirms Tesla got an extension on the Sept. 30 deadline) — <a href="https://www.cnbc.com/2026/10/03/tesla-cybercab-pressure-to-expand-after-rocky-first-month-in-austin.html">https://www.cnbc.com/2026/10/03/tesla-cybercab-pressure-to-expand-after-rocky-first-month-in-austin.html</a></li><li><span class="kind">primary</span> NHTSA, AQ26002 memo to file, Special Order Response Extension, September 29, 2026 (local copy filings/nhtsa-aq26002-special-order-extension-memo-2026-09-29.pdf) — <a href="https://static.nhtsa.gov/odi/inv/2026/IRSPO-AQ26002-19155.pdf">https://static.nhtsa.gov/odi/inv/2026/IRSPO-AQ26002-19155.pdf</a></li><li><span class="kind">secondary</span> TeslaNorth, Tesla Wanted Until November to Defend the Cybercab. NHTSA Had Other Plans, October 8, 2026 — <a href="https://teslanorth.com/2026/10/08/cybercab-nhtsa-extension/">https://teslanorth.com/2026/10/08/cybercab-nhtsa-extension/</a></li><li><span class="kind">secondary</span> Electrek, Tesla wants its sworn Cybercab answers to NHTSA kept entirely secret, November 5, 2026 — <a href="https://electrek.co/2026/11/05/tesla-cybercab-nhtsa-sworn-answers-confidential/">https://electrek.co/2026/11/05/tesla-cybercab-nhtsa-sworn-answers-confidential/</a></li></ul><p class="event-id">Ledger id: nhtsa-special-order-cybercab-aq26002-2026-09-10</p></article></section>
+
+    <aside class="pending" data-editorial="true"><h2>Still pending</h2><p class="pending-intro">Rows from this week whose ledger status is still announced-pending or partially launched. The notes below are copied from the ledger.</p><ul><li><strong>Robotaxi opens Cybercab app hailing to anyone in Austin</strong> <span class="status-flag">partially launched</span><p>Open app hailing in Austin geofence; fleet still small and FMVSS audit active.</p></li><li><strong>NHTSA Special Order on Cybercab FMVSS certification (AQ26002)</strong> <span class="status-flag">announced pending</span><p>Deadline moved to October 30, 2026. A NHTSA memo to the AQ26002 file dated September 29, 2026 says Tesla asked on September 18 for eight more weeks (to November 20); on September 22 NHTSA granted 30 days instead, making Tesla's sworn response due October 30, 2026. The memo was added to the public file around October 7 and first reported October 8. No finding against Cybercab and no public resolution yet. As of 2026-10-15 daily check, no newer public NHTSA memo or Tesla response filing; sworn answers still due October 30, 2026. As of 2026-10-26 daily check, no public Tesla response or new NHTSA document in AQ26002; sworn answers still due October 30, 2026. As of 2026-10-30 morning PT daily check, no public Tesla response or new NHTSA document in AQ26002; sworn answers due today, October 30, 2026. Tesla met the October 30 deadline with a response marked entirely confidential; Question 8 certification answers are not on the public docket (Electrek Nov 5; TeslaNorth Nov 3). Confidentiality ruling and audit outcome still pending.</p></li></ul></aside>
+
+    <section class="sources-page">
+      <h2>Sources</h2>
+      <ol>
+        <li><span class="kind">primary</span> Robotaxi (@robotaxi) X post, Anyone can try Cybercab in Austin, September 10, 2026 — <a href="https://x.com/robotaxi/status/2098099999888593064">https://x.com/robotaxi/status/2098099999888593064</a><span class="for-event"> (cybercab-austin-open-app-hailing-2026-09-10)</span></li><li><span class="kind">primary</span> NHTSA AQ26002 resume (context: commercial Cybercab started September 3, 2026) — <a href="https://static.nhtsa.gov/odi/inv/2026/INOA-AQ26002-17078.pdf">https://static.nhtsa.gov/odi/inv/2026/INOA-AQ26002-17078.pdf</a><span class="for-event"> (cybercab-austin-open-app-hailing-2026-09-10)</span></li><li><span class="kind">primary</span> NHTSA Special Order, AQ26002 (Cybercab FMVSS Certification), dated September 10, 2026 (local archive) — <a href="filings/nhtsa-aq26002-special-order-2026-09-10.pdf">filings/nhtsa-aq26002-special-order-2026-09-10.pdf</a><span class="for-event"> (nhtsa-special-order-cybercab-aq26002-2026-09-10)</span></li><li><span class="kind">primary</span> NHTSA Special Order PDF (AutoEvolution-hosted copy), dated September 10, 2026 — <a href="https://www.autoevolution.com/pdf/news_attachements/nhtsa-escalates-an-investigation-into-tesla-cybercab-s-lack-of-controls-threatens-legal-action-275674.pdf">https://www.autoevolution.com/pdf/news_attachements/nhtsa-escalates-an-investigation-into-tesla-cybercab-s-lack-of-controls-threatens-legal-action-275674.pdf</a><span class="for-event"> (nhtsa-special-order-cybercab-aq26002-2026-09-10)</span></li><li><span class="kind">secondary</span> CNBC, Tesla's Cybercab had a rocky first month in Austin, October 3, 2026 (NHTSA spokesperson confirms Tesla got an extension on the Sept. 30 deadline) — <a href="https://www.cnbc.com/2026/10/03/tesla-cybercab-pressure-to-expand-after-rocky-first-month-in-austin.html">https://www.cnbc.com/2026/10/03/tesla-cybercab-pressure-to-expand-after-rocky-first-month-in-austin.html</a><span class="for-event"> (nhtsa-special-order-cybercab-aq26002-2026-09-10)</span></li><li><span class="kind">primary</span> NHTSA, AQ26002 memo to file, Special Order Response Extension, September 29, 2026 (local copy filings/nhtsa-aq26002-special-order-extension-memo-2026-09-29.pdf) — <a href="https://static.nhtsa.gov/odi/inv/2026/IRSPO-AQ26002-19155.pdf">https://static.nhtsa.gov/odi/inv/2026/IRSPO-AQ26002-19155.pdf</a><span class="for-event"> (nhtsa-special-order-cybercab-aq26002-2026-09-10)</span></li><li><span class="kind">secondary</span> TeslaNorth, Tesla Wanted Until November to Defend the Cybercab. NHTSA Had Other Plans, October 8, 2026 — <a href="https://teslanorth.com/2026/10/08/cybercab-nhtsa-extension/">https://teslanorth.com/2026/10/08/cybercab-nhtsa-extension/</a><span class="for-event"> (nhtsa-special-order-cybercab-aq26002-2026-09-10)</span></li><li><span class="kind">secondary</span> Electrek, Tesla wants its sworn Cybercab answers to NHTSA kept entirely secret, November 5, 2026 — <a href="https://electrek.co/2026/11/05/tesla-cybercab-nhtsa-sworn-answers-confidential/">https://electrek.co/2026/11/05/tesla-cybercab-nhtsa-sworn-answers-confidential/</a><span class="for-event"> (nhtsa-special-order-cybercab-aq26002-2026-09-10)</span></li>
+      </ol>
+    </section>
+
+    <footer class="colophon">
+      Every article restates a dated row in the public event ledger. No facts, days, figures or quotes are added beyond that row. Source URLs are copied unchanged. Each issue is a Wednesday edition covering Thursday through Wednesday, dated the Wednesday it closes on. Ledger updated 2026-11-25. Sample page for review — not the timeline interface.
+    </footer>
+  </article>
+</body>
+</html>

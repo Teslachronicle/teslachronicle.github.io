@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chronicle Weekly — Issue 292 — Tesla opens public Cybercab rides in Dallas</title>
+<style>
+  :root {
+    --ink: #161513;
+    --muted: #4a463f;
+    --rule: #161513;
+    --paper: #f4efe4;
+    --box: #efe6d4;
+    --accent: #7a1f1f;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: #e4dccb; color: var(--ink); }
+  body {
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+    line-height: 1.45;
+  }
+  .paper {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 28px 36px 48px;
+    background: var(--paper);
+    box-shadow: 0 0 0 1px rgba(22,21,19,.12), 0 12px 40px rgba(22,21,19,.08);
+  }
+  .masthead { text-align: center; border-bottom: 3px solid var(--rule); padding-bottom: 12px; }
+  .masthead .kicker {
+    margin: 0 0 6px;
+    font-size: 11px;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .masthead h1 {
+    margin: 0;
+    font-size: 34px;
+    line-height: 1.15;
+    font-weight: 700;
+    letter-spacing: .01em;
+  }
+  .masthead .scope {
+    margin: 8px 0 0;
+    font-size: 13px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .issue-line {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 12px;
+    padding: 6px 0;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    font-size: 12px;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+  }
+  .lead { margin: 22px 0 28px; }
+  .section-label {
+    margin: 0 0 6px;
+    font-size: 11px;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+  .lead h2 {
+    margin: 0 0 8px;
+    font-size: 34px;
+    line-height: 1.12;
+    font-weight: 700;
+  }
+  .dek {
+    margin: 0 0 10px;
+    font-size: 18px;
+    line-height: 1.35;
+    color: var(--muted);
+  }
+  .hero { margin: 12px 0 16px; }
+  .hero img { width: 100%; height: auto; display: block; background: #ddd; }
+  .hero figcaption {
+    margin-top: 4px;
+    font-size: 11px;
+    color: var(--muted);
+    font-style: italic;
+  }
+  .story .meta, .event-id {
+    font-size: 12px;
+    color: var(--muted);
+    letter-spacing: .02em;
+  }
+  .story .body { margin: 8px 0 10px; font-size: 16px; }
+  .story-sources {
+    margin: 8px 0;
+    padding-left: 18px;
+    font-size: 12px;
+    color: var(--muted);
+    overflow-wrap: anywhere;
+  }
+  .story-sources .kind, .kind {
+    font-variant: small-caps;
+    letter-spacing: .04em;
+    color: var(--accent);
+  }
+  .event-id { margin: 0; }
+  .company-block {
+    border-top: 1px solid var(--rule);
+    margin-top: 8px;
+    padding-top: 12px;
+  }
+  .company-name {
+    margin: 0 0 8px;
+    font-size: 13px;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+  .story.secondary { margin-bottom: 22px; }
+  .story.secondary h3 { margin: 0 0 4px; font-size: 22px; line-height: 1.2; }
+  .status { font-size: 13px; color: var(--muted); }
+  blockquote.promise {
+    margin: 10px 0;
+    padding: 8px 14px;
+    border-left: 3px solid var(--accent);
+    color: var(--ink);
+    font-style: italic;
+  }
+  blockquote.promise p { margin: 0 0 4px; }
+  blockquote.promise cite { font-style: normal; font-size: 12px; color: var(--muted); }
+  .pending {
+    margin: 28px 0;
+    padding: 16px 18px;
+    background: var(--box);
+    border: 1px solid #c9b896;
+  }
+  .pending h2 {
+    margin: 0 0 6px;
+    font-size: 16px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+  }
+  .pending-intro { margin: 0 0 10px; font-size: 13px; color: var(--muted); }
+  .pending ul { margin: 0; padding-left: 18px; }
+  .pending li { margin: 0 0 10px; }
+  .pending li p { margin: 4px 0 0; font-size: 14px; color: var(--muted); }
+  .status-flag { font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); }
+  .sources-page {
+    border-top: 3px solid var(--rule);
+    margin-top: 12px;
+    padding-top: 16px;
+  }
+  .sources-page h2 {
+    margin: 0 0 8px;
+    font-size: 16px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+  }
+  .sources-page ol {
+    margin: 0;
+    padding-left: 22px;
+    font-size: 12px;
+    color: var(--muted);
+    overflow-wrap: anywhere;
+  }
+  .sources-page li { margin: 0 0 6px; }
+  .for-event { color: #7a7468; }
+  footer.colophon {
+    margin-top: 28px;
+    border-top: 1px solid var(--rule);
+    padding-top: 12px;
+    font-size: 12px;
+    color: var(--muted);
+  }
+  a { color: #1f3348; }
+  @media (max-width: 640px) {
+    .paper { padding: 18px 16px 32px; }
+    .masthead h1 { font-size: 24px; }
+    .lead h2 { font-size: 26px; }
+    .issue-line { flex-direction: column; gap: 2px; text-align: center; }
+  }
+</style>
+</head>
+<body>
+  <article class="paper">
+    <header class="masthead">
+      <p class="kicker">A dated, sourced weekly paper from the public event ledger</p>
+      <h1>Chronicle Weekly, Wednesday Edition, November 25, 2026</h1>
+      <p class="scope">Tesla · SpaceX · xAI · X · Neuralink · The Boring Company</p>
+      <div class="issue-line">
+        <span>Issue No. 292</span>
+        <span>Thursday–Wednesday · November 19–25, 2026</span>
+        <span>2026-11-25</span>
+      </div>
+    </header>
+
+    <section class="lead">
+      <p class="section-label">Lead</p>
+      <h2>Tesla opens public Cybercab rides in Dallas</h2>
+      <p class="dek">Cybercab has arrived in your city," opening public Cybercab rides in Dallas through the Tesla Robotaxi app.</p>
+      
+      <article class="story lead" id="cybercab-dallas-public-rides-open-2026-11-19"><p class="meta">Thursday, November 19, 2026 · Autonomy · Tesla</p><p class="body">On November 19, 2026, @robotaxi posted "Howdy Dallas. Dallas is the second city after Austin to get the two-seat Cybercab with no steering wheel or pedals. Tesla's Robotaxi service in Dallas has run Model Y vehicles unsupervised since April 18, 2026. This delivers the November Dallas launch stated on the October 21 earnings call.</p><ul class="story-sources"><li><span class="kind">primary</span> Robotaxi (@robotaxi) on X, November 19, 2026 — <a href="https://x.com/robotaxi/status/2123458263522107564">https://x.com/robotaxi/status/2123458263522107564</a></li><li><span class="kind">primary</span> Tesla (@Tesla) on X, "Cybercab expands to second city," November 19, 2026 — <a href="https://x.com/Tesla/status/2123507319040528546">https://x.com/Tesla/status/2123507319040528546</a></li><li><span class="kind">secondary</span> Teslarati, Tesla Cybercab without steering wheel and pedals expands public rides to Dallas, November 19, 2026 — <a href="https://www.teslarati.com/tesla-cybercab-without-steering-wheel-pedals-expands-public-rides-dallas/">https://www.teslarati.com/tesla-cybercab-without-steering-wheel-pedals-expands-public-rides-dallas/</a></li><li><span class="kind">secondary</span> Not a Tesla App, Tesla Launches Cybercab Rides in Dallas With New V1.5 Design, November 19, 2026 — <a href="https://www.notateslaapp.com/news/5044/tesla-launches-cybercab-rides-in-dallas-with-new-v15-design">https://www.notateslaapp.com/news/5044/tesla-launches-cybercab-rides-in-dallas-with-new-v15-design</a></li></ul><p class="event-id">Ledger id: cybercab-dallas-public-rides-open-2026-11-19</p></article>
+    </section>
+
+    <section class="company-block"><h2 class="company-name">Tesla</h2><article class="story secondary" id="tesla-supercharger-waitlist-300-us-sites-2026-11-19"><h3>Supercharger Waitlist goes live at 300 US sites</h3><p class="meta">Thursday, November 19, 2026 · Charging · Tesla</p><p class="body">On November 19, 2026 Tesla Charging said its Supercharger Waitlist was live at 300 US Supercharger sites. Drivers join a virtual queue in the Tesla app or on the car's touchscreen, and non-Tesla EV drivers can join through the app. The feature grew from a five-site pilot in California and New York that began in May 2026.</p><ul class="story-sources"><li><span class="kind">primary</span> Tesla Charging (@TeslaCharging) on X, November 19, 2026 — <a href="https://x.com/TeslaCharging/status/2123544093213274167">https://x.com/TeslaCharging/status/2123544093213274167</a></li><li><span class="kind">secondary</span> TeslaNorth, Tesla Supercharger Waitlist Goes Live at 300 U.S. Sites, November 19, 2026 — <a href="https://teslanorth.com/2026/11/19/tesla-supercharger-waitlist-300-us-sites/">https://teslanorth.com/2026/11/19/tesla-supercharger-waitlist-300-us-sites/</a></li></ul><p class="event-id">Ledger id: tesla-supercharger-waitlist-300-us-sites-2026-11-19</p></article><article class="story secondary" id="tesla-italy-approves-tesla-assisted-driving-2026-11-20"><h3>Italy approves Tesla Assisted Driving</h3><p class="meta">Friday, November 20, 2026 · Regulatory · Tesla</p><p class="body">On November 20, 2026 Italy's Ministry of Infrastructure and Transport granted provisional type approval to Tesla Assisted Driving, the supervised FSD renamed for Europe, after a technical feasibility check. Transport Minister Matteo Salvini announced it on X, and Tesla Europe posted "Now approved in Italy, rollout begins soon" without a date. Italy is the 12th EU country to allow the system and the first of the bloc's large markets; an EU-wide vote is not expected before December.</p><ul class="story-sources"><li><span class="kind">primary</span> Tesla Europe, Middle East &amp; Africa (@teslaeurope) on X, November 20, 2026 — <a href="https://x.com/teslaeurope/status/2123723334542332026">https://x.com/teslaeurope/status/2123723334542332026</a></li><li><span class="kind">primary</span> Matteo Salvini (@matteosalvinimi), Italian Transport Minister, on X, November 20, 2026 — <a href="https://x.com/matteosalvinimi/status/2123739830194512067">https://x.com/matteosalvinimi/status/2123739830194512067</a></li><li><span class="kind">secondary</span> Electrek, Tesla FSD approved in Italy, the first big EU market to say yes, November 20, 2026 — <a href="https://electrek.co/2026/11/20/tesla-fsd-italy-approval-assisted-driving/">https://electrek.co/2026/11/20/tesla-fsd-italy-approval-assisted-driving/</a></li><li><span class="kind">secondary</span> Not a Tesla App, Tesla Assisted Driving Approved in Italy, 12th EU Country, November 20, 2026 — <a href="https://www.notateslaapp.com/news/5047/tesla-assisted-driving-approved-in-italy-12th-eu-country">https://www.notateslaapp.com/news/5047/tesla-assisted-driving-approved-in-italy-12th-eu-country</a></li></ul><p class="event-id">Ledger id: tesla-italy-approves-tesla-assisted-driving-2026-11-20</p></article><article class="story secondary" id="tesla-fsd-v15-rollout-begins-2026-11-21"><h3>Tesla begins rolling out FSD v15</h3><p class="meta">Saturday, November 21, 2026 · Autonomy · Tesla</p><p class="body">On November 21, 2026 at 11:24 AM PT, @Tesla posted that FSD v15 was starting to roll out, upgrading every part of the end-to-end driving network. Tesla cited 25x better handling of safety-critical cases, a new Tesla Reality View that visualizes what FSD is planning, and navigation at the start and end of a drive, with later v15 releases to expand that to the entire route. @aelluswamy said it was releasing to the first wave of customers that day. The same afternoon, @TeslaSI posted release notes that include an upgraded vision encoder shared between FSD, Robotaxi, and Optimus. On November 20, Elon Musk said FSD V15 goes to wide release next month.</p><ul class="story-sources"><li><span class="kind">primary</span> Tesla (@Tesla) on X, November 21, 2026 — <a href="https://x.com/Tesla/status/2124222447855743019">https://x.com/Tesla/status/2124222447855743019</a></li><li><span class="kind">secondary</span> Electrek, Tesla launches FSD v15, November 21, 2026 — <a href="https://electrek.co/2026/11/21/tesla-fsd-v15-rollout-25x-safety-reality-view/">https://electrek.co/2026/11/21/tesla-fsd-v15-rollout-25x-safety-reality-view/</a></li><li><span class="kind">primary</span> Ashok Elluswamy (@aelluswamy) on X, November 21, 2026 — <a href="https://x.com/aelluswamy/status/2124224924512641512">https://x.com/aelluswamy/status/2124224924512641512</a></li><li><span class="kind">primary</span> Tesla Super Intelligence (@TeslaSI) on X, November 21, 2026 — <a href="https://x.com/TeslaSI/status/2124229673056113100">https://x.com/TeslaSI/status/2124229673056113100</a></li><li><span class="kind">primary</span> Tesla Super Intelligence (@TeslaSI) on X, November 21, 2026 — <a href="https://x.com/TeslaSI/status/2124229676055040007">https://x.com/TeslaSI/status/2124229676055040007</a></li><li><span class="kind">primary</span> Elon Musk (@elonmusk) on X, November 20, 2026 — <a href="https://x.com/elonmusk/status/2124042864891982292">https://x.com/elonmusk/status/2124042864891982292</a></li></ul><p class="event-id">Ledger id: tesla-fsd-v15-rollout-begins-2026-11-21</p></article></section><section class="company-block"><h2 class="company-name">SpaceX</h2><article class="story secondary" id="spacex-ntia-bead-zero-outlay-agreement-2026-11-23"><h3>SpaceX forgoes BEAD subsidies under new NTIA model agreement</h3><p class="meta">Monday, November 23, 2026 · Regulatory · SpaceX</p><p class="body">On November 23, 2026, NTIA announced a BEAD model agreement for low-Earth-orbit providers that keep their awarded locations but decline the subsidy, and SpaceX agreed to serve its Starlink locations under it. SpaceX must still deliver 100/20 Mbps, pass BEAD performance testing, give new subscribers equipment at no cost, offer a low-cost plan and report every six months. States can sign the model agreement or rebid the locations.</p><ul class="story-sources"><li><span class="kind">primary</span> NTIA BroadbandUSA, BEAD Model Agreement to Accelerate Broadband Deployment, November 23, 2026 — <a href="https://broadbandusa.ntia.gov/waivers-policies/BEAD_Model_Zero_Outlay_Agreement">https://broadbandusa.ntia.gov/waivers-policies/BEAD_Model_Zero_Outlay_Agreement</a></li><li><span class="kind">secondary</span> Broadband Breakfast, SpaceX Declines BEAD Winnings, Wants to Serve Locations at No Cost, November 2026 — <a href="https://broadbandbreakfast.com/spacex-declines-bead-winnings-wants-to-serve-locations-at-no-cost/">https://broadbandbreakfast.com/spacex-declines-bead-winnings-wants-to-serve-locations-at-no-cost/</a></li><li><span class="kind">secondary</span> Teslarati, SpaceX rejects $738M fed subsidy, betting on Starlink alone, November 25, 2026 — <a href="https://www.teslarati.com/spacex-starlink-rejects-fed-subsidy/">https://www.teslarati.com/spacex-starlink-rejects-fed-subsidy/</a></li></ul><p class="event-id">Ledger id: spacex-ntia-bead-zero-outlay-agreement-2026-11-23</p></article></section><section class="company-block"><h2 class="company-name">X</h2><article class="story secondary" id="x-uk-high-court-judgment-creator-revenue-fraud-2026-11-20"><h3>UK High Court enters judgment for X against two Creator Revenue Sharing defendants</h3><p class="meta">Friday, November 20, 2026 · Legal · X</p><p class="body">The High Court in London entered judgment against two defendants that X sued in September 2026, alleging a network of accounts manipulated engagement to draw Creator Revenue Sharing payouts. X general counsel James Burnham announced it on November 24, 2026 with the first page of the order. X alleged the network collected more than £207,000; the terms of the judgment are not public.</p><ul class="story-sources"><li><span class="kind">primary</span> James Burnham (@BurnhamDC), X general counsel, on X, November 24, 2026 — <a href="https://x.com/BurnhamDC/status/2125292603331502105">https://x.com/BurnhamDC/status/2125292603331502105</a></li><li><span class="kind">secondary</span> TeslaNorth, X Says UK Court Entered Judgment in Creator Payout Case, November 24, 2026 — <a href="https://teslanorth.com/2026/11/24/x-says-uk-court-entered-judgment-in-creator-payout-case/">https://teslanorth.com/2026/11/24/x-says-uk-court-entered-judgment-in-creator-payout-case/</a></li></ul><p class="event-id">Ledger id: x-uk-high-court-judgment-creator-revenue-fraud-2026-11-20</p></article></section><section class="company-block"><h2 class="company-name">The Boring Company</h2><article class="story secondary" id="boring-nashville-airport-music-city-loop-40-year-agreement-2026-11-19"><h3>Boring Company signs 40-year Nashville airport station deal</h3><p class="meta">Thursday, November 19, 2026 · Infrastructure · The Boring Company</p><p class="body">On November 19, 2026 The Boring Company said it had signed a 40-year agreement with the Metropolitan Nashville Airport Authority for a Music City Loop station at Nashville International Airport. The company says the station will sit 22 feet from the terminal entrance, with rides to downtown in under 10 minutes. The airport board had reviewed the license terms in February, with Boring paying to build, operate and maintain the system.</p><p class="status"><strong>announced pending</strong> — Agreement signed; airport station not yet built or open as of 2026-11-20.</p><ul class="story-sources"><li><span class="kind">primary</span> The Boring Company (@boringcompany) on X, November 19, 2026 — <a href="https://x.com/boringcompany/status/2123538445918224762">https://x.com/boringcompany/status/2123538445918224762</a></li><li><span class="kind">secondary</span> TeslaNorth, Boring Company Signs 40-Year Deal for Nashville Airport Tunnel, November 19, 2026 — <a href="https://teslanorth.com/2026/11/19/boring-company-nashville-airport-40-year-deal/">https://teslanorth.com/2026/11/19/boring-company-nashville-airport-40-year-deal/</a></li></ul><p class="event-id">Ledger id: boring-nashville-airport-music-city-loop-40-year-agreement-2026-11-19</p></article></section>
+
+    <aside class="pending" data-editorial="true"><h2>Still pending</h2><p class="pending-intro">Rows from this week whose ledger status is still announced-pending or partially launched. The notes below are copied from the ledger.</p><ul><li><strong>Boring Company signs 40-year Nashville airport station deal</strong> <span class="status-flag">announced pending</span><p>Agreement signed; airport station not yet built or open as of 2026-11-20.</p></li></ul></aside>
+
+    <section class="sources-page">
+      <h2>Sources</h2>
+      <ol>
+        <li><span class="kind">primary</span> Robotaxi (@robotaxi) on X, November 19, 2026 — <a href="https://x.com/robotaxi/status/2123458263522107564">https://x.com/robotaxi/status/2123458263522107564</a><span class="for-event"> (cybercab-dallas-public-rides-open-2026-11-19)</span></li><li><span class="kind">primary</span> Tesla (@Tesla) on X, "Cybercab expands to second city," November 19, 2026 — <a href="https://x.com/Tesla/status/2123507319040528546">https://x.com/Tesla/status/2123507319040528546</a><span class="for-event"> (cybercab-dallas-public-rides-open-2026-11-19)</span></li><li><span class="kind">secondary</span> Teslarati, Tesla Cybercab without steering wheel and pedals expands public rides to Dallas, November 19, 2026 — <a href="https://www.teslarati.com/tesla-cybercab-without-steering-wheel-pedals-expands-public-rides-dallas/">https://www.teslarati.com/tesla-cybercab-without-steering-wheel-pedals-expands-public-rides-dallas/</a><span class="for-event"> (cybercab-dallas-public-rides-open-2026-11-19)</span></li><li><span class="kind">secondary</span> Not a Tesla App, Tesla Launches Cybercab Rides in Dallas With New V1.5 Design, November 19, 2026 — <a href="https://www.notateslaapp.com/news/5044/tesla-launches-cybercab-rides-in-dallas-with-new-v15-design">https://www.notateslaapp.com/news/5044/tesla-launches-cybercab-rides-in-dallas-with-new-v15-design</a><span class="for-event"> (cybercab-dallas-public-rides-open-2026-11-19)</span></li><li><span class="kind">primary</span> Tesla Charging (@TeslaCharging) on X, November 19, 2026 — <a href="https://x.com/TeslaCharging/status/2123544093213274167">https://x.com/TeslaCharging/status/2123544093213274167</a><span class="for-event"> (tesla-supercharger-waitlist-300-us-sites-2026-11-19)</span></li><li><span class="kind">secondary</span> TeslaNorth, Tesla Supercharger Waitlist Goes Live at 300 U.S. Sites, November 19, 2026 — <a href="https://teslanorth.com/2026/11/19/tesla-supercharger-waitlist-300-us-sites/">https://teslanorth.com/2026/11/19/tesla-supercharger-waitlist-300-us-sites/</a><span class="for-event"> (tesla-supercharger-waitlist-300-us-sites-2026-11-19)</span></li><li><span class="kind">primary</span> Tesla Europe, Middle East &amp; Africa (@teslaeurope) on X, November 20, 2026 — <a href="https://x.com/teslaeurope/status/2123723334542332026">https://x.com/teslaeurope/status/2123723334542332026</a><span class="for-event"> (tesla-italy-approves-tesla-assisted-driving-2026-11-20)</span></li><li><span class="kind">primary</span> Matteo Salvini (@matteosalvinimi), Italian Transport Minister, on X, November 20, 2026 — <a href="https://x.com/matteosalvinimi/status/2123739830194512067">https://x.com/matteosalvinimi/status/2123739830194512067</a><span class="for-event"> (tesla-italy-approves-tesla-assisted-driving-2026-11-20)</span></li><li><span class="kind">secondary</span> Electrek, Tesla FSD approved in Italy, the first big EU market to say yes, November 20, 2026 — <a href="https://electrek.co/2026/11/20/tesla-fsd-italy-approval-assisted-driving/">https://electrek.co/2026/11/20/tesla-fsd-italy-approval-assisted-driving/</a><span class="for-event"> (tesla-italy-approves-tesla-assisted-driving-2026-11-20)</span></li><li><span class="kind">secondary</span> Not a Tesla App, Tesla Assisted Driving Approved in Italy, 12th EU Country, November 20, 2026 — <a href="https://www.notateslaapp.com/news/5047/tesla-assisted-driving-approved-in-italy-12th-eu-country">https://www.notateslaapp.com/news/5047/tesla-assisted-driving-approved-in-italy-12th-eu-country</a><span class="for-event"> (tesla-italy-approves-tesla-assisted-driving-2026-11-20)</span></li><li><span class="kind">primary</span> Tesla (@Tesla) on X, November 21, 2026 — <a href="https://x.com/Tesla/status/2124222447855743019">https://x.com/Tesla/status/2124222447855743019</a><span class="for-event"> (tesla-fsd-v15-rollout-begins-2026-11-21)</span></li><li><span class="kind">secondary</span> Electrek, Tesla launches FSD v15, November 21, 2026 — <a href="https://electrek.co/2026/11/21/tesla-fsd-v15-rollout-25x-safety-reality-view/">https://electrek.co/2026/11/21/tesla-fsd-v15-rollout-25x-safety-reality-view/</a><span class="for-event"> (tesla-fsd-v15-rollout-begins-2026-11-21)</span></li><li><span class="kind">primary</span> Ashok Elluswamy (@aelluswamy) on X, November 21, 2026 — <a href="https://x.com/aelluswamy/status/2124224924512641512">https://x.com/aelluswamy/status/2124224924512641512</a><span class="for-event"> (tesla-fsd-v15-rollout-begins-2026-11-21)</span></li><li><span class="kind">primary</span> Tesla Super Intelligence (@TeslaSI) on X, November 21, 2026 — <a href="https://x.com/TeslaSI/status/2124229673056113100">https://x.com/TeslaSI/status/2124229673056113100</a><span class="for-event"> (tesla-fsd-v15-rollout-begins-2026-11-21)</span></li><li><span class="kind">primary</span> Tesla Super Intelligence (@TeslaSI) on X, November 21, 2026 — <a href="https://x.com/TeslaSI/status/2124229676055040007">https://x.com/TeslaSI/status/2124229676055040007</a><span class="for-event"> (tesla-fsd-v15-rollout-begins-2026-11-21)</span></li><li><span class="kind">primary</span> Elon Musk (@elonmusk) on X, November 20, 2026 — <a href="https://x.com/elonmusk/status/2124042864891982292">https://x.com/elonmusk/status/2124042864891982292</a><span class="for-event"> (tesla-fsd-v15-rollout-begins-2026-11-21)</span></li><li><span class="kind">primary</span> NTIA BroadbandUSA, BEAD Model Agreement to Accelerate Broadband Deployment, November 23, 2026 — <a href="https://broadbandusa.ntia.gov/waivers-policies/BEAD_Model_Zero_Outlay_Agreement">https://broadbandusa.ntia.gov/waivers-policies/BEAD_Model_Zero_Outlay_Agreement</a><span class="for-event"> (spacex-ntia-bead-zero-outlay-agreement-2026-11-23)</span></li><li><span class="kind">secondary</span> Broadband Breakfast, SpaceX Declines BEAD Winnings, Wants to Serve Locations at No Cost, November 2026 — <a href="https://broadbandbreakfast.com/spacex-declines-bead-winnings-wants-to-serve-locations-at-no-cost/">https://broadbandbreakfast.com/spacex-declines-bead-winnings-wants-to-serve-locations-at-no-cost/</a><span class="for-event"> (spacex-ntia-bead-zero-outlay-agreement-2026-11-23)</span></li><li><span class="kind">secondary</span> Teslarati, SpaceX rejects $738M fed subsidy, betting on Starlink alone, November 25, 2026 — <a href="https://www.teslarati.com/spacex-starlink-rejects-fed-subsidy/">https://www.teslarati.com/spacex-starlink-rejects-fed-subsidy/</a><span class="for-event"> (spacex-ntia-bead-zero-outlay-agreement-2026-11-23)</span></li><li><span class="kind">primary</span> James Burnham (@BurnhamDC), X general counsel, on X, November 24, 2026 — <a href="https://x.com/BurnhamDC/status/2125292603331502105">https://x.com/BurnhamDC/status/2125292603331502105</a><span class="for-event"> (x-uk-high-court-judgment-creator-revenue-fraud-2026-11-20)</span></li><li><span class="kind">secondary</span> TeslaNorth, X Says UK Court Entered Judgment in Creator Payout Case, November 24, 2026 — <a href="https://teslanorth.com/2026/11/24/x-says-uk-court-entered-judgment-in-creator-payout-case/">https://teslanorth.com/2026/11/24/x-says-uk-court-entered-judgment-in-creator-payout-case/</a><span class="for-event"> (x-uk-high-court-judgment-creator-revenue-fraud-2026-11-20)</span></li><li><span class="kind">primary</span> The Boring Company (@boringcompany) on X, November 19, 2026 — <a href="https://x.com/boringcompany/status/2123538445918224762">https://x.com/boringcompany/status/2123538445918224762</a><span class="for-event"> (boring-nashville-airport-music-city-loop-40-year-agreement-2026-11-19)</span></li><li><span class="kind">secondary</span> TeslaNorth, Boring Company Signs 40-Year Deal for Nashville Airport Tunnel, November 19, 2026 — <a href="https://teslanorth.com/2026/11/19/boring-company-nashville-airport-40-year-deal/">https://teslanorth.com/2026/11/19/boring-company-nashville-airport-40-year-deal/</a><span class="for-event"> (boring-nashville-airport-music-city-loop-40-year-agreement-2026-11-19)</span></li>
+      </ol>
+    </section>
+
+    <footer class="colophon">
+      Every article restates a dated row in the public event ledger. No facts, days, figures or quotes are added beyond that row. Source URLs are copied unchanged. Each issue is a Wednesday edition covering Thursday through Wednesday, dated the Wednesday it closes on. Ledger updated 2026-11-25. Sample page for review — not the timeline interface.
+    </footer>
+  </article>
+</body>
+</html>
