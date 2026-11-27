@@ -27,10 +27,10 @@
     "2026-11-18": 291,
     "2026-11-25": 292
   },
-  "lastRun": "2026-11-25",
+  "lastRun": "2026-11-27",
   "lastRunMode": "rebuild",
   "addedThisRun": [],
-  "ledgerUpdated": "2026-11-25",
+  "ledgerUpdated": "2026-11-27",
   "ledgerEditionCount": 292,
   "nextWeeklyCommand": "python3 /workspace/tesla-chronicle/weekly/build.py --weekly",
   "nextRebuildCommand": "python3 /workspace/tesla-chronicle/weekly/build.py --rebuild",

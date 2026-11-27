@@ -1970,10 +1970,15 @@
             "url": "https://www.myheraldreview.com/news/cochise_county/spacex-outlines-50-billion-cochise-data-center-plans-amid-fierce-opposition/article_e8c166dd-3e72-4e39-b216-ce75e24322c2.html",
             "publisher": "Herald Review, SpaceX outlines $50 billion Cochise data center plans amid fierce opposition, November 5, 2026 (attributes the investment figure to SpaceX's November 4 presentation)",
             "kind": "secondary"
+          },
+          {
+            "url": "https://x.com/SpaceX/status/2125637438710153247",
+            "publisher": "@SpaceX, November 25, 2026, 9:07 AM PT ($50B+, $3.6B grid upgrade, Dec 9 meeting)",
+            "kind": "primary"
           }
         ],
         "status": "announced-pending",
-        "statusNote": "Special-use application and company announcement only. Cochise County Planning and Zoning Commission hearing set for December 9, 2026; no approval or construction start is documented in these sources. The $50 billion figure is SpaceX's stated plan (Herald Review coverage of the Nov 4 town hall; restated as 'roughly $50 billion' on the Nov 12 official update), not committed or spent capital."
+        "statusNote": "Special-use application and company announcement only. Cochise County Planning and Zoning Commission hearing set for December 9, 2026; no approval or construction start is documented in these sources. The $50 billion figure is SpaceX's stated plan (Herald Review coverage of the Nov 4 town hall; restated as 'roughly $50 billion' on the Nov 12 official update), not committed or spent capital. On November 25, 2026 SpaceX posted on X that it will invest $50B+ in the area, pay for its own power and pay $3.6B to upgrade the grid, and that SSVEC residential rates may fall by up to 40%; it asked the Commission to keep the planned December 9 meeting. Still no approval or construction start."
       },
       {
         "eventId": "spacex-donald-harrison-resigns-board-2026-11-04",
@@ -2089,7 +2094,7 @@
           "eventId": "spacex-cochise-county-supercompute-campus-2026-11-04",
           "headline": "SpaceX confirms roughly $50 billion supercompute campus plan in Cochise County, Arizona",
           "status": "announced-pending",
-          "statusNote": "Special-use application and company announcement only. Cochise County Planning and Zoning Commission hearing set for December 9, 2026; no approval or construction start is documented in these sources. The $50 billion figure is SpaceX's stated plan (Herald Review coverage of the Nov 4 town hall; restated as 'roughly $50 billion' on the Nov 12 official update), not committed or spent capital."
+          "statusNote": "Special-use application and company announcement only. Cochise County Planning and Zoning Commission hearing set for December 9, 2026; no approval or construction start is documented in these sources. The $50 billion figure is SpaceX's stated plan (Herald Review coverage of the Nov 4 town hall; restated as 'roughly $50 billion' on the Nov 12 official update), not committed or spent capital. On November 25, 2026 SpaceX posted on X that it will invest $50B+ in the area, pay for its own power and pay $3.6B to upgrade the grid, and that SSVEC residential rates may fall by up to 40%; it asked the Commission to keep the planned December 9 meeting. Still no approval or construction start."
         },
         {
           "eventId": "spacex-qualcomm-starlink-mobile-5g-deal-2026-11-04",
@@ -2107,7 +2112,7 @@
     "weekEnd": "2026-11-11",
     "issueNumber": 290,
     "headline": "Musk: Cybertruck production at Giga Texas winds down mid-2027 for Cybercab",
-    "dek": "By November 24–25, 2026 Tesla had raised the Cyberbeast, the only US trim still orderable, to $114,990 (from $109,990) and stopped offering leases on new orders; new orders showed March–June 2027 delivery estimates (Not a Tesla App, TeslaNorth).",
+    "dek": "In a November 26, 2026 email, Tesla Taiwan told Cybertruck reservation holders that production would gradually end and their reservations would be cancelled automatically, with the NT$3,000 deposit returned and eight years of Premium Connectivity offered to those who order a Model 3 or Model Y and take delivery by March 31, 2027 (TeslaNorth and Drive Tesla Canada, citing News Pie and Electrify.tw).",
     "leadEventId": "cybertruck-production-wind-down-giga-texas-mid-2027-2026-11-05",
     "heroImage": null,
     "imageCredit": null,
@@ -2117,7 +2122,7 @@
         "eventId": "cybertruck-production-wind-down-giga-texas-mid-2027-2026-11-05",
         "date": "2026-11-05",
         "headline": "Musk: Cybertruck production at Giga Texas winds down mid-2027 for Cybercab",
-        "body": "On the evening of November 5, 2026 PT (06:30 UTC November 6), Elon Musk posted on X that Tesla will wind down Cybertruck production at Gigafactory Texas around the middle of next year to make room for increased Cybercab production. Cybertruck lead engineer Wes Morrill wrote that Cybertruck was a technology development platform that lives on through Cybercab; Musk later replied that the Cybertruck fleet will be around for a long time. Tesla did not say whether Cybertruck would move to another factory.",
+        "body": "On the evening of November 5, 2026 PT (06:30 UTC November 6), Elon Musk posted on X that Tesla will wind down Cybertruck production at Gigafactory Texas around the middle of next year to make room for increased Cybercab production. Cybertruck lead engineer Wes Morrill wrote that Cybertruck was a technology development platform that lives on through Cybercab; Musk later replied that the Cybertruck fleet will be around for a long time. Tesla did not say whether Cybertruck would move to another factory. A similar mainland China cancellation notice was shared on X but is not independently confirmed.",
         "category": "product",
         "companies": [
           "tesla"
@@ -2162,10 +2167,20 @@
             "url": "https://www.notateslaapp.com/news/5079/tesla-raises-cyberbeast-price-again-ends-cybertruck-leases",
             "publisher": "Not a Tesla App, Tesla Raises Cyberbeast Price Again, Ends Cybertruck Leases, November 25, 2026",
             "kind": "secondary"
+          },
+          {
+            "url": "https://teslanorth.com/2026/11/26/tesla-cybertruck-taiwan-reservation-refunds/",
+            "publisher": "TeslaNorth, Tesla Cancels Cybertruck Reservations in Taiwan as Production Winds Down, November 26, 2026",
+            "kind": "secondary"
+          },
+          {
+            "url": "https://driveteslacanada.ca/news/tesla-taiwan-cancels-cybertruck-reservations/",
+            "publisher": "Drive Tesla Canada, Tesla Cancels Cybertruck Reservations in Taiwan, Offers Eight Years of Premium Connectivity, November 26, 2026",
+            "kind": "secondary"
           }
         ],
         "status": "announced-pending",
-        "statusNote": "Announcement only; production continues until around mid-2027. Musk did not say Cybertruck production would end at every Tesla site. By November 24–25, 2026 Tesla had raised the Cyberbeast, the only US trim still orderable, to $114,990 (from $109,990) and stopped offering leases on new orders; new orders showed March–June 2027 delivery estimates (Not a Tesla App, TeslaNorth)."
+        "statusNote": "Announcement only; production continues until around mid-2027. Musk did not say Cybertruck production would end at every Tesla site. In a November 26, 2026 email, Tesla Taiwan told Cybertruck reservation holders that production would gradually end and their reservations would be cancelled automatically, with the NT$3,000 deposit returned and eight years of Premium Connectivity offered to those who order a Model 3 or Model Y and take delivery by March 31, 2027 (TeslaNorth and Drive Tesla Canada, citing News Pie and Electrify.tw). A similar mainland China cancellation notice was shared on X but is not independently confirmed."
       },
       {
         "eventId": "spacex-starbase-24b-gas-plant-supercompute-abatement-2026-11-09",
@@ -2453,7 +2468,7 @@
           "eventId": "cybertruck-production-wind-down-giga-texas-mid-2027-2026-11-05",
           "headline": "Musk: Cybertruck production at Giga Texas winds down mid-2027 for Cybercab",
           "status": "announced-pending",
-          "statusNote": "Announcement only; production continues until around mid-2027. Musk did not say Cybertruck production would end at every Tesla site. By November 24–25, 2026 Tesla had raised the Cyberbeast, the only US trim still orderable, to $114,990 (from $109,990) and stopped offering leases on new orders; new orders showed March–June 2027 delivery estimates (Not a Tesla App, TeslaNorth)."
+          "statusNote": "Announcement only; production continues until around mid-2027. Musk did not say Cybertruck production would end at every Tesla site. In a November 26, 2026 email, Tesla Taiwan told Cybertruck reservation holders that production would gradually end and their reservations would be cancelled automatically, with the NT$3,000 deposit returned and eight years of Premium Connectivity offered to those who order a Model 3 or Model Y and take delivery by March 31, 2027 (TeslaNorth and Drive Tesla Canada, citing News Pie and Electrify.tw). A similar mainland China cancellation notice was shared on X but is not independently confirmed."
         },
         {
           "eventId": "spacex-starbase-24b-gas-plant-supercompute-abatement-2026-11-09",
@@ -2501,7 +2516,7 @@
     "weekEnd": "2026-11-18",
     "issueNumber": 291,
     "headline": "Starship Flight 15: first upper-stage tower catch; booster lost offshore",
-    "dek": "SpaceX said on X on November 19 that the booster performed a safe abort on its catch return and splashed down off Starbase, and that its teams found little debris on the Mexican beach and could not clearly link it to the flight (https://x.com/SpaceX/status/2123516375805379040).",
+    "dek": "On November 26 President Claudia Sheinbaum said Mexico will seek a meeting with US aviation authorities on permits for SpaceX's use of Mexican airspace, and could raise relocating launches if needed; Profepa's debris investigation continues (Reuters, AP).",
     "leadEventId": "spacex-starship-flight-15-first-ship-catch-booster-lost-2026-11-14",
     "heroImage": null,
     "imageCredit": null,
@@ -2511,7 +2526,7 @@
         "eventId": "spacex-starship-flight-15-first-ship-catch-booster-lost-2026-11-14",
         "date": "2026-11-14",
         "headline": "Starship Flight 15: first upper-stage tower catch; booster lost offshore",
-        "body": "Starship Flight 15 lifted off from Starbase Pad 2 at 4:47 p.m. CT on November 13, 2026, reached orbit and deployed 26 Starlink V3 satellites. After 14 orbits and about 22.5 hours, Ship 42 returned to Starbase on November 14 and was caught by the tower arms, the first catch of a Starship upper stage. Super Heavy Booster 22 ended its boostback burn early on a low fuel mass alarm, aborted its catch, diverted to the Gulf and was destroyed by its flight termination system after the landing burn. Mexico's environmental agency Profepa said on November 17 it was collecting debris at Playa Bagdad and would ask SpaceX to take responsibility (TeslaNorth, November 19).",
+        "body": "Starship Flight 15 lifted off from Starbase Pad 2 at 4:47 p.m. CT on November 13, 2026, reached orbit and deployed 26 Starlink V3 satellites. After 14 orbits and about 22.5 hours, Ship 42 returned to Starbase on November 14 and was caught by the tower arms, the first catch of a Starship upper stage. Super Heavy Booster 22 ended its boostback burn early on a low fuel mass alarm, aborted its catch, diverted to the Gulf and was destroyed by its flight termination system after the landing burn. No meeting date set.",
         "category": "product",
         "companies": [
           "spacex"
@@ -2540,6 +2555,16 @@
           {
             "url": "https://seekingalpha.com/news/4672602-faa-revises-spacex-starship-license-authorizes-single-flight-15-launch",
             "publisher": "Seeking Alpha, FAA revises SpaceX Starship license, authorizes single Flight 15 launch, November 13, 2026",
+            "kind": "secondary"
+          },
+          {
+            "url": "https://www.investing.com/news/world-news/mexico-seeking-talks-with-us-on-spacex-airspace-use-5052609",
+            "publisher": "Reuters (via Investing.com), Mexico seeking talks with US on SpaceX airspace use, November 26, 2026",
+            "kind": "secondary"
+          },
+          {
+            "url": "https://apnews.com/article/mexico-eeuu-spacex-cohetes-tamaulipas-b93da22b241e7261fe19caabe6ade8a6",
+            "publisher": "AP, México buscará reunirse con EEUU para delimitar el uso que SpaceX le da a su espacio aéreo, November 26, 2026",
             "kind": "secondary"
           }
         ],
@@ -3019,6 +3044,73 @@
         "status": "rolling-out"
       },
       {
+        "eventId": "tesla-emag-asset-acquisition-filed-bundeskartellamt-2026-11-23",
+        "date": "2026-11-23",
+        "headline": "Tesla files with German cartel office to buy assets of machine-tool maker EMAG",
+        "body": "On November 23, 2026 Tesla notified Germany's Federal Cartel Office (Bundeskartellamt) of an asset acquisition from the EMAG Group, a machine-tool maker based in Salach near Stuttgart; the office published the filing on November 27 as case B5-132/26. The notice covers manufacturing systems and machines for precision and electrochemical machining of metal parts and laser processing. Tesla had earlier set up a renamed company, Tesla Machining Technologies Management SE, at EMAG's headquarters; no price or scope has been disclosed.",
+        "category": "factory",
+        "companies": [
+          "tesla"
+        ],
+        "sources": [
+          {
+            "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70243411-laufende-fusionskontrollverfahren-tesla-emag-gruppe-vermoegenserwerb-019.htm",
+            "publisher": "Bundeskartellamt, Laufende Fusionskontrollverfahren: Tesla/EMAG-Gruppe (Vermögenserwerb), B5-132/26, filed November 23, 2026, published November 27, 2026 (via finanznachrichten.de)",
+            "kind": "primary"
+          },
+          {
+            "url": "https://www.handelsblatt.com/unternehmen/industrie/emag-tesla-will-deutschen-roboter-spezialisten-uebernehmen/100273250.html",
+            "publisher": "Handelsblatt, Emag: Tesla will deutschen Roboter-Spezialisten übernehmen, November 27, 2026",
+            "kind": "secondary"
+          },
+          {
+            "url": "https://teslanorth.com/2026/11/27/tesla-emag-acquisition-germany-optimus/",
+            "publisher": "TeslaNorth, Tesla Moves to Buy Assets From German Machine Maker EMAG, November 27, 2026",
+            "kind": "secondary"
+          },
+          {
+            "url": "https://electrek.co/2026/11/25/tesla-emag-germany-machining-company-optimus/",
+            "publisher": "Electrek, Tesla quietly sets up a company at German machine maker EMAG's HQ, November 25, 2026",
+            "kind": "secondary"
+          }
+        ],
+        "status": "announced-pending",
+        "statusNote": "Merger-control review pending; Tesla and EMAG have not commented publicly. Press links the deal to Optimus actuator and gear production; the filing itself does not say where Tesla would use the equipment. Roughly 220 staff moving over is press-reported only."
+      },
+      {
+        "eventId": "robotaxi-dallas-service-area-expansion-2026-11-25",
+        "date": "2026-11-25",
+        "headline": "Tesla nearly doubles its Dallas Robotaxi service area and cuts fares",
+        "body": "On November 25, 2026 Tesla's Robotaxi account posted a larger Dallas service-area map with the words \"Just grew wider in Dallas. More cars, less $.\" Third-party measurements put the zone at about 150 square miles, up from about 82, with most new coverage north past I-635 toward Farmers Branch, Addison, Carrollton and Richardson. Tesla did not say how many cars it added or how much fares fell.",
+        "category": "autonomy",
+        "companies": [
+          "tesla"
+        ],
+        "sources": [
+          {
+            "url": "https://x.com/robotaxi/status/2125657961242726732",
+            "publisher": "@robotaxi, November 25, 2026, 10:28 AM PT",
+            "kind": "primary"
+          },
+          {
+            "url": "https://www.notateslaapp.com/news/5081/tesla-nearly-doubles-dallas-robotaxi-service-area",
+            "publisher": "Not a Tesla App, Tesla Nearly Doubles Dallas Robotaxi Service Area, November 25, 2026",
+            "kind": "secondary"
+          },
+          {
+            "url": "https://evwire.com/p/tesla-robotaxi-dallas-geofence-expansion-150-square-miles",
+            "publisher": "EVwire, Tesla expands Dallas Robotaxi geofence by more than 80% to ~150 square miles, November 25, 2026",
+            "kind": "secondary"
+          },
+          {
+            "url": "https://teslanorth.com/2026/11/25/tesla-robotaxi-dallas-expansion-lower-fares/",
+            "publisher": "TeslaNorth, Tesla Expands Robotaxi in Dallas and Cuts Fares, November 25, 2026",
+            "kind": "secondary"
+          }
+        ],
+        "status": "done"
+      },
+      {
         "eventId": "spacex-ntia-bead-zero-outlay-agreement-2026-11-23",
         "date": "2026-11-23",
         "headline": "SpaceX forgoes BEAD subsidies under new NTIA model agreement",
@@ -3047,6 +3139,84 @@
         "status": "done"
       },
       {
+        "eventId": "spacex-fcc-starmind-orbital-data-centers-authorized-2026-11-25",
+        "date": "2026-11-25",
+        "headline": "FCC authorizes SpaceX's Starmind constellation of up to 1 million orbital data-center satellites",
+        "body": "On November 25, 2026 the FCC Space Bureau granted in part SpaceX's January 2026 application for the SpaceX Orbital Data Center System (Starmind), a constellation of up to 1,000,000 satellites meant to operate as data centers in orbit at roughly 500 to 1,002 km (order DA 26-1273). The grant covers backup and emergency telemetry, tracking and command in Ka-band frequencies on a non-interference basis, and requires the first satellite to be operating by November 25, 2033, 10% of the constellation by 2035, 50% by 2038 and the full system by 2040. The FCC deferred SpaceX's request to dispose of satellites above 600 km without atmospheric re-entry; SpaceX must seek a modification before deploying any such satellites.",
+        "category": "regulatory",
+        "companies": [
+          "spacex"
+        ],
+        "sources": [
+          {
+            "url": "https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf",
+            "publisher": "FCC Space Bureau, Memorandum Opinion and Order and Authorization, DA 26-1273, ICFS File No. SAT-LOA-20260108-00016, adopted and released November 25, 2026",
+            "kind": "primary"
+          },
+          {
+            "url": "https://www.fcc.gov/news-events/headlines/13329",
+            "publisher": "FCC Space Headlines, FCC Authorizes 1 Million Satellites for Data Centers in Space, November 25, 2026",
+            "kind": "primary"
+          },
+          {
+            "url": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/",
+            "publisher": "Ars Technica, The FCC has authorized SpaceX to deploy 1 million satellites, November 2026",
+            "kind": "secondary"
+          },
+          {
+            "url": "https://www.politico.com/news/2026/11/25/elon-musk-space-datacenters-fcc-01183330",
+            "publisher": "Politico, FCC authorizes Elon Musk's plans for data centers in space, November 25, 2026",
+            "kind": "secondary"
+          }
+        ],
+        "status": "announced-pending",
+        "statusNote": "License granted in part and deferred in part; no Starmind satellites launched. The authorization covers radio links for backup TT&C only (primary links are optical) and does not establish that orbital data centers are technically or economically viable (Ars Technica). The non-re-entry disposal waiver for satellites above 600 km is deferred."
+      },
+      {
+        "eventId": "spacex-trump-account-share-contribution-2026-11-25",
+        "date": "2026-11-25",
+        "headline": "SpaceX commits one new share to every active Trump Account; Musk to match",
+        "body": "On November 25, 2026 SpaceX announced it will contribute one newly issued share of Class A common stock to every currently active Trump Account, the tax-advantaged investment accounts for American children. Elon Musk will personally match the number of shares SpaceX contributes, so each account would get two shares, and President and COO Gwynne Shotwell separately announced a personal gift of over 2 million SpaceX shares. SpaceX's release says the contributions are subject to risks including third-party and government approvals.",
+        "category": "finance",
+        "companies": [
+          "spacex"
+        ],
+        "sources": [
+          {
+            "url": "https://ir.spacex.com/updates/releases-details/2026/SpaceX-to-Invest-in-the-Next-Generation-of-Americans-2026-r_LYQ5cH94/default.aspx",
+            "publisher": "SpaceX Investor Relations, SpaceX to Invest in the Next Generation of Americans, November 25, 2026",
+            "kind": "primary"
+          },
+          {
+            "url": "https://x.com/SpaceX/status/2125671356339499494",
+            "publisher": "@SpaceX, November 25, 2026, 11:21 AM PT",
+            "kind": "primary"
+          },
+          {
+            "url": "https://x.com/elonmusk/status/2125797463047258119",
+            "publisher": "Elon Musk (@elonmusk), November 25, 2026, 7:43 PM PT (\"Every child in America will receive two SpaceX shares, one from the company and one from me personally\")",
+            "kind": "primary"
+          },
+          {
+            "url": "https://www.notateslaapp.com/news/5088/spacex-will-match-musks-gift-giving-every-us-kid-two-shares",
+            "publisher": "Not a Tesla App, SpaceX Will Match Musk's Gift, Giving Every U.S. Kid Two Shares, November 26, 2026",
+            "kind": "secondary"
+          },
+          {
+            "url": "https://x.com/elonmusk/status/2126064597039997254",
+            "publisher": "Elon Musk (@elonmusk), November 26, 2026, 1:24 PM PT ('I will be donating another share of SpaceX to all kids in America every year')",
+            "kind": "primary"
+          },
+          {
+            "url": "https://www.teslarati.com/elon-musk-gift-spacex-share-kid/",
+            "publisher": "Teslarati, Elon Musk will give every American kid a SpaceX share every year, November 27, 2026",
+            "kind": "secondary"
+          }
+        ],
+        "status": "announced-pending",
+        "statusNote": "Commitment only; no deposit date given. The number of eligible accounts and total shares are not stated by SpaceX. Not a Tesla App estimated about 72 million shares from each side (roughly 0.5% dilution from SpaceX's newly issued half) using a count of US children under 18, which may differ from the number of active Trump Accounts. On November 26 Musk wrote on X, 'I will be donating another share of SpaceX to all kids in America every year' (personal pledge; no mechanism stated). He said SpaceX's share transfers next month and his own matching share when his lockup expires in June 2027 (Teslarati)."
+      },
+      {
         "eventId": "x-uk-high-court-judgment-creator-revenue-fraud-2026-11-20",
         "date": "2026-11-20",
         "headline": "UK High Court enters judgment for X against two Creator Revenue Sharing defendants",
@@ -3068,6 +3238,35 @@
           }
         ],
         "status": "done"
+      },
+      {
+        "eventId": "neuralink-link-pivotal-study-fda-approval-2026-11-25",
+        "date": "2026-11-25",
+        "headline": "Neuralink receives FDA approval to launch LINK pivotal study",
+        "body": "Neuralink announced on November 25, 2026 that the FDA approved the LINK Pivotal Study, the first pivotal trial of an implantable brain-computer interface in the US. It will test the safety and effectiveness of the N1 system in adults with severe paralysis from ALS. Neuralink says it has 30+ implanted participants across early feasibility studies in the US, Canada and the UK. The approval is to run the trial; the implant is not approved for commercial use.",
+        "category": "regulatory",
+        "companies": [
+          "neuralink"
+        ],
+        "sources": [
+          {
+            "url": "https://neuralink.com/updates/neuralink-receives-fda-approval-to-launch-link-pivotal-study/",
+            "publisher": "Neuralink, Neuralink Receives FDA Approval to Launch LINK Pivotal Study, November 25, 2026",
+            "kind": "primary"
+          },
+          {
+            "url": "https://x.com/neuralink/status/2125694580544680185",
+            "publisher": "@neuralink, November 25, 2026, 12:54 PM PT",
+            "kind": "primary"
+          },
+          {
+            "url": "https://www.mobihealthnews.com/news/neuralink-receives-fda-approval-launch-pivotal-brain-implant-trial-als",
+            "publisher": "MobiHealthNews",
+            "kind": "secondary"
+          }
+        ],
+        "status": "announced-pending",
+        "statusNote": "FDA approval announced; enrollment open for people with ALS, no pivotal-study implants reported yet."
       },
       {
         "eventId": "boring-nashville-airport-music-city-loop-40-year-agreement-2026-11-19",
@@ -3098,6 +3297,30 @@
       "editorial": true,
       "title": "Still pending",
       "items": [
+        {
+          "eventId": "tesla-emag-asset-acquisition-filed-bundeskartellamt-2026-11-23",
+          "headline": "Tesla files with German cartel office to buy assets of machine-tool maker EMAG",
+          "status": "announced-pending",
+          "statusNote": "Merger-control review pending; Tesla and EMAG have not commented publicly. Press links the deal to Optimus actuator and gear production; the filing itself does not say where Tesla would use the equipment. Roughly 220 staff moving over is press-reported only."
+        },
+        {
+          "eventId": "spacex-fcc-starmind-orbital-data-centers-authorized-2026-11-25",
+          "headline": "FCC authorizes SpaceX's Starmind constellation of up to 1 million orbital data-center satellites",
+          "status": "announced-pending",
+          "statusNote": "License granted in part and deferred in part; no Starmind satellites launched. The authorization covers radio links for backup TT&C only (primary links are optical) and does not establish that orbital data centers are technically or economically viable (Ars Technica). The non-re-entry disposal waiver for satellites above 600 km is deferred."
+        },
+        {
+          "eventId": "spacex-trump-account-share-contribution-2026-11-25",
+          "headline": "SpaceX commits one new share to every active Trump Account; Musk to match",
+          "status": "announced-pending",
+          "statusNote": "Commitment only; no deposit date given. The number of eligible accounts and total shares are not stated by SpaceX. Not a Tesla App estimated about 72 million shares from each side (roughly 0.5% dilution from SpaceX's newly issued half) using a count of US children under 18, which may differ from the number of active Trump Accounts. On November 26 Musk wrote on X, 'I will be donating another share of SpaceX to all kids in America every year' (personal pledge; no mechanism stated). He said SpaceX's share transfers next month and his own matching share when his lockup expires in June 2027 (Teslarati)."
+        },
+        {
+          "eventId": "neuralink-link-pivotal-study-fda-approval-2026-11-25",
+          "headline": "Neuralink receives FDA approval to launch LINK pivotal study",
+          "status": "announced-pending",
+          "statusNote": "FDA approval announced; enrollment open for people with ALS, no pivotal-study implants reported yet."
+        },
         {
           "eventId": "boring-nashville-airport-music-city-loop-40-year-agreement-2026-11-19",
           "headline": "Boring Company signs 40-year Nashville airport station deal",

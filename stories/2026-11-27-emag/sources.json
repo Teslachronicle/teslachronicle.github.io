@@ -1,0 +1,366 @@
+{
+  "title": "The Elon Times — EMAG exploration, November 27, 2026",
+  "version": 1,
+  "folder": "/workspace/tesla-chronicle/fronts/emag-2026-11-27/",
+  "timezone": "America/Los_Angeles",
+  "headline": "What Tesla filed to buy from EMAG — and what a ‘cartel office’ is",
+  "dek": "On November 23 Tesla notified Germany’s Federal Cartel Office of an asset purchase from EMAG, a Swabian machine-tool maker. The notice became public November 27 as case B5-132/26. The machines do precision, electrochemical and laser work on metal. The filing does not say where Tesla would use them, and the review is still pending.",
+  "date": "2026-11-27",
+  "intended_url": "https://teslachronicle.github.io/stories/2026-11-27-emag/",
+  "local_only": true,
+  "published": false,
+  "scope": "Curious-exploration ledger story on tesla-emag-asset-acquisition-filed-bundeskartellamt-2026-11-23. Styling reused from fronts/ledger-story-2026-11-25/. Typographic share card only; no documentary or AI-generated images.",
+  "events_json": "/workspace/tesla-chronicle/events.json",
+  "note": "Facts are taken from the named ledger row, related ledger rows, and the sources listed here. Interpretation is labeled Chronicle’s read. events.json and published-stories.json were not modified. This folder has not been deployed.",
+  "unverified_or_incomplete": [
+    {
+      "item": "Purchase price and exact asset scope",
+      "detail": "The Bundeskartellamt notice lists an asset acquisition (Vermögenserwerb) and the product fields, but no price and no list of plants, machines, or contracts. Tesla and EMAG have not commented."
+    },
+    {
+      "item": "About 220 EMAG staff moving to Tesla, and a prior robotics working relationship",
+      "detail": "Reported by Stuttgarter Nachrichten and Business Insider, via Electrek, Handelsblatt, and TeslaNorth. Neither company has confirmed the number or the purpose."
+    },
+    {
+      "item": "EMAG 2024 financials and job cuts",
+      "detail": "Business Insider, repeated by Electrek and Automotive World, reported a €42 million loss on €496 million of revenue in 2024 and 455 German job cuts, about 300 in Salach. SWR, citing the 2024 annual report, put the loss at about €43 million. Chronicle did not independently read the annual report."
+    },
+    {
+      "item": "Tesla Machining Technologies Management SE managers and shell-company history",
+      "detail": "Electrek cites the German company register for HRB 315756, €120,000 capital, Austraße 24, Salach, and the August 26 ‘Blitz 26-299 SE’ origin. Manager names and roles come from Business Insider Germany as cited by Electrek and Handelsblatt. Chronicle did not pull the register extract itself."
+    },
+    {
+      "item": "Which merger-control threshold applied, and the exact Phase 1 deadline",
+      "detail": "The office published a November 23 notification date. First phase is one month from a complete notification. Chronicle has not seen a statement that the file was deemed complete on that day, so a late-December first-phase date is a rule-of-thumb only. The notice does not say whether turnover or transaction-value thresholds triggered the filing."
+    },
+    {
+      "item": "Tesla’s intended use of the equipment",
+      "detail": "The filing does not say. Tesla has not stated a purpose. Some German coverage implied a Tesla statement about robot parts; Chronicle could not verify any such statement and treats purpose as interpretation, not fact."
+    },
+    {
+      "item": "Reuters original URL for the no-comment line",
+      "detail": "Automotive World attributes to Reuters that Tesla declined to comment and EMAG did not respond. Chronicle did not locate a working Reuters permalink."
+    },
+    {
+      "item": "Official Bundeskartellamt case permalink",
+      "detail": "The notice text was verified via the finanznachrichten.de reprint dated November 27, 2026, 09:30. Direct fetches of some Bundeskartellamt listing URLs failed or redirected. Official task, merger-control, and notification pages were retrieved."
+    },
+    {
+      "item": "‘V3 Optimus’ as a Tesla designation",
+      "detail": "Not used. The ledger has no official Tesla V3 unveiling. Secondary supply-chain reports have used the term; they are not a Tesla designation in the ledger."
+    }
+  ],
+  "events": [
+    {
+      "id": "tesla-emag-asset-acquisition-filed-bundeskartellamt-2026-11-23",
+      "date": "2026-11-23",
+      "title": "Tesla files with German cartel office to buy assets of machine-tool maker EMAG",
+      "confidence": "confirmed",
+      "status": "announced-pending",
+      "role": "lead event"
+    },
+    {
+      "id": "fremont-optimus-lines-after-sx-decommission-q2-2026",
+      "date": "2026-05-09",
+      "title": "Last Model S and Model X built at Fremont; lines turned over to Optimus",
+      "confidence": "confirmed",
+      "role": "context — in-house Optimus lines"
+    },
+    {
+      "id": "optimus-fremont-production-customer-deliveries-end-2027-target-2026-10-21",
+      "date": "2026-10-21",
+      "title": "Optimus production under way in Fremont; Musk targets customer deliveries around end of 2027",
+      "confidence": "confirmed",
+      "role": "context — Optimus production and targets"
+    },
+    {
+      "id": "ai-day-optimus-prototype-2022-09-30",
+      "date": "2022-09-30",
+      "title": "AI Day 2022: Tesla demos Optimus walking prototypes",
+      "confidence": "confirmed",
+      "role": "context — Tesla-designed actuators"
+    },
+    {
+      "id": "optimus-gen-2-unveiled-2023-12-12",
+      "date": "2023-12-12",
+      "title": "Tesla unveils Optimus Gen 2 humanoid robot prototype",
+      "confidence": "confirmed",
+      "role": "context — Tesla-designed actuators"
+    },
+    {
+      "id": "cybercab-production-begins-gftx-q2-2026",
+      "date": "2026-02-17",
+      "title": "First Cybercab rolls off the production line at Gigafactory Texas",
+      "confidence": "confirmed",
+      "role": "context — Cybercab ramp"
+    },
+    {
+      "id": "cybertruck-production-wind-down-giga-texas-mid-2027-2026-11-05",
+      "date": "2026-11-05",
+      "title": "Musk: Cybertruck production at Giga Texas winds down mid-2027 for Cybercab",
+      "confidence": "confirmed",
+      "role": "context — Cybercab factory space"
+    },
+    {
+      "id": "tesla-giga-berlin-cybercab-expansion-3b-euros-2026-11-16",
+      "date": "2026-11-16",
+      "title": "Tesla plans €3 billion Giga Berlin expansion to build up to 1 million Cybercabs a year",
+      "confidence": "confirmed",
+      "role": "context — Giga Berlin plan"
+    },
+    {
+      "id": "terafab-austin-announced-2026-03-22",
+      "date": "2026-03-22",
+      "title": "Musk announces Terafab advanced chip facility in Austin (Tesla–SpaceX)",
+      "confidence": "confirmed",
+      "role": "context — in-house manufacturing, not a use for these machines"
+    },
+    {
+      "id": "terafab-grimes-county-announced-2026-08-06",
+      "date": "2026-08-06",
+      "title": "SpaceX and Tesla site Terafab volume chip plant in Grimes County, Texas",
+      "confidence": "confirmed",
+      "role": "context — in-house manufacturing, not a use for these machines"
+    },
+    {
+      "id": "q3-2026-earnings-results-2026-10-21",
+      "date": "2026-10-21",
+      "title": "Q3 2026 results: $28.0B revenue, $787M GAAP net income, $1.5B free cash flow",
+      "confidence": "confirmed",
+      "role": "context — earnings call remarks on Optimus hands and gears"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70243411-laufende-fusionskontrollverfahren-tesla-emag-gruppe-vermoegenserwerb-019.htm",
+      "publisher": "Bundeskartellamt, Laufende Fusionskontrollverfahren: Tesla/EMAG-Gruppe (Vermögenserwerb), B5-132/26, filed November 23, 2026, published November 27, 2026 (via finanznachrichten.de)",
+      "kind": "primary",
+      "accessed": "2026-11-27",
+      "eventId": "tesla-emag-asset-acquisition-filed-bundeskartellamt-2026-11-23",
+      "used_for": "Notification date, case number, asset-acquisition label, product fields."
+    },
+    {
+      "url": "https://www.handelsblatt.com/unternehmen/industrie/emag-tesla-will-deutschen-roboter-spezialisten-uebernehmen/100273250.html",
+      "publisher": "Handelsblatt, Emag: Tesla will deutschen Roboter-Spezialisten übernehmen, November 27, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-27",
+      "eventId": "tesla-emag-asset-acquisition-filed-bundeskartellamt-2026-11-23",
+      "used_for": "Press context; Tesla Machining Technologies managers via Business Insider; no-comment."
+    },
+    {
+      "url": "https://teslanorth.com/2026/11/27/tesla-emag-acquisition-germany-optimus/",
+      "publisher": "TeslaNorth, Tesla Moves to Buy Assets From German Machine Maker EMAG, November 27, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-27",
+      "eventId": "tesla-emag-asset-acquisition-filed-bundeskartellamt-2026-11-23",
+      "used_for": "Secondary account of the filing; notes the notice does not say where Tesla would use the equipment."
+    },
+    {
+      "url": "https://electrek.co/2026/11/25/tesla-emag-germany-machining-company-optimus/",
+      "publisher": "Electrek, Tesla quietly sets up a company at German machine maker EMAG's HQ, November 25, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-27",
+      "eventId": "tesla-emag-asset-acquisition-filed-bundeskartellamt-2026-11-23",
+      "used_for": "Tesla Machining Technologies Management SE register details; shell-company rename; manager roles via Business Insider; ~220 staff via Stuttgarter Nachrichten; EMAG 2024 figures via Business Insider."
+    },
+    {
+      "url": "https://www.automotiveworld.com/news/tesla-files-plan-to-acquire-german-machine-maker-emag/",
+      "publisher": "Automotive World, Tesla files plan to acquire German machine maker EMAG, November 27, 2026 (attributes no-comment to Reuters)",
+      "kind": "secondary",
+      "accessed": "2026-11-27",
+      "eventId": "tesla-emag-asset-acquisition-filed-bundeskartellamt-2026-11-23",
+      "used_for": "Reuters-attributed statement that Tesla declined to comment and EMAG did not respond."
+    },
+    {
+      "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/stuttgart/tesla-kauf-emag-kartellamt-100.html",
+      "publisher": "SWR Aktuell, Tesla kauft Maschinenbauer EMAG: Werkzeug für humanoide Roboter, November 27, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-27",
+      "used_for": "2024 loss of about €43 million, citing EMAG’s annual report; Handelsregister address; no EMAG comment."
+    },
+    {
+      "url": "https://www.tagesschau.de/inland/regional/badenwuerttemberg/swr-tesla-uebernimmt-maschinenbauer-emag-spezialmaschinen-fuer-humanoide-roboter-100.html",
+      "publisher": "tagesschau.de, reprint of the SWR report, November 27, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-27",
+      "used_for": "Same SWR reporting, carried by ARD."
+    },
+    {
+      "url": "https://www.businessinsider.de/wirtschaft/elon-musk-greift-nach-deutschem-maschinenbauer-was-fuer-einen-tesla-einstieg-spricht/dcm5mew/",
+      "publisher": "Business Insider Germany, Elon Musk greift nach deutschem Maschinenbauer, November 25, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-27",
+      "used_for": "Tesla Machining Technologies SE, managers, Salach address, no comment from Tesla or EMAG. Paywalled in part."
+    },
+    {
+      "url": "https://www.emag.com/company/about-us/history/",
+      "publisher": "EMAG, Chronological overview of the company history of the EMAG Group",
+      "kind": "primary",
+      "accessed": "2026-11-27",
+      "used_for": "1867 founding in Bautzen; 1952 re-establishment in Eislingen; 1969 move to Salach; 1992 VSC pick-up turning center."
+    },
+    {
+      "url": "https://www.emag.com/company/about-us/brands/emag/",
+      "publisher": "EMAG, Turning, milling, drilling, grinding (brand history)",
+      "kind": "primary",
+      "accessed": "2026-11-27",
+      "used_for": "Supporting history of lathes and automotive production machines."
+    },
+    {
+      "url": "https://www.emag.com/industries-solutions/technologies/cnc-turning/vertical-turning/",
+      "publisher": "EMAG, Vertical turning is a highly productive process",
+      "kind": "primary",
+      "accessed": "2026-11-27",
+      "used_for": "How pick-up vertical turning works; typical workpieces including gears, shafts, rotors, stator housings."
+    },
+    {
+      "url": "https://www.emag.com/industries-solutions/industries/automotive-industry-mobility/",
+      "publisher": "EMAG, Automotive Industry: Manufacturing Solutions",
+      "kind": "primary",
+      "accessed": "2026-11-27",
+      "used_for": "E-mobility applications: stator housings, rotor shafts, planetary gears."
+    },
+    {
+      "url": "https://www.emag.com/industries-solutions/technologies/ecm-technologies/pecm/",
+      "publisher": "EMAG, PECM - Precision Electro-Chemical Machining",
+      "kind": "primary",
+      "accessed": "2026-11-27",
+      "used_for": "PECM as a development of ECM; no burr formation; hard alloys; blisks and turbocharger parts."
+    },
+    {
+      "url": "https://www.emag.com/company/news-media/press/single-view/article/emag-lasertec/",
+      "publisher": "EMAG, EMAG Automation becomes EMAG LaserTec, February 6, 2019",
+      "kind": "primary",
+      "accessed": "2026-11-27",
+      "used_for": "Laser welding and thermal joining of drivetrain and clutch components; Heubach site; 2019 rename."
+    },
+    {
+      "url": "https://www.emag.com/industries-solutions/workpieces/robotics/",
+      "publisher": "EMAG, Precision Manufacturing in Robotics / Precision components for humanoid robots",
+      "kind": "primary",
+      "accessed": "2026-11-27",
+      "used_for": "Flexsplines, wave generators, planetary gears; ISO 1328 Class 4 and runout claims. EMAG product claims, not a Tesla order."
+    },
+    {
+      "url": "https://www.open.edu/openlearn/science-maths-technology/engineering-technology/manupedia/electrochemical-machining-ecm",
+      "publisher": "The Open University, Electrochemical Machining (ECM), Manupedia",
+      "kind": "background",
+      "accessed": "2026-11-27",
+      "used_for": "Independent explanation of ECM: anodic dissolution, electrolyte gap, hardness independence, non-contact removal."
+    },
+    {
+      "url": "https://www.bundeskartellamt.de/EN/Tasks/tasks_node.html",
+      "publisher": "Bundeskartellamt, The Bundeskartellamt’s tasks",
+      "kind": "primary",
+      "accessed": "2026-11-27",
+      "used_for": "Cartel prosecution, merger control, and abuse control as the office’s core tasks."
+    },
+    {
+      "url": "https://www.bundeskartellamt.de/EN/Tasks/Merger_control/merger_control_node.html",
+      "publisher": "Bundeskartellamt, Merger control",
+      "kind": "primary",
+      "accessed": "2026-11-27",
+      "used_for": "Purpose of merger control; first phase one month from complete notification; second phase extends to five months; no implementation before clearance."
+    },
+    {
+      "url": "https://www.bundeskartellamt.de/EN/Tasks/Merger_control/Obligation_notify/obligation_notify.html",
+      "publisher": "Bundeskartellamt, Obligation to notify a merger and key aspects of merger control",
+      "kind": "primary",
+      "accessed": "2026-11-27",
+      "used_for": "Concentration includes significant asset purchases; turnover and transaction-value thresholds."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gwb/__35.html",
+      "publisher": "Gesetze im Internet, Gesetz gegen Wettbewerbsbeschränkungen § 35",
+      "kind": "primary",
+      "accessed": "2026-11-27",
+      "used_for": "Statutory turnover and transaction-value thresholds."
+    },
+    {
+      "url": "https://www.gesetze-im-internet.de/gwb/__40.html",
+      "publisher": "Gesetze im Internet, Gesetz gegen Wettbewerbsbeschränkungen § 40",
+      "kind": "primary",
+      "accessed": "2026-11-27",
+      "used_for": "One-month first-phase clock; five-month second-phase clock."
+    },
+    {
+      "url": "https://x.com/Tesla/status/2053280404363432031",
+      "publisher": "Tesla (@Tesla) on X, May 9, 2026 (PT)",
+      "kind": "primary",
+      "accessed": "2026-11-27",
+      "eventId": "fremont-optimus-lines-after-sx-decommission-q2-2026",
+      "used_for": "Last Model S and Model X built at Fremont."
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+      "publisher": "SEC, Tesla Form 8-K Exhibit 99.1 (Q3 2026 Update), October 21, 2026",
+      "kind": "primary",
+      "accessed": "2026-11-27",
+      "eventId": "optimus-fremont-production-customer-deliveries-end-2027-target-2026-10-21",
+      "used_for": "Optimus production began on Fremont high-volume lines; first production-quality units; capacity table."
+    },
+    {
+      "url": "https://x.com/Tesla/status/2113019308356039038",
+      "publisher": "Tesla (@Tesla) on X, Q3 2026 Earnings Call audio-only webcast, October 21, 2026",
+      "kind": "primary",
+      "accessed": "2026-11-27",
+      "eventId": "q3-2026-earnings-results-2026-10-21",
+      "used_for": "Primary recording of Musk and Laskaris remarks on Optimus production, hands, and bespoke gears."
+    },
+    {
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/10/22/tesla-tsla-q3-2026-earnings-call-transcript/",
+      "publisher": "The Motley Fool, Tesla (TSLA) Q3 2026 Earnings Call Transcript, October 22, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-27",
+      "eventId": "q3-2026-earnings-results-2026-10-21",
+      "used_for": "Transcript of Laskaris quote on bespoke gears and Musk on the hand."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ODSJsviD_SU",
+      "publisher": "Tesla, AI Day 2022 livestream / recording, September 30, 2022",
+      "kind": "primary",
+      "accessed": "2026-11-27",
+      "eventId": "ai-day-optimus-prototype-2022-09-30",
+      "used_for": "Production-oriented prototype with Tesla-designed actuators."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=cpraXaw7dyc",
+      "publisher": "Tesla (YouTube), Optimus - Gen 2, December 2023",
+      "kind": "primary",
+      "accessed": "2026-11-27",
+      "eventId": "optimus-gen-2-unveiled-2023-12-12",
+      "used_for": "Tesla-designed actuators and sensors on Optimus Gen 2."
+    },
+    {
+      "url": "https://www.streetinsider.com/Reuters/Tesla+announces+%243.3+billion+expansion+of+Germany+plant/27350207.html",
+      "publisher": "Reuters via Street Insider, Tesla announces $3.3 billion expansion of Germany plant, November 16, 2026",
+      "kind": "secondary",
+      "accessed": "2026-11-27",
+      "eventId": "tesla-giga-berlin-cybercab-expansion-3b-euros-2026-11-16",
+      "used_for": "€3 billion Giga Berlin Cybercab plan, production 2029."
+    },
+    {
+      "url": "https://x.com/elonmusk/status/2118591788701421573",
+      "publisher": "Elon Musk (@elonmusk) on X, November 5, 2026, 10:30 PM PT",
+      "kind": "primary",
+      "accessed": "2026-11-27",
+      "eventId": "cybertruck-production-wind-down-giga-texas-mid-2027-2026-11-05",
+      "used_for": "Cybertruck wind-down at Giga Texas around mid-2027 for Cybercab."
+    },
+    {
+      "url": "https://www.spacex.com/updates",
+      "publisher": "SpaceX Updates, Breaking Ground on Terafab in Texas, August 6, 2026",
+      "kind": "primary",
+      "accessed": "2026-11-27",
+      "eventId": "terafab-grimes-county-announced-2026-08-06",
+      "used_for": "Terafab volume campus in Grimes County; cited only as in-house manufacturing context, not a use for EMAG machines."
+    },
+    {
+      "url": "/workspace/tesla-chronicle/checks/2026-11-27.md",
+      "publisher": "Tesla Chronicle daily check receipt, November 27, 2026",
+      "kind": "internal",
+      "accessed": "2026-11-27",
+      "used_for": "Confirmation that the EMAG row was added on this day’s check, 472 → 473 events, sources as above."
+    }
+  ]
+}

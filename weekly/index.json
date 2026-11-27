@@ -3,11 +3,11 @@
   "description": "Wednesday editions of the public event ledger, covering Thursday through Wednesday and dated the Wednesday each edition closes on. Only published editions are included; the set grows backwards over weekly runs. Index entries are newest first. Each article restates one ledger row. No facts are added.",
   "schemaVersion": 1,
   "sourceLedger": "events.json",
-  "ledgerUpdated": "2026-11-25",
+  "ledgerUpdated": "2026-11-27",
   "issueCount": 11,
-  "dayEventCount": 83,
+  "dayEventCount": 88,
   "undatedEventCount": 7,
-  "ledgerDayEventCount": 461,
+  "ledgerDayEventCount": 466,
   "ledgerEditionCount": 292,
   "undatedHandling": "Only events with datePrecision=day are placed in a Thursday–Wednesday Wednesday edition. Events with month, quarter, or year precision are not assigned to a week. They appear in undatedByPeriod, grouped by the period the ledger already records, and are never given a fake week.",
   "issues": [
@@ -18,11 +18,12 @@
       "weekEnd": "2026-11-25",
       "issueNumber": 292,
       "headline": "Tesla opens public Cybercab rides in Dallas",
-      "articleCount": 7,
+      "articleCount": 12,
       "companies": [
         "tesla",
         "spacex",
         "x",
+        "neuralink",
         "boring"
       ]
     },
